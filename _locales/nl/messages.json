@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Over app"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Versienummer: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome-verbindingsdiagnose"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome-verbindingsdiagnose (Bèta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome-verbindingsdiagnose (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Verbindingsdiagnose"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Verbindingsdiagnose"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Sluiten"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maximaliseren"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Herstellen"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Instellingen"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Reactienummer/HTTP-reactieheaders: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Fout in verzoeknummer/foutstatus: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Reactienummer/HTTP-reactiecode: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Verzoeknummer/volledige reactielengte: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "HTTP-test voor captive portal"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Test voor HTTP captive portal retourneert het resultaat 'geen probleem' als alle HTTP-verzoeken de statuscode 204 HTTP retourneren"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Er is geen captive portal gevonden. Een captive portal is een website die gebruikers van een netwerk moeten bekijken en waarop ze handelingen moeten uitvoeren voordat ze toegang krijgen om vrij op internet te browsen."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Internetverkeer niet geblokkeerd door captive portal (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Een captive portal is een website die gebruikers van een netwerk moeten bekijken en waarop ze handelingen moeten uitvoeren voordat ze toegang krijgen om vrij op internet te browsen. Er is een captive portal gevonden in uw netwerk, waardoor onbeperkte toegang tot internet wordt geblokkeerd."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Test voor HTTP captive portal retourneert het resultaat 'probleem' als een van de HTTP-verzoeken niet de HTTP-statuscode 204 retourneert"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Internetverkeer geblokkeerd door captive portal (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Staat op het punt TCP-verbindingsnummer/hostnaam/poort te proberen: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Test voor internetverbinding in Chrome heeft deze TCP-statuscode geretourneerd: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Test voor internetverbinding van Chrome verbroken"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Percentage TCP-sockets dat statuscodes voor 'verbinding met internet is verbroken' retourneert waaronder het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Er is een internetverbinding beschikbaar voor de Chrome-browser."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Internetverbinding beschikbaar"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome is niet verbonden met een netwerk. Controleer de netwerkinstellingen van uw besturingssysteem."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Percentage TCP-sockets dat statuscodes voor 'verbinding met internet is verbroken' retourneert waarbij of waarboven het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Niet verbonden met het netwerk"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Gedetecteerd aantal beschikbare netwerken: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Test voor internetverbinding van Chrome OS verbroken"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Het resultaat 'geen probleem' wordt geretourneerd als de verbonden netwerkinterface een statuscode voor 'verbonden' retourneert"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Er is een internetverbinding beschikbaar."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Internetverbinding beschikbaar"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Deze Chromebook is niet verbonden met een netwerk. Ga naar het statusgebied en maak verbinding met een beschikbaar netwerk."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Het resultaat 'probleem' wordt geretourneerd als de verbonden netwerkinterface een statuscode voor 'verbinding verbroken' retourneert: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Niet verbonden met het netwerk"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Naam netwerksignaal/signaalsterkte: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Test voor wifi-signaalsterkte voor Chrome OS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Benchmark voor Chrome OS-signaalsterkte waarboven het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Het wifi-netwerk heeft een sterk signaal."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Sterk netwerksignaal"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Benchmark voor Chrome OS-signaalsterkte waaronder het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Het wifi-netwerk heeft een zwak signaal."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Zwak netwerksignaal"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Volledig Chrome OS-platformnummer: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Naam van Chrome OS-versie"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Drempel voor de Chrome OS-platformversie waarboven of waarbij het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Test voor Chrome OS-versie heeft geen probleem gedetecteerd. De Chrome OS-versie is up-to-date. De minimumversie is nu: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "U gebruikt een recente versie van Chrome OS en beschikt over alle bekende oplossingen voor verbindingsproblemen."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS is up-to-date"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Test voor Chrome OS-versie heeft een probleem gedetecteerd. De Chrome OS-versie is verouderd. De minimumversie is nu: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "U gebruikt niet de nieuwste versie van Chrome OS. U beschikt niet over alle bekende bugfixes en kunt daarom verbindingsproblemen ondervinden."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS is verouderd"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Drempel voor de Chrome OS-platformversie waaronder het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "User-agent voor onbewerkte browser: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Kort Chrome OS-platformnummer: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Versienummer van browser (volledig): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Test van Chrome-versie"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Drempel voor het Chrome-versienummer waarboven of waarbij het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "U gebruikt een recente versie van Google Chrome en beschikt over alle bekende oplossingen voor verbindingsproblemen."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Nieuwste versie van Google Chrome"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "U gebruikt niet de nieuwste versie van Google Chrome. U beschikt niet over alle bekende bugfixes en kunt daarom verbindingsproblemen ondervinden."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Niet de nieuwste versie van Google Chrome"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Drempel voor het Chrome-versienummer waaronder het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "User-agent voor onbewerkte browser: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Versienummer van browser (kort): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Testnummer/testhostnaam: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " omgezet DNS-adres geretourneerd: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " test heeft deze statuscode geretourneerd: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS-hackingtest"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " test heeft geen DNS-adresveld geretourneerd (ingesteld op null)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "DNS-resultaten worden beschouwd als niet-gehackt wanneer de omzetter het verwachte IP-adres retourneert."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "DNS-resultaten zijn verwacht en lijken niet gehackt."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS-server heeft verwachte resultaten gegenereerd"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " test; geen statuscode voor resultaat; test wordt afgebroken wegens mislukken van test."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Er is een gehackte DNS-reactie geretourneerd. Een gehackte DNS-reactie leidt de communicatie om voordat deze wordt verzonden naar de opgevraagde netwerkhost."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "DNS-resultaten worden beschouwd als gehackt wanneer de omzetter niet het verwachte IP-adres retourneert."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "DNS-resultaten waren onverwacht en zijn mogelijk gehackt"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "TCP is mislukt en is geblokkeerd op poort 443 voor host "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "TCP-verbinding is geslaagd op poort 443 voor host "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "UDP-verbinding is mislukt en is geblokkeerd op de bestemmingspoort "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "UDP-verbinding is geslaagd op de bestemmingspoort "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Test voor Hangouts-verbinding"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "De blokkeringstest voor Hangouts genereert het resultaat 'geen probleem' als: (1) verbinding kan worden gemaakt met stun.l.google.com op een willekeurige UDP-poort van 19302 tot en met 19309; (2) een TCP-verbinding kan worden gemaakt met apis.google.com, clients6.google.com, plus.google.com en talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Geen problemen gevonden bij verbinding maken met de Hangouts-service."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts-verbinding beschikbaar"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Kan geen verbinding maken met de Hangouts-mediaservice op UDP-poort 19302 tot en met 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Hangouts-verbinding lijkt gedeeltelijk verminderd"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "De blokkeringstest voor Hangouts genereert het resultaat 'probleem' als: (1) alle UDP-bestemmingspoorten van 19302 tot en met 19309 zijn geblokkeerd voor stun.l.google.com; (2) een TCP-verbinding voor een van de volgende hosts mislukt op poort 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "De poorten en hosts die nodig zijn om verbinding te maken met Hangouts, lijken geblokkeerd te zijn."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Kan geen verbinding maken met de Hangouts-chatservice."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Kan geen verbinding maken met de Hangouts-chatservice of de Hangouts-mediaservice op TCP-poort 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Kan geen verbinding maken met de Hangouts-mediaservice op TCP-poort 443 en op UDP-poort 19302 tot en met 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Hangout-verbinding kan niet worden gemaakt"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Gemiddelde HTTP-reactietijd (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Fout in verzoeknummer/foutstatus: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Totaal aantal HTTP-verzoeken: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP-reactienummer/tijd ontvangen (microtijdstempel)/verstreken tijd (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Totale HTTP-reactietijd (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Test voor HTTP-wachttijd voor Google-websites"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Benchmark voor gemiddelde HTTP-wachttijd (ms) waaronder het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Webverzoeken naar Google worden snel ontvangen."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Geen vertragingen bij het ontvangen van reacties van Google-websites"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Benchmark voor gemiddelde HTTP-wachttijd (ms) waartussen het resultaat 'potentieel probleem' wordt gegenereerd: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Het ontvangen van een reactie van Google-websites duurt iets langer dan verwacht, wat duidt op een traag netwerk."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Webverzoeken naar Google duren langer dan verwacht"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Het ontvangen van een reactie van Google-websites duurt langer dan verwacht, wat duidt op een traag netwerk."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Benchmark voor gemiddelde HTTP-wachttijd (ms) waarboven het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Webverzoeken naar Google duren te lang"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Geslaagde test"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Geslaagde tests"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "De rechtstreekse ICMP-query aan de gateway-IP heeft geen reactiepakket geretourneerd."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "De IP van de gateway is vastgesteld op: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "De IP van de gateway kan niet worden vastgesteld"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP-pakketwachttijd (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "De geretourneerde IP voor het verzenden van een ICMP-pakket naar een externe host met een TTL van 1 was hetzelfde als de IP van de externe host: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Test voor gateway pingen"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Drempel voor de wachttijd (ms) voor het pingen van de gateway waaronder het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Het pingen van de gateway retourneert een snelle reactie."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Gateway is bereikbaar"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Het pingen van de gateway retourneert geen snelle reactie."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Drempel voor de wachttijd (ms) voor het pingen van de gateway waarboven het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Gateway is onbereikbaar"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Gemiddelde DNS-omzettingstijd (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Poging om hostnaamnummer om te zetten: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Test voor wachttijd van omzetter"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Benchmark voor gemiddelde DNS-omzettingstijd (ms) waaronder het resultaat 'geen probleem' wordt gegenereerd: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Een DNS-server zet een hostnaam (bijvoorbeeld google.com) om in een IP-adres (bijvoorbeeld 74.125.228.98). Dit proces is nodig om uw browser verbinding te laten maken met internet. Chrome kan DNS-verzoeken snel omzetten met uw lokale DNS-omzetter, waardoor een pagina sneller kan worden geladen."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Geen vertraging bij DNS-omzetting"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Een DNS-server zet een hostnaam (bijvoorbeeld www.google.com) om in een IP-adres. Een browser heeft een IP-adres nodig om verbinding te maken voor het laden van een website. De DNS-server die deze omzetting uitvoert, is te lang bezig, wat leidt tot vertragingen in de internetverbinding."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Benchmark voor gemiddelde DNS-omzettingstijd (ms) waartussen het resultaat 'potentieel probleem' wordt gegenereerd: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS-omzetting duurt langer dan gemiddeld"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Een DNS-server zet een hostnaam (bijvoorbeeld www.google.com) om in een IP-adres. Een browser heeft een IP-adres nodig om verbinding te maken voor het laden van een website. De DNS-server die deze omzetting uitvoert, is te lang bezig, wat leidt tot vertragingen in de internetverbinding."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Benchmark voor gemiddelde DNS-omzettingstijd (ms) waarboven het resultaat 'probleem' wordt gegenereerd: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS-omzetting duurt te lang"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Resultaat ontvangen voor DNS-omzetting. Testnummer/huidige tijd/gebruikte tijd (ms)/begintijd (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Totaal aantal omgezette DNS-hosts: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Totale DNS-omzettingstijd voor alle tests (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "De test voor de DNS-omzetter voert één DNS-zoekopdracht uit en genereert het resultaat 'probleem' als er geen geldige reactie wordt geretourneerd."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "De test voor de DNS-omzetter voert één DNS-zoekopdracht uit en genereert het resultaat 'geen probleem' als er een geldige reactie wordt geretourneerd."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Poging om hostnaam om te zetten: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Hostnaam omgezet in IP-adres: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS-server heeft de statuscode voor problemen geretourneerd: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS-server heeft de statuscode voor succes geretourneerd: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Aanwezigheidstest voor omzetter"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome heeft een DNS-server gevonden die een hostnaam (bijvoorbeeld www.google.com) heeft omgezet in een IP-adres."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS-server beschikbaar"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Een DNS-server zet een hostnaam (bijvoorbeeld www.google.com) om in een IP-adres. Een browser heeft een IP-adres nodig om verbinding te maken met een website en deze te laden. Chrome kan het IP-adres niet bepalen van de website die u wilt bezoeken, omdat uw DNS-server niet werkt. Neem contact op met uw internetprovider of netwerkbeheerder."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Geen werkende DNS-server beschikbaar"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS-server heeft DNS-zoekopdrachtresultaten geretourneerd."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS-server heeft geen object geretourneerd (zelfs geen record voor een DNS-vermelding), daarom is de test niet voltooid."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Het lijkt erop dat uw netwerkverbinding correct functioneert."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Over"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Geslaagde tests verbergen"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Tests opnieuw uitvoeren"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Feedback verzenden…"
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Geslaagde tests weergeven"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Resultaten van firewalltest: tests uitgevoerd/poort gecontroleerd/aantal mislukte verbindingen: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Staat op het punt TCP-verbindingsnummer/hostnaam/poort te proberen: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Test voor TCP-firewall heeft deze TCP-statuscode geretourneerd: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Poging voor verbindingstest mislukt. De TCP-statuscode voor succes is niet geretourneerd vanuit de Chrome-netwerkstack, maar in plaats daarvan is deze statuscode geretourneerd: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Gedetecteerde DNS-omzetter is niet beschikbaar, dus we kunnen niet bepalen of er een firewall is"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Gedetecteerd netwerk is niet beschikbaar, dus we kunnen niet bepalen of er een firewall is"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP-firewalltest"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Het resultaat 'geen probleem' wordt weergegeven wanneer het percentage mislukte TCP-verbindingstestresultaten lager is dan of gelijk is aan: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Er zijn geen beperkingen voor uw internetverbinding gedetecteerd op de poort "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Internetverkeer niet geblokkeerd door firewall op poort "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Het resultaat 'potentieel probleem' wordt weergegeven wanneer het aantal mislukte TCP-verbindingstestresultaten een waarde is tussen: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Er lijkt een beperking in uw netwerk te gelden voor een veelgebruikte internetverbinding."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Internetverkeer kan worden geblokkeerd door firewall op poort "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Er geldt een beperking in uw netwerk voor een veelgebruikte internetverbinding."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Het resultaat 'probleem' wordt weergegeven wanneer het percentage mislukte TCP-verbindingstestresultaten gelijk is aan: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Internetverkeer geblokkeerd door firewall op poort "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "TCP-verbinding tot stand gebracht met host/poort/statuscode: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "TCP-verbinding tot stand gebracht met host/poort: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP-verbinding mislukt met host/poort/statuscode: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Reden voor mislukte verbinding: verbinding geweigerd"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Reden voor mislukte verbinding: time-out"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Reden voor mislukte verbinding: onbekend"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Fout bij lezen van TCP-gegevens. Foutcode: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Gegevens van TCP-socket gelezen met grootte (bytes): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Onbewerkte gegevens ontvangen van TCP-socket: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Verzending van gegevens voorbereiden met grootte (bytes): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Een TCP-socket maken, nummer/host/poort: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Gegevens verzonden met grootte (bytes): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Time-outduur voor TCP instellen (ms): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Resultatenlogboeken kopiëren"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Logboeken verbergen…"
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Probleem gevonden"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Problemen gevonden"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "CRITERIA"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "DETAILS"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "OVERZICHT"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "ONDERSTEUNINGSDETAILS"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Test-ID: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Testnaam: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Testresultaat: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Geen probleem gedetecteerd"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Potentieel probleem gedetecteerd"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Probleem gedetecteerd"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Logboeken weergeven..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Er is een fout opgetreden bij het uitvoeren van de verbindingsdiagnosetests. De tests zijn afgebroken. Als dit probleem zich blijft voordoen, klikt u op de optie 'Feedback verzenden' in het menu 'Instellingen'."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Er worden tests uitgevoerd. Dit kan enkele minuten duren…"
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Fout bij lezen van UDP-gegevens. Foutcode: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Gegevens van UDP-socket gelezen met grootte (bytes): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Onbewerkte gegevens ontvangen van UDP-socket: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Verzending van gegevens van UDP-socket voorbereiden met grootte (bytes): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Een UDP-socket maken, nummer/host/poort: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Gegevens verzonden met grootte (bytes): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Time-outduur voor UDP instellen (ms): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Waarschuwing"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Waarschuwingen"
+   }
+}

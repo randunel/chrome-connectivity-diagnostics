@@ -1,0 +1,794 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "应用简介"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "版本号："
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "网络连接诊断"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "网络连接诊断"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "关闭"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "最大化"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "恢复"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "设置"
+   },
+   "captiveportaldnstest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "测试编号/测试主机名："
+   },
+   "captiveportaldnstest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": "返回了解析后的 DNS 地址："
+   },
+   "captiveportaldnstest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": "测试返回了状态代码："
+   },
+   "captiveportaldnstest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": "测试未返回任何 DNS 地址字段（设为 null）"
+   },
+   "captiveportaldnstest_no_problem_threshold": {
+      "description": "",
+      "message": "如果查询的所有主机名对应的 IP 地址均为 Google IP 地址，则表示不存在 DNS 强制门户"
+   },
+   "captiveportaldnstest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Captive Portal test.",
+      "message": "未发现强制门户。强制门户是一种网站，网络用户必须先访问这一网站并与之交互，然后才能获得自由浏览互联网的权限。"
+   },
+   "captiveportaldnstest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Captive Portal test.",
+      "message": "互联网流量未遭到强制门户 (DNS) 拦截"
+   },
+   "captiveportaldnstest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": "测试；无结果状态代码；测试由于失败而中止。"
+   },
+   "captiveportaldnstest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Captive Portal test.",
+      "message": "强制门户是一种网站，网络用户必须先访问这一网站并与之交互，然后才能获得自由浏览互联网的权限。您的网络上存在强制门户，这意味着您对互联网的访问可能会受到限制。"
+   },
+   "captiveportaldnstest_potential_problem_title": {
+      "description": "Title for when a potential problem is found with the DNS Captive Portal test.",
+      "message": "互联网流量可能遭到强制门户 (DNS) 拦截"
+   },
+   "captiveportaldnstest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Captive Portal test.",
+      "message": "强制门户是一种网站，网络用户必须先访问这一网站并与之交互，然后才能获得自由浏览互联网的权限。您的网络上存在强制门户，这意味着您对互联网的访问会受到限制。"
+   },
+   "captiveportaldnstest_problem_threshold": {
+      "description": "",
+      "message": "如有查询的任何 Google 主机名对应的 IP 地址没有正确解析为 Google IP 地址，则表示存在 DNS 强制门户"
+   },
+   "captiveportaldnstest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Captive Portal test.",
+      "message": "互联网流量遭到强制门户 (DNS) 拦截"
+   },
+   "captiveportaldnstest_title": {
+      "description": "Title for captive portal DNS test",
+      "message": "强制门户 DNS 测试"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "响应编号/HTTP 响应标头："
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "请求#出错/错误状态为："
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "响应编号/HTTP 响应代码："
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "请求编号/完整响应长度："
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "如果所有 HTTP 请求返回的都是204 HTTP 状态代码，则 HTTP 强制门户测试结果会显示不存在问题"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "未发现强制门户。强制门户是一种网站，网络用户必须先访问这一网站并与之交互，然后才能获得自由浏览互联网的权限。"
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "互联网流量未遭到强制门户 (HTTP) 拦截"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "强制门户是一种网站，网络用户必须先访问这一网站并与之交互，然后才能获得自由浏览互联网的权限。您的网络上存在强制门户，这意味着您对互联网的访问会受到限制。"
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "如有任何 HTTP 请求未返回204 HTTP 状态代码，则 HTTP 强制门户测试结果会显示存在问题"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "互联网流量遭到强制门户 (HTTP) 拦截"
+   },
+   "captiveportalhttptest_title": {
+      "description": "Title for the Captive Portal HTTP test",
+      "message": "强制门户 HTTP 测试"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": "即将尝试建立 TCP 连接，编号/主机名/端口为："
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": "Chrome 互联网连接测试返回了 TCP 状态代码："
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "返回互联网中断状态代码的 TCP 套接字所占的百分比（低于此值时，测试结果会显示连接正常）："
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Chrome 浏览器的互联网连接正常。"
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "互联网连接正常"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome 没有连接到网络，请检查操作系统的网络设置。"
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "返回互联网中断状态代码的 TCP 套接字所占的百分比（等于或高于此值时，测试结果会显示存在问题）："
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "未连接到网络"
+   },
+   "chromeinternetdisconnectedtest_title": {
+      "description": "Title for the Chrome Internet Disconnected test",
+      "message": "Chrome 互联网中断测试"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "检测到的可用网络数量："
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "当连接的网络接口返回的状态代码指示已连接时，测试结果会显示连接正常"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "互联网连接正常。"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "互联网连接正常"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "该 Chromebook 没有连接到网络。请转至状态栏，然后连接到可用的网络。"
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "当连接的网络接口返回以下指示连接中断的状态代码时，测试结果会显示存在问题："
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "未连接到网络"
+   },
+   "chromeosinternetdisconnectedtest_title": {
+      "description": "Title for the ChromeOS Internet Disconnected test",
+      "message": "Chrome 操作系统互联网中断测试"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "网络信号名称/信号强度："
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Chrome 操作系统信号强度的基准值（高于此值时，测试结果会显示没有问题）："
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "WLAN 网络信号强度高。"
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "网络信号强度高"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Chrome 操作系统信号强度的基准值（低于此值时，测试结果会显示存在问题）："
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "WLAN 网络信号强度低。"
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "网络信号强度较弱"
+   },
+   "chromeossignalstrengthtest_title": {
+      "description": "Title for the ChromeOS Signal Strength test",
+      "message": "Chrome 操作系统信号强度测试"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome 操作系统平台号（完整）："
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Chrome 操作系统最低平台号（高于或等于此平台号时，测试结果会显示没有问题）："
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "在进行 Chrome 操作系统版本测试时未检测到问题。Chrome 操作系统是最新版本。当前允许使用的最低版本为："
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "您使用的是新版 Chrome 操作系统，因此所有已知的网络连接问题都已修复。"
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome 操作系统是最新版本"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "在进行 Chrome 操作系统版本测试时检测到问题。Chrome 操作系统的版本太旧了。当前允许使用的最低版本为："
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "您使用的不是最新版本的 Chrome 操作系统，因此有些已知问题尚未修复，这可能会导致网络连接出现问题。"
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome 操作系统的版本太旧了"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Chrome 操作系统最低平台号（低于此平台号时，测试结果会显示存在问题）："
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "浏览器的原始用户代理："
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome 操作系统平台号（缩略）："
+   },
+   "chromeosversiontest_title": {
+      "description": "Title for the ChromeOS Version test",
+      "message": "Chrome 操作系统版本测试"
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "浏览器版本号（完整）："
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome 最低版本号（高于或等于此版本号时，测试结果会显示没有问题）："
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "您使用的是新版 Google Chrome，因此所有已知的网络连接问题都已修复。"
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome 是最新版本"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "您使用的不是最新版本的 Google Chrome，因此有些已知问题尚未修复，这可能会导致网络连接出现问题。"
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome 不是最新版本"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome 最低版本号（低于此版本号时，测试结果会显示存在问题）："
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "浏览器的原始用户代理："
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "浏览器版本号（缩略）："
+   },
+   "chromeversiontest_title": {
+      "description": "Title for the Chrome Version test",
+      "message": "Chrome 版本测试"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "HTTP 平均响应时间（毫秒）："
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "请求#出错/错误状态："
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "HTTP 请求总数："
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP 响应编号/接收时间 (microtimestamp)/已用时间（毫秒）："
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "HTTP 响应总时间（毫秒）："
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "HTTP 平均延迟时间（毫秒）的基准值（低于此值时，测试结果会显示连接正常）："
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "可以快速收到发送至 Google 的网络请求。"
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "从 Google 网站接收响应时没有延迟"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "HTTP 平均延迟时间（毫秒）的基准值（低于此值时，测试结果会显示可能存在问题）："
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "从 Google 网站接收响应所用的时间比正常情况下稍长一点，表明网络连接速度慢。"
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "网络请求发送到 Google 所用的时间比预期的长"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "从 Google 网站接收响应所用的时间比正常情况下长，表明网络连接速度慢。"
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "HTTP 平均延迟时间（毫秒）的基准值（高于此值时，测试结果会显示存在问题）："
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "网络请求发送到 Google 所用的时间过长"
+   },
+   "httplatencytest_title": {
+      "description": "Title for the HTTP latency test",
+      "message": "HTTP 延迟时间测试"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "通过的测试"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "通过的测试"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "ICMP 查询始终收不到响应包。"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP 数据包延迟时间（毫秒）："
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "ping 网关时响应速度快。"
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "可连接至网关"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "ping 网关时响应速度慢。"
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "无法连接至网关"
+   },
+   "pinggatewaytest_title": {
+      "description": "Title for the ping gateway test",
+      "message": "Ping 网关测试"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "DNS 平均解析时间（毫秒）："
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "正在尝试解析主机名#："
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "DNS 平均解析时间（毫秒）的基准值（低于此值时，诊断结果显示为连接正常）："
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS 服务器的作用是将主机名（如 www.google.com）转换为 IP 地址（如 74.125.228.98）。必须经过这一转换，浏览器才能连接到互联网。Chrome 可以使用您的本地解析器快速解析 DNS 请求，从而加快网页加载的进程。"
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "DNS 解析无延迟"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS 服务器用于将主机名（如 www.google.com）转换为 IP 地址。浏览器必须知道要连接到的 IP 地址，才能加载网站。该 DNS 服务器执行此项转换所用的时间过长，从而导致您的互联网连接出现延迟。"
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "DNS 平均解析时间（毫秒）的基准值（低于此值时，诊断结果会显示可能存在问题）："
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS 解析用时超出了平均解析时间"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS 服务器用于将主机名（如 www.google.com）转换为 IP 地址。浏览器必须知道要连接到的 IP 地址，才能加载网站。该 DNS 服务器执行此项转换所用的时间过长，从而导致您的互联网连接出现延迟。"
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "DNS 平均解析时间（毫秒）的基准值（超出此值时，测试结果会显示存在问题）："
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS 解析用时过长"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "收到了 DNS 解析结果。测试编号/当前时间/所用时间（毫秒）/开始时间（毫秒）："
+   },
+   "resolverlatencytest_title": {
+      "description": "Title for the Resolver Latency test",
+      "message": "解析器延迟时间测试"
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "已解析的 DNS 主机总数："
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "所有测试的 DNS 解析总时间（毫秒）："
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "正在尝试解析主机名："
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "主机名已解析为 IP 地址："
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome 发现了一个已将主机名（如 www.google.com）成功转换为 IP 地址的 DNS 服务器。"
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "有可用的 DNS 服务器"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS 服务器用于将主机名（如 www.google.com）转换为 IP 地址。浏览器必须知道要连接到的 IP 地址，才能加载网站。由于您的 DNS 服务器无法正常运行，因此 Chrome 无法确定您要访问的网站的 IP 地址。"
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "没有正常运行的 DNS 服务器可供使用"
+   },
+   "resolverpresenttest_statuscoderesultfailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS 服务器返回了问题状态代码："
+   },
+   "resolverpresenttest_statuscoderesultsuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS 服务器返回了成功状态代码："
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS 服务器返回了 DNS 查询结果。"
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS 服务器未返回任何对象（甚至连一条 DNE 记录都没有返回），因此测试未能完成。"
+   },
+   "resolverpresenttest_title": {
+      "description": "Title for the Resolver Present test",
+      "message": "解析器可用性测试"
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "您的网络连接看起来一切正常。"
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "简介"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "隐藏通过的测试"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "重新运行测试"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "发送反馈…"
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "显示通过的测试"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "完成了防火墙测试。测试编号/主机名/端口/连接失败次数："
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": "即将尝试建立 TCP 连接，编号/主机名/端口为："
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": "TCP 防火墙测试返回了 TCP 状态代码："
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "尝试进行的连接测试失败，没有从 Chrome 网络堆栈返回 TCP 成功状态代码，而是返回了以下状态代码："
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "检测到 DNS 解析器不可用，因此无法确定是否存在防火墙"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "检测到网络中断，因此无法确定是否存在防火墙"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "TCP 连接失败次数百分比的阈值（低于此值时，测试结果会显示连接正常）："
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "未在端口上检测到针对您互联网连接的限制"
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "互联网流量未遭到端口上的防火墙拦截"
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "TCP 连接失败次数百分比的阈值（高于此值时，测试结果会显示可能存在问题）："
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "您的网络上似乎存在针对常用互联网连接的限制。"
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "互联网流量可能遭到端口上的防火墙拦截"
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "您的网络上存在针对常用互联网连接的限制。"
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "TCP 连接失败次数百分比的阈值（高于或等于此值时，测试结果会显示存在问题）："
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "互联网流量遭到端口上的防火墙拦截"
+   },
+   "tcpfirewalltest_title": {
+      "description": "Title for TCP Firewall test",
+      "message": "TCP 防火墙测试"
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "已建立 TCP 连接，主机/端口/状态代码为："
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "已成功建立 TCP 连接，主机/端口为："
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP 连接失败，主机/端口/状态代码为："
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "连接失败原因：连接遭拒"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "连接失败原因：超时"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "连接失败原因：未知"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "读取 TCP 数据时出错，错误代码为："
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "成功读取了 TCP 套接字中的数据，大小（字节）为："
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "收到了 TCP 套接字传来的原始数据："
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "正在准备发送数据，大小（字节）为："
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "正在创建 TCP 套接字，编号/主机/端口为："
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "成功发送了数据，大小（字节）为："
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "正在设置 TCP 超时时长（毫秒）："
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "复制结果日志"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "隐藏日志…"
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "发现了问题"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "发现了问题"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "标准"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "详细信息"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "摘要"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "测试 ID："
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "测试结论："
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "没有检测到任何问题"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "检测到潜在问题"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "检测到问题"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "显示日志…"
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "运行网络连接诊断测试时出现错误，测试已中止。如果该问题持续存在，请点击“设置”菜单中的“发送反馈…”选项。"
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "正在运行测试，这可能需要几分钟的时间…"
+   },
+   "udpsocket_log_connection_established": {
+      "description": "Log UDP connection established",
+      "message": "建立了 UDP 连接，主机/端口/状态代码为："
+   },
+   "udpsocket_log_connection_established_successfully": {
+      "description": "Log UDP connection established successfully",
+      "message": "成功建立了 UDP 连接，主机/端口为："
+   },
+   "udpsocket_log_connection_failure": {
+      "description": "Log UDP connection failure",
+      "message": "UDP 连接失败，主机/端口/状态代码为："
+   },
+   "udpsocket_log_connection_failure_refused": {
+      "description": "Log UDP connection failure due to refusal",
+      "message": "UDP 连接失败的原因：连接被拒"
+   },
+   "udpsocket_log_connection_failure_timeout": {
+      "description": "Log UDP connection failure due to timeout",
+      "message": "UDP 连接失败的原因：超时"
+   },
+   "udpsocket_log_connection_failure_unknown": {
+      "description": "Log UDP connection failure reason unknown",
+      "message": "UDP 连接失败的原因：未知"
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "读取 UDP 数据时出现错误，错误代码为："
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "成功读取了 UDP 套接字中的数据，大小（字节）为："
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "收到了 UDP 套接字传来的原始数据："
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "正在准备发送 UDP 套接字数据，大小（字节）为："
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "正在创建 UDP 套接字，编号/主机/端口为："
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "成功发送了数据，大小（字节）为："
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "正在设置 UDP 超时时长（毫秒）："
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "警告"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "警告"
+   }
+}

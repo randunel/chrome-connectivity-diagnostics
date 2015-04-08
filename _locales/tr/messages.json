@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Uygulama Hakkında"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Sürüm Numarası: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome Bağlantı Teşhis Aracı"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome Bağlantı Teşhis Aracı (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome Bağlantı Teşhis Aracı (Geliştirici)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Bağlantı teşhisi"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Bağlantı Teşhisi"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Kapat"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Ekranı kapla"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Geri yükle"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Ayarlar"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Yanıt numarası / HTTP yanıt üstbilgileri: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "İstek numarası / hata durumu hatalı: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Yanıt numarası / HTTP yanıt kodu: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "İstek numarası / tam yanıt uzunluğu: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "HTTP Doğrulama Amacıyla Yönlendirme Yapan Portal Testi"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "HTTP isteklerinin tümü 204 HTTP durum kodu döndürürse, HTTP doğrulama amacıyla yönlendirme yapan portal testi herhangi bir sorun olmadığı sonucunu döndürür"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Doğrulama amacıyla yönlendirme yapan portal bulunmadı. Bu tür portallar, bir ağda, kullanıcılara İnternet'te serbest şekilde gezinmek üzere erişim izni verilmeden önce kullanıcıların görüntüleyip etkileşimli olarak kullanmaları istenen web siteleridir."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "İnternet trafiği doğrulama amacıyla yönlendirme yapan portal (HTTP) tarafından engellenmiyor"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Doğrulama amacıyla yönlendirme yapan portal, bir ağda, kullanıcılara İnternet'te serbest şekilde gezinmek üzere erişim izni verilmeden önce kullanıcıların görüntüleyip etkileşimli olarak kullanmaları istenen bir web sitesidir. Ağınızda doğrulama amacıyla yönlendirme yapan portal bulundu, yani kısıtlanmamış İnternet erişimi engellenmektedir."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "HTTP isteklerinin herhangi biri 204 HTTP durum kodu döndürmezse, HTTP doğrulama amacıyla yönlendirme yapan portal testi potansiyel bir sorun olduğu sonucunu döndürür"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "İnternet trafiği. doğrulama amacıyla yönlendirme yapan portal (HTTP) tarafından engelleniyor"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP bağlantısı numarası / ana makine adı / bağlantı noktası denemesi yapılmak üzere: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Chrome İnternet bağlantısı testi şu TCP durum kodunu döndürdü: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Chrome İnternet Bağlantı Kesintisi Testi"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "TCP soketlerinin İnternet bağlantı kesintisi durum kodları döndüren yüzdesi (Bu değerin altında kalan değerlerde herhangi bir sorun olduğu sonucuna varılmaz): "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Chrome tarayıcısı için kullanılabilir bir İnternet bağlantısı var."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "İnternet bağlantısı var"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome bir ağa bağlı değil. Lütfen işletim sisteminizin ağ ayarlarını kontrol edin."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "TCP soketlerinin İnternet bağlantı kesintisi durum kodları döndüren yüzdesi (Bu değere eşit veya bunun üzerindeki değerlerde sorun olduğu sonucuna varılır): "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Ağa bağlı değil"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Algılanan kullanılabilir ağların sayısı: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "ChromeOS İnternet Bağlantı Kesintisildi Testi"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Bağlanılan ağ arayüzü, bağlantı yapıldığına ilişkin durum kodu döndürdüğünde \"sorun yok\" sonucu döndürülür"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "İnternet bağlantısı mevcut."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "İnternet bağlantısı var"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Bu Chromebook bir ağa bağlı değil. Lütfen durum tepsisine gidin ve kullanılabilir bir ağa bağlanın."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Bağlanılan ağ arayüzü, bağlantı kesintisi durum kodu döndürdüğünde \"sorun var\" sonucu döndürülür: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Ağa bağlı değil"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Ağ sinyal adı / sinyal gücü: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "ChromeOS Kablosuz Sinyal Gücü Testi"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "ChromeOS sinyal gücü karşılaştırma değeri (Bu değerin üstünde kalan değerlerde herhangi bir sorun olmadığı sonucuna varılır): "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Kablosuz ağın sinyal gücü yüksek."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Ağ sinyal gücü kuvvetli"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "ChromeOS sinyal gücü karşılaştırma değeri (Bu değerin altında kalan değerlerde potansiyel bir sorun olduğu sonucuna varılır): "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Kablosuz ağın sinyal gücü zayıf."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Ağ sinyal gücü düşük"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome OS platform numarası (tam): "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "ChromeOS Sürüm Adı"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "ChromeOS platform numarası eşiği (Bu değere eşit veya üstünde olan değerlerde herhangi bir sorun olduğu sonucuna varılmaz): "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Chrome OS sürüm testi bir sorun algılamadı. Chrome OS sürümü güncel. Şu anki minimum sürüm: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS'nin son sürümünü kullanıyorsunuz, dolayısıyla bağlantı sorunları için bilinen tüm düzeltmelere sahipsiniz."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS sürümü güncel"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Chrome OS sürüm testi bir sorun algıladı. Chrome OS sürümü eski. Şu anki minimum sürüm: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS'nin en son sürümünü kullanmıyorsunuz. Sonuç olarak, bilinen tüm hata düzeltmelerine sahip değilsiniz, dolayısıyla bağlantı sorunları yaşayabilirsiniz."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS sürümü eski"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "ChromeOS platform numarası eşiği (Bu değerin altında kalan değerlerde potansiyel sorun olduğu sonucuna varılır): "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Ham tarayıcı kullanıcı aracısı: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome OS platform numarası (kısa): "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Tarayıcı sürüm numarası (tam): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Chrome Sürümü Testi"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome sürüm numarası eşiği (Bu değere eşit veya üstünde olan değerlerde herhangi bir sorun olduğu sonucuna varılmaz): "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Google Chrome'un son sürümünü kullanıyorsunuz, dolayısıyla bağlantı hataları için bilinen tüm düzeltmelere sahipsiniz."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome'un en son sürümü yüklü"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Google Chrome'un en son sürümünü kullanmıyorsunuz. Sonuç olarak, bilinen tüm hata düzeltmelerine sahip değilsiniz, dolayısıyla bağlantı sorunları yaşayabilirsiniz."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome'un en son sürümü yüklü değil"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome sürüm numarası eşiği (Bu değerin altında kalan değerlerde potansiyel sorun olduğu sonucuna varılır): "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Ham tarayıcı kullanıcı aracısı: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Tarayıcı sürüm numarası (kısa): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Test numarası / Test ana makine adı: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " çözümlenmiş DNS adresi döndürüldü: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " test, durum kodu döndürdü: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS Müdahale Testi"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " test hiçbir DNS adres alanı döndürmedi (boş olarak ayarlanmış)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Çözümleyici tarafından, beklenen IP adresi döndürüldüğünde DNS sonuçları müdahale edilmemiş olarak kabul edilir."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Bu DNS sonuçları bekleniyordu ve müdahale edilmiş görünmüyor."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS sunucusu beklenen sonuçları döndürdü"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " test; sonuç durumu kodu yok; test başarısız olduğundan durduruluyor."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Müdahale edilmiş bir DNS yanıtı döndürüldü. Müdahale edilmiş DNS yanıtı, iletişimin istenen ağ ana makinesine gönderilmesini engeller."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Çözümleyici tarafından, beklenen IP adresi döndürülmediğinde DNS sonuçları müdahale edilmiş olarak kabul edilir."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Bu DNS sonuçları beklenmiyordu ve müdahale edilmiş olabilir."
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Ana makine için 443 numaralı bağlantı noktasından TCP bağlantısı başarısız oldu ve engellendi "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Ana makine için 443 numaralı bağlantı noktasından TCP bağlantısı başarıyla kuruldu "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "UDP bağlantısı başarısız oldu ve hedef bağlantı noktasında engellendi "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "UDP bağlantısı hedef bağlantı noktasında başarılı oldu "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Hangouts Bağlantı Testi"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Hangouts engellendi testi şu durumlarda bir sorun kararı döndürmez: (1) 19302 ile 19309 aralığındaki herhangi bir UDP bağlantı noktasından stun.l.google.com ile bağlantı kurulabilirse (2) apis.google.com, clients6.google.com, plus.google.com ve talkgadget.google.com ile bir TCP bağlantısı kurulabilirse"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts hizmetiyle bağlantı kurulurken herhangi bir sorun bulunmadı."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts bağlantısı kullanılabilir"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "19302 ile 19309 arasındaki UDP bağlantı noktalarından Hangouts medya hizmetine bağlanılamıyor."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Hangouts bağlantısı kısmen düşük performansta çalışıyor"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Hangouts engellendi testi şu durumlarda bir sorun kararı döndürür: (1) 19302 ile 19309 aralığındaki tüm UDP hedef bağlantı noktalarının stun.l.google.com ile bağlantı kurması engellenirse (2) 443 numaralı bağlantı noktasında şu ana makinelerin herhangi biriyle TCP bağlantısı kurulamazsa: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Hangouts'a bağlanmak için gereken bağlantı noktaları ve ana makineler engellenmiş görünüyor."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Hangouts sohbet hizmetine bağlanılamıyor."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "443 numaralı TCP bağlantı noktasından Hangouts sohbet hizmetine veya Hangouts medya hizmetine bağlanılamıyor."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "443 numaralı TCP bağlantı noktası ve 19302 ile 19309 aralığındaki UDP bağlantı noktalarından Hangouts medya hizmetine bağlanılamıyor."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Hangouts bağlantısı kurulamadı"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Ortalama HTTP yanıt süresi (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "İstek numarası / hata durumu hatalı: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "HTTP isteklerinin toplam sayısı: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP yanıt numarası / alma zamanı (mikro zaman damgası) / geçen süre (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Toplam HTTP yanıt süresi (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Google Web Siteleri HTTP Gecikme Testi"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Ortalama HTTP gecikme süresi (ms) karşılaştırma değeri (Bu değerin altında kalan değerlerde herhangi bir sorun olduğu sonucuna varılmaz): "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Google'a yapılan web istekleri hızlı bir şekilde alınıyor."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Google web sitelerinden yanıt almada gecikme olmuyor"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Ortalama HTTP gecikme süresi (ms) karşılaştırma değeri (Bu değerlerin arasında kalan değerlerde potansiyel bir sorun olduğu sonucuna varılır): "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Google web sitelerinden yanıt almak normalden biraz uzun sürüyor, bu durum, ağın yavaş olduğunun bir göstergesidir."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Google'a yapılan web istekleri normalden daha uzun sürüyor"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Google web sitelerinden yanıt almak normalden uzun sürüyor, bu durum, ağın yavaş olduğunun bir göstergesidir."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Ortalama HTTP gecikme süresi (ms) karşılaştırma değeri (Bu değerin üstünde olan değerlerde sorun olduğu sonucuna varılır): "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Google'a yapılan web istekleri çok uzun sürüyor"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Başarılı Test"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Başarılı Testler"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Doğrudan ağ geçidi IP'sine gönderilen ICMP sorgusu hiç yanıt paketi almadı."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Ağ geçidinin IP'si şu olarak belirlendi: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Ağ geçidinin IP'si belirlenemedi"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP paketi gecikme süresi (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "ICMP paketinin 1 değerindeki bir TTL ile uzak bir ana makineye gönderilmesinin sonucunda döndürülen IP, uzak ana bilgisayarın IP'si ile aynıydı: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Ping Ağ Geçidi Testi"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Bu değerin altında olunduğunda herhangi bir sorun kararı oluşturmadığımız ağ geçidini pingleme gecikme (ms) eşiği: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Ağ geçidi pinglendiğinde hızlı yanıt alınıyor."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Ağ geçidine ulaşılabiliyor"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Ağ geçidi pinglendiğinde hızlı yanıt alınmıyor."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Bu değerin üstünde olunduğunda bir sorun kararı oluşturduğumuz ağ geçidini pingleme gecikme (ms) eşiği: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Ağ geçidine ulaşılamıyor"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Ortalama DNS çözümleme süresi (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Ana makine adı numarası çözümlenmeye çalışılıyor: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Çözümleyici Gecikme Testi"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Ortalama DNS çözümleme süresi (ms) karşılaştırma değeri (Bu değerin altında kalan değerlerde herhangi bir sorun olduğu sonucuna varılmaz): "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS sunucusu bir ana makine adını (örneğin, google.com) bir IP adresine (örneğin, 74.125.228.98) çevirir. Bu işlem, tarayıcınızın İnternet'e bağlanması için gereklidir. Chrome, bir sayfanın yüklenmesi işlemini hızlandıran yerel çözümleyicinizi kullanarak DNS isteklerini hızlı bir şekilde çözümleyebilir."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "DNS çözümlemesinde gecikme yok"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS sunucusu, bir ana makine adını (örneğin, www.google.com) bir IP adresine çevirir. Bir tarayıcının bir web sitesini yüklemek üzere bağlanması için bir IP adresi olmalıdır. Bu çeviriyi yapan DNS sunucusun işlemi tamamlaması çok uzun sürdüğünden İnternet bağlantınızda gecikmelere neden oluyor."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Ortalama DNS çözümleme süresi (ms) karşılaştırma değeri (Bu değerlerin arasında kalan değerlerde potansiyel sorun olduğu sonucuna varılır): "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS çözümlemesi normalden daha uzun sürüyor"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS sunucusu, bir ana makine adını (örneğin, www.google.com) IP adresine çevirir. Bir tarayıcının bir web sitesini yüklemek üzere bağlanması için bir IP adresi olmalıdır. Bu çeviriyi yapan DNS sunucusun işlemi tamamlaması çok uzun sürdüğünden İnternet bağlantınızda gecikmelere neden oluyor."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Ortalama DNS çözümleme süresi (ms) karşılaştırma değeri (Bu değerin üstünde olan değerlerde sorun olduğu sonucuna varılır): "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS çözümlemesi çok uzun sürüyor"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "DNS çözümlemesinden alınan sonuç. Test Sayısı / Geçerli Saat / Geçen Süre (ms) / Başlama Süresi (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Çözümlenen DNS ana makineleri toplamı: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Tüm testler için toplam DNS çözümleme süresi (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS çözümleyici testi, tek bir DNS sorgusu gerçekleştirir ve geçerli bir yanıt döndürülmezse bir sorun kararı döndürür."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS çözümleyici testi, tek bir DNS sorgusu gerçekleştirir ve geçerli bir yanıt döndürülürse herhangi bir sorun kararı döndürmez."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Ana makine adını çözümlemeye çalışıyor: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Ana makine adının çözümlendiği IP adresi: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS sunucusu şu sorun durum kodunu döndürdü: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS sunucusu şu başarı durum kodunu döndürdü: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Çözümleyici Varlığı Testi"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome, ana makine adını (ör. www.google.com) başarıyla IP adresine çeviren bir DNS sunucusu buldu."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS sunucusu kullanılabilir"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS sunucusu bir ana makine adını (örneğin, www.google.com) bir IP adresine çevirir. Tarayıcının, bir web sitesini yüklerken bağlanacağı bir IP adresi olmalıdır. Chrome, ziyaret etmek istediğiniz web sitesinin IP'sini DNS sunucusu çalışmadığı için belirleyemiyor. Lütfen İSS'nize veya ağ yöneticinize başvurun."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Çalışan bir DNS sunucusu yok"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS sunucusu DNS sorgu sonuçları döndürdü."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS sunucusu herhangi bir nesne (hatta bir kayıt DNE girişi dahi) döndürmedi, dolayısıyla test tamamlanmadı."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Ağ bağlantınız düzgün çalışıyor gibi görünüyor."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Hakkında"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Başarılı testleri gizle"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Testleri yeniden çalıştır"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Geri bildirim gönder..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Başarılı testleri göster"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Güvenlik duvarı test sonuçları: Testler çalıştı / bağlantı noktası kontrol edildi / başarısız bağlantı sayısı: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP bağlantısı numarası / ana makine adı / bağlantı noktası denemesi yapılmak üzere: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " TCP güvenlik duvarı testi, TCP durum kodu döndürdü: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Bağlantı testi girişimi başarısız oldu ve Chrome ağ yığınından TCP başarı durum kodu döndürülmedi, onun yerine şu durum kodu döndürüldü: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Algılanan DNS çözümleyicisi kullanılamıyor; dolayısıyla bir güvenlik duvarının var olup olmadığını belirlemek mümkün değil"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Algılanan ağ kullanılamıyor, dolayısıyla bir güvenlik duvarının var olup olmadığını belirlemek mümkün değil"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP Güvenlik Duvarı Testi"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Başarısız TCP bağlantı testi sonuçlarının yüzdesi şuna eşit veya daha az olduğunda sorun olmadığına karar verilir: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Bağlantı noktasında herhangi bir kısıtlama algılanmadı. "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "İnternet trafiği, bağlantı noktasında güvenlik duvarı tarafından engellenmiyor "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Başarısız TCP bağlantı testi sonuçlarının sayısı şu değerler arasında olduğunda potansiyel bir sorun olduğuna karar verilir: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Yaygın olarak kullanılan bir İnternet bağlantısı için ağınızda bir kısıtlama olduğu görülüyor."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "İnternet trafiği, bağlantı noktasında güvenlik duvarı tarafından engelleniyor olabilir "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Yaygın olarak kullanılan bir İnternet bağlantısı için ağınızda bir kısıtlama var."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Başarısız TCP bağlantı testi sonuçlarının yüzdesi şuna eşit olduğunda sorun olduğuna karar verilir: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "İnternet trafiği, bağlantı noktasında güvenlik duvarı tarafından engelleniyor "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Şu ana makine / bağlantı noktası / durum kodu ile TCP bağlantısı kuruldu: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Şu ana makine / bağlantı noktası ile TCP bağlantısı başarıyla kuruldu: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Ana makine / bağlantı noktası / durum kodu ile TCP bağlantısı kuruldu: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Bağlantı hatasının nedeni: Bağlantı reddedildi"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Bağlantı hatası nedeni: Zaman aşımı"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Bağlantı hatasının nedeni: Bilinmiyor"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "TCP verisi okunurken hata oluştu. Hata kodu: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "TCP soketinde şu boyutta (bayt) veri başarıyla okundu: "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "TCP soketinden ham veri alındı: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Şu boyutta (bayt) veri gönderilmeye hazırlanıyor: "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Bir TCP soketi, numarası / ana makinesi / bağlantı noktası oluşturuluyor: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Şu boyutta (bayt) veri başarıyla gönderildi: "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "TCP zaman aşımı süresi (milisaniye) ayarlanıyor: "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Sonuç günlüklerini kopyala"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Günlükleri gizle..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Bulunan Sorun"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Bulunan Sorunlar"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "ÖLÇÜTLER"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "AYRINTILAR"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "ÖZET"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "DESTEK AYRINTILARI"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Test Kimliği: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Test Adı: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Test kararı: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Hiçbir sorun algılanmadı"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Potansiyel sorun algılandı"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Sorun algılandı"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Günlükleri göster..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Bağlantı teşhisi testleri çalıştırılırken bir hata oluştu. Testler durduruldu. Bu sorun devam ederse lütfen Ayarlar menüsünden \"Geri bildirim gönder...\" seçeneğini tıklayın."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Testler çalıştırılıyor. Bu işlem birkaç dakika sürebilir..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "UDP verisi okunurken hata oluştu. Hata kodu: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "UDP soketinde şu boyutta (bayt) veri başarıyla okundu: "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "UDP soketinden ham veri alındı: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Şu boyutta (bayt) UDP soketi verisi gönderilmeye hazırlanıyor: "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "UDP soketi, numarası / ana makinesi / bağlantı noktası oluşturuluyor: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Şu boyutta (bayt) veri başarıyla gönderildi: "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "UDP zaman aşımı süresi (milisaniye) ayarlanıyor: "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Uyarı"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Uyarılar"
+   }
+}

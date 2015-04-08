@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Tentang Aplikasi"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Nomor Versi: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Diagnosis Konektivitas Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Diagnosis Konektivitas Chrome (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Diagnosis Konektivitas Chrome (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Diagnosis konektivitas"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Diagnosis Konektivitas"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Tutup"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maksimalkan"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Pulihkan"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Setelan"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Nomor tanggapan / header tanggapan HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Kesalahan dalam permintaan ke-# / status kesalahan: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Nomor tanggapan / kode tanggapan HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Nomor permintaan / panjang tanggapan lengkap: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Tes Portal Tawanan HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Tes portal tawanan HTTP mengembalikan hasil tidak ada masalah jika semua permintaan HTTP mengembalikan kode status HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Tidak ditemukan portal tawanan. Portal tawanan adalah situs web yang diwajibkan oleh suatu jaringan agar dilihat oleh dan berinteraksi dengan para penggunanya sebelum mendapat akses untuk menjelajah internet dengan bebas."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Lalu lintas internet tidak diblokir oleh portal tawanan (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Portal tawanan adalah situs web yang diwajibkan oleh suatu jaringan untuk dilihat oleh dan berinteraksi dengan para penggunanya sebelum mendapat akses menjelajah internet dengan bebas. Portal tawanan ditemukan di jaringan Anda, artinya akses tak terbatas ke internet diblokir."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Tes portal tawanan HTTP mengembalikan hasil bermasalah jika permintaan HTTP apa pun tidak mengembalikan kode status HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Lalu lintas internet diblokir oleh portal tawanan (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Akan mengulang upaya sambungan TCP ke-# / hostname / port : "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Tes sambungan internet Chrome menghasilkan kode status TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Tes Internet Chrome Terputus"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Jika persentase soket TCP yang mengembalikan kode status tidak tersambung ke internet lebih kecil dari nilai ini, akan ditampilkan hasil tidak ada masalah: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Sambungan internet tersedia untuk browser Chrome."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Sambungan internet tersedia"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome tidak tersambung ke jaringan. Periksa setelan jaringan sistem operasi Anda."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Jika persentase soket TCP yang mengembalikan kode status tidak tersambung ke internet sama dengan atau lebih besar dari nilai ini, akan ditampilkan hasil bermasalah: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Tidak tersambung ke jaringan"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Jumlah jaringan tersedia yang terdeteksi: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Tes Internet ChromeOS Terputus"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Hasil tidak ada masalah dikembalikan saat antarmuka jaringan yang tersambung mengembalikan kode status tersambung"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Sambungan internet tersedia."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Sambungan internet tersedia"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Chromebook ini tidak tersambung ke jaringan. Buka baki status dan sambungkan ke jaringan yang tersedia."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Hasil bermasalah dikembalikan saat antarmuka jaringan yang tersambung mengembalikan kode status tidak tersambung: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Tidak tersambung ke jaringan"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Kekuatan sinyal / nama sinyal jaringan: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Tes Kekuatan Sinyal WiFi ChromeOS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Tolok ukur kekuatan sinyal ChromeOS yang jika terlampaui, akan ditampilkan hasil tidak ada masalah: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Kekuatan sinyal jaringan WiFi kuat."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Kekuatan sinyal jaringan kuat"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Tolok ukur kekuatan sinyal ChromeOS yang jika tidak terlampaui, akan ditampilkan hasil bermasalah: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Kekuatan sinyal jaringan WiFi lemah."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Kekuatan sinyal jaringan lemah"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Nomor lengkap platform Chrome OS: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Nama Versi ChromeOS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Ambang untuk nomor platform Chrome OS, yang jika sama atau lebih besar, akan ditampilkan hasil tidak ada masalah: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Tes versi Chrome OS tidak mendeteksi masalah. Versi Chrome OS terbaru. Versi minimum saat ini: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Anda menggunakan versi terbaru Chrome OS. Oleh sebab itu, Anda mendapatkan semua perbaikan yang diketahui untuk masalah konektivitas."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS terbaru"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Tes versi Chrome OS mendeteksi masalah. Versi Chrome OS lama. Versi minimum saat ini: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Anda tidak menggunakan versi terbaru Chrome OS. Oleh sebab itu, Anda tidak mendapatkan seluruh perbaikan bug yang diketahui. Anda dapat mengalami masalah konektivitas karena itu."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS lama"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Ambang untuk nomor platform Chrome OS, yang jika lebih kecil, akan ditampilkan hasil bermasalah: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Agen pengguna browser mentah: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Nomor pendek platform Chrome OS: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Nomor versi browser (lengkap): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Tes Versi Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Ambang untuk nomor versi Chrome, yang jika sama atau lebih besar, akan ditampilkan hasil tidak ada masalah: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Anda menggunakan versi terbaru Google Chrome. Oleh sebab itu, Anda mendapatkan semua perbaikan yang diketahui untuk bug konektivitas."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Versi Google Chrome terbaru"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Anda tidak menggunakan versi terbaru Google Chrome. Oleh sebab itu, Anda tidak mendapatkan seluruh perbaikan bug yang diketahui. Anda dapat mengalami masalah konektivitas karena hal itu."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Bukan versi Google Chrome terbaru"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Ambang untuk nomor versi Chrome, yang jika lebih kecil, akan ditampilkan hasil bermasalah: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Agen pengguna browser mentah: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Nomor versi browser (pendek): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Tes ke-# / Tes hostname: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " alamat DNS yang diselesaikan yang dikembalikan: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " tes mengembalikan kode status: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Tes Racun DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " tes tidak mengembalikan bidang alamat DNS (setel ke nihil)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Hasil DNS dianggap tidak teracuni saat resolver mengembalikan alamat IP yang diharapkan."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Hasil DNS sesuai dengan yang diharapkan dan tampak tidak teracuni."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Server DNS mengembalikan hasil yang diharapkan"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " tes; tanpa kode status hasil; membatalkan tes karena kegagalan tes."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Tanggapan DNS yang teracuni dikembalikan. Tanggapan DNS yang teracuni mengalihkan komunikasi sehingga tidak terkirim ke host jaringan yang diminta."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Hasil DNS dianggap teracuni saat resolver tidak mengembalikan alamat IP yang diharapkan."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Hasil DNS tidak sesuai dengan yang diharapkan dan mungkin teracuni"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Sambungan TCP gagal dan diblokir pada port 443 untuk host "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Sambungan TCP berhasil pada port 443 untuk host "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Sambungan UDP gagal dan diblokir pada port tujuan "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Sambungan UDP berhasil pada port tujuan "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Tes Konektivitas Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Tes pemblokiran Hangouts mengembalikan hasil tidak bermasalah jika: (1) sambungan dapat dibuat ke stun.l.google.com pada port UDP dari 19302 sampai 19309 (2) Sambungan TCP dapat dibuat ke apis.google.com, clients6.google.com, plus.google.com, dan talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Tidak ditemukan masalah saat menyambung ke layanan Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Sambungan Hangouts tersedia"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Tidak dapat tersambung ke layanan media Hangouts pada port UDP 19302 melalui 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Sebagian sambungan Hangouts tampaknya memburuk"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Tes pemblokiran Hangouts mengembalikan hasil bermasalah jika: (1) semua port tujuan UDP dari 19302 sampai 19309 diblokir untuk stun.l.google.com (2) Sambungan TCP ke salah satu dari host berikut gagal pada port 443: apis.google.com, clients6.google.com, plus.google.com, dan talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Port dan host yang diperlukan untuk menyambung ke Hangouts tampaknya diblokir."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Tidak dapat menyambung ke layanan obrolan Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Tidak dapat tersambung ke layanan obrolan Hangouts atau layanan media Hangouts pada port TCP 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Tidak dapat tersambung ke layanan media Hangouts pada port TCP 443 dan pada port UDP 19302 melalui 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Sambungan Hangout tidak dapat dibuat"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Waktu tanggapan HTTP rata-rata (md): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Kesalahan dalam permintaan ke-# / status kesalahan: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Jumlah total permintaan HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Tanggapan HTTP ke-# / waktu yang diterima (stempel waktu mikro) / waktu yang berlalu (md): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Waktu tanggapan HTTP total (md): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Tes Latensi HTTP Situs Web Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Tolok ukur waktu latensi HTTP rata-rata (md) yang jika tidak terlampaui, akan ditampilkan hasil tidak ada masalah: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Permintaan web ke Google diterima dengan cepat."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Tidak ada penundaan penerimaan tanggapan dari situs web Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Tolok ukur waktu latensi HTTP rata-rata (md) yang jika berada di antaranya, akan ditampilkan hasil kemungkinan bermasalah: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Membutuhkan waktu sedikit lebih lama daripada biasanya untuk menerima tanggapan dari situs web Google, menandakan jaringan yang lambat."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Permintaan web ke Google butuh waktu lebih lama dari yang diperkirakan"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Membutuhkan waktu lebih lama daripada biasanya untuk menerima tanggapan dari situs web Google, menandakan jaringan yang lambat."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Tolok ukur waktu latensi HTTP rata-rata (md) yang jika terlampaui, akan ditampilkan hasil bermasalah: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Permintaan web ke Google butuh waktu terlalu lama"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Tes yang Lulus"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Tes yang Lulus"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Kueri ICMP langsung ke IP gerbang tidak pernah menerima paket tanggapan."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "IP gerbang telah ditentukan yaitu: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "IP gerbang tidak dapat ditentukan"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Latensi paket ICMP (md): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP yang dihasilkan dari pengiriman paket ICMP ke host jarak jauh dengan TTL 1 sama dengan IP host jarak jauh: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Tes Ping Gerbang"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Ambang latensi (md) untuk ping gerbang, yang jika di bawahnya, tidak akan ditampilkan hasil bermasalah: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Ping gerbang menghasilkan respons cepat."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Gerbang dapat dijangkau"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Ping gerbang tidak menghasilkan respons cepat."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Ambang latensi (md) untuk ping gerbang, yang jika di atasnya, akan ditampilkan hasil bermasalah: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Gerbang tidak dapat dijangkau"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Waktu penyelesaian DNS rata-rata (md): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Akan mencoba upaya ke-# untuk menyelesaikan hostname: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Tes Latensi Resolver"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Tolok ukur waktu penyelesaian DNS rata-rata (md) yang jika tidak terlampaui akan ditampilkan hasil tidak ada masalah: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Server DNS menerjemahkan hostname (misalnya, google.com) menjadi IP (misalnya, 74.125.228.98). Proses ini diperlukan agar browser Anda tersambung ke internet. Chrome dapat menyelesaikan permintaan DNS dengan cepat menggunakan resolver lokal, yang mempercepat proses pemuatan laman."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Tidak ada penundaan dalam penyelesaian DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Server DNS menerjemahkan hostname (misalnya www.google.com) menjadi alamat IP. Browser harus memiliki alamat IP untuk menyambung guna memuat laman web. Server DNS yang melakukan penerjemahan ini membutuhkan waktu terlalu lama sehingga menyebabkan penundaan pada sambungan internet Anda."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Tolok ukur waktu penyelesaian DNS rata-rata (md) yang jika berada di antaranya akan ditampilkan hasil kemungkinan bermasalah: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Penyelesaian DNS membutuhkan waktu lebih lama daripada biasanya"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Server DNS menerjemahkan hostname (misalnya www.google.com) menjadi alamat IP. Browser harus memiliki alamat IP untuk menyambung guna memuat laman web. Server DNS yang melakukan penerjemahan ini membutuhkan waktu terlalu lama sehingga menyebabkan penundaan pada sambungan internet Anda."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Tolok ukur waktu penyelesaian DNS rata-rata (md) yang jika terlampaui akan ditampilkan hasil bermasalah: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Penyelesaian DNS membutuhkan waktu terlalu lama"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Hasil diterima untuk penyelesaian DNS. Nomor Tes / Waktu Saat Ini / Waktu yang Diperlukan (md) / Waktu Dimulai (md): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Keseluruhan host DNS yang diselesaikan: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Waktu penyelesaian DNS total untuk semua tes (md): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Uji resolver DNS melakukan kueri DNS tunggal dan mengembalikan hasil bermasalah jika tidak diperoleh tanggapan yang valid."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Uji resolver DNS melakukan kueri DNS tunggal dan mengembalikan hasil tidak bermasalah jika diperoleh tanggapan yang valid."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Berupaya menyelesaikan hostname: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Hostname diselesaikan menjadi alamat IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Server DNS mengembalikan kode status bermasalah: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Server DNS mengembalikan kode status berhasil: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Tes Keberadaan Resolver"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome menemukan server DNS yang berhasil menerjemahkan hostname (misalnya www.google.com) menjadi alamat IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Server DNS tersedia"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Server DNS menerjemahkan hostname (misalnya www.google.com) menjadi alamat IP. Browser harus memiliki alamat IP agar tersambung sehingga dapat memuat situs web. Chrome tidak dapat menentukan IP situs web yang ingin Anda kunjungi karena server DNS Anda tidak bekerja. Hubungi administrator jaringan atau ISP Anda."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Server DNS yang berfungsi tidak tersedia"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Server DNS mengembalikan hasil kueri DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Server DNS tidak mengembalikan objek apa pun (bahkan entri DNE rekam A) sehingga tes tidak dapat diselesaikan."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Sambungan jaringan Anda tampaknya beroperasi dengan semestinya."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Tentang"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Sembunyikan tes yang lulus"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Jalankan tes lagi"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Kirim masukan..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Tampilkan tes yang lulus"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Hasil tes firewall: Tes dijalankan / port diperiksa / jumlah sambungan gagal: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Akan mengulang upaya sambungan TCP ke-# / hostname / port : "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Tes firewall TCP mengembalikan kode status TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Usaha tes sambungan gagal dan tidak mengembalikan kode status sukses TCP dari tumpukan jaringan Chrome, malahan mengembalikan kode status: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Resolver DNS yang terdeteksi tidak tersedia, sehingga kami tidak dapat menentukan apakah ada firewall atau tidak"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Jaringan yang terdeteksi tidak tersedia, sehingga kami tidak dapat menentukan apakah ada firewall atau tidak"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Tes Firewall TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Hasil tidak bermasalah jika persentase hasil tes sambungan TCP gagal lebih kecil dari atau sama dengan: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Tidak terdeteksi batasan di sambungan internet pada port "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Lalu lintas internet tidak diblokir oleh firewall pada port "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Hasil kemungkinan bermasalah jika jumlah hasil tes sambungan TCP gagal berada di antara: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Tampaknya terdapat batasan di jaringan Anda untuk sambungan internet yang biasa dipakai."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Lalu lintas internet mungkin diblokir oleh firewall pada port "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Terdapat batasan di jaringan Anda untuk sambungan internet yang biasa dipakai."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Hasil bermasalah jika persentase hasil tes sambungan TCP gagal sama dengan: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Lalu lintas internet diblokir oleh firewall pada port "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Sambungan TCP dibuat dengan host / port / kode status: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Sambungan TCP berhasil dibuat dengan host / port: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Sambungan TCP gagal dengan host / port / kode status: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Alasan sambungan gagal: Sambungan ditolak"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Alasan sambungan gagal: Waktu tunggu habis"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Alasan kegagalan sambungan: Tidak diketahui"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Kesalahan membaca data TCP. Kode kesalahan: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Berhasil membaca data dari soket TCP dengan ukuran (byte): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Data mentah yang diterima dari soket TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Bersiap mengirim data dengan ukuran (byte): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Membuat soket TCP, nomor / host / port: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Berhasil mengirim data dengan ukuran (byte): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Menyetel panjang waktu tunggu TCP (mdet): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Salin hasil log"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Sembunyikan log..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Ditemukan Masalah"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Ditemukan Masalah"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "KRITERIA"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "DETAIL"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "RINGKASAN"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "DETAIL DUKUNGAN"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "ID Tes: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Nama Tes: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Hasil tes: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Tidak terdeteksi adanya masalah"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Masalah potensial terdeteksi"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Masalah terdeteksi"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Tampilkan log..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Terjadi kesalahan saat menjalankan tes diagnosis konektivitas. Tes dihentikan. Jika masalah ini berlanjut, klik opsi 'Kirim masukan...' dari menu Setelan."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Menjalankan tes. Proses ini dapat memakan waktu beberapa menit..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Kesalahan membaca data UDP. Kode kesalahan: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Berhasil membaca data dari soket UDP dengan ukuran (byte): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Data mentah yang diterima dari soket UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Bersiap mengirim data soket UDP dengan ukuran (byte): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Membuat soket UDP, nomor / host / port: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Berhasil mengirim data dengan ukuran (byte): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Menyetel lamanya waktu tunggu UDP (mdet): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Peringatan"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Peringatan"
+   }
+}

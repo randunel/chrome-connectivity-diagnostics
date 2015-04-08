@@ -1,0 +1,398 @@
+/* Copyright 2013 The Chromium Authors. All rights reserved.
+
+   Use of this source code is governed by a BSD-style license that can be
+   found in the LICENSE file.
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Helvetica Neue Medium', HelveticaNeue-Medium, Helvetica, sans-serif;
+  font-size: initial;
+}
+
+body.no-focus-outline * {
+  outline: none;
+}
+
+#ccd-app {
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#ccd-header {
+  position: fixed;
+  background: white;
+  min-height: 48px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 0;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  width: 100%;
+  -webkit-app-region: drag;
+}
+
+#ccd-header a,
+#ccd-header img,
+#ccd-header button {
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#header-title-container {
+  width: 60%;
+  font-size: 16px;
+  color: #969696;
+  padding-left: 1em;
+}
+
+#header-options-container {
+  font-size: 0px;
+  height: 32px;
+}
+
+#header-options-container button {
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 10px;
+  border: none transparent;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+}
+
+#header-options-container button:hover,
+#header-options-container button:focus,
+#header-options-container button:active,
+.settings-menu-link-expanded {
+  background-color: #ededed;
+}
+
+#top-settings-btn {
+  background-image: -webkit-image-set(
+    url('../img/100/topbar_button_settings.png') 1x,
+    url('../img/200/topbar_button_settings.png') 2x);
+}
+
+#top-maximize-btn {
+  background-image: -webkit-image-set(
+    url('../img/100/topbar_button_maximize.png') 1x,
+    url('../img/200/topbar_button_maximize.png') 2x);
+}
+
+#top-close-btn {
+  background-image: -webkit-image-set(
+    url('../img/100/topbar_button_close.png') 1x,
+    url('../img/200/topbar_button_close.png') 2x);
+}
+
+#settings-container,
+#about-container {
+  background-color: rgb(250,250,250);
+  border: 1px solid rgb(255,255,255);
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.5);
+  padding: 0.2em 0em 0.2em 0em;
+}
+
+#settings-container a,
+#about-container a {
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Noto Sans UI', sans-serif;
+  line-height: 30px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+#settings-container a:hover,
+#about-container a:hover,
+#settings-container a:focus,
+#about-container a:focus,
+#settings-container a:active,
+#about-container a:active {
+  color: white;
+  background-color: rgb(66, 129, 244);
+}
+
+.settings-visible {
+  display: inline;
+  position: fixed;
+  top: 48px;
+  right: 94px;
+  width: 180px;
+  z-index: 10000;
+  background: #d3d3d3;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.about-visible {
+  background: #d3d3d3;
+  border-radius: 10px;
+  display: inline;
+  font-size: 12px;
+  position: fixed;
+  right: 94px;
+  top: 48px;
+  width: 150px;
+  z-index: 10000;
+  padding: 0.75em !important;
+}
+
+.settings-visible,
+.about-visible a {
+  cursor: pointer;
+}
+
+#page-body-container {
+  width: 100%;
+}
+
+#page-body-spinner-container {
+  width: 100%;
+}
+
+#page-body-spinner-progress-percentile {
+  color: #787878;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 26px;
+}
+
+#page-body-spinner-progress-content {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin: 182px auto 0;
+  line-height: 200px;
+}
+
+.spinner-progress-00,
+.spinner-progress-0 {
+  background-image: -webkit-image-set(
+   url('../img/100/loader_0.png') 1x,
+   url('../img/200/loader_0.png') 2x);
+}
+
+.spinner-progress-15 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_1.png') 1x,
+    url('../img/200/loader_1.png') 2x);
+}
+
+.spinner-progress-25 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_2.png') 1x,
+    url('../img/200/loader_2.png') 2x);
+}
+
+.spinner-progress-40 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_3.png') 1x,
+    url('../img/200/loader_3.png') 2x);
+}
+
+.spinner-progress-50 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_4.png') 1x,
+    url('../img/200/loader_4.png') 2x);
+}
+
+.spinner-progress-60 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_5.png') 1x,
+    url('../img/200/loader_5.png') 2x);
+}
+
+.spinner-progress-75 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_6.png') 1x,
+    url('../img/200/loader_6.png') 2x);
+}
+
+.spinner-progress-90 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_7.png') 1x,
+    url('../img/200/loader_7.png') 2x);
+}
+
+.spinner-progress-100 {
+  background-image: -webkit-image-set(
+    url('../img/100/loader_8.png') 1x,
+    url('../img/200/loader_8.png') 2x);
+}
+
+#page-body-spinner-loading-message {
+  margin: 10%;
+  color: #969696;
+  text-align: center;
+  font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#test-results-frame {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  margin-top: 15%;
+}
+
+.test-results-contents-frame {
+  background: white;
+  padding: 0.5em;
+  margin: 0 auto;
+  font-size: 110%;
+  border-radius: 1px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: none;
+}
+
+.test-results-contents-frame:hover {
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.05);
+  z-index: 10000;
+  border: none;
+  outline: 1px solid #D9D9D9;
+}
+
+.test-results-contents-frame-expanded {
+  padding: 1.5em;
+  margin: 1em -1em 1em -1em;
+}
+
+.test-result-title {
+  margin-top: 4em;
+  background: white;
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.5);
+  border-radius: 1px 0;
+  box-shadow: none;
+  padding: 1em;
+}
+
+.test-title-contents-cell {
+  display:table-cell;
+  vertical-align: middle;
+  padding: 0.4em;
+  color: rgba(0,0,0,0.8);
+  font-size: 18px;
+  font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.no-problem-result-title-img {
+  background-image: -webkit-image-set(
+    url('../img/100/alert_green.png') 1x,
+    url('../img/200/alert_green.png') 2x);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.problem-result-title-img {
+  background-image: -webkit-image-set(
+    url('../img/100/alert_red.png') 1x,
+    url('../img/200/alert_red.png') 2x);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.potential-problem-result-title-img {
+  background-image: -webkit-image-set(
+    url('../img/100/alert_orange.png') 1x,
+    url('../img/200/alert_orange.png') 2x);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.test-title {
+  cursor: pointer;
+}
+
+.test-subtitle,
+.next-steps-container,
+.show-logs-link {
+  margin: 1em;
+  font-size: 80%;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.show-logs-link-a {
+  cursor: pointer;
+  color: rgb(17, 85, 204) !important;
+}
+
+.show-logs-link-a:hover {
+  text-decoration: underline;
+}
+
+.test-results-logs-textarea {
+  margin: 1em auto 0 auto;
+  width: 90%;
+  display: block;
+}
+
+.test-logs-title {
+  color: #969696;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+#no-problems-result-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+#no-problems-result-contents {
+  background: white;
+  padding: 3em;
+  font-size: 110%;
+}
+
+.no-problem-result-inner-contents {
+  display:table-cell;
+  font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
+  vertical-align: middle;
+  padding: 1.5em;
+}
+
+#no-problem-result-img {
+  background-image: -webkit-image-set(
+    url('../img/100/success_robot.png') 1x,
+    url('../img/200/success_robot.png') 2x);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 46px;
+  min-height: 60px;
+}
+
+.element-hidden {
+  display: none;
+}
+
+.element-block {
+  display: block;
+}

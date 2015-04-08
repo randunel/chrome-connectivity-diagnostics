@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "О приложении"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Номер версии: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Диагностика соединений Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Диагностика соединений Chrome (бета)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Диагностика соединений Chrome (для разраб.)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Диагностика соединений"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Диагностика соединений"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Закрыть"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Развернуть"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Восстановить"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Настройки"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Номер ответа/HTTP-заголовки ответа: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Ошибка в запросе. №/код ошибки: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Номер ответа/HTTP-код ответа: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Номер запроса/полная длина ответа: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Проверка адаптивного портала HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Если все запросы HTTP возвращают код статуса HTTP 204, проверка адаптивного портала HTTP подтверждает отсутствие проблем."
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Адаптивный портал – это веб-сайт, на который попадают все пользователи в сети перед тем, как получить доступ в Интернет. В данной сети не обнаружен адаптивный портал."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Интернет-трафик не блокируется адаптивным порталом (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Адаптивный портал – это веб-сайт, на который попадают все пользователи в сети перед тем, как получить доступ в Интернет. В данной сети обнаружен адаптивный портал, поэтому доступ в Интернет ограничен."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Если какие-либо запросы HTTP не возвращают код статуса HTTP 204, проверка адаптивного портала HTTP подтверждает наличие проблем."
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Интернет-трафик блокируется адаптивным порталом (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Попытка TCP-соединения. Номер/имя хоста/порт: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Проверка подключения Chrome к Интернету завершена с кодом статуса TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Проверка подключения Chrome к Интернету"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Проблемы отсутствуют, если процент сокетов TCP, возвращающих код статуса \"Отсутствует подключение к Интернету\", меньше следующего значения: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Для браузера Chrome доступно подключение к Интернету."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Подключение к Интернету доступно"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome не подключен к Интернету. Проверьте настройки сети в операционной системе."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Проблемы присутствуют, если процент сокетов TCP, возвращающих код статуса \"Отсутствует подключение к Интернету\", выше или равен следующему значению: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Отсутствует подключение к Интернету"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Количество доступных сетей: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Проверка подключения Chrome OS к Интернету"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Если подключенный сетевой интерфейс возвращает код статуса \"Подключено\", проблемы отсутствуют."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Подключение к Интернету доступно."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Подключение к Интернету доступно"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Устройство Chromebook не подключено к сети. Откройте панель состояния и подключите устройство к одной из доступных сетей."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Если подключенный сетевой интерфейс возвращает код статуса \"Отключено\", имеются проблемы: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Отсутствует подключение к Интернету"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Имя сети/уровень сигнала: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Проверка уровня сигнала Wi-Fi Chrome OS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Значение среднего уровня сигнала Chrome OS выше следующего свидетельствует об отсутствии проблем: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Высокий уровень сигнала в сети Wi-Fi."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Высокий уровень сетевого сигнала"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Значение среднего уровня сигнала Chrome OS ниже следующего свидетельствует о наличии проблем: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Низкий уровень сигнала в сети WiFi."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Низкий уровень сетевого сигнала"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Полный номер платформы Chrome OS: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Название версии Chrome OS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Проблемы отсутствуют, если номер платформы Chrome OS превышает следующее значение или равен ему: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "При проверке версии Chrome OS проблем не обнаружено. На устройстве установлена новая версия Chrome OS. Минимальная версия на данный момент: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Используется последняя версия Chrome OS. В ней устранены все известные ошибки, которые могут вызывать проблемы при подключении к Сети."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Установлена последняя версия Chrome OS"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "При проверке версии Chrome OS обнаружена проблема. На устройстве установлена устаревшая версия Chrome OS. Минимальная версия на данный момент: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Используется устаревшая версия Chrome OS. В ней не устранены некоторые известные ошибки, которые могут вызывать проблемы при подключении к Сети."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Используется устаревшая версия Chrome OS"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Проблемы присутствуют, если номер платформы Chrome OS меньше следующего значения: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Значение строки user-agent браузера: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Краткий номер платформы Chrome OS: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Версия браузера (полная): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Проверка версии Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Проблемы отсутствуют, если номер версии Chrome превышает следующее значение или равен ему: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "На данном устройстве используется последняя версия Google Chrome. В ней устранены все известные проблемы подключения к сети."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Используется последняя версия Google Chrome"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "На данном устройстве используется устаревшая версия Google Chrome. Возможно, в ней не устранены некоторые известные ошибки, вызывающие проблемы при подключении к сети."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Используется устаревшая версия Google Chrome"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Проблемы присутствуют, если номер версии Chrome меньше следующего значения: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Значение строки user-agent браузера: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Версия браузера (краткая): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Номер проверки/имя хоста: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " возвращен адрес DNS: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " проверка возвратила код статуса: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Проверка целостности данных сервера DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " возвращено пустое поле адреса DNS (нулевое значение)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Целостность данных на сервере DNS считается ненарушенной, если в ответ возвращено ожидаемое значение IP-адреса."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Сервер DNS возвратил ожидаемые результаты, подозрений на нарушение целостности нет."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Сервер DNS возвратил ожидаемые результаты"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " проверка; код статуса не получен; завершение проверки с ошибкой"
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Был возвращен ответ, свидетельствующий о нарушении целостности данных на сервере DNS. Это препятствует соединению с запрашиваемым сетевым хостом."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Целостность данных на сервере DNS считается нарушенной, если в ответ возвращено неожиданное значение IP-адреса."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Возвращены неожиданные результаты, целостность данных на сервере DNS может быть нарушена"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "TCP-соединение не установлено и заблокировано на порте 443 хоста. "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "TCP-соединение с портом 443 хоста успешно установлено. "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "UDP-соединение не установлено и заблокировано на порте получателя. "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "UDP-соединение с портом получателя успешно установлено. "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Проверка соединения с Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Проверка на блокировку Hangouts свидетельствует об отсутствии проблем, если 1) можно установить соединение с хостом stun.l.google.com через любой UDP-порт от 19302 до 19309 и 2) можно установить TCP-соединение с хостами apis.google.com, clients6.google.com, plus.google.com и talkgadget.google.com."
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "При подключении к сервису Hangouts проблемы не обнаружены."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Соединение с Hangouts доступно"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Невозможно подключиться к UDP-порту 19302 медиаслужбы Hangouts через порт 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Помехи в соединении с Hangouts"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Проверка на блокировку Hangouts свидетельствует о наличии проблем, если 1) для хоста stun.l.google.com заблокированы все порты назначения с 19302 по 19309 и 2) не удается установить TCP-соединение с портом 443 для любого из перечисленных хостов: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Вероятно, запрашиваемые порты и хосты заблокированы."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Невозможно подключиться к чату Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Невозможно подключиться к TCP-порту 443 чата Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Невозможно подключиться к TCP-порту 443 и UDP-порту 19302 медиаслужбы Hangouts через порт 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Соединение с Hangouts не установлено"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Среднее время ответа HTTP (мс): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Ошибка в запросе №/код ошибки: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Общее число запросов HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "№ запроса HTTP/время получения (microtimestamp)/истекшее время (мс): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Общее время запросов HTTP (мс): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Проверка задержки HTTP веб-сайтов Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Проблемы отсутствуют, если среднее время задержки HTTP в мс меньше этого контрольного значения: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются без задержек."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются без задержек"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Контрольное значение среднего времени задержки HTTP (мс), подтверждающее возможное наличие проблем: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются дольше обычного. Сеть работает медленно."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются дольше обычного"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются слишком долго. Сеть работает очень медленно."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Проблемы присутствуют, если среднее время задержки HTTP в мс больше следующего контрольного значения: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Запросы к веб-сайтам Google обрабатываются слишком медленно"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Успешно пройденная проверка"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Пройденные проверки"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "ICMP-запрос непосредственно на IP-адрес шлюза так и не получил ответного пакета."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Определен IP-адрес шлюза: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Не удалось определить IP-адрес шлюза"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Задержка ICMP-пакетов (мс): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP-адрес ICMP-пакета, отправленного на удаленный хост со значением TTL, равным 1, совпадает с IP-адресом удаленного хоста: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Проверка шлюза утилитой Ping"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Значение задержки (мс) ответа от шлюза на запрос ping ниже следующего свидетельствует об отсутствии проблем: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Шлюз быстро отвечает на запросы ping."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Шлюз доступен"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Шлюз медленно отвечает на запросы ping."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Значение задержки (мс) ответа от шлюза на запрос ping выше следующего свидетельствует о наличии проблем: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Шлюз недоступен"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Среднее время ответа сервера DNS (мс): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Выполняется преобразование имени хоста №: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Проверка задержки DNS-преобразователя"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Значение среднего времени ответа сервера DNS (мс) меньше следующего свидетельствует об отсутствии проблем: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Сервер DNS преобразует имена хостов (например, www.google.ru) в IP-адреса (например, 74.125.228.98). IP-адрес нужен браузеру, чтобы подключиться к веб-сайту. Локальный преобразователь DNS позволяет Chrome быстро получать необходимые IP-адреса, что ускоряет загрузку веб-страниц."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Сервер DNS работает без задержек"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Сервер DNS преобразует имена хостов (например, www.google.com) в IP-адреса. IP-адрес нужен браузеру, чтобы подключиться к веб-сайту. Ваш сервер DNS работает с задержками, замедляя загрузку веб-сайтов."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Контрольное значение среднего времени ответа сервера DNS (мс), подтверждающее возможное наличие проблем: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Сервер DNS работает медленнее обычного"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Сервер DNS преобразует имена хостов (например, www.google.com) в IP-адреса. IP-адрес нужен браузеру, чтобы подключиться к веб-сайту. Ваш сервер DNS работает с задержками, замедляя загрузку веб-сайтов."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Значение среднего времени ответа сервера DNS (мс) больше следующего свидетельствует о наличии проблем: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Сервер DNS работает с задержками"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Результаты проверки сервера DNS. Номер теста/текущее время/время операции (мс)/время начала (мс): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Всего преобразовано хостов: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Общее время работы сервера DNS для всех проверок (мс): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "При проверке DNS-преобразователя выполняется один запрос. Если допустимый ответ не получен, это свидетельствует о наличии проблем."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "При проверке DNS-преобразователя выполняется один запрос. Если получен допустимый ответ, это свидетельствует об отсутствии проблем."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Выполняется преобразование имени хоста: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Имя хоста преобразовано в IP-адрес: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Сервер DNS возвратил код статуса проблемы: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Сервер DNS возвратил код успешного завершения: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Проверка наличия DNS-преобразователя"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome обнаружил сервер DNS, который успешно преобразовал имя хоста (например, www.google.ru) в IP-адрес."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Сервер DNS доступен"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Сервер DNS преобразует имя хоста (например, www.google.ru) в IP-адрес, который необходим браузеру, чтобы подключиться к веб-сайту. Chrome не может определить IP-адрес требуемого веб-сайта, потому что сервер DNS не работает. Обратитесь к своему интернет-провайдеру или сетевому администратору."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Сервер DNS не найден"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Сервер DNS возвратил результаты запроса."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Сервер DNS не возвратил никаких объектов (даже записи DNS), поэтому проверку не удалось завершить."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Сетевое соединение работает нормально."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "О приложении"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Скрыть успешно пройденные проверки"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Повторить проверки"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Отправить отзыв…"
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Показать успешно пройденные проверки"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Результаты проверки брандмауэра: выполненные проверки/проверенный порт/количество ошибок соединения: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Попытка установки TCP-соединения: №/хост/порт: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Проверка брандмауэра TCP завершилась с кодом статуса: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Не удалось проверить соединение. Вместо кода успешного подключения TCP из сетевого стека Chrome возвращен следующий код статуса: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Обнаруженный DNS-клиент недоступен, поэтому невозможно определить наличие брандмауэра."
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Обнаруженная сеть недоступна, поэтому определить наличие брандмауэра невозможно."
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Проверка брандмауэра TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Проблемы отсутствуют, если процент ошибок при проверке TCP-соединения меньше или равен следующему значению: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Соединение с Интернетом не ограничено. Порт: "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Интернет-трафик не блокируется брандмауэром. Порт: "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Присутствуют возможные проблемы, если количество ошибок при проверке TCP-соединения находится в следующем диапазоне значений: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Вероятно, стандартное соединение с Интернетом в данной сети ограничено."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Вероятно, интернет-трафик блокируется брандмауэром. Порт: "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Стандартное соединение с Интернетом в данной сети ограничено."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Проблемы присутствуют, если процент ошибок при проверке TCP-соединения равен следующему значению: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Интернет-трафик блокируется брандмауэром. Порт: "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Установлено TCP-соединение. Хост/порт/код статуса: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Установлено TCP-соединение. Хост/порт: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Не удалось установить TCP-соединение. Хост/порт/код статуса: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Причина сбоя соединения: отказано в подключении"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Причина сбоя соединения: тайм-аут"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Причина сбоя соединения: неизвестно"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Не удалось прочитать данные TCP. Код ошибки: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Из сокета TCP прочитаны данные. Объем (байт): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Получены первичные данные от сокета TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Подготовка к отправке данных. Объем (байт): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Создается сокет TCP. Номер/хост/порт: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Отправлены данные. Объем (байт): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Установка тайм-аута TCP (мс): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Копировать журналы результатов"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Скрыть журналы…"
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Обнаруженная проблема"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Обнаруженные проблемы"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "КРИТЕРИИ"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "СВЕДЕНИЯ"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "КРАТКИЙ ОТЧЕТ"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "СВЕДЕНИЯ ДЛЯ ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Идентификатор проверки: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Название проверки: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Результат проверки: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Проблем не обнаружено"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Обнаружена возможная проблема"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Обнаружена проблема"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Показать журналы…"
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Проверка соединений прекращена из-за ошибки. Если проблема не исчезнет, сообщите нам об этом, нажав \"Отправить отзыв…\" в меню \"Настройки\"."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Идет проверка. Это может занять несколько минут."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Не удалось прочитать данные UDP. Код ошибки: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Из сокета UDP прочитаны данные. Объем (байт): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Получены первичные данные от сокета UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Подготовка к отправке данных сокета UDP. Объем данных (байт): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Создается сокет UDP. Номер/хост/порт: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Отправлены данные. Объем (байт): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Установка тайм-аута UDP (мс): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Предупреждение"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Предупреждения"
+   }
+}

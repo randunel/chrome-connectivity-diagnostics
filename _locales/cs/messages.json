@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "O aplikaci"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Číslo verze: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Diagnostika připojení Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Diagnostika připojení Chrome (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Diagnostika připojení Chrome (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Diagnostika připojení"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Diagnostika připojení"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Zavřít"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maximalizovat"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Obnovit"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Nastavení"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Číslo odpovědi / hlavičky odpovědi protokolu HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Číslo požadavku s chybou / stav chyby: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Číslo odpovědi / kód odpovědi protokolu HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Číslo požadavku / délka celé odpovědi: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Test captive portálu HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Test captive portálu HTTP nahlásí bezproblémový stav v případě, že všechny požadavky HTTP vrátí stavový kód HTTP 204."
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Žádný captive portál nebyl nalezen. Captive portál je web, který uživatelé sítě musejí navštívit předtím, než jim je udělen přístup k volnému procházení internetu."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Internetový provoz není blokován captive portálem (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Captive portál je web, který uživatelé sítě musejí navštívit předtím, než jim je udělen přístup k volnému procházení internetu. Ve vaší síti byl zjištěn captive portál, což znamená, že je neomezený přístup k internetu blokován."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Test captive portálu HTTP nahlásí problém v případě, že některý z požadavků HTTP nevrátí stavový kód HTTP 204."
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Internetový provoz je blokován captive portálem (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Připraven pokus o navázání připojení TCP – číslo / název hostitele / port: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Test připojení Chromu k internetu vrátil následující stavový kód protokolu TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Test odpojení prohlížeče Chrome od internetu"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Procento soketů protokolu TCP vracejících stavové kódy odpojení od internetu, pod kterým je nahlášen bezproblémový stav: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Prohlížeč Chrome má k dispozici připojení k internetu."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Připojení k internetu je dostupné"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Prohlížeč Chrome není připojen k síti. Zkontrolujte nastavení sítě operačního systému."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Procento soketů protokolu TCP vracejících stavové kódy odpojení od internetu, při jehož dosažení nebo překročení je nahlášen problém: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Nejste připojeni k síti"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Počet zjištěných dostupných sítí: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Test odpojení systému Chrome OS od internetu"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Bezproblémový stav je nahlášen, pokud připojené síťové rozhraní vrací stavový kód Připojeno."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Je k dispozici připojení k internetu."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Připojení k internetu je dostupné"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Tento Chromebook není připojen k síti. Přejděte na stavový panel a připojte se k některé z dostupných sítí."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Problém je nahlášen, pokud připojené síťové rozhraní vrací stavový kód Odpojeno. "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Nejste připojeni k síti"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Název signálu sítě / síla signálu: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Test systému Chrome OS pro sílu signálu Wi-Fi"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Srovnávací hodnota systému Chrome OS pro sílu signálu, nad kterou je nahlášen bezproblémový stav: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Signál sítě Wi-Fi je silný."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Silný signál sítě"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Srovnávací hodnota systému Chrome OS pro sílu signálu, pod kterou je nahlášen problém: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Signál sítě Wi-Fi je slabý."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Slabý signál sítě"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Úplné číslo platformy Chrome OS: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Název verze systému Chrome OS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Mezní hodnota čísla verze systému Chrome OS, při jejímž dosažení nebo překročení nahlásíme bezproblémový stav: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Při kontrole verze systému Chrome OS nebyl zjištěn žádný problém. Verze systému Chrome OS je aktuální. Minimální verze je v současné době: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Používáte nejnovější verzi systému Chrome OS, a máte tedy nainstalované všechny známé opravy chyb připojení."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Systém Chrome OS je aktuální"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Při kontrole verze systému Chrome OS byl zjištěn problém. Verze systému Chrome OS není aktuální. Minimální verze je v současné době: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Nepoužíváte nejnovější verzi systému Chrome OS. To znamená, že nemáte všechny známé opravy chyb, a může proto docházet k problémům s připojením."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Systém Chrome OS není aktuální"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Mezní hodnota čísla verze systému Chrome OS, pod kterou nahlásíme problém: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Nezpracovaný identifikátor user-agent prohlížeče: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Krátké číslo platformy Chrome OS: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Číslo verze prohlížeče (úplné): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Test verze prohlížeče Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Mezní hodnota čísla verze prohlížeče Chrome, při jejímž dosažení nebo překročení nahlásíme bezproblémový stav: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Používáte nejnovější verzi prohlížeče Google Chrome, a máte tedy nainstalované všechny známé opravy chyb připojení."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Verze prohlížeče Google Chrome je nejnovější"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Nepoužíváte nejnovější verzi prohlížeče Google Chrome. To znamená, že nemáte všechny známé opravy chyb, a může proto docházet k problémům s připojením."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Nepoužíváte nejnovější verzi prohlížeče Google Chrome"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Mezní hodnota čísla verze prohlížeče Chrome, pod kterou nahlásíme problém: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Nezpracovaný identifikátor user-agent prohlížeče: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Číslo verze prohlížeče (krátké): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Číslo testu / Testovaný název hostitele: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " vrácena přeložená adresa DNS: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " test vrátil stavový kód: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Test útoku typu DNS poisoning"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " test nevrátil žádné pole adresy DNS (nastaveno na hodnotu null)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Výsledky DNS jsou považovány za bezproblémové (nenapadané útokem DNS poisoning), pokud překladač vrací očekávanou IP adresu."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Výsledky DNS byly očekávány a nezdá se, že by byly upraveny útokem typu DNS poisoning."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Server DNS vrátil očekávané výsledky"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " test; žádný výsledný stavový kód; zrušení testu z důvodu selhání."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Byla vrácena odpověď DNS upravená útokem DNS poisoning. Odpověď upravená útokem DNS poisoning přesměrovává komunikaci tak, aby v síti nebyla odeslána požadovanému hostiteli."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Výsledky DNS jsou považovány za napadené útokem DNS poisoning, pokud překladač nevrací očekávanou IP adresu."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Výsledky DNS nebyly očekávány a mohou být upraveny útokem typu DNS poisoning"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Připojení TCP se nezdařilo a je na portu 443 pro hostitele blokováno "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Připojení TCP na portu 443 bylo pro hostitele úspěšné "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Připojení UDP se nezdařilo a je na cílovém portu blokováno "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Připojení UDP bylo na cílovém portu úspěšné "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Test připojení ke službě Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Test blokování služby Hangouts vrátí bezproblémový výsledek, pokud jsou splněny následující podmínky: (1) Je možné navázat připojení s hostitelem stun.l.google.com na libovolném portu UDP v intervalu 19302 až 19309. (2) Je možné navázat připojení TCP s hostiteli apis.google.com, clients6.google.com, plus.google.com a talkgadget.google.com."
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Při připojování ke službě Hangouts nebyly zjištěny žádné problémy."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Připojení ke službě Hangouts je k dispozici"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "K mediální službě Hangouts se na portech UDP 19302 až 19309 nelze připojit."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Připojení ke službě Hangouts je pravděpodobně částečně zhoršené"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Test blokování služby Hangouts vrátí problémový výsledek, pokud jsou splněny následující podmínky: (1) Pro hostitele stun.l.google.com jsou blokovány všechny cílové porty UDP v intervalu 19302 až 19309. (2) Pro kterýkoliv z následujících hostitelských serverů selže připojení TCP na portu 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com."
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Porty a hostitelské servery potřebné pro službu Hangouts jsou pravděpodobně blokovány."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "K chatové službě Hangouts se nelze připojit."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "K chatové nebo mediální službě Hangouts se na portu TCP 443 nelze připojit."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "K mediální službě Hangouts se na portu TCP 443 a na portech UDP 19302 až 19309 nelze připojit."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Připojení ke službě Hangouts nelze navázat"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Průměrný čas odezvy protokolu HTTP (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Číslo požadavku s chybou / stav chyby: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Celkový počet požadavků HTTP "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Číslo odezvy HTTP / čas přijetí (miniaturní časové razítko) / uplynulý čas (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Celkový čas odezvy protokolu HTTP (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Latence připojení HTTP na weby Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Srovnávací průměrná doba latence protokolu HTTP (ms), pod kterou je nahlášen bezproblémový stav: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Webové požadavky na domény Google jsou přijímány rychle."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Odpovědi z webových stránek Google jsou přijímány bez prodlení"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Srovnávací interval průměrné doby latence protokolu HTTP (ms), v němž je nahlášen potenciální problém: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Získat odpověď z webových stránek Google trvá o něco déle, než by mělo, což poukazuje na pomalou síť."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Webové požadavky na doménu Google trvají déle, než bylo očekáváno"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Získat odpověď z webových stránek Google trvá déle, než by mělo, což poukazuje na pomalou síť."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Srovnávací průměrná doba latence protokolu HTTP (ms), při jejímž překročení je nahlášen problém: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Webové požadavky na doménu Google trvají příliš dlouho"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Absolvovaný test"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Absolvované testy"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Pro dotaz ICMP odeslaný přímo na IP adresu brány nebyl obdržen paket odpovědi."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Byla zjištěna následující IP adresa brány: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "IP adresu brány nebylo možné zjistit."
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Latence paketu ICMP (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP adresa vrácená po odeslání paketu ICMP vzdálenému hostiteli s hodnotou TTL rovnou 1 byla stejná, jako IP adresa vzdáleného hostitele: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Test pingnutí brány"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Mezní hodnota latence (ms) pingnutí brány, pod kterou nahlásíme bezproblémový výsledek: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Pingnutí brány vrací rychlou odpověď."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Brána je dostupná"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Pingnutí brány nevrací rychlou odpověď."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Mezní hodnota latence (ms) pingnutí brány, nad kterou nahlásíme problém: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Brána není dostupná"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Průměrný čas překladu DNS (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Pokus o přeložení názvu hostitele č.: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Test latence překladače"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Srovnávací průměrná doba překladu DNS (ms), pod kterou je nahlášen bezproblémový stav: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Server DNS překládá název hostitele (např. www.google.com) na IP adresu (např. 74.125.228.98). Tento proces je nutný k tomu, aby se váš prohlížeč mohl připojit k internetu. Chrome může požadavky DNS rychle překládat pomocí místního překladače, což zrychluje načítání stránek."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Převod DNS proběhl bez prodlení"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Server DNS překládá název hostitele (např. www.google.com) na IP adresu. Aby prohlížeč mohl načíst webové stránky, musí mít k dispozici IP adresu, ke které se má připojit. Serveru DNS tento překlad trvá příliš dlouho, což ve vašem připojení k internetu způsobuje prodlevy."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Srovnávací interval průměrné doby překladu DNS (ms), ve kterém je nahlášen potenciální problém: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Překlad DNS trvá déle, než je obvyklé"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Server DNS překládá název hostitele (např. www.google.com) na IP adresu. Aby prohlížeč mohl načíst webové stránky, musí mít k dispozici IP adresu, ke které se má připojit. Serveru DNS tento překlad trvá příliš dlouho, což ve vašem připojení k internetu způsobuje prodlevy."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Srovnávací průměrná doba překladu DNS (ms), při jejímž překročení je nahlášen problém: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Překlad DNS trvá příliš dlouho"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Přijaté výsledky překladu DNS. Číslo testu / Aktuální čas / Délka trvání (ms) / Čas zahájení (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Celkový počet přeložených hostitelů DNS: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Celkový čas překladu DNS pro všechny testy (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Test překladače DNS provede jeden dotaz DNS, a pokud nebude vrácena platná odpověď, vrátí problémový stav."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Test překladače DNS provede jeden dotaz DNS, a pokud bude vrácena platná odpověď, vrátí bezproblémový stav."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Pokus o přeložení názvu hostitele: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Název hostitele přeložený na IP adresu: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Server DNS vrátil stavový kód problému: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Server DNS vrátil stavový kód úspěchu: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Test přítomnosti překladače"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome nalezl server DNS, který úspěšně přeložil název hostitele (např. www.google.com) na IP adresu."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Server DNS je k dispozici"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Server DNS překládá název hostitele (např. www.google.com) na IP adresu. Aby prohlížeč mohl načíst webové stránky, musí mít k dispozici IP adresu, ke které se má připojit. Chrome nemůže určit IP adresu webových stránek, které chcete navštívit, protože server DNS nefunguje. Kontaktujte svého poskytovatele internetových služeb nebo správce sítě."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Není k dispozici žádný funkční server DNS"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Server DNS vrátil výsledky dotazu DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Server DNS nevrátil žádný objekt (dokonce ani odpověď Záznam neexistuje). Test nebylo možné dokončit."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Připojení k síti zřejmě funguje správně."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "O aplikaci"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Skrýt absolvované testy"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Spustit testy znovu"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Odeslat názor..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Zobrazit absolvované testy"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Výsledky testu firewallu: počet spuštěných testů / kontrolovaný port / počet selhání připojení: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Připraven pokus o navázání připojení TCP – číslo / název hostitele / port: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Test firewallu TCP vrátil stavový kód TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Pokus o test připojení selhal a ze sady síťových protokolů Chrome nevrátil úspěšný stavový kód protokolu TCP. Místo toho vrátil následující stavový kód: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Zjištěný překladač DNS není k dispozici, nelze proto určit, zda je síť chráněna firewallem."
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Zjištěná síť není k dispozici, nelze proto určit, zda je síť chráněna firewallem."
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Test firewallu TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Bezproblémový stav je nahlášen, pokud je procento selhání ve výsledcích testu připojení TCP nižší nebo rovno: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Na portu nebyla zjištěna žádná omezení připojení k internetu. "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Provoz internetu není blokován firewallem na portu "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Potenciální problém je nahlášen, pokud je procento selhání ve výsledcích testu připojení TCP v intervalu: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Ve vaší síti zřejmě existuje omezení běžně využívaného připojení k internetu."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Provoz internetu je možná blokován firewallem na portu "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Ve vaší síti existuje omezení běžně využívaného připojení k internetu."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Problém je nahlášen, pokud je procento selhání ve výsledcích testu připojení TCP rovno: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Internetový provoz je blokován firewallem na portu "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Navázáno připojení TCP – hostitel / port / stavový kód: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Úspěšně navázáno připojení TCP – hostitel/port: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Selhání připojení TCP – hostitel / port / stavový kód: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Důvod selhání připojení: připojení bylo odmítnuto"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Důvod selhání připojení: vypršení časového limitu"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Důvod selhání připojení: Neznámý"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Chyba čtení dat TCP. Kód chyby: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Úspěšně načtená data ze soketu TCP o velikosti (v bajtech): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Přijata nezpracovaná data ze soketu TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Příprava odeslání dat o velikosti (v bajtech): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Vytváření soketu TCP, číslo/hostitel/port: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Úspěšně odeslána data o následující velikosti (v bajtech): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Nastavení délky časového limitu protokolu TCP (ms): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Zkopírovat protokoly výsledků"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Skrýt protokoly..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Byl zjištěn problém"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Byly zjištěny problémy"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "KRITÉRIA"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "PODROBNOSTI"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "PŘEHLED"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "INFORMACE O PODPOŘE"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "ID testu: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Název testu: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Výsledek testu: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Nebyl zjištěn žádný problém"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Byl zjištěn potenciální problém"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Byl zjištěn problém"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Zobrazit protokoly..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Při provádění testů na diagnostiku připojení došlo k chybě. Testy byly zrušeny. Pokud tento problém přetrvává, klikněte v nabídce Nastavení na možnost Odeslat názor..."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Probíhá testování. Může to trvat několik minut..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Chyba čtení dat UDP. Kód chyby: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Úspěšně přečtena data ze soketu UDP o následující velikosti (v bajtech): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Přijata nezpracovaná data ze soketu UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Příprava odeslání dat soketu UDP o následující velikosti (v bajtech): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Vytváření soketu UDP – číslo/hostitel/port: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Úspěšně odeslána data o následující velikosti (v bajtech): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Nastavování délky časového limitu protokolu UDP (ms): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Upozornění"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Upozornění"
+   }
+}

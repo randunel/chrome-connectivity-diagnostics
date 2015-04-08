@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "درباره برنامه"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "شماره نسخه: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (بتا)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (برنامه‌نویس)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "تشخیص مشکلات اتصال"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "تشخیص مشکلات اتصال"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "بستن"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "بزرگ کردن"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "بازیابی"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "تنظیمات"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "شماره درخواست / عناوین پاسخ HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "خطا در شماره درخواست / وضعیت خطا: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "شماره درخواست / کد پاسخ HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "شماره درخواست / طول پاسخ کامل: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "آزمایش HTTP پورتال محدود"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "اگر همه درخواست‌های HTTP یک کد وضعیت 204 HTTP را بازگردانند، آزمایش پورتال محدود HTTP یک نتیجه بدون مشکل را بازمی‌گرداند"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "هیچ پورتال محدودی یافت نشد. پورتال محدود، وب‌سایتی است که یک شبکه قبل از اینکه به کاربرانش برای مرور آزادانه اینترنت اجازه دهد از آنها می‌خواهد به مشاهده و تعامل با آن بپردازند."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "پورتال محدود (HTTP)، ترافیک اینترنت را مسدود نکرده است"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "پورتال محدود، وب‌سایتی است که یک شبکه قبل از اینکه به کاربرانش برای مرور آزادانه اینترنت اجازه دهد از آنها می‌خواهد به مشاهده و تعامل با آن بپردازند. یک پورتال محدود در شبکه شما یافت شد که نشان می‌دهد دسترسی نامحدود به اینترنت مسدود شده است."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "اگر یکی از درخواست‌های HTTP کد وضعیت 204 HTTP را بازنگرداند، آزمایش پورتال محدود HTTP یک نتیجه دارای مشکل را گزارش می‌دهد"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "پورتال محدود (HTTP)، ترافیک اینترنت را مسدود کرده است"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " در حال تلاش برای برقراری اتصال TCP به شماره / نام میزبان / درگاه: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " کد وضعیت TCP که توسط آزمایش اتصال اینترنت Chrome بازگردانده شده است: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "آزمایش قطع اتصال اینترنت Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "درصد سوکت‌های TCP که کدهای وضعیت قطع اتصال اینترنت را برمی‌گردانند، که کمتر از این درصد نتیجه بدون مشکلی دریافت می‌شود: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "یک اتصال اینترنت برای مرورگر Chrome در دسترس است."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "اتصال اینترنت در دسترس است"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome به شبکه‌ای متصل نیست. لطفاً تنظیمات شبکه سیستم عاملتان را بررسی کنید."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "درصد سوکت‌های TCP که کدهای وضعیت قطع اتصال اینترنت را برمی‌گردانند، که در مقادیر مساوی یا بالاتر از این درصد نتیجه دارای مشکلی دریافت می‌شود: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "به شبکه متصل نیست"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "تعداد شبکه‌های موجود شناسایی شده: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "آزمایش قطع اتصال اینترنت سیستم عامل Chrome"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "هنگامی که واسط شبکه متصل، یک کد وضعیت ‌متصل بازمی‌گرداند، نتیجه بدون مشکلی بازگردانده می‌شود"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "یک اتصال اینترنت در دسترس است."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "اتصال اینترنت در دسترس است"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "این Chromebook به شبکه متصل نیست. لطفاً به ناحیه وضعیت بروید و به یک شبکه موجود متصل شوید."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "هنگامی که واسط شبکه متصل یک کد وضعیت غیر متصل بازمی‌گرداند، نتیجه دارای مشکلی بازگردانده می‌شود: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "به شبکه متصل نیست"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "نام سیگنال / قدرت سیگنال شبکه: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "آزمایش قدرت سیگنال WiFi در ChromeOS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "معیار قدرت سیگنال ChromeOS که بالاتر از آن، نتیجه بدون مشکلی دریافت می‌شود: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "قدرت سیگنال شبکه WiFi قوی است."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "قدرت سیگنال شبکه قوی است"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "معیار قدرت سیگنال ChromeOS که کمتر از آن، نتیجه دارای مشکل دریافت می‌شود: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "قدرت سیگنال شبکه WiFi ضعیف است."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "قدرت سیگنال شبکه ضعیف است"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "شماره کامل پلتفورم سیستم عامل Chrome: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "نام نسخه سیستم عامل Chrome"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "آستانه شماره پلتفورم ChromeOS که بالاتر یا مساوی آن، نتیجه بدون مشکلی دریافت می‌کنیم: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "آزمایش نسخه سیستم عامل Chrome، مشکلی را شناسایی نکرد. نسخه سیستم عامل Chrome به روز است. حداقل نسخه اکنون این است: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "از جدیدترین نسخه سیستم عامل Chrome استفاده می‌کنید، بنابراین تمام رفع‌اشکال‌های شناخته شده را برای مشکلات اتصال در اختیار دارید."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "سیستم عامل Chrome به‌روز است"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "آزمایش نسخه سیستم عامل Chrome، مشکلی را شناسایی کرده است. نسخه سیستم عامل Chrome قدیمی است. حداقل نسخه اکنون این است: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "از جدیدترین نسخه سیستم عامل Chrome استفاده نمی‌کنید. در نتیجه تمام رفع‌اشکال‌های شناخته شده را ندارید، بنابراین ممکن است در اتصال با مشکل مواجه شوید."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "سیستم عامل Chrome قدیمی است"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "آستانه شماره پلتفورم ChromeOS که کمتر از آن، نتیجه دارای مشکلی دریافت می‌کنیم: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "عامل کاربر مرورگر خام: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "شماره کوتاه پلتفورم سیستم عامل Chrome: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "شماره نسخه مرورگر (کامل): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "آزمایش نسخه Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "آستانه شماره نسخه Chrome که بالاتر یا مساوی آن، نتیجه بدون مشکلی دریافت می‌کنیم: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "از جدیدترین نسخه Google Chrome استفاده می‌کنید، بنابراین تمام رفع‌اشکال‌های شناخته شده را برای اشکالات اتصال در اختیار دارید."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome جدیدترین نسخه است"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "از جدیدترین نسخه Google Chrome استفاده نمی‌کنید. در نتیجه تمام رفع‌اشکال‌های شناخته شده را ندارید، بنابراین ممکن است در اتصال با مشکل مواجه شوید."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome جدیدترین نسخه نیست"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "آستانه شماره نسخه Chrome که کمتر از آن، نتیجه دارای مشکلی دریافت می‌کنیم: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "عامل کاربر مرورگر خام: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "شماره نسخه مرورگر (کوتاه): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "شماره آزمایش / نام میزبان آزمایش: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " آدرس گزارش شده توسط DNS: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " کد وضعیتی که آزمایش گزارش کرده است: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "آزمایش مسمومیت DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " آزمایش هیچ فیلد آدرس DNS را گزارش نداده است (روی خالی تنظیم شده است)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "هنگامی که تحلیل کننده، آدرس IP مورد انتظار را گزارش کند، نتایج DNS دارای داده مسموم در نظر گرفته نمی‌شوند."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "نتایج DNS مورد انتظار بود و به نظر نمی‌رسد حاوی داده مسموم باشد."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "سرور DNS نتایج مورد انتظاری گزارش کرده است"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " آزمایش؛ کد وضعیت نتیجه‌ای وجود ندارد؛ لغو آزمایش به دلیل عدم موفقیت آن."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "یک پاسخ DNS حاوی داده مسموم گزارش شد. پاسخ DNS حاوی داده مسموم، ارتباطات را از فرستاده شدن به میزبان شبکه درخواست‌شده منحرف می‌کند."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "هنگامی که تحلیل کننده، آدرس IP مورد انتظار را گزارش نکند، نتایج DNS دارای داده مسموم در نظر گرفته می‌شوند."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "نتایج DNS غیرمنتظره بود و ممکن است حاوی داده مسموم باشد"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "اتصال TCP ناموفق بود و در درگاه ۴۴۳ برای میزبان مسدود شده است "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "اتصال TCP در درگاه ۴۴۳ برای میزبان با موفقیت انجام شد "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "اتصال UDP ناموفق بود و در درگاه مقصد مسدود شده است "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "اتصال UDP در درگاه مقصد با موفقیت انجام شد "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "آزمایش اتصال Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "آزمایش Hangouts مسدود شده نتیجه بدون مشکل را گزارش می‌دهد، اگر: (۱) یک اتصال بتواند از طریق stun.l.google.com در هر کدام از درگاه‌های UDP از ۱۹۳۰۲ تا ۱۹۳۰۹ برقرار شود (۲) یک اتصال TCP بتواند در apis.google.com، ‏clients6.google.com، ‏plus.google.com و ‏talkgadget.google.com برقرار شود."
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "مشکلی در اتصال به سرویس Hangouts یافت نشد."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "اتصال Hangouts برقرار است"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "اتصال به سرویس رسانه Hangouts در درگاه‌های UDP از شماره ۱۹۳۰۲ تا ۱۹۳۰۹ ممکن نیست."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "به نظر می‌رسد اتصال Hangouts تا حدی ضعیف شده است"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "آزمایش Hangouts مسدود شده نتیجه دارای مشکل را گزارش می‌دهد، اگر: (۱) همه درگاه‌های UDP مقصد از ۱۹۳۰۲ تا ۱۹۳۰۹ برای stun.l.google.com مسدود باشند (۲) برقراری اتصال TCP به هر یک از این میزبان‌های ذکر شده در درگاه ۴۴۳ ناموفق باشد: apis.google.com، ‏clients6.google.com، ‏plus.google.com،‏ talkgadget.google.com‏"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "به نظر می‌رسد درگاه‌ها و میزبان‌های مورد نیاز برای اتصال به Hangouts مسدود هستند."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "اتصال به سرویس گپ Hangouts ممکن نیست."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "اتصال به سرویس گپ Hangouts یا سرویس رسانه Hangouts در درگاه TCP شماره ۴۴۳ ممکن نیست."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "اتصال به سرویس رسانه Hangouts در درگاه TCP شماره ۴۴۳ و درگاه‌های UDP از شماره ۱۹۳۰۲ تا ۱۹۳۰۹ ممکن نیست."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "برقراری اتصال Hangout امکان‌پذیر نبود"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "زمان متوسط پاسخ HTTP (میلی‌ثانیه): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "خطا در شماره درخواست / وضعیت خطا: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "تعداد کل درخواست‌های HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "شماره پاسخ HTTP / زمان دریافت (مهر زمان کوچک) / زمان سپری شده (میلی‌ثانیه): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "کل زمان پاسخ HTTP (میلی‌ثانیه): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "آزمایش تأخیر HTTP در وب‌سایت‌های Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "زمان متوسط معیار تأخیر HTTP (میلی‌ثانیه) که کمتر از آن، نتیجه بدون مشکلی دریافت می‌شود: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "درخواست‌های ارسالی وب به Google به سرعت دریافت می‌شوند."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "هیچ تأخیری در دریافت پاسخ از وب‌سایت‌های Google وجود ندارد"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "زمان متوسط معیار تأخیر HTTP (میلی‌ثانیه) که در آن بازه، نتیجه‌ای دارای مشکل احتمالی دریافت می‌شود: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "دریافت پاسخ از وب‌سایت‌های Google کمی بیش از حد معمول طول کشیده است که نشان دهنده یک شبکه کند است."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "درخواست‌های ارسالی وب به Google بیش از مدت زمان پیش‌بینی شده طول کشیده است"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "دریافت پاسخ از وب‌سایت‌های Google بیش از حد معمول طول کشیده است که نشان دهنده یک شبکه کند است."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "زمان متوسط معیار تأخیر HTTP (میلی‌ثانیه) که بالاتر از آن، نتیجه‌ای دارای مشکل دریافت می‌شود: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "درخواست‌های ارسالی وب به Google بیش از حد طول کشیده است"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "آزمایش موفق"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "آزمایش‌های موفق"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "درخواست مستقیم ICMP به IP دروازه، هرگز بسته پاسخی دریافت نکرد."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "IP دروازه این مورد تعیین شده است: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "تعیین IP دروازه ممکن نیست"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "تأخیر بسته ICMP (میلی‌ثانیه): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP گزارش شده از ارسال بسته ICMP به یک میزبان راه دور با TTL برابر با ‏۱، همانند IP میزبان راه دور بود: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "آزمایش پینگ دروازه"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "آستانه تأخیر پینگ کردن دروازه (میلی‌ثانیه) که در مقادیر کمتر از آن نتیجه بدون مشکلی را دریافت می‌کنیم: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "با پینگ کردن دروازه پاسخ سریعی دریافت می‌شود."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "دروازه قابل دسترسی است"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "با پینگ کردن دروازه پاسخ سریعی دریافت نمی‌شود."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "آستانه تأخیر پینگ کردن دروازه (میلی‌ثانیه) که در مقادیر بالاتر از آن نتیجه دارای مشکلی را دریافت می‌کنیم: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "دروازه قابل دسترسی نیست"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "زمان متوسط تحلیل DNS (میلی‌ثانیه): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "تلاش برای تحلیل شماره نام میزبان: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "آزمایش زمان تأخیر تحلیل‌کننده"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "زمان متوسط معیار برای تحلیل DNS (میلی‌ثانیه) که کمتر از آن یک نتیجه بدون مشکل دریافت می‌شود: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "سرور DNS نام میزبان (مانند www.google.com) را به یک آدرس IP (مانند 74.125.228.98) ترجمه می‌کند. این فرآیند برای اتصال مرورگرتان به اینترنت ضروری است. Chrome می‌تواند با استفاده از تحلیل‌کننده محلی شما، به سرعت درخواست‌های DNS را تحلیل کند، که باعث تسریع در روند بارگیری صفحه می‌شود."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "تأخیری در تحلیل DNS وجود ندارد"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "سرور DNS نام میزبان (مانند www.google.com) را به یک آدرس IP ترجمه می‌کند. مرورگر به منظور بارگیری وب‌سایت، باید دارای یک آدرس IP برای اتصال به اینترنت باشد. سرور DNS که این ترجمه را انجام می‌دهد دارای تأخیر زیادی است، که باعث ایجاد تأخیر در اتصال اینترنت شما می‌شود."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "زمان متوسط معیار برای تحلیل DNS (میلی‌ثانیه) که در کمتر از آن، یک نتیجه دارای مشکل احتمالی دریافت می‌شود: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "تحلیل DNS بیش از مدت زمان متوسط طول کشیده است"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "سرور DNS نام میزبان (مانند www.google.com) را به یک آدرس IP ترجمه می‌کند. مرورگر به منظور بارگیری وب‌سایت، باید دارای یک آدرس IP برای اتصال به اینترنت باشد. سرور DNS که این ترجمه را انجام می‌دهد دارای تأخیر زیادی است، که باعث ایجاد تأخیر در اتصال اینترنت شما می‌شود."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "زمان متوسط معیار برای تحلیل DNS (میلی‌ثانیه) که در بالاتر از آن، یک نتیجه دارای مشکل دریافت می‌شود: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "تحلیل DNS بیش از حد طول کشیده است"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "نتیجه برای تحلیل DNS دریافت شد. شماره آزمایش / زمان کنونی / زمان سپری شده (میلی‌ثانیه) / زمان شروع (میلی‌ثانیه): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "کل میزبان‌های DNS تحلیل شده: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "زمان کل تحلیل DNS برای تمام آزمایش‌ها (میلی‌ثانیه): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "آزمایش تحلیل DNS یک درخواست واحد DNS انجام می‌دهد و اگر پاسخ معتبری برگشت داده نشود، یک نتیجه دارای مشکل را گزارش می‌کند."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "آزمایش تحلیل کننده DNS یک درخواست واحد DNS انجام می‌دهد و اگر پاسخ معتبری برگشت داده شود، یک نتیجه بدون مشکل را گزارش می‌کند."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "در حال تلاش برای تحلیل نام میزبان: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "نام میزبان تحلیل شده به آدرس IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "کد وضعیت مشکل که توسط سرور DNS بازگردانده شده است: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "کد وضعیت موفق که توسط سرور DNS گزارش شده است: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "آزمایش وجود تحلیل‌کننده"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome یک سرور DNS را یافته است که با موفقیت نام میزبان (به عنوان مثال www.google.com) را به آدرس IP ترجمه کرده است."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "سرور DNS موجود است"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "سرور DNS نام میزبان (مانند www.google.com) را به یک آدرس IP ترجمه می‌کند. مرورگر به منظور بارگیری وب‌سایت، باید دارای یک آدرس IP برای اتصال به اینترنت باشد. Chrome قادر به تعیین IP وب‌سایتی که می‌خواهید از آن بازدید کنید نیست، زیرا سرور DNS شما کار نمی‌کند. لطفاً با ISP یا سرپرست شبکه‌تان تماس بگیرید."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "هیچ سرور DNS فعالی موجود نیست"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "سرور DNS نتایج درخواست DNS را گزارش کرده است."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "سرور DNS هیچ موردی را گزارش نکرده است (حتی یک گزارش ثبت ورودی DNE)، بنابراین آزمایش کامل نشد."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "ظاهراً اتصال شبکه‌تان به درستی کار می‌کند."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "درباره"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "پنهان کردن آزمایش‌های موفق"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "اجرای مجدد آزمایش‌ها"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "ارسال بازخورد..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "نمایش آزمایش‌های موفق"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "نتایج آزمایش فایروال: آزمایش‌های انجام شده / درگاه‌های بررسی شده / تعداد اتصال‌های ناموفق: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " در حال تلاش برای برقراری اتصال TCP به شماره / نام میزبان / درگاه: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " کد وضعیت TCP که آزمایش فایروال TCP گزارش کرده است: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "تلاش برای آزمایش اتصال ناموفق بود و هیچ کد وضعیت موفق TCP از پشته شبکه Chrome گزارش نکرد اما به جای آن کد وضعیت دریافت شد: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "تحلیل‌کننده DNS شناسایی شده در دسترس نیست، بنابراین نمی‌توانیم تعیین کنیم آیا فایروالی موجود است یا خیر"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "شبکه شناسایی شده در دسترس نیست، بنابراین نمی‌توانیم تعیین کنیم آیا فایروالی موجود است یا خیر"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "آزمایش فایروال TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "زمانی که درصد اتصال‌های ناموفق آزمایش TCP، پایین‌تر یا مساوی این مقدار باشند، یک نتیجه بدون مشکل گزارش می‌شود: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "هیچ محدودیتی در اتصال اینترنت شما در درگاه شناسایی نشد "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "فایروال موجود در درگاه، ترافیک اینترنت را مسدود نکرده است "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "زمانی که تعداد اتصال‌های ناموفق آزمایش TCP، بین این مقادیر باشد، نتیجه دارای مشکل احتمالی گزارش می‌شود: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "ظاهراً در شبکه شما محدودیتی برای یک اتصال اینترنتی متداول وجود دارد."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "ممکن است فایروال موجود در درگاه، ترافیک اینترنت را مسدود کرده باشد "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "محدودیتی در شبکه شما برای یک اتصال اینترنتی متداول وجود دارد."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "زمانی که درصد اتصال‌های ناموفق آزمایش TCP، مساوی این مقدار باشند، یک نتیجه دارای مشکل گزارش می‌شود: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "فایروال موجود در درگاه، ترافیک اینترنت را مسدود کرده است "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "اتصال برقرار شده TCP با میزبان / درگاه / کد وضعیت: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "اتصال با موفقیت برقرار شده TCP با میزبان / درگاه: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "اتصال ناموفق TCP با میزبان / درگاه / کد وضعیت: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "دلیل اتصال ناموفق: اتصال رد شد"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "دلیل اتصال ناموفق: پایان مهلت زمانی"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "دلیل اتصال ناموفق: نامشخص"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "خطا هنگام خواندن داده‌های TCP. کد خطا: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "داده‌های خوانده شده از سوکت TCP با اندازه (بایت): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "داده‌های خام دریافت شده از سوکت TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "آماده‌سازی برای ارسال داده با اندازه (بایت): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "ایجاد سوکت TCP، شماره / میزبان / درگاه: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "داده‌های با موفقیت ارسال شده با اندازه (بایت): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "تنظیم طول مهلت زمانی TCP (میلی‌ثانیه): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "کپی گزارش‌های ایجاد شده"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "پنهان کردن گزارش‌ها…"
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "مشکلی یافت شد"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "مشکلاتی یافت شدند"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "معیارها"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "جزئیات"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "خلاصه"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "جزئیات پشتیبانی"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "شناسه آزمایش: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "نام آزمایش: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "نتیجه آزمایش: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "هیچ مشکلی شناسایی نشد"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "مشکل بالقوه‌ای شناسایی شد"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "مشکلی شناسایی شد"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "نمایش گزارش‌ها…"
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "هنگام اجرای آزمایش‌های تشخیص مشکلات اتصال خطایی روی داد. آزمایش‌ها قطع شدند. اگر مشکل ادامه یافت، لطفاً روی گزینه «ارسال بازخورد...» از منوی تنظیمات کلیک کنید."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "آزمایش‌ها در حال انجام هستند. ممکن است چند دقیقه طول بکشد…"
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "خطا هنگام خواندن داده‌های UDP. کد خطا: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "داده‌های با موفقیت خوانده شده از سوکت UDP با اندازه (بایت): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "داده‌های خام دریافتی از سوکت UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "آماده‌سازی برای ارسال داده‌های سوکت UDP با اندازه (بایت): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "ایجاد سوکت UDP، شماره / میزبان / درگاه: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "داده‌های با موفقیت ارسال شده با اندازه (بایت): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "تنظیم طول مهلت زمانی UDP (میلی‌ثانیه): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "اخطار"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "اخطارها"
+   }
+}

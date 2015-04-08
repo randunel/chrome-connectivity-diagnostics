@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Quant a l'aplicació"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Número de la versió: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Diagnòstic de connectivitat de Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Diagnòstic de connectivitat de Chrome (beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Diagnòstic de connectivitat de Chrome (des.)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Diagnòstic de connectivitat"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Diagnòstic de connectivitat"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Tanca"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maximitza"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Restaura"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Configuració"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Número de la resposta/capçalera de resposta HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Error en la sol·licitud núm./estat de l'error: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Número de la resposta/codi de resposta HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Número de sol·licitud/llargada de la resposta completa: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Prova de portal captiu HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "La prova de HTTP de portal captiu mostra un veredicte d'absència de problemes si totes les sol·licituds de HTTP ofereixen un codi d'estat HTTP 204 com a resultat."
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "No s'ha trobat cap portal captiu. Un portal captiu és un lloc web que una xarxa requereix que els usuaris visitin i hi interaccionin abans d'obtenir accés per navegar per Internet lliurement."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "El portal captiu (HTTP) no ha bloquejat el trànsit d'Internet"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Un portal captiu és un lloc web que els usuaris d'una xarxa han de visualitzar i amb el qual han d'interaccionar per poder navegar per Internet lliurement. S'ha trobat un portal captiu a la xarxa, la qual cosa significa que l'accés sense restriccions a Internet està bloquejat."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "La prova de HTTP de portal captiu mostra un veredicte de problema si alguna de les sol·licituds HTTP no mostra un codi d'estat HTTP 204 com a resultat."
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "El portal captiu (HTTP) ha bloquejat el trànsit d'Internet"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " S'està a punt de provar el número, el nom d'amfitrió o el port de la connexió TCP: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " La prova de connexió a Internet de Chrome ha ofert un codi d'estat de TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Prova d'Internet desconnectada de Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "El percentatge de sòcols TCP que ofereixen codis d'estat de desconnexió a Internet, per sota del qual es mostra un veredicte d'absència de problemes: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Hi ha una connexió a Internet disponible per al navegador Chrome."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Connexió a Internet disponible"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome no està connectat a cap xarxa. Comproveu la configuració de la xarxa del sistema operatiu."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Percentatge de sòcols de TCP que ofereixen com a resultat codis d'estat de desconnexió d'Internet (en cas que s'iguali o se superi, es mostra un veredicte d'absència de problemes): "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "No teniu connexió a la xarxa"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Nombre de xarxes disponibles detectades: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Prova d'Internet desconnectada de Chrome OS"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "S'ofereix un resultat d'absència de problemes quan la interfície de la xarxa connectada ofereix un codi d'estat de connexió."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Hi ha una connexió a Internet disponible."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Connexió a Internet disponible"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Aquest Chromebook no està connectat a la xarxa. Dirigiu-vos a la safata d'estat i connecteu-vos a una xarxa disponible."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "S'ofereix un resultat de problema quan la interfície de la xarxa connectada ofereix un codi d'estat de desconnexió: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "No teniu connexió a la xarxa"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Nom del senyal de xarxa/intensitat del senyal: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Prova de potència del senyal de Wi-Fi de ChromeOS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Comparativa d'intensitat del senyal de Chrome OS per sobre de la qual es mostra un veredicte d'absència de problemes: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "La intensitat del senyal de la xarxa Wi-Fi és forta."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Intensitat de senyal de xarxa forta"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Comparativa d'intensitat del senyal de Chrome OS per sota de la qual es mostra un veredicte de problema: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "La intensitat del senyal de la xarxa Wi-Fi és feble."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Intensitat de senyal de xarxa baixa"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Número de plataforma de Chrome OS complet: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Nom de la versió de ChromeOS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Límit de número de plataforma de Chrome OS (en cas que s'iguali o se superi, es mostra un veredicte d'absència de problemes): "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "No s'ha detectat cap problema en realitzar la prova de versió de Chrome OS. La versió de Chrome OS està actualitzada. Ara la versió mínima és: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Utilitzeu una versió recent de Chrome OS i, per tant, disposeu de totes les correccions conegudes d'errors de connectivitat."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS està actualitzat"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "S'ha detectat un problema en realitzar la prova de la versió de Chrome OS. La versió de Chrome OS no està actualitzada. Ara la versió mínima és: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Com que no utilitzeu la versió més recent de Chrome OS, no disposeu de totes les correccions d'errors coneguts i, per tant, és possible que tingueu problemes de connectivitat."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS no està actualitzat"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Límit de número de plataforma de Chrome OS (en cas que la versió sigui anterior, es mostra un veredicte de problema): "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Agent d'usuari del navegador RAW: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Número de plataforma de Chrome OS curt: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Número de la versió del navegador (complet): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Prova de la versió de Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Límit de número de la versió de Chrome (en cas que s'iguali o se superi, es mostra un veredicte d'absència de problemes): "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Feu servir una versió recent de Google Chrome i, per tant, disposeu de totes les correccions conegudes dels errors de connectivitat."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Utilitzeu la versió més recent de Google Chrome"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Com que no utilitzeu la versió més recent de Google Chrome, no disposeu de totes les correccions d'errors coneguts i, per tant, és possible que experimenteu problemes de connectivitat."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "No utilitzeu la versió més recent de Google Chrome"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Límit de número de la versió de Chrome (en cas que la versió sigui anterior, es mostra un veredicte de problema): "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Agent d'usuari del navegador RAW: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Número de la versió del navegador (curt): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Número de la prova/Nom d'amfitrió de la prova: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " S'ha ofert com a resultat una adreça de DNS resolta: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " La prova ha ofert el codi d'estat: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Prova d'enverinament de DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " La prova no ha ofert cap camp d'adreça de DNS (s'estableix com a nul)."
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Els resultats de DNS no es consideren malmesos quan el sistema de resolució mostra l'adreça IP esperada."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Els resultats de DNS han sigut els esperats i no semblen malmesos."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "El servidor de DNS ha ofert els resultats esperats"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " La prova no ha ofert cap codi d'estat de resultat (la prova s'anul·larà perquè s'ha produït un error)."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "S'ha ofert una resposta de DNS malmesa. Una resposta de DNS malmesa fa que la comunicació no s'enviï a l'amfitrió de xarxa sol·licitat."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Els resultats de DNS es consideren malmesos si el sistema de resolució no mostra l'adreça IP esperada."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Els resultats de DNS no han sigut els esperats i semblen malmesos"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "La connexió TCP no s'ha pogut realitzar i s'ha bloquejat al port 443 per a l'amfitrió. "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "La connexió TCP s'ha realitzat correctament al port 443 per a l'amfitrió. "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "La connexió UDP no s'ha pogut realitzar i s'ha bloquejat al port de destinació. "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "La connexió UDP s'ha realitzat correctament al port de destinació. "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Prova de connectivitat de Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "La prova de bloqueig de Hangouts mostra un veredicte d'absència de problemes si: (1) es pot establir una connexió amb stun.l.google.com a qualsevol port UDP comprès entre el 19302 i el 19309; (2) es pot establir una connexió TCP amb apis.google.com, clients6.google.com, plus.google.com i talkgadget.google.com."
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "No s'ha trobat cap problema durant la connexió al servei Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Connexió a Hangouts disponible"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "No es pot connectar amb el servei multimèdia Hangouts als ports UDP compresos entre el 19302 i el 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "La connexió a Hangouts es mostra reduïda parcialment"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "La prova de bloqueig de Hangouts mostra un veredicte de problema si: (1) tots els ports de destinació UDP compresos entre el 19302 i el 19309 estan bloquejats per a stun.l.google.com; (2) no es pot establir una connexió TCP per a cap dels amfitrions següents al port 443: apis.google.com, clients6.google.com, plus.google.com i talkgadget.google.com."
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Sembla que els ports i els amfitrions necessaris per connectar-se a Hangouts estan bloquejats."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "No es pot connectar amb el servei de xat de Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "No es pot connectar amb el servei de xat de Hangouts ni amb el servei multimèdia de Hangouts al port TCP 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "No es pot connectar amb el servei multimèdia de Hangouts als ports UDP compresos entre el 19302 i el 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "No s'ha pogut establir la connexió amb Hangouts"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Temps de resposta de HTTP mitjà (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Error en la sol·licitud núm./estat de l'error: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Nombre total de sol·licituds HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Resposta HTTP núm./hora de recepció (micromarca de temps)/temps passat (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Temps de resposta de HTTP total (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Prova de latència HTTP dels llocs web de Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Comparativa de temps de latència de HTTP mitjà (ms) per sota de la qual es mostra un veredicte d'absència de problemes: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Les sol·licituds web a Google es reben ràpidament."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "No hi ha retards en la recepció de les respostes des dels llocs web de Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Comparativa de temps de latència de HTTP mitjà (ms) per sota de la qual es mostra un veredicte de problema potencial: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Es triga una mica més del normal a rebre una resposta des dels llocs web de Google. Això indica que la xarxa és lenta."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Les sol·licituds web a Google triguen més del que s'esperava"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Es triga massa a rebre una resposta des dels llocs web de Google. Això indica que la xarxa és lenta."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Comparativa de temps de latència de HTTP mitjà (ms) per sobre de la qual es mostra un veredicte de problema: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Les sol·licituds web a Google triguen massa"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Prova aprovada"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Proves aprovades"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "La consulta d'ICMP feta directament a l'IP de la passarel·la no ha rebut mai cap paquet de resposta."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "La IP de la passarel·la s'ha determinat en: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "No s'ha pogut determinar la IP de la passarel·la."
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Latència del paquet ICMP (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "L'adreça IP que es mostra a partir de l'enviament d'un paquet ICMP a un amfitrió remot amb una TTL d'1 és la mateixa que l'adreça IP d'un amfitrió remot: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Prova de passarel·la de l'acció de fer ping"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Límit per a la latència (ms) per fer ping a la passarel·la per sota de la qual es mostra un veredicte d'absència de problemes: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "L'acció de fer ping a la passarel·la produeix una resposta ràpida."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Es pot accedir a la passarel·la"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "L'acció de fer ping a la passarel·la no produeix una resposta ràpida."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Límit per a la latència (ms) per fer ping a la passarel·la per sobre de la qual es mostra un veredicte de problema: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "No es pot accedir a la passarel·la"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Temps de resolució de DNS mitjà (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "S'està provant de resoldre el nom d'amfitrió núm.: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Prova de latència del component de resolució"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Comparativa de temps de resolució de DNS mitjà (ms) per sota de la qual es mostra un veredicte d'absència de problemes: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Un servidor DNS tradueix un nom d'amfitrió (per exemple, google.com) a una adreça IP (per exemple, 74.125.228.98). Aquest procés és necessari per tal que el navegador es pugui connectar a Internet. Chrome és capaç de resoldre amb rapidesa les sol·licituds de DNS amb el gestor local, la qual cosa accelera el procés de càrrega d'una pàgina."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "No hi ha retard en la resolució de DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Un servidor DNS tradueix un nom d'amfitrió (per exemple, www.google.com) a una adreça IP. Un navegador ha de tenir una adreça IP a la qual connectar-se per tal de carregar una pàgina web. El servidor DNS que realitza aquesta traducció triga massa i això causa retards en la connexió a Internet."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Comparativa de temps de resolució de DNS mitjà (ms) per sota de la qual es mostra un veredicte de problema potencial: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "La resolució de DNS triga més del que és normal"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Un servidor DNS tradueix un nom d'amfitrió (per exemple, www.google.com) a una adreça IP. Un navegador ha de tenir una adreça IP a la qual connectar-se per tal de carregar un lloc web. El servidor DNS que realitza aquesta traducció triga massa i això causa retards en la connexió a Internet."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Comparativa de temps de resolució de DNS mitjà (ms) per sobre de la qual es mostra un veredicte de problema: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "La resolució de DNS tarda massa."
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "S'ha rebut el resultat de la resolució de DNS. Número de la prova/hora actual/temps necessari (ms)/hora en què ha començat (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Total d'amfitrions DNS que s'han resolt: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Temps total de resolució de DNS de totes les proves (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "La prova de resolució de DNS realitza una única consulta de DNS i ofereix un veredicte de problema si no s'ofereix una resposta vàlida."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "La prova de resolució de DNS realitza una única consulta de DNS i ofereix un veredicte d'absència de problemes si s'ofereix una resposta vàlida."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "S'està provant de resoldre el nom d'amfitrió: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "S'ha determinat el nom d'amfitrió amb l'adreça IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "El servidor de DNS ha ofert com a resultat un codi d'estat de problema: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "El servidor DNS ha ofert un codi d'estat correcte: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Prova de component de resolució present"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome ha trobat un servidor DNS que ha traduït adequadament el nom d'amfitrió (per exemple, www.google.com) a una adreça IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Hi ha un servidor DNS disponible"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Un servidor DNS tradueix un nom d'amfitrió (per exemple, www.google.com) a una adreça IP. Un navegador ha de tenir una adreça IP a la qual connectar-se per tal de carregar un lloc web. Chrome no pot determinar l'adreça IP del lloc web que voleu visitar perquè el servidor DNS no funciona. Contacteu amb l'ISP o amb l'administrador de la xarxa."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "No hi ha cap servidor DNS en funcionament disponible"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "El servidor DNS ha ofert resultats de consulta de DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "El servidor DNS no ha ofert cap objecte (ni tampoc cap registre d'entrada de DNE) i, per tant, la prova no s'ha completat."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Sembla que la vostra connexió de xarxa funciona correctament."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Informació"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Amaga les proves aprovades"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Torna a executar les proves"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Envia comentaris..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Mostra les proves aprovades"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Resultats de la prova de tallafoc: prova que s'ha executat/port que s'ha comprovat/quantitat de connexions amb errors: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " S'està a punt de provar el número, l'amfitrió o el port de connexió TCP: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " La prova de tallafocs de TCP ha mostrat el codi d'estat de TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "L'intent de prova de connexió ha fallat i no ha mostrat cap codi d'estat de TCP correcte des de la pila de xarxa de Chrome però, en lloc d'això, ha mostrat el codi d'estat: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "El sistema de resolució de DNS que s'ha detectat no està disponible i, per tant, no podem determinar si hi ha un tallafoc."
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "La xarxa que s'ha detectat no està disponible i, per tant, no podem determinar si hi ha un tallafoc."
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Prova de tallafoc de TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "S'ofereix un veredicte d'absència de problemes quan el percentatge de resultats d'error de la prova de connexió de TCP és inferior o igual a: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "No s'han detectat restriccions per a la connexió a Internet al port. "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Un tallafoc del port no ha bloquejat el trànsit d'Internet "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "S'ofereix un veredicte de problema potencial quan la quantitat de resultats d'error de la prova de connexió de TCP es troba entre: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Sembla que hi ha una restricció a la xarxa per a una connexió a Internet que es fa servir sovint."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "És possible que un tallafoc del port bloquegi el trànsit d'Internet "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Hi ha una restricció a la xarxa per a una connexió d'Internet que es fa servir sovint."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "S'ofereix un veredicte de problema quan el percentatge de resultats d'error de la prova de connexió de TCP és igual a: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Un tallafoc del port ha bloquejat el trànsit d'Internet "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "S'ha establert la connexió TCP amb l'amfitrió, amb el port o amb el codi d'estat: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "S'ha establert correctament la connexió TCP amb l'amfitrió o amb el port: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "No s'ha pogut establir la connexió TCP amb l'amfitrió, amb el port o amb el codi d'estat: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Motiu de l'error de connexió: s'ha rebutjat la connexió."
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Motiu de l'error de connexió: s'ha superat el temps d'espera."
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Motiu de l'error de connexió: desconegut"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "S'ha produït un error en llegir les dades de TCP. Codi d'error: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Dades llegides correctament del sòcol TCP amb la mida (en bytes): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Dades sense processar rebudes del sòcol TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "S'està preparant el sistema per enviar les dades amb la mida (en bytes): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "S'està creant un sòcol, un nombre, un amfitrió o un port de TCP: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Dades enviades correctament amb la mida (en bytes): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "S'està configurant la durada del temps d'espera de TCP (ms): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Copia els registres dels resultats"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Amaga els registres..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "S'ha trobat un error."
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "S'han trobat errors."
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "CRITERIS"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "DETALLS"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "RESUM"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "DETALLS D'ASSISTÈNCIA"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Identificador de la prova: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Nom de la prova: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Resultat de la prova: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "No s'ha trobat cap problema."
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "S'ha trobat un problema potencial."
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "S'ha trobat un problema."
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Mostra els registres..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "S'ha produït un error durant l'execució de les proves de diagnòstic de connectivitat, i s'han anul·lat. Si el problema continua, feu clic a l'opció Envia comentaris... del menú Configuració."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "S'estan executant proves. Aquesta acció pot trigar uns quants minuts..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "S'ha produït un error en llegir les dades d'UDP. Codi d'error: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Dades llegides correctament del sòcol UDP amb la mida (en bytes): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Dades sense processar rebudes del sòcol UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "S'està preparant el sistema per enviar les dades del sòcol UDP amb la mida (en bytes): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "S'està creant un sòcol UDP, un nombre, un amfitrió o un port d'UDP: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Dades enviades correctament amb la mida (en bytes): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "S'està configurant la durada del temps d'espera d'UDP (ms): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Advertiment"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Advertiments"
+   }
+}

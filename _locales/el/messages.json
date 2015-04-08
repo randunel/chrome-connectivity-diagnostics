@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Σχετικά με την εφαρμογή"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Αριθμός έκδοσης: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Διαγνωστικά στοιχεία συνδεσιμότητας Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Διαγνωστικά συνδεσιμότητας Chrome (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Διαγνωστικά συνδεσιμότητας Chrome (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Διαγνωστικά συνδεσιμότητας"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Διαγνωστικά συνδεσιμότητας"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Κοντά"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Μεγιστοποίηση"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Επαναφορά"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Ρυθμίσεις"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Αριθμός απόκρισης / κεφαλίδες απόκρισης HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Σφάλμα αιτήματος # / κατάσταση σφάλματος: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Αριθμός απόκρισης / κωδικός απόκρισης HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Αριθμός αιτήματος / πλήρης έκταση απόκρισης: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Έλεγχος πύλης υποδοχής HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Ο έλεγχος πύλης υποδοχής HTTP επιστρέφει κατάσταση χωρίς προβλήματα εάν όλα τα αιτήματα HTTP επιστρέψουν κωδικό κατάστασης HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Δεν βρέθηκε πύλη υποδοχής στο δίκτυό σας. H πύλη υποδοχής είναι ένας ιστότοπος που παρεμβάλλεται υποχρεωτικά σε ορισμένα δίκτυα μεταξύ των χρηστών και του διαδικτύου και απαιτεί την προβολή περιεχομένου ή κάποια αλληλεπίδραση για να επιτρέψει την ελεύθερη περιήγηση στο διαδίκτυο."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Η επισκεψιμότητα στο διαδίκτυο δεν παρεμποδίστηκε από πύλη υποδοχής (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "H πύλη υποδοχής είναι ένας ιστότοπος που παρεμβάλλεται υποχρεωτικά σε ορισμένα δίκτυα μεταξύ των χρηστών και του διαδικτύου και απαιτεί την προβολή περιεχομένου ή κάποια αλληλεπίδραση για να επιτρέψει την ελεύθερη περιήγηση στο διαδίκτυο. Εντοπίστηκε μια πύλη υποδοχής στο δίκτυό σας και αυτό σημαίνει ότι δεν επιτρέπεται η πρόσβαση στο διαδίκτυο χωρίς περιορισμούς."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Ο έλεγχος πύλης υποδοχής HTTP επιστρέφει κατάσταση προβλήματος εάν κάποιο από τα αιτήματα HTTP δεν επιστρέψει κωδικό κατάστασης HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Η επισκεψιμότητα στο διαδίκτυο παρεμποδίστηκε από πύλη υποδοχής (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Πρόκειται να γίνει προσπάθεια δημιουργίας σύνδεσης TCP # / όνομα κεντρικού υπολογιστή / θύρα: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Ο έλεγχος σύνδεσης του Chrome στο διαδίκτυο επέστρεψε κωδικό κατάστασης TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Έλεγχος αποσύνδεσης του Chrome από το διαδίκτυο"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Ποσοστό υποδοχών TCP με επιστροφή κωδικών κατάστασης κάτω από το οποίο δεν θεωρείται προβληματικό το αποτέλεσμα: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Υπάρχει διαθέσιμη μια σύνδεση στο διαδίκτυο για το πρόγραμμα περιήγησης Chrome."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Διαθέσιμη σύνδεση στο διαδίκτυο"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Το Chrome δεν είναι συνδεδεμένο σε δίκτυο. Ελέγξτε τις ρυθμίσεις δικτύου του λειτουργικού συστήματός σας."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Ελάχιστο ποσοστό υποδοχών TCP με επιστροφή κωδικών κατάστασης αποσύνδεσης από το διαδίκτυο που απαιτείται για τον καθορισμό προβληματικής κατάστασης: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Δεν υπάρχει σύνδεση στο δίκτυο"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Αριθμός διαθέσιμων δικτύων που εντοπίστηκαν: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Έλεγχος αποσύνδεσης του ChromeOS από το διαδίκτυο"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Επιστρέφεται αποτέλεσμα χωρίς προβλήματα όταν η συνδεδεμένη διεπαφή δικτύου επιστρέφει κωδικό κατάστασης σύνδεσης"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Υπάρχει διαθέσιμη σύνδεση στο διαδίκτυο."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Διαθέσιμη σύνδεση στο διαδίκτυο"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Αυτό το Chromebook δεν είναι συνδεδεμένο σε δίκτυο. Μεταβείτε στην περιοχή κατάστασης και συνδεθείτε σε ένα διαθέσιμο δίκτυο."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Επιστρέφεται προβληματικό αποτέλεσμα όταν η συνδεδεμένη διεπαφή δικτύου επιστρέφει κωδικό κατάστασης αποσύνδεσης: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Δεν υπάρχει σύνδεση στο δίκτυο"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Όνομα / ισχύς σήματος δικτύου: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Έλεγχος ισχύος σήματος WiFi ChromeOS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Σημείο αναφοράς ισχύος σήματος ChromeOS πάνω από το οποίο επιστρέφεται κατάσταση χωρίς προβλήματα: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Η ισχύς σήματος του δικτύου WiFi είναι ισχυρή."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Η ισχύς σήματος του δικτύου είναι ισχυρή"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Σημείο αναφοράς ισχύος σήματος ChromeOS κάτω από το οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Η ισχύς σήματος του δικτύου WiFi είναι χαμηλή."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Η ισχύς σήματος δικτύου είναι χαμηλή"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Πλήρης αριθμός πλατφόρμας Chrome OS: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Όνομα έκδοσης ChromeOS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Όριο για τον αριθμό της πλατφόρμας Chrome OS από τον οποίο και πάνω επιστρέφεται κατάσταση χωρίς προβλήματα: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Ο έλεγχος της έκδοσης του Chrome OS δεν εντόπισε κανένα πρόβλημα. Η έκδοση του Chrome OS είναι ενημερωμένη. Η ελάχιστη έκδοση είναι αυτήν τη στιγμή: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Χρησιμοποιείτε την πιο πρόσφατη έκδοση του Chrome OS και, συνεπώς, διαθέτετε όλες τις γνωστές επιδιορθώσεις για τα σφάλματα συνδεσιμότητας."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Το Chrome OS είναι ενημερωμένο"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Ο έλεγχος της έκδοσης του Chrome OS εντόπισε ένα πρόβλημα. Η έκδοση του Chrome OS δεν είναι ενημερωμένη. Η ελάχιστη έκδοση είναι αυτήν τη στιγμή: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Δεν χρησιμοποιείτε την πιο πρόσφατη έκδοση του Chrome OS. Συνεπώς, δεν διαθέτετε όλες τις γνωστές επιδιορθώσεις σφαλμάτων και ενδέχεται να αντιμετωπίσετε προβλήματα συνδεσιμότητας."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Το Chrome OS δεν είναι ενημερωμένο"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Όριο για τον αριθμό πλατφόρμας ChromeOS κάτω από τον οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Μη επεξεργασμένος παράγοντας χρήστη προγράμματος περιήγησης: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Σύντομος αριθμός πλατφόρμας Chrome OS: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Αριθμός έκδοσης προγράμματος περιήγησης (πλήρης): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Έλεγχος έκδοσης του Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Ελάχιστος αριθμός έκδοσης Chrome που απαιτείται για την επιστροφή κατάστασης χωρίς προβλήματα: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Χρησιμοποιείτε μια πρόσφατη έκδοση του Google Chrome και, συνεπώς, διαθέτετε όλες τις γνωστές επιδιορθώσεις για τα σφάλματα συνδεσιμότητας."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Έχετε την τελευταία έκδοση του Google Chrome"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Δεν χρησιμοποιείτε την πιο πρόσφατη έκδοση του Google Chrome. Συνεπώς, δεν διαθέτετε όλες τις γνωστές επιδιορθώσεις σφαλμάτων και ενδέχεται να αντιμετωπίσετε προβλήματα συνδεσιμότητας."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Δεν διαθέτετε την τελευταία έκδοση του Google Chrome"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Μέγιστος αριθμός έκδοσης Chrome κάτω από τον οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Μη επεξεργασμένος παράγοντας χρήστη προγράμματος περιήγησης: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Αριθμός έκδοσης προγράμματος περιήγησης (σύντομος): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Έλεγχος # / Έλεγχος ονόματος κεντρικού υπολογιστή: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " επέστρεψε διεύθυνση DNS που έχει επιλυθεί: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " ο έλεγχος επέστρεψε κωδικό κατάστασης: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Έλεγχος αλλοίωσης DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " ο έλεγχος δεν επέστρεψε κανένα πεδίο διεύθυνσης DNS (ορίστηκε σε null)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Τα αποτελέσματα DNS θεωρούνται μη αλλοιωμένα όταν το πρόγραμμα επίλυσης επιστρέφει την αναμενόμενη διεύθυνση IP."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Τα αποτελέσματα DNS ήταν αναμενόμενα και δεν φαίνονται αλλοιωμένα."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Ο διακομιστής DNS επέστρεψε αναμενόμενα αποτελέσματα."
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " έλεγχος, χωρίς κωδικό κατάστασης αποτελέσματος, ακύρωση ελέγχου λόγω αποτυχίας."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Επιστράφηκε αλλοιωμένη απόκριση DNS. Η αλλοιωμένη απόκριση DNS εκτρέπει την αποστολή της επικοινωνίας στον αιτούμενο κεντρικό υπολογιστή δικτύου."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Τα αποτελέσματα DNS θεωρούνται αλλοιωμένα όταν το πρόγραμμα επίλυσης δεν επιστρέφει την αναμενόμενη διεύθυνση IP."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Τα αποτελέσματα DNS ήταν μη αναμενόμενα και ενδέχεται να είναι αλλοιωμένα."
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Αποτυχία σύνδεσης TCP και αποκλεισμός στη θύρα 443 για τον κεντρικό υπολογιστή "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Επιτυχής σύνδεση TCP στη θύρα 443 για τον κεντρικό υπολογιστή "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Αποτυχία σύνδεσης UDP και αποκλεισμός στη θύρα προορισμού "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Επιτυχής σύνδεση UDP στη θύρα προορισμού "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Έλεγχος συνδεσιμότητας Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Ο έλεγχος αποκλεισμένων Hangouts επιστρέφει κατάσταση χωρίς προβλήματα εάν: (1) μπορεί να δημιουργηθεί σύνδεση στη διεύθυνση stun.l.google.com ή σε οποιαδήποτε θύρα UDP από 19302 έως 19309 (2) Μπορεί να δημιουργηθεί μια σύνδεση TCP στις τοποθεσίες apis.google.com, clients6.google.com, plus.google.com και talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Δεν εντοπίστηκαν προβλήματα με τη σύνδεση στην υπηρεσία Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Διαθέσιμη σύνδεση Hangouts"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Δεν είναι δυνατή η σύνδεση στην υπηρεσία μέσων Hangouts στις θύρες UDP 19302 έως 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Η σύνδεση στο Hangouts φαίνεται μερικώς υποβαθμισμένη"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Ο έλεγχος αποκλεισμένου Hangouts επιστρέφει κατάσταση προβλήματος εάν: (1) όλες οι θύρες προορισμού UDP από 19302 έως 19309 είναι αποκλεισμένες για τη διεύθυνση stun.l.google.com (2) Αποτυγχάνει μια σύνδεση TCP σε οποιονδήποτε από τους ακόλουθους κεντρικούς υπολογιστές στη θύρα 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Οι θύρες και οι κεντρικοί υπολογιστές που απαιτούνται για τη σύνδεση στο Hangouts φαίνονται να έχουν αποκλειστεί."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Δεν είναι δυνατή η σύνδεση στην υπηρεσία συζήτησης Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Δεν είναι δυνατή η σύνδεση στην υπηρεσία συζήτησης Hangouts ή στην υπηρεσία μέσων Hangouts στη θύρα TCP 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Δεν είναι δυνατή η σύνδεση στην υπηρεσία μέσων Hangouts στη θύρα TCP 443 και στις θύρες UDP 19302 έως 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Δεν ήταν δυνατή η επίτευξη σύνδεσης με το Hangout"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Μέσος χρόνος απόκρισης HTTP (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Σφάλμα αιτήματος # / κατάσταση σφάλματος: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Συνολικός αριθμός αιτημάτων HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Απόκριση HTTP # / χρόνος λήψης (microtimestamp) / χρόνος που έχει περάσει (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Συνολικός χρόνος απόκρισης HTTP (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Έλεγχος λανθάνοντος χρόνου ιστότοπων HTTP της Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Σημείο αναφοράς μέσου λανθάνοντος χρόνου HTTP (ms) κάτω από το οποίο επιστρέφεται κατάσταση χωρίς προβλήματα: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "H λήψη των αιτημάτων ιστού προς την Google γίνεται γρήγορα."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Δεν υπάρχει καθυστέρηση στη λήψη αποκρίσεων από ιστότοπους της Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Μέσος λανθάνων χρόνος HTTP (ms) κατά τον οποίο επιστρέφεται κατάσταση ενδεχόμενου προβλήματος: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Η λήψη απόκρισης από ιστότοπους της Google καθυστερεί λίγο περισσότερο από όσο θα έπρεπε, γεγονός που υποδεικνύει αργό δίκτυο."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Τα αιτήματα ιστού στην Google καθυστερούν περισσότερο από το αναμενόμενο"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Η λήψη απόκρισης από ιστότοπους της Google καθυστερεί περισσότερο από όσο θα έπρεπε, γεγονός που υποδεικνύει αργό δίκτυο."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Σημείο αναφοράς μέσου λανθάνοντος χρόνου HTTP (ms) πάνω από το οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Τα αιτήματα ιστού στην Google καθυστερούν υπερβολικά"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Επιτυχής έλεγχος"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Επιτυχείς έλεγχοι"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Το ερώτημα ICMP απευθείας στη διεύθυνση IP της πύλης δεν έλαβε ποτέ πακέτο απόκρισης."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Η διεύθυνση IP της πύλης προσδιορίστηκε ως: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Δεν ήταν δυνατός ο προσδιορισμός της διεύθυνσης IP της πύλης"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Λανθάνων χρόνος πακέτου ICMP (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "Η διεύθυνση IP που επιστράφηκε από την αποστολή ενός πακέτου ICMP σε έναν απομακρυσμένο κεντρικό υπολογιστή με τιμή TTL 1 ήταν η ίδια με τη διεύθυνση IP του απομακρυσμένου κεντρικού υπολογιστή: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Έλεγχος πύλης ping"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Όριο για τον λανθάνοντα χρόνο (ms) για ping στην πύλη κάτω από τον οποίο επιστρέφεται κατάσταση χωρίς προβλήματα: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Το ping της πύλης προκαλεί γρήγορη απάντηση."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Η πύλη είναι προσβάσιμη"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Το ping της πύλης δεν προκαλεί γρήγορη απάντηση."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Όριο για τον λανθάνοντα χρόνο (ms) για ping στην πύλη πάνω από τον οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Μη προσβάσιμη πύλη"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Μέση διάρκεια ανάλυσης DNS (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Προσπάθεια επίλυσης ονόματος κεντρικού υπολογιστή #: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Έλεγχος λανθάνοντος χρόνου προγράμματος επίλυσης"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Σημείο αναφοράς μέσης διάρκειας ανάλυσης DNS (ms) βάσει του οποίου επιστρέφεται κατάσταση χωρίς προβλήματα: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Οι διακομιστές DNS μεταφράζουν τα ονόματα κεντρικών υπολογιστών (π.χ. google.com) σε διευθύνσεις IP (π.χ. 74.125.228.98). Η διαδικασία αυτή είναι απαραίτητη προκειμένου να συνδεθεί το πρόγραμμα περιήγησής σας με το διαδίκτυο. Το Chrome μπορεί να επιλύσει γρήγορα τα αιτήματα DNS χρησιμοποιώντας το τοπικό πρόγραμμα επίλυσης, με αποτέλεσμα να επιταχύνεται η διαδικασία φόρτωσης μιας σελίδας."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Δεν υπάρχει καθυστέρηση στην ανάλυση DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Οι διακομιστές DNS μεταφράζουν τα ονόματα κεντρικών υπολογιστών (π.χ. www.google.com) σε διευθύνσεις IP. Για να φορτώσουν έναν ιστότοπο, τα προγράμματα περιήγησης πρέπει συνδεθούν σε μια διεύθυνση IP. Ο διακομιστής DNS που πραγματοποιεί αυτήν τη μετάφραση καθυστερεί υπερβολικά, με αποτέλεσμα να καθυστερεί και τη σύνδεσή σας στο διαδίκτυο."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Σημείο αναφοράς μέσης διάρκειας ανάλυσης DNS (ms) κάτω από το οποίο επιστρέφεται κατάσταση ενδεχόμενου προβλήματος: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Η ανάλυση DNS διαρκεί περισσότερο απ' ό,τι συνήθως"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Οι διακομιστές DNS μεταφράζουν τα ονόματα κεντρικών υπολογιστών (π.χ. www.google.com) σε διευθύνσεις IP. Για να φορτώσουν έναν ιστότοπο, τα προγράμματα περιήγησης πρέπει συνδεθούν σε μια διεύθυνση IP. Ο διακομιστής DNS που πραγματοποιεί αυτήν τη μετάφραση καθυστερεί υπερβολικά, με αποτέλεσμα να καθυστερεί και τη σύνδεσή σας στο διαδίκτυο."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Σημείο αναφοράς μέσης διάρκειας ανάλυσης DNS (ms) πάνω από το οποίο επιστρέφεται κατάσταση προβλήματος: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Η ανάλυση DNS καθυστερεί πολύ"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Έγινε λήψη αποτελέσματος για την ανάλυση DNS. Αριθμός ελέγχου / τρέχουσα ώρα / Ώρα λήψης (ms) / Ώρα έναρξης (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Συνολικός αριθμός διακομιστών DNS που επιλύθηκαν: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Συνολική διάρκεια ανάλυσης DNS για όλους τους ελέγχους (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Ο έλεγχος του προγράμματος επίλυσης DNS εκτελεί ένα μεμονωμένο ερώτημα DNS και επιστρέφει κατάσταση προβλήματος εάν δεν επιστραφεί έγκυρη απόκριση."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Ο έλεγχος του προγράμματος επίλυσης DNS εκτελεί ένα μεμονωμένο ερώτημα DNS και επιστρέφει κατάσταση χωρίς προβλήματα εάν επιστραφεί έγκυρη απόκριση."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Προσπάθεια επίλυσης του ονόματος κεντρικού υπολογιστή: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Το όνομα κεντρικού υπολογιστή επιλύθηκε στη διεύθυνση IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Ο διακομιστής DNS επέστρεψε κωδικό κατάστασης προβλήματος: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Ο διακομιστής DNS επέστρεψε κωδικό κατάστασης επιτυχίας: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Τρέχων έλεγχος προγράμματος επίλυσης"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Το Chrome εντόπισε έναν διακομιστή DNS που μετέφρασε επιτυχώς ένα όνομα κεντρικού υπολογιστή (π.χ. www.google.com) σε διεύθυνση IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Διαθέσιμος διακομιστής DNS"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Οι διακομιστές DNS μεταφράζουν τα ονόματα κεντρικών υπολογιστών (π.χ. www.google.com) σε διευθύνσεις IP. Για να φορτώσουν έναν ιστότοπο, τα προγράμματα περιήγησης πρέπει να συνδεθούν σε μια διεύθυνση IP. Το Chrome δεν μπορεί να καθορίσει τη διεύθυνση IP του ιστότοπου που επιθυμείτε να επισκεφτείτε επειδή ο διακομιστής DNS σας δεν λειτουργεί. Επικοινωνήστε με τον ISP ή το διαχειριστή του δικτύου."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Δεν υπάρχει διαθέσιμος διακομιστής DNS σε λειτουργία"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Ο διακομιστής DNS επέστρεψε αποτελέσματα ερωτήματος DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Ο διακομιστής DNS δεν επέστρεψε κανένα στοιχείο (ούτε μια καταχώριση εγγραφής DNE), επομένως ο έλεγχος δεν ολοκληρώθηκε."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Η σύνδεση δικτύου σας φαίνεται να λειτουργεί σωστά."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Πληροφορίες"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Απόκρυψη επιτυχών ελέγχων"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Επαναληπτικοί έλεγχοι"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Αποστολή σχολίων…"
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Εμφάνιση επιτυχών ελέγχων"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Αποτελέσματα ελέγχου τείχους προστασίας: δοκιμές που πραγματοποιήθηκαν / θύρες που ελέγχθηκαν / αριθμός αποτυχημένων συνδέσεων: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Πρόκειται να γίνει προσπάθεια δημιουργίας σύνδεσης TCP # / όνομα κεντρικού υπολογιστή / θύρα: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Ο έλεγχος τείχους προστασίας TCP επέστρεψε κωδικό κατάστασης TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Η απόπειρα ελέγχου της σύνδεσης απέτυχε και δεν επιστράφηκε κωδικός κατάστασης επιτυχίας TCP από τη στοίβα δικτύων του Chrome. Επιστράφηκε ο εξής κωδικός κατάστασης: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Διαπιστώθηκε ότι το πρόγραμμα επίλυσης DNS δεν είναι διαθέσιμο, επομένως δεν είναι δυνατό να καθοριστεί εάν υπάρχει τείχος προστασίας"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Το δίκτυο που εντοπίστηκε δεν είναι διαθέσιμο, επομένως δεν είναι δυνατό να καθοριστεί εάν υπάρχει τείχος προστασίας"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Έλεγχος τείχους προστασίας TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Για να επιστραφεί αποτέλεσμα ελέγχου χωρίς πρόβλημα, το ποσοστό των αποτυχημένων αποτελεσμάτων ελέγχου σύνδεσης TCP πρέπει να είναι μικρότερο ή ίσο με: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Δεν εντοπίστηκαν περιορισμοί στη σύνδεσή σας στο διαδίκτυο στη θύρα "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Η επισκεψιμότητα στο διαδίκτυο δεν παρεμποδίστηκε από τείχος προστασίας στη θύρα "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Για να επιστραφεί αποτέλεσμα ελέγχου με πιθανό πρόβλημα, το ποσοστό των αποτυχημένων αποτελεσμάτων ελέγχου σύνδεσης TCP πρέπει να είναι μεταξύ: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Φαίνεται να ισχύει περιορισμός στο δίκτυό σας για μια σύνδεση στο διαδίκτυο που χρησιμοποιείται συχνά."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Η επισκεψιμότητα στο διαδίκτυο ενδέχεται να παρεμποδίστηκε από τείχος προστασίας στη θύρα "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Ισχύει περιορισμός στο δίκτυό σας για μια σύνδεση στο διαδίκτυο που χρησιμοποιείται συχνά."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Για να επιστραφεί αποτέλεσμα ελέγχου με πρόβλημα, το ποσοστό των αποτυχημένων αποτελεσμάτων ελέγχου σύνδεσης TCP πρέπει να είναι ίσο με: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Η επισκεψιμότητα στο διαδίκτυο παρεμποδίστηκε από τείχος προστασίας στη θύρα "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Πραγματοποιήθηκε σύνδεση TCP με κεντρικό υπολογιστή / θύρα / κωδικό κατάστασης: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Η σύνδεση TCP δημιουργήθηκε επιτυχώς με κεντρικό υπολογιστή / θύρα: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Αποτυχία σύνδεσης TCP με κεντρικό υπολογιστή / θύρα / κωδικό κατάστασης: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Αιτία αποτυχίας σύνδεσης: Άρνηση σύνδεσης"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Αιτία αποτυχίας σύνδεσης: Λήξη χρονικού ορίου"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Αιτία αποτυχίας σύνδεσης: Άγνωστη"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Σφάλμα ανάγνωσης δεδομένων TCP. Κωδικός σφάλματος: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Επιτυχής ανάγνωση μη επεξεργασμένων δεδομένων από υποδοχή TCP μεγέθους (bytes): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Έγινε λήψη μη επεξεργασμένων δεδομένων από υποδοχή TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Προετοιμασία για αποστολή δεδομένων μεγέθους (bytes): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Δημιουργία υποδοχής TCP, αριθμός / κεντρικός υπολογιστής / θύρα: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Επιτυχής αποστολή δεδομένων μεγέθους (bytes): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Ορισμός διάρκειας λήξης χρονικού ορίου TCP (msec): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Αντιγραφή αρχείων καταγραφής αποτελεσμάτων"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Απόκρυψη αρχείων καταγραφής..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Εντοπίστηκε πρόβλημα"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Εντοπίστηκαν προβλήματα"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "ΚΡΙΤΗΡΙΑ"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "ΛΕΠΤΟΜΕΡΕΙΕΣ"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "ΠΕΡΙΛΗΨΗ"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "ΛΕΠΤΟΜΕΡΕΙΕΣ ΥΠΟΣΤΗΡΙΞΗΣ"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Αναγνωριστικό ελέγχου: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Όνομα δοκιμής: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Αποτέλεσμα ελέγχου: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Δεν εντοπίστηκε κανένα πρόβλημα"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Εντοπίστηκε πιθανό πρόβλημα"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Εντοπίστηκε πρόβλημα"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Εμφάνιση αρχείων καταγραφής…"
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Παρουσιάστηκε σφάλμα κατά την εκτέλεση των διαγνωστικών ελέγχων συνδεσιμότητας. Οι έλεγχοι έχουν ματαιωθεί. Εάν αυτό το ζήτημα εξακολουθεί να παρουσιάζεται, κάντε κλικ στην επιλογή \"Αποστολή σχολίων…\" από το μενού Ρυθμίσεις."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Εκτέλεση ελέγχων. Αυτό ενδέχεται να διαρκέσει μερικά λεπτά…"
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Σφάλμα ανάγνωσης δεδομένων UDP. Κωδικός σφάλματος: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Επιτυχής ανάγνωση από υποδοχή UDP μη επεξεργασμένων δεδομένων μεγέθους (bytes): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Έγινε λήψη μη επεξεργασμένων δεδομένων από την υποδοχή UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Προετοιμασία για την αποστολή δεδομένων από την υποδοχή UDP μεγέθους (bytes): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Δημιουργία υποδοχής UDP, αριθμός / κεντρικός υπολογιστής / θύρα: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Επιτυχής αποστολή δεδομένων μεγέθους (bytes): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Ορισμός διάρκειας λήξης χρονικού ορίου UDP (msec): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Προειδοποίηση"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Προειδοποιήσεις"
+   }
+}

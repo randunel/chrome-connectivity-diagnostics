@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "เกี่ยวกับแอป"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "หมายเลขเวอร์ชัน: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "การวินิจฉัยการเชื่อมต่อของ Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "การวินิจฉัยการเชื่อมต่อของ Chrome (เบต้า)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "การวินิจฉัยการเชื่อมต่อของ Chrome (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "การวินิจฉัยการเชื่อมต่อ"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "การวินิจฉัยการเชื่อมต่อ"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "ปิด"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "ขยาย"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "กู้คืน"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "การตั้งค่า"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "หมายเลขการตอบสนอง / ส่วนหัวการตอบสนอง HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "ข้อผิดพลาดในคำขอ # / สถานะข้อผิดพลาด: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "หมายเลขการตอบสนอง / รหัสการตอบสนอง HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "หมายเลขคำขอ / ระยะเวลาในการตอบสนองเต็มรูปแบบ: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "การทดสอบพอร์ทัลแบบ Captive ของ HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "การทดสอบพอร์ทัลแบบ Captive (HTTP) จะแสดงผลการตัดสินว่าไม่มีปัญหา หากคำขอ HTTP ทั้งหมดแสดงผลรหัสสถานะ HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "ไม่พบพอร์ทัลแบบ Captive พอร์ทัลแบบ Captive เป็นเว็บไซต์ที่เครือข่ายกำหนดให้ผู้ใช้ของตนดูและโต้ตอบกับเครือข่ายก่อนที่จะได้รับสิทธิ์การเข้าถึงเพื่อท่องอินเทอร์เน็ตได้อย่างอิสระ"
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "การเข้าชมทางอินเทอร์เน็ตไม่ได้ถูกบล็อกโดยพอร์ทัลแบบ Captive (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "พอร์ทัลแบบ Captive คือเว็บไซต์ที่เครือข่ายกำหนดให้ผู้ใช้ของตนดูและโต้ตอบกับเครือข่ายก่อนที่จะได้รับสิทธิ์การเข้าถึงเพื่อท่องอินเทอร์เน็ตได้อย่างอิสระ การพบพอร์ทัลแบบ Captive บนเครือข่ายของคุณ หมายความว่าการเข้าถึงอินเทอร์เน็ตอย่างไม่จำกัดได้ถูกบล็อก"
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "การทดสอบพอร์ทัลแบบ Captive (HTTP) จะแสดงผลการตัดสินว่ามีปัญหา หากคำขอ HTTP ใดๆ ไม่แสดงผลรหัสสถานะ HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "การเข้าชมทางอินเทอร์เน็ตถูกบล็อกโดยพอร์ทัลแบบ Captive (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " กำลังจะพยายามทำการเชื่อมต่อ TCP # / ชื่อโฮสต์/ พอร์ต: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " การทดสอบการเชื่อมต่ออินเทอร์เน็ตของ Chrome แสดงผลรหัสสถานะ TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "การทดสอบการยกเลิกการเชื่อมต่ออินเทอร์เน็ตของ Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "เปอร์เซ็นต์ของซ็อกเก็ต TCP ซึ่งแสดงรหัสสถานะการยกเลิกการเชื่อมต่ออินเทอร์เน็ตต่ำกว่า ซึ่งแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "การเชื่อมต่ออินเทอร์เน็ตสำหรับเบราว์เซอร์ Chrome"
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "การเชื่อมต่ออินเทอร์เน็ตพร้อมใช้งาน"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome ไม่ได้เชื่อมต่อกับเครือข่าย โปรดตรวจสอบการตั้งค่าเครือข่ายของระบบปฏิบัติการของคุณ"
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "เปอร์เซ็นต์ของซ็อกเก็ต TCP ซึ่งแสดงรหัสสถานะการยกเลิกการเชื่อมต่ออินเทอร์เน็ตมากกว่าหรือเท่ากัน ซึ่งแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "ไม่ได้เชื่อมต่อกับเครือข่าย"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "จำนวนเครือข่ายพร้อมใช้งานที่ตรวจพบ: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "การทดสอบการยกเลิกการเชื่อมต่ออินเทอร์เน็ตของ Chrome OS"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "มีการแสดงผลว่าไม่มีปัญหาเมื่ออินเทอร์เฟซเครือข่ายที่เชื่อมต่อแสดงรหัสสถานะที่เชื่อมต่อ"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "การเชื่อมต่ออินเทอร์เน็ตพร้อมใช้งาน"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "การเชื่อมต่ออินเทอร์เน็ตพร้อมใช้งาน"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Chromebook นี้ไม่ได้เชื่อมต่อกับเครือข่าย โปรดไปที่ถาดสถานะและเชื่อมต่อกับเครือข่ายที่พร้อมใช้งาน"
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "มีการแสดงผลว่ามีปัญหาเมื่ออินเทอร์เฟซเครือข่ายที่เชื่อมต่อแสดงรหัสสถานะที่ยกเลิกการเชื่อมต่อ: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "ไม่ได้เชื่อมต่อกับเครือข่าย"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "ชื่อ / ความแรงของสัญญาณเครือข่าย: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "การทดสอบความแรงของสัญญาณ WiFi ของ Chrome OS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "ความแรงของสัญญาณของ Chrome OS สูงกว่า ซึ่งแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "สัญญาณเครือข่าย WiFi มีความแรงสูง"
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "สัญญาณเครือข่ายมีความแรงสูง"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "ความแรงของสัญญาณของ Chrome OS เหนือการแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "สัญญาณเครือข่าย WiFi มีความแรงต่ำ"
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "สัญญาณเครือข่ายมีความแรงต่ำ"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "หมายเลขแพลตฟอร์มของ Chrome OS แบบเต็ม: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "ชื่อเวอร์ชัน ChromeOS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "เกณฑ์สำหรับหมายเลขแพลตฟอร์มของ Chrome OS สูงกว่าหรือเท่ากัน ซึ่งเราแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "ตรวจไม่พบปัญหาในการทดสอบเวอร์ชันของ Chrome OS เวอร์ชันของ Chrome OS ทันสมัย เวอร์ชันขั้นต่ำในขณะนี้ คือ "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "คุณใช้ Chrome OS เวอร์ชันล่าสุดอยู่ ดังนั้น บั๊กที่เป็นที่รู้จักทั้งหมดสำหรับการเชื่อมต่อจึงได้รับการแก้ไขหมดแล้ว "
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS ทันสมัย"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "ตรวจพบปัญหาในการทดสอบเวอร์ชันของ Chrome OS เวอร์ชันของ Chrome OS ล้าสมัย เวอร์ชันขั้นต่ำในขณะนี้ คือ "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "คุณไม่ได้ใช้ Chrome OS เวอร์ชันล่าสุดอยู่ ดังนั้น บั๊กที่เป็นที่รู้จักทั้งหมดจึงยังไม่ได้รับการแก้ไข ทำให้คุณอาจประสบปัญหาในการเชื่อมต่อ"
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS ล้าสมัย"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "เกณฑ์สำหรับหมายเลขแพลตฟอร์มของ Chrome OS ต่ำกว่า ซึ่งเราแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "เอเจนต์ผู้ใช้เบราว์เซอร์ Raw: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "หมายเลขแพลตฟอร์มของ Chrome OS แบบย่อ: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "หมายเลขเวอร์ชันเบราว์เซอร์ (เต็ม): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "การทดสอบเวอร์ชัน Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "เกณฑ์สำหรับหมายเลขเวอร์ชันของ Chrome สูงกว่าหรือเท่ากัน ซึ่งเราแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "คุณใช้ Google Chrome เวอร์ชันล่าสุดอยู่ ดังนั้น บั๊กที่เป็นที่รู้จักทั้งหมดสำหรับการเชื่อมต่อจึงได้รับการแก้ไขหมดแล้ว "
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome เป็นเวอร์ชันล่าสุด"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "คุณไม่ได้ใช้ Google Chrome เวอร์ชันล่าสุดอยู่ ดังนั้น บั๊กที่เป็นที่รู้จักทั้งหมดจึงยังไม่ได้รับการแก้ไข ทำให้คุณอาจประสบปัญหาในการเชื่อมต่อ"
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome ไม่ใช่เวอร์ชันล่าสุด"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "เกณฑ์สำหรับหมายเลขเวอร์ชันของ Chrome ต่ำกว่า ซึ่งเราแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "เอเจนต์ผู้ใช้เบราว์เซอร์ Raw: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "หมายเลขเวอร์ชันเบราว์เซอร์ (ย่อ): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "การทดสอบ # / ชื่อโฮสต์ในการทดสอบ : "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " ที่อยู่ DNS ที่ถูกแก้ไขที่แสดงผล: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " การทดสอบแสดงผลรหัสสถานะ: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "การทดสอบการโจมตีโดยเปลี่ยนข้อมูลของ DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " การทดสอบไม่ได้แสดงผลช่องที่อยู่ DNS ใดๆ (กำหนดให้เป็นค่าว่าง)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "ผลลัพธ์ของ DNS ถือว่าไม่เป็นปัญหาเมื่อตัวแก้ไขแสดงผลที่อยู่ IP ที่คาดหวัง"
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "ผลลัพธ์ของ DNS เป็นไปตามที่คาดหวังและดูเหมือนว่าจะไม่เป็นปัญหา"
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "เซิร์ฟเวอร์ DNS แสดงผลที่คาดหวัง"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " การทดสอบ; ไม่มีรหัสสถานะของผลลัพธ์; ล้มเลิกการทดสอบเนื่องจากความล้มเหลวในการทดสอบ"
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "มีการแสดงการตอบสนองของ DNS ที่เป็นปัญหา การตอบสนองของ DNS ที่เป็นปัญหาจะเบี่ยงเบนไม่ให้มีการส่งการสื่อสารไปยังโฮสต์เครือข่ายที่ขอ"
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "ผลลัพธ์ของ DNS ถือว่าเป็นปัญหาเมื่อตัวแก้ไขไม่แสดงผลที่อยู่ IP ที่คาดหวัง"
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "ผลลัพธ์ของ DNS ไม่เป็นไปตามที่คาดหวังและดูเหมือนว่าจะเป็นปัญหา"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "การเชื่อมต่อ TCP ล้มเหลวและถูกบล็อกในพอร์ต 443 สำหรับโฮสต์ "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "การเชื่อมต่อ TCP สำเร็จในพอร์ต 443 สำหรับโฮสต์ "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "การเชื่อมต่อ UDP ล้มเหลวและถูกบล็อกในพอร์ตปลายทาง "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "การเชื่อมต่อ UDP สำเร็จในพอร์ตปลายทาง "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "การทดสอบการเชื่อมต่อแฮงเอาท์"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "การทดสอบการถูกบล็อกของแฮงเอาท์จะแสดงผลการตัดสินว่าไม่มีปัญหา หาก: (1) สามารถสร้างการเชื่อมต่อไปยัง stun.l.google.com ในพอร์ต UDP จาก 19302 ถึง 19309 (2) สามารถสร้างการเชื่อมต่อ TCP ไปยัง apis.google.com, clients6.google.com, plus.google.com และ talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "ไม่พบปัญหาในการเชื่อมต่อกับบริการแฮงเอาท์"
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "การเชื่อมต่อแฮงเอาท์พร้อมใช้งาน"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "ไม่สามารถเชื่อมต่อกับบริการสื่อของแฮงเอาท์ในพอร์ต UDP 19302 ถึง 19309"
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "ดูเหมือนว่าการเชื่อมต่อแฮงเอาท์จะลดลงเป็นบางส่วน"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "การทดสอบการถูกบล็อกของแฮงเอาท์จะแสดงผลการตัดสินว่ามีปัญหาหาก: (1) พอร์ต UDP ปลายทางทั้งหมดจาก 19302 ถึง 19309 สำหรับ stun.l.google.com ถูกบล็อก (2) การเชื่อมต่อ TCP ไปยังโฮสต์ต่อไปนี้ล้มเหลวในพอร์ต 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "ดูเหมือนว่าพอร์ตและโฮสต์ที่จำเป็นในการเชื่อมต่อแฮงเอาท์จะถูกบล็อก"
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "ไม่สามารถเชื่อมต่อกับบริการแชทของแฮงเอาท์"
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "ไม่สามารถเชื่อมต่อกับบริการแชทของแฮงเอาท์หรือบริการสื่อของแองเอาท์ในพอร์ต TCP 443"
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "ไม่สามารถเชื่อมต่อกับบริการสื่อของแฮงเอาท์ในพอร์ต TCP 443 และพอร์ต UDP 19302 ถึง 19309"
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "ไม่สามารถสร้างการเชื่อมต่อแฮงเอาท์"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "เวลาในการตอบสนอง HTTP เฉลี่ย (มิลลิวินาที): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "ข้อผิดพลาดในคำขอ # / สถานะข้อผิดพลาด: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "จำนวนรวมของคำขอ HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "การตอบสนอง HTTP # / เวลารับ (microtimestamp) / เวลาที่ผ่านไป (มิลลิวินาที): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "รวมเวลาในการตอบสนอง HTTP (มิลลิวินาที): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "การทดสอบเวลาในการตอบสนอง HTTP ของเว็บไซต์ Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "เวลาในตอบสนองของ HTTP เฉลี่ย (มิลลิวินาที) ต่ำกว่า ซึ่งแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "คำขอเว็บไปยัง Google ได้รับอย่างรวดเร็ว"
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "ไม่มีความล่าช้าในการรับการตอบสนองจากเว็บไซต์ Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "เวลาในการตอบสนองของ HTTP เฉลี่ย (มิลลิวินาที) อยู่ระหว่างกลาง ซึ่งแสดงผลการตัดสินว่ามีความเป็นไปได้ที่จะเกิดปัญหา: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "มีการใช้เวลานานกว่าที่ควรเล็กน้อยในการรับการตอบสนองจากเว็บไซต์ Google แสดงให้เห็นว่าเครือข่ายทำงานช้า"
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "คำขอเว็บไปยัง Google ใช้เวลานานกว่าที่คาดไว้"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "มีการใช้เวลานานกว่าที่ควรในการรับการตอบสนองจากเว็บไซต์ Google แสดงให้เห็นว่าเครือข่ายทำงานช้า"
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "เวลาในตอบสนองของ HTTP เฉลี่ย (มิลลิวินาที) สูงกว่า ซึ่งแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "คำขอเว็บไปยัง Google ใช้เวลานานเกินไป"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "การทดสอบที่ผ่าน"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "การทดสอบที่ผ่าน"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "ICMP ที่ค้นหาไปยัง IP เกตเวย์โดยตรงไม่เคยได้รับแพ็กเก็ตการตอบสนอง"
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "มีการระบุ IP ของเกตเวย์เป็น: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "ไม่สามารถระบุ IP ของเกตเวย์"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "เวลาในการตอบสนองของแพ็กเก็ต ICMP (มิลลิวินาที): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP ที่ถูกแสดงผลจากการส่งแพ็กเก็ต ICMP ไปยังโฮสต์ระยะไกลที่มี TTL เท่ากับ 1 เป็น IP เดียวกันกับโฮสต์ระยะไกล: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "การทดสอบเกตเวย์การใช้คำสั่ง ping"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "เกณฑ์สำหรับเวลาในการตอบสนอง (มิลลิวินาที) ต่อการใช้คำสั่ง Ping กับเกตเวย์ต่ำกว่า ซึ่งเราแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "การใช้คำสั่ง Ping กับเกตเวย์ให้การตอบสนองอย่างรวดเร็ว"
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "สามารถเข้าถึงเกตเวย์ได้"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "การใช้คำสั่ง Ping ไม่ได้ให้การตอบสนองอย่างรวดเร็ว"
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "เกณฑ์สำหรับเวลาในการตอบสนอง (มิลลิวินาที) ต่อการใช้คำสั่ง Ping กับเกตเวย์สูงกว่า ซึ่งเราแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "ไม่สามารถเข้าถึงเกตเวย์"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "เวลาในการแก้ปัญหา DNS เฉลี่ย (มิลลิวินาที): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "กำลังพยายามที่จะแก้ไขชื่อโฮสต์ #: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "การทดสอบเวลาในการตอบสนองของโปรแกรมแก้"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "เวลาในการแก้ปัญหา DNS เฉลี่ย (มิลลิวินาที) ต่ำกว่า ซึ่งแสดงผลการตัดสินว่าไม่มีปัญหา: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "เซิร์ฟเวอร์ DNS แปลชื่อโฮสต์ (เช่น google.com) เป็น IP (เช่น 74.125.228.98) กระบวนการนี้จำเป็นสำหรับเบราว์เซอร์ของคุณในการเชื่อมต่อกับอินเทอร์เน็ต Chrome สามารถที่จะแก้ปัญหาคำขอ DNS ได้อย่างรวดเร็วโดยใช้โปรแกรมแก้ปัญหาในตัวเครื่องซึ่งช่วยเพิ่มความเร็วในกระบวนการโหลดหน้าเว็บ"
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "ไม่มีความล่าช้าในการแก้ปัญหา DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "เซิร์ฟเวอร์ DNS แปลชื่อโฮสต์ (เช่น www.google.com) เป็นที่อยู่ IP เบราว์เซอร์ต้องมีที่อยู่ IP ที่จะเชื่อมต่อเพื่อโหลดเว็บไซต์ เซิร์ฟเวอร์ DNS ที่ดำเนินการแปลนี้ใช้เวลานานเกินไป ก่อให้เกิดความล่าช้าในการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "เวลาในการแก้ปัญหา DNS เฉลี่ย (มิลลิวินาที) อยู่ระหว่างกลาง ซึ่งแสดงผลการตัดสินว่ามีความเป็นไปได้ที่จะเกิดปัญหา: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "การแก้ปัญหา DNS ใช้เวลานานกว่าเวลาเฉลี่ย"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "เซิร์ฟเวอร์ DNS แปลชื่อโฮสต์ (เช่น www.google.com) เป็นที่อยู่ IP เบราว์เซอร์ต้องมีที่อยู่ IP ที่จะเชื่อมต่อเพื่อโหลดเว็บไซต์ เซิร์ฟเวอร์ DNS ที่ดำเนินการแปลนี้ใช้เวลานานเกินไป ก่อให้เกิดความล่าช้าในการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "เวลาในการแก้ปัญหา DNS เฉลี่ย (มิลลิวินาที) สูงกว่า ซึ่งแสดงผลการตัดสินว่ามีปัญหา: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "การแก้ปัญหา DNS ใช้เวลานานเกินไป"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "ผลลัพธ์ที่ได้รับสำหรับการแก้ปัญหา DNS จำนวนการทดสอบ / เวลาปัจจุบัน / เวลาที่ใช้ไป (มิลลิวินาที) / เวลาเริ่มต้น (มิลลิวินาที): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "โฮสต์ DNS ทั้งหมดที่ได้รับการแก้ไข: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "รวมเวลาในการแก้ปัญหา DNS สำหรับการทดสอบทั้งหมด (มิลลิวินาที): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "การทดสอบตัวแก้ไข DNS จะปฏิบัติการค้นหา DNS ครั้งเดียวและแสดงผลการตัดสินว่ามีปัญหา หากไม่มีการแสดงการตอบสนองที่ถูกต้อง"
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "การทดสอบตัวแก้ไข DNS จะปฏิบัติการค้นหา DNS ครั้งเดียวและแสดงผลการตัดสินว่าไม่มีปัญหา หากมีการแสดงการตอบสนองที่ถูกต้อง"
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "กำลังพยายามที่จะแก้ไขชื่อโฮสต์: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "ชื่อโฮสต์ถูกแก้ไขเป็นที่อยู่ IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "เซิร์ฟเวอร์ DNS แสดงผลรหัสสถานะปัญหา: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "เซิร์ฟเวอร์ DNS แสดงผลรหัสสถานะความสำเร็จ: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "การทดสอบการนำเสนอโปรแกรมแก้"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome พบเซิร์ฟเวอร์ DNS ที่ประสบความสำเร็จในการแปลชื่อโฮสต์ (เช่น www.google.com) เป็นที่อยู่ IP"
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "เซิร์ฟเวอร์ DNS พร้อมใช้งาน"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "เซิร์ฟเวอร์ DNS แปลชื่อโฮสต์ (เช่น www.google.com) เป็นที่อยู่ IP เบราว์เซอร์ต้องมีที่อยู่ IP เพื่อเชื่อมต่อสำหรับการโหลดเว็บไซต์ Chrome ไม่สามารถระบุ IP ของเว็บไซต์ที่คุณต้องการเข้าชมเนื่องจากเซิร์ฟเวอร์ DNS ของคุณไม่ทำงาน โปรดติดต่อ ISP หรือผู้ดูแลระบบเครือข่าย"
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "ไม่มีเซิร์ฟเวอร์ DNS ที่ทำงานได้พร้อมใช้งาน"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "เซิร์ฟเวอร์ DNS แสดงผลการค้นหา DNS"
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "เซิร์ฟเวอร์ DNS ไม่ได้แสดงผลใดๆ (แม้แต่รายการบันทึก DNE) ดังนั้น การทดสอบจึงไม่สมบูรณ์"
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "ดูเหมือนว่าการเชื่อมต่อเครือข่ายของคุณกำลังทำงานอย่างถูกต้อง"
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "เกี่ยวกับ"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "ซ่อนการทดสอบที่ผ่าน"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "ดำเนินการทดสอบอีกครั้ง"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "ส่งความคิดเห็น..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "แสดงการทดสอบที่ผ่าน"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "ผลการทดสอบไฟร์วอลล์: การทดสอบที่ทำ / พอร์ตที่ตรวจสอบแล้ว / จำนวนการเชื่อมต่อที่ล้มเหลว: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " กำลังจะพยายามทำการเชื่อมต่อ TCP # / ชื่อโฮสต์/ พอร์ต: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " การทดสอบไฟร์วอลล์ TCP แสดงผลรหัสสถานะ TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "ความพยายามในการทดสอบการเชื่อมต่อล้มเหลวและไม่ได้แสดงผลรหัสสถานะความสำเร็จ TCP จากกลุ่มเครือข่ายของ Chrome แต่แสดงผลรหัสสถานะแทน: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "โปรแกรมแก้ DNS ที่ตรวจพบไม่พร้อมใช้งาน ดังนั้น เราจึงไม่สามารถพิจารณาได้ว่ามีไฟร์วอลล์อยู่หรือไม่"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "เครือข่ายที่ตรวจพบไม่พร้อมใช้งาน ดังนั้น เราจึงไม่สามารถพิจารณาได้ว่ามีไฟร์วอลล์อยู่ไหม"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "การทดสอบไฟร์วอลล์ TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "ผลการตัดสินว่าไม่มีปัญหาจะถูกแสดงเมื่อเปอร์เซ็นต์ของผลการทดสอบการเชื่อมต่อ TCP ที่ล้มเหลวน้อยกว่าหรือเท่ากับ: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "ไม่มีข้อจำกัดใดๆ ถูกตรวจพบในการเชื่อมต่ออินเทอร์เน็ตของคุณบนพอร์ต "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "การเข้าชมทางอินเทอร์เน็ตไม่ถูกบล็อกโดยไฟร์วอลล์บนพอร์ต "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "ผลการตัดสินว่ามีแนวโน้มที่จะมีปัญหาจะถูกแสดงเมื่อจำนวนของผลการทดสอบการเชื่อมต่อ TCP ที่ล้มเหลวอยู่ระหว่าง: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "ดูเหมือนจะมีข้อจำกัดในเครือข่ายของคุณสำหรับการเชื่อมต่ออินเทอร์เน็ตที่ใช้กันทั่วไป"
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "การเข้าชมทางอินเทอร์เน็ตอาจจะถูกบล็อกโดยไฟร์วอลล์บนพอร์ต "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "มีข้อจำกัดในเครือข่ายของคุณสำหรับการเชื่อมต่ออินเทอร์เน็ตที่ใช้กันทั่วไป"
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "ผลการตัดสินว่ามีปัญหาจะถูกแสดงเมื่อเปอร์เซ็นต์ของผลการทดสอบการเชื่อมต่อ TCP ที่ล้มเหลวเท่ากับ: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "การเข้าชมทางอินเทอร์เน็ตถูกบล็อกโดยไฟร์วอลล์บนพอร์ต "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "การเชื่อมต่อ TCP ถูกสร้างขึ้นโดยมีโฮสต์ / พอร์ต / รหัสสถานะ: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "การเชื่อมต่อ TCP ถูกสร้างขึ้นสำเร็จโดยมีโฮสต์ / พอร์ต: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "การเชื่อมต่อ TCP ล้มเหลวโดยมีโฮสต์ / พอร์ต / รหัสสถานะ: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "สาเหตุของความล้มเหลวในการเชื่อมต่อ: การเชื่อมต่อถูกปฏิเสธ"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "สาเหตุของความล้มเหลวในการเชื่อมต่อ: หมดเวลา"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "สาเหตุของความล้มเหลวในการเชื่อมต่อ: ไม่ทราบ"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "ข้อผิดพลาดในการอ่านข้อมูล TCP รหัสข้อผิดพลาด: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "อ่านข้อมูลจากซ็อกเก็ต TCP ที่มีขนาด (ไบต์): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "ได้รับข้อมูลดิบจากซ็อกเก็ต TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "เตรียมที่จะส่งข้อมูลที่มีขนาด (ไบต์): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "การสร้างซ็อกเก็ต TCP จำนวน / โฮสต์ / พอร์ต: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "ประสบความสำเร็จในการส่งข้อมูลที่มีขนาด (ไบต์): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "การตั้งค่าระยะการหมดเวลาของ TCP (มิลลิวินาที): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "คัดลอกบันทึกของผลลัพธ์"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "ซ่อนบันทึก..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "พบปัญหา"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "พบปัญหา"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "เกณฑ์"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "รายละเอียด"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "สรุป"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "รายละเอียดการสนับสนุน"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "รหัสการทดสอบ: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "ชื่อการทดสอบ: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "ผลการทดสอบ: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "ตรวจไม่พบปัญหา"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "ตรวจพบปัญหาที่อาจเป็นไปได้"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "ตรวจพบปัญหา"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "แสดงบันทึก..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "เกิดข้อผิดพลาดขณะใช้งานการทดสอบการวินิจฉัยการเชื่อมต่อ การทดสอบถูกล้มเลิก หากปัญหายังคงอยู่ โปรดคลิกตัวเลือก \"ส่งความคิดเห็น...\" จากเมนูการตั้งค่า"
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "กำลังดำเนินการทดสอบ อาจใช้เวลาสักครู่..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "ข้อผิดพลาดในการอ่านข้อมูล UDP รหัสข้อผิดพลาด: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "ประสบความสำเร็จในการอ่านข้อมูลจากซ็อกเก็ต UDP ที่มีขนาด (ไบต์): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "ได้รับข้อมูลดิบจากซ็อกเก็ต UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "เตรียมที่จะส่งข้อมูลซ็อกเก็ต UDP ที่มีขนาด (ไบต์): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "กำลังสร้างซ็อกเก็ต UDO จำนวน / โฮสต์ / พอร์ต: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "ประสบความสำเร็จในการส่งข้อมูลที่มีขนาด (ไบต์): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "การตั้งค่าระยะเวลาของการหมดเวลา UDP (มิลลิวินาที): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "คำเตือน"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "คำเตือน"
+   }
+}

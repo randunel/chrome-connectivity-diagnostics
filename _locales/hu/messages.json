@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Az alkalmazásról"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Verziószám: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome csatlakozási diagnosztika"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome csatlakozási diagnosztika (béta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome csatlakozási diagnosztika (fejlesztői)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Csatlakozási diagnosztika"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Csatlakozási diagnosztika"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Bezárás"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Teljes méret"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Előző méret"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Beállítások"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Válasz száma/HTTP-válaszfejlécek: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Hiba a következő számú kérelemben/hibaállapot: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Válasz száma/HTTP-válaszkód: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Kérelem száma/válasz teljes hossza: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Hitelesítő portál HTTP-tesztje"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "A HTTP hitelesítő portál tesztje „nincs probléma” eredményt jelenít meg, ha minden HTTP-kérelem 204-es HTTP-állapotkódot küld vissza."
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Nem található hitelesítő portál. A hitelesítő portál olyan webhely, amelyet egy hálózat felhasználóinak meg kell tekinteniük és használniuk kell ahhoz, hogy engedélyt kapjanak az interneten való szabad böngészésre."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Az internetforgalmat nem tiltotta le egy hitelesítő portál (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "A hitelesítő portál olyan webhely, amelyet egy hálózat felhasználóinak meg kell tekinteniük és használniuk kell ahhoz, hogy engedélyt kapjanak az interneten való szabad böngészésre. Az Ön hálózatán hitelesítő portál található, ami azt jelenti, hogy le van tiltva a korlátlan internetelérés."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "A HTTP hitelesítő portál tesztje „probléma” eredményt jelenít meg, ha bármelyik HTTP-kérelem nem küld vissza 204-es HTTP-állapotkódot."
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Az internetforgalmat letiltotta egy hitelesítő portál (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP-kapcsolat létrehozásának megkísérlése – szám/gazdagépnév/port: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " A Chrome internetkapcsolati tesztje a következő TCP-állapotkódot küldte: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "„Internetkapcsolat bontva” teszt Chrome-hoz"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Az internetkapcsolat bontva állapotkódot küldő TCP szoftvercsatornák azon százaléka, amelynél alacsonyabb érték esetén „nincs probléma” eredmény jelenik meg: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Rendelkezésre áll internetkapcsolat a Chrome böngésző számára."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Internetkapcsolat elérhető"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "A Chrome nem csatlakozik hálózathoz. Kérjük, ellenőrizze operációs rendszere hálózati beállításait."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Az internetkapcsolat bontva állapotkódot küldő TCP szoftvercsatornák azon százaléka, amellyel egyenlő vagy nagyobb érték esetén „probléma” eredmény jelenik meg: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Nincs hálózati kapcsolat"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Az észlelt elérhető hálózatok száma: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "„Internetkapcsolat bontva” teszt ChromeOS-hez"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "„Nincs probléma” eredményt akkor kap, ha a csatlakoztatott hálózati kezelőfelület „csatlakoztatva” állapotkódot küld vissza."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Van elérhető internetkapcsolat."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Internetkapcsolat elérhető"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "A Chromebook nem csatlakozik hálózathoz. Kérjük, csatlakozzon egy elérhető hálózathoz az állapotterületen keresztül."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "„Probléma” eredményt akkor kap, ha a csatlakoztatott hálózati kezelőfelület „nincs csatlakoztatva” állapotkódot küld vissza: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Nincs hálózati kapcsolat"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Hálózati jel neve/jel erőssége: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Wi-Fi jelerősségteszt ChromeOS-hez"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "ChromeOS jelerősség értéke, amely felett „nincs probléma” eredmény jelenik meg: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "A Wi-Fi hálózat jelerőssége jó."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "A hálózati jel erős"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "ChromeOS jelerősség értéke, amely alatt „probléma” eredmény jelenik meg: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "A Wi-Fi hálózat jelerőssége gyenge."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "A hálózati jelerősség gyenge"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "A Chrome OS teljes platformszáma: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "A ChromeOS verziószáma"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "A ChromeOS-platformszám azon küszöbértéke, amellyel megegyező vagy magasabb érték esetén „nincs probléma” eredményt jelenítünk meg: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "A Chrome OS verziótesztje nem észlelt hibát. A Chrome OS naprakész. A mostani minimális verziószám a következő: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "A Chrome OS legújabb verzióját használja, ezért rendelkezik az ismert kapcsolódási problémákhoz kiadott összes javítással."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "A Chrome OS naprakész"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "A Chrome OS verziótesztje hibát észlelt. A Chrome OS elavult. A mostani minimális verziószám a következő: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Nem a Chrome OS legújabb verzióját használja, ezért nem rendelkezik az összes programhiba-javítással, és csatlakozási problémákat tapasztalhat."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "A Chrome OS elavult"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "A ChromeOS-platformszám azon küszöbértéke, amelynél alacsonyabb érték esetén „probléma” eredményt jelenítünk meg: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Böngésző nyers felhasználói ügynöke: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "A Chrome OS rövid platformszáma: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Böngésző verziószáma (teljes): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Verzióteszt Chrome-hoz"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "A Chrome-verziószám azon küszöbértéke, amellyel megegyező vagy nagyobb érték esetén „nincs probléma” eredményt jelenítünk meg: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "A Google Chrome legújabb verzióját használja, ezért rendelkezik az ismert kapcsolódási programhibákhoz kiadott összes javítással."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "A Google Chrome verziója a legújabb"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Nem a legújabb Google Chrome-verziót használja, ezért nem rendelkezik valamennyi ismert hibajavítással, és csatlakozási problémákat észlelhet."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "A Google Chrome verziója nem a legújabb"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "A Chrome-verziószám azon küszöbértéke, amely alatt „probléma” eredményt jelenítünk meg: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Böngésző nyers felhasználói ügynöke: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Böngésző verziószáma (rövid): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Teszt száma/tesztelt gazdagépnév: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " a visszaküldött feloldott DNS-cím: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " a teszt által visszaadott állapotkód: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS mérgezéses teszt"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " a teszt nem küldött vissza DNS-címmezőt (nullra állítva)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "A DNS-eredmények akkor tekinthetők tisztának, ha a feloldó a várt IP-címet küldi vissza."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "A DNS-eredmények az elvártak voltak, és úgy tűnik, hogy nem mérgezettek."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "A DNS-szerver a várt eredményt kapta "
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " teszt; nincs eredményül kapott állapotkód; a teszt hiba miatt megszakad."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "A rendszer mérgezett DNS-választ kapott vissza. A mérgezett DNS-válasz eltéríti a kommunikációt, így az nem a kívánt hálózati gazdagépnek lesz elküldve."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "A DNS-eredmények akkor tekinthetők mérgezettnek, ha a feloldó nem a várt IP-címet küldi vissza."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "A DNS-eredmények nem az elvártak voltak, és lehet, hogy mérgezettek."
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Nem sikerült a TCP-kapcsolat kialakítása, és a 443-as port le van tiltva a gazdagépnél "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Sikerült a csatlakozás a gazdagéphez a 443-as TCP porton "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Nem sikerült az UDP-kapcsolat kialakítása, és le van tiltva a célporton "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Sikeres UDP-csatlakozás a célporton "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Hangouts-kapcsolati teszt"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "A Hangouts letiltásának tesztje „nincs probléma” eredményt jelenít meg, ha: (1) lehet kapcsolatot létesíteni a stun.l.google.com gazdagéppel a 19302–19309 UDP portok valamelyikén (2) Lehet TCP-kapcsolatot létesíteni a következő gazdagépekkel: apis.google.com, clients6.google.com, plus.google.com és talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Nem tapasztalható probléma a Hangouts szolgáltatáshoz való csatlakozásban."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts-kapcsolat elérhető"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Nem lehet csatlakozni a Hangouts médiaszolgáltatáshoz a 19302–19309-es UDP portok egyikén sem."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "A Hangouts-kapcsolat minősége részben leromlott"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "A Hangouts letiltásának tesztje „probléma” eredményt jelenít meg, ha: (1) a 19302–19309 tartományban az összes UDP célport le van tiltva a stun.l.google.com gazdagép esetében (2) A következők bármelyikével nem lehet TCP-kapcsolatot létesíteni a 443-as porton: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Úgy tűnik, hogy le vannak tiltva azok a portok és gazdagépek, amelyek a Hangouts szolgáltatáshoz való csatlakozáshoz szükségesek."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Nem lehet csatlakozni a Hangouts csevegőszolgáltatáshoz."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Nem lehet csatlakozni a Hangouts csevegőszolgáltatáshoz vagy a Hangouts médiaszolgáltatáshoz a 443-as TCP porton."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Nem lehet csatlakozni a Hangouts médiaszolgáltatáshoz a 443-as TCP port, illetve a 19302–19309-es UDP portok egyikén sem."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Nem sikerült kapcsolatot létrehozni a Hangouts szolgáltatással"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Átlagos HTTP-válaszidő (ezredmásodperc): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Hiba a következő számú kérelemben/hibaállapot: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "HTTP-kérelmek teljes száma: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP-válasz száma/fogadás ideje (mikroidőbélyeg)/eltelt idő (ezredmásodperc): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Teljes HTTP-válaszidő (ezredmásodperc): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Google Webhelyek HTTP várakozási idejének tesztje"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Átlagos HTTP várakozási idő (ezredmásodperc) összehasonlító értéke, amely alatt „nincs probléma” eredmény jelenik meg: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "A Google-hoz irányított internetes kérelmekre adott válasz gyorsan megérkezett."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Nincs késés a Google webhelyeiről érkező válaszok fogadásában"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Átlagos HTTP várakozási idő (ezredmásodperc) összehasonlító értéke, amely alatt „potenciális probléma” eredmény jelenik meg: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Kicsivel tovább tart a válasz fogadása a Google webhelyeiről, mint kellene; ez azt jelenti, hogy lassú a hálózat."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "A Google-hoz irányított internetes kérések végrehajtása a vártnál tovább tart"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Tovább tart a válasz fogadása a Google webhelyeiről, mint kellene; ez azt jelenti, hogy lassú a hálózat."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Átlagos HTTP várakozási idő (ezredmásodperc) összehasonlító értéke, amely felett „probléma” eredmény jelenik meg: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "A Google-hoz irányított internetes kérések végrehajtása túl sokáig tart"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Sikeres teszt"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Sikeres tesztek"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "A közvetlenül az átjáró IP-címére küldött ICMP-lekérdezésre sosem érkezett válaszcsomag."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Az átjáró IP-címe a következő: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Az átjáró IP-címét nem lehet megállapítani"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP-csomag várakozási ideje (ezredmásodperc): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "A távoli gazdagépnek 1-es TTL-lel küldött ICMP-csomagra válaszul kapott IP-cím ugyanaz volt, mint a távoli gazdagép IP-címe: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Átjáró pingelési tesztje"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Az átjáró pingelésének várakozási idejére (ezredmásodpercben) vonatkozó küszöbérték, amely alatt „nincs probléma” eredményt jelenítünk meg: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Az átjáró pingelése gyors választ hoz."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Az átjáró elérhető"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Az átjáró pingelése nem hoz gyors választ."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Az átjáró pingelésének várakozási idejére (ezredmásodpercben) vonatkozó küszöbérték, amely fölött „probléma” eredményt jelenítünk meg: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Az átjáró nem érhető el"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Átlagos DNS-feloldási idő (ezredmásodperc): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "A gazdagépnév feloldásának megkísérlése – szám: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Feloldószolgáltatás várakozási idejének ellenőrzése"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Átlagos DNS-feloldási idő (ms) összehasonlító értéke, amely alatt a „nincs probléma” eredmény jelenik meg: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "A DNS-szerver a gazdagépnevet (pl. www.google.com) fordítja le egy IP-címre (pl. 74.125.228.98). Ez ahhoz szükséges, hogy a böngésző csatlakozhasson az internethez. A Chrome a helyi feloldó használatával képes a DNS-lekérések gyors feloldására, ami felgyorsítja az oldalak betöltésének folyamatát."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Nincs késés a DNS feloldása során"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "A DNS-szerver a gazdagépnevet (pl. www.google.com) fordítja le IP-címre. A böngészőnek ismernie kell az IP-címet ahhoz, hogy betölthesse a webhelyet. Az ilyen fordítás végrehajtása túl sokáig tart a DNS-szerver számára, és ez lassítja az internetkapcsolatot."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Átlagos DNS-feloldási idők (ms) összehasonlító értéke, amelyek között a „potenciális probléma” eredmény jelenik meg: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "A DNS feloldása az átlagosnál több időt vesz igénybe"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "A DNS-szerver a gazdagépnevet (pl. www.google.com) fordítja le IP-címre. A böngészőnek ismernie kell az IP-címet ahhoz, hogy betölthesse a webhelyet. Az ilyen fordítás végrehajtása túl sokáig tart a DNS-szerver számára, és ez lassítja az internetkapcsolatot."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Átlagos DNS-feloldási idő (ezredmásodperc) összehasonlító értéke, amelynek túllépésekor a „probléma” eredmény jelenik meg: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "A DNS feloldása túl sokáig tart"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "DNS-feloldási eredmény. Teszt száma/aktuális idő/eltelt idő (ms)/kezdés ideje (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Összes feloldott DNS-gazdagép: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "DNS feloldásának teljes ideje az összes tesztnél (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "A DNS-feloldási teszt egyetlen DNS-lekérdezést hajt végre, és ha nem kap érvényes választ, akkor megállapítja, hogy valami probléma áll fenn."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "A DNS-feloldási teszt egyetlen DNS-lekérdezést hajt végre, és ha érvényes választ kap, akkor megállapítja, hogy nincs probléma."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "A gazdagépnév feloldásának megkísérlése: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "A gazdagépnév fordítása a következő IP-cím: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "A DNS-szerver hibás állapotkódot adott vissza: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "A DNS-szerver sikeres állapotkódot adott vissza: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Feloldószolgáltatás meglétének ellenőrzése"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "A Chrome talált egy olyan DNS-szervert, amely sikeresen lefordított egy gazdagépnevet (pl. www.google.com) egy IP-címre."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS-szerver elérhető"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "A DNS-szerver a gazdagépnevet (pl. www.google.com) fordítja le egy IP-címre. A böngészőnek ismernie kell az IP-címet, hogy be tudja tölteni a webhelyet. A Chrome nem tudja megállapítani a felkeresni kívánt webhely IP-címét, mert a DNS-szerver nem működik. Kérjen segítséget internetszolgáltatójától vagy hálózati rendszergazdájától."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Nem érhető el működő DNS-szerver"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "A DNS-szerver visszaadott DNS-lekérdezés találatokat."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "A DNS-szerver nem adott vissza semmilyen objektumot (még DNE-rekordot sem), ezért a teszt nem fejeződött be."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Úgy tűnik, hogy a hálózati kapcsolat megfelelően működik."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Névjegy"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Sikeres tesztek elrejtése"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Tesztek újrafuttatása"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Visszajelzés küldése..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Sikeres tesztek megjelenítése"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "A tűzfalteszt eredményei: lefuttatott tesztek / ellenőrzött port / sikertelen kapcsolódások száma: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP-kapcsolat létrehozásának megkísérlése – szám/gazdagépnév/port: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " A TCP tűzfalteszt a következő TCP-állapotkódot adta vissza: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "A kapcsolódási teszt nem sikerült, és nem sikeres TCP-állapotkódot adott vissza a Chrome hálózatai közül, hanem a következőt: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Az észlelt DNS-feloldó nem érhető el, ezért nem tudjuk megállapítani, hogy van-e tűzfal"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Az észlelt hálózat nem érhető el, ezért nem tudjuk megállapítani, hogy van-e tűzfal"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP tűzfalteszt"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "A sikertelen TCP kapcsolatok százalékos értéke, amelynél kisebb vagy egyenlő esetén „nincs probléma” eredmény jelenik meg: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Nincs korlátozva az internetkapcsolat a következő porton "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Nem tiltja tűzfal az internetforgalmat a következő porton "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "„Potenciális probléma” eredmény jelenik meg, ha a sikertelen TCP kapcsolatok száma a teszt során a következő értékek között van: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Úgy tűnik, hogy hálózatán korlátozás van érvényben egy általánosan használt internetkapcsolatnál."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Lehetséges, hogy tűzfal tiltja le az internetforgalmat a következő porton: "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Hálózatán korlátozás van érvényben egy általánosan használt internetkapcsolatnál."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "A sikertelen TCP kapcsolatok százalékos értéke, amelynek esetén „probléma” eredmény jelenik meg: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Tűzfal tiltja le az internetforgalmat a következő porton: "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "A TCP-kapcsolat létrejött a következő szerverrel/porttal/állapotkóddal: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Sikeresen létrehozott TCP-kapcsolat a következő szerverrel/porttal: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Sikertelen TCP-kapcsolat a következő szerverrel/porttal/állapotkóddal: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Kapcsolat sikertelenségének oka: kapcsolat elutasítva"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Kapcsolat sikertelenségének oka: időtúllépés"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Kapcsolat sikertelenségének oka: ismeretlen"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Hiba a TCP-adatok olvasásakor. Hibakód: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "A TCP szoftvercsatornából sikeresen beolvasott adatok mérete (bájt): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "A TCP szoftvercsatornából kapott nyers adatok: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Küldésre előkészített adatok mérete (bájt): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "TCP szoftvercsatorna létrehozása – szám/szerver/port: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Sikeresen elküldött adatok mérete (bájt): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "A TCP-időtúllépés hosszának beállítása (ezredmásodperc): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Eredménynaplók másolása"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Naplók elrejtése..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "A program problémát talált"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "A program problémákat talált"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "FELTÉTELEK"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "RÉSZLETEK"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "ÖSSZEGZÉS"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "TÁMOGATÁSI RÉSZLETEK"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Teszt azonosítója: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Teszt neve: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Teszt eredménye: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Nem volt probléma"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "A program potenciális problémát észlelt"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "A program problémát észlelt"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Naplók megjelenítése..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Hiba történt a csatlakozási diagnosztika tesztjeinek futtatása során. A teszteket megszakítottuk. Ha a probléma továbbra is fennáll, kattintson a „Visszajelzés küldése…” lehetőségre a Beállítások menüben."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "A tesztek futtatása folyamatban van. Ez eltarthat pár percig…"
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Hiba az UDP-adat olvasásakor. Hibakód: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Az UDP szoftvercsatornából sikeresen beolvasott adatok mérete (bájt): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Az UDP szoftvercsatornából kapott nyers adatok: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Előkészítés a következő méretű (bájt) UDP szoftvercsatorna-adat küldéséhez: "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "UDP szoftvercsatorna létrehozása – szám/szerver/port: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Sikeresen elküldött adatok mérete (bájt): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Az UDP-időtúllépés hosszának beállítása (ezredmásodperc): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Figyelmeztetés"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Figyelmeztetések"
+   }
+}

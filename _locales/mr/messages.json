@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "अॅप विषयी"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "आवृत्ती नंबर: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome कनेक्टिव्हिटी निदान"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome कनेक्टिव्हिटी निदान (बीटा)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome कनेक्टिव्हिटी निदान (Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "कनेक्टिव्हिटी निदान"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "कनेक्टिव्हिटी निदान"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "बंद करा"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "मोठे करा"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "पुनर्संचयित करा"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "सेटिंग्ज"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "प्रतिसाद संख्या / HTTP प्रतिसाद शीर्षलेख: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "विनंती मधील त्रुटी # / त्रुटी स्थिती: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "प्रतिसाद संख्या / HTTP प्रतिसाद कोड: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "विनंती संख्या / संपूर्ण प्रतिसाद लांबी: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "HTTP कॅप्टिव्ह पोर्टल चाचणी"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "सर्व HTTP विनंत्या 204 HTTP स्थिती कोड दर्शवत असल्यास HTTP कॅप्टिव्ह पोर्टल चाचणी कोणतीही समस्या नसल्याचे अभिमत मिळवते"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "कोणतेही कॅप्टिव्ह पोर्टल आढळले नाही. कॅप्टिव्ह पोर्टल ही एक वेबसाइट आहे ज्यासाठी नेटवर्कला तिच्या वापरकर्त्यांनी इंटरनेट विनामूल्य ब्राउझ करण्याकरिता प्रवेश मंजूर केला जाण्यापूर्वी ती पाहणे आणि त्यासह संवाद साधणे आवश्यक असते."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "इंटरनेट रहदारी कॅप्टिव्ह पोर्ट्ल (HTTP) द्वारे अवरोधित केली नाही"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "कॅप्टिव्ह पोर्टल ही अशी वेबसाइट आहे ज्यासाठी नेटवर्कला तिच्या वापरकर्त्यांनी इंटरनेट विनामूल्य ब्राउझ करण्याकरिता प्रवेश मंजूर केला जाण्यापूर्वी ती पाहणे आणि त्यासह संवाद साधणे आवश्यक असते. आपल्या नेटवर्कवर आढळलेले कॅप्टिव्ह पोर्टल, याचा अर्थ इंटरनेटवरील प्रतिबंधित न केलेला प्रवेश अवरोधित केला आहे."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "कोणत्याही HTTP विनंत्या 204 HTTP स्थिती कोड दर्शवत नसल्यास HTTP कॅप्टिव्ह पोर्टल चाचणी समस्या अभिमत मिळवते"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "इंटरनेट रहदारी कॅप्टिव्ह पोर्टल (HTTP) द्वारे अवरोधित"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP कनेक्शन # / होस्टनाव / पोर्ट साठी प्रयत्न करणार आहात : "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Chrome इंटरनेट कनेक्शन चाचणीने TCP स्थिती कोड दर्शवला: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Chrome इंटरनेट डिस्कनेक्ट केलेली चाचणी"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "त्या TCP सॉकेटची टक्केवारी जी इंटरनेट डिस्कनेक्ट होण्याचे असे स्थिती कोड दर्शवते ज्यांच्या खाली कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Chrome ब्राउझरसाठी इंटरनेट कनेक्शन उपलब्ध आहे."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "इंटरनेट कनेक्शन उपलब्ध"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome नेटवर्कशी कनेक्ट केलेले नाही. कृपया आपल्या ऑपरेटिंग प्रणाली नेटवर्क सेटिंग्ज तपासा."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "त्या TCP सॉकेटची टक्केवारी जी इंटरनेट डिस्कनेक्ट केलेले असे स्थिती कोड दर्शवते ज्यांच्या समान किंवा त्यापेक्षा जास्त समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "नेटवर्कशी कनेक्ट केलेले नाही"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "आढळलेल्या उपलब्ध नेटवर्कची संख्या: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "ChromeOS इंटरनेट डिस्कनेक्ट केलेली चाचणी"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "कनेक्ट केलेला नेटवर्क इंटरफेस, कनेक्ट केलेला स्थिती कोड दर्शवतो तेव्हा कोणतीही समस्या नसल्याचा परिणाम दर्शवला"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "इंटरनेट कनेक्शन उपलब्ध आहे."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "इंटरनेट कनेक्शन उपलब्ध"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "हे Chromebook एका नेटवर्कशी कनेक्ट केलेले नाही. कृपया स्थिती ट्रे वर जा आणि उपलब्ध नेटवर्कशी कनेक्ट करा."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "कनेक्ट केलेला नेटवर्क इंटरफेस, डिस्कनेक्ट केलेला स्थिती कोड दर्शवतो तेव्हा समस्या परिणाम दर्शवला: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "नेटवर्कशी कनेक्ट केलेले नाही"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "नेटवर्क सिग्नल नाव / सिग्नल सामर्थ्य: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "ChromeOS WiFi सिग्नल सामर्थ्य चाचणी"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "ChromeOS सिग्नल सामर्थ्य बेंचमार्क ज्यावर कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "WiFi नेटवर्कचे सिग्नल सामर्थ्य सशक्त आहे."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "नेटवर्क सिग्नल सामर्थ्य सशक्त"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "ChromeOS सिग्नल सामर्थ्य बेंचमार्क ज्याखाली समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "WiFi नेटवर्कचे सिग्नल सामर्थ्य क्षीण आहे."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "नेटवर्क सिग्नल सामर्थ्य कमी"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "संपूर्ण Chrome OS प्लॅटफॉर्म नंबर: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "ChromeOS आवृत्ती नाव"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "ChromeOS प्लॅटफॉर्म नंबरसाठी थ्रेशोल्ड ज्याच्यापेक्षा जास्त किंवा समान असल्यास आम्ही कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत करतो: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Chrome OS आवृत्ती चाचणीस समस्या आढळली नाही. Chrome OS आवृत्ती अद्यायावत आहे. किमान आवृत्ती आता ही आहे: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "आपण Chrome OS ची एक अलीकडील आवृत्ती वापरत आहात आणि त्यामुळे आपल्याकडे कनेक्टव्हिटी समस्यांकरिता सर्व ज्ञात निराकरणे आहेत."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS अद्ययावत आहे"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Chrome OS आवृत्ती चाचणीस समस्या आढळली. Chrome OS आवृत्ती कालबाह्य आहे. किमान आवृत्ती आता ही आहे: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "आपण Chrome OS ची सर्वात अलीकडील आवृत्ती वापरत नाहीये. परिणामतः, आपल्याकडे सर्व ज्ञात दोष निराकरणे नाहीत आणि त्यामुळे आपण कदाचित कनेक्टिव्हिटी समस्या अनुभवत असू शकता."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS कालबाह्य"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "ChromeOS प्लॅटफॉर्म क्रमांकासाठी थ्रेशोल्ड ज्याच्या खाली आम्ही आम्ही समस्या अभिमत प्रस्तुत करतो: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "अविश्लेषित ब्राउझर वापरकर्ता-एजंट: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "लहान Chrome OS प्लॅटफॉर्म नंबर: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "ब्राउझर आवृत्ती नंबर (संपूर्ण): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Chrome आवृत्ती चाचणी"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome आवृत्ती क्रमांकासाठी थ्रेशोल्ड त्यापेक्षा जास्त किंवा तिच्या समान असल्यास आम्ही कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत करतो: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "आपण Google Chrome ची एक अलीकडील आवृत्ती वापरत आहात आणि त्यामुळे आपल्याकडे कनेक्टिव्हिटी दोषांकरिता सर्व ज्ञात निराकरणे आहेत."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome ही नवीनतम आवृत्ती आहे"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "आपण Google Chrome ची सर्वात अलीकडील आवृत्ती वापरत नाहीये. परिणामतः, आपल्याकडे सर्व ज्ञात दोष निराकरणे नाहीत आणि त्यामुळे आपण कदाचित कनेक्टिव्हिटी समस्या अनुभवत असू शकता."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome ही नवीनतम आवृत्ती नाही"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome आवृत्ती नंबरसाठी थ्रेशोल्ड ज्याच्या खाली आम्ही समस्या अभिमत प्रस्तुत करतो: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "अविश्लेषित ब्राउझर वापरकर्ता-एजंट: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "ब्राउझर आवृत्ती नंबर (लहान): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "चाचणी # / चाचणी होस्ट नाव : "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " निराकरण केलेला DNS पत्ता दर्शवला: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " चाचणीने स्थिती कोड दर्शवला: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS विषबाधा चाचणी"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " चाचणीने कोणतेही DNS पत्ता फील्ड मिळवले नाही (शून्य वर सेट केलेले)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "निराकरणकर्ता अपेक्षित IP पत्ता दर्शवतो तेव्हा DNS परिणामांचे नुकसान झाले नाही असा विचार केला जातो."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "DNS परिणाम अपेक्षित होते आणि नुकसान होण्यासारखे दिसत नाही."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS सर्व्हरने अपेक्षित परिणाम दर्शवले"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " चाचणी; कोणताही परिणाम स्थिती कोड नाही; चाचणी अयशस्वी झाल्यामुळे चाचणीचे विलोपन करत आहे."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "नुकसान झालेला DNS प्रतिसाद दर्शवला. नुकसान झालेला DNS प्रतिसाद विनंती केलेल्या नेटवर्क होस्टवर पाठविले जाण्यापासून संप्रेषणाची दिशा बदलतो."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "निराकरणकर्ता अपेक्षित IP पत्ता दर्शवत नाही तेव्हा DNS परिणामांचा नुकसान झाला असा विचार केला जातो."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "DNS परिणाम अनपेक्षित होते आणि नुकसान होऊ शकते"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "होस्ट करिता पोर्ट 443 वरील TCP कनेक्शन अयशस्वी झाले आणि अवरोधित केले आहे "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "होस्ट करिता पोर्ट 443 वर TCP कनेक्शन यशस्वी झाले "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "गंतव्य पोर्टवरील UDP कनेक्शन अयशस्वी झाले आणि अवरोधित केले आहे "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "गंतव्य पोर्टवरील UDP कनेक्शन यशस्वी झाले "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Hangouts कनेक्टिव्हिटी चाचणी"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Hangouts अवरोधित केलेली चाचणी कोणतीही समस्या नसल्याचे अभिमत दर्शवते जर: (1) एखादे कनेक्शन कोणत्याही UDP पोर्टवर 19302 पासून 19309 पर्यंत stun.l.google.com स्थापित केले जाऊ शकत असेल तर (2) TCP कनेक्शन apis.google.com, clients6.google.com, plus.google.com आणि talkgadget.google.com वर स्थापित केले जाऊ शकत असेल"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts सेवेशी कनेक्ट करताना कोणत्याही समस्या आढळल्या नाहीत."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Hangouts कनेक्शन उपलब्ध"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "19309 द्वारे UDP पोर्ट 19302 वरील Hangouts मीडिया सेवेशी कनेक्ट करण्यात अक्षम."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Hangouts कनेक्शन अंशतः अवक्रमित झालेले दिसते आहे"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Hangouts अवरोधित केलेली चाचणी समस्या अभिमत दर्शवते जर: (1) stun.l.google.com साठी 19302 पासून 19309 पर्यंत सर्व UDP गंतव्य पोर्ट अवरोधित केले (2) पोर्ट 443 वर खालीलपैकी कोणतेही होस्ट अयशस्वी होणारे TCP कनेक्शन: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "पोर्ट आणि होस्टला अवरोधित केल्यासारखे दिसण्यासाठी Hangouts शी कनेक्ट करणे आवश्यक आहे."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Hangouts चॅट सेवेशी कनेक्ट करण्यात अक्षम."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "TCP पोर्ट 443 वरील Hangouts चॅट सेवा किंवा Hangouts मीडिया सेवेशी कनेक्ट करण्यात अक्षम."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "19309 द्वारे TCP पोर्ट 443 आणि UDP पोर्ट 19302 वरील Hangouts मीडिया सेवेशी कनेक्ट करण्यात अक्षम."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Hangout कनेक्शन स्थापित केले जाऊ शकले नाही"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "सरासरी HTTP प्रतिसाद वेळ (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "विनंती मधील त्रुटी # / त्रुटी स्थिती: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "HTTP विनंत्यांची एकूण संख्या: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP प्रतिसाद # / प्राप्त वेळ (microtimestamp) / गेलेली वेळ(ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "एकूण HTTP प्रतिसाद वेळ (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Google वेबसाइट HTTP प्रलंबित चाचणी"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "सरासरी HTTP प्रलंबित वेळ (ms) बेंचमार्क ज्या अंतर्गत समस्या नसल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Google वर वेब विनंत्या द्रुतपणे प्राप्त होत आहेत."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Google वेबसाइटकडील प्रतिसाद प्राप्त करण्यात विलंब नाही"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "सरासरी HTTP प्रलंबित वेळ (ms) बेंचमार्क ज्यामध्ये एक संभाव्य समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Google वेबसाइटकडील प्रतिसाद मिळण्यासाठी लागणार्‍या वेळेपेक्षा थोडा जास्त वेळ लागणे, हे नेटवर्क धीमे असल्याचे दर्शवते."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Google वर वेब विनंत्या अपेक्षेपेक्षा जास्त वेळ घेत आहेत"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Google वेबसाइटकडील प्रतिसाद मिळण्यासाठी लागणार्‍या वेळेपेक्षा जास्त वेळ लागणे, हे नेटवर्क धीमे असल्याचे दर्शवते."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "सरासरी HTTP प्रलंबित वेळ (ms) बेंचमार्क जिच्यावर समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Google वर वेब विनंत्या जास्त वेळ घेत आहेत"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "उत्तीर्ण होण्यासाठीची चाचणी"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "उत्तीर्ण होण्यासाठीच्या चाचण्या"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "थेट IP गेटवे वरील ICMP क्वेरीने कधीही प्रतिसाद पॅकेट प्राप्त केले नाही."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "गेटवे चा IP असा होण्यासाठी निर्धारित केला गेला आहे: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "गेटवे चा IP निर्धारित करू शकलो नाही"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP पॅकेट प्रलंबित (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "1 च्‍या TTL सह दूरस्थ होस्टला ICMP पाठविल्यावर दर्शवलेला IP हा दूरस्थ होस्टच्या IP समानच होता: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "पिंग गेटवे चाचणी"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "गेटवे पिंग करण्यासाठी प्रलंबित (ms) थ्रेशोल्ड ज्याच्या खाली आम्ही कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत करतो: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "गेटवे पिंग केल्याने द्रुत प्रतिसाद उत्पन्न होत आहे."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "गेटवे पोहचण्यायोग्य आहे"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "गेटवे पिंग केल्याने द्रुत प्रतिसाद उत्पन्न होत नाहीये."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "गेटवे पिंग करण्यासाठी प्रलंबित (ms) थ्रेशोल्ड ज्यावर आम्ही कोणतीही समस्या अभिमत प्रस्तुत करतो: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "गेटवे आवाक्याबाहेर आहे"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "सरासरी DNS रिझोल्यूशन वेळ (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "होस्टनाव # चे निराकरण करण्याचा प्रयत्न करत आहे: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "निराकरणकर्ता प्रलंबित चाचणी"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "सरासरी DNS रिझोल्यूशन वेळ (ms) बेंचमार्क ज्या अंतर्गत कोणतेही समस्या अभिमत प्रस्तुत केले जात नाही: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS सर्व्हर IP (उदा. 74.125.228.98) मध्ये एक होस्ट नाव (उदा. google.com) भाषांतरीत करते. इंटरनेटशी आपला ब्राउझर कनेक्ट करण्यासाठी ही प्रक्रिया आवश्यक आग. Chrome आपला स्थानिक निराकरणकर्ता वापरून DNS विनंत्यांचे द्रुतपणे निराकरण करण्यात सक्षम आहे, जे एक पृष्ठ लोड करण्याच्या प्रक्रियेस गती देते."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "DNS रिझोल्यूशनमध्ये विलंब नाही"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS सर्व्हर IP पत्त्यामध्ये एक होस्टनाव (उदा. www.google.com) भाषांतरीत करतो. एक वेबसाइट लोड नेक्ट करण्यासाठी एका ब्राउझरकडे IP पत्ता असणे आवश्यक आहे. आपल्या इंटरनेट कनेक्शनमधील विलंबामुळे, हे भाषांतर करणार्‍या DNS सर्व्हरला जास्त वेळ लागत आहे."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "सरासरी DNS रिझोल्यूशन वेळ (ms) बेंचमार्क ज्यामध्ये अंतर्गत संभाव्य समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS रिझोल्यूशनला सरासरीपेक्षा जास्त वेळ लागत आहे"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS सर्व्हर IP पत्त्यामध्ये एक होस्टनाव (उदा. www.google.com) भाषांतरीत करतो. एका वेबसाइटशी कनेक्ट करण्यासाठी एका ब्राउझरकडे IP पत्ता असणे आवश्यक आहे. आपल्या इंटरनेट कनेक्शनमधील विलंबामुळे, हे भाषांतर करणार्‍या DNS सर्व्हरला जास्त वेळ लागत आहे."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "सरासरी DNS रिझोल्यूशन वेळ (ms) बेंचमार्क ज्यावर समस्या अभिमत प्रस्तुत केले जाते: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS रिझोल्यूशनला जास्त वेळ लागत आहे"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "DNS रिझोल्यूशनसाठी प्राप्त झालेले परिणाम. चाचणी नंबर / वर्तमान वेळ / लागलेला वेळ (ms) / सुरू केल्याचा वेळ (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "निराकरण केलेले एकूण DNS होस्ट: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "सर्व चाचण्यांसाठी एकूण DNS रिझोल्यूशन वेळ (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS निराकरणकर्ता चाचणी एक एकल DNS क्वेरी करते आणि वैध प्रतिसाद न दर्शवल्यास समस्या अभिमत दर्शवते."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS निराकरणकर्ता चाचणी एक एकल DNS क्वेरी करते आणि वैध प्रतिसाद दर्शवल्यास कोणतीही समस्या नसल्याचे अभिमत मिळवते."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "होस्ट नावाचे निराकरण करण्याचा प्रयत्न करत आहे: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "IP पत्त्यावर निराकरण केलेले होस्टनाव: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS सर्व्हरने दर्शवलेला समस्या स्थिती कोड: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS सर्व्हरने दर्शवलेला यश स्थिती कोड: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "निराकरणकर्ता उपस्थिती चाचणी"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome ला एक DNS सर्व्हर आढळला ज्याने IP पत्त्यामध्ये एक होस्टनाव (उदा. www.google.com) यशस्वीरित्या भाषांतरीत केले आहे."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS सर्व्हर उपलब्ध"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS सर्व्हर IP पत्त्यामध्ये होस्टनाव (उदा. www.google.com) भाषांतरीत करते. वेबसाइट लोड करण्यासाठी कनेक्ट करण्याकरिता ब्राउझरचा IP पत्ता असणे आवश्यक आहे. आपला DNS सर्व्हर कार्य करत नसल्यामुळे आपण भेट देऊ इच्छिता त्या वेबसाइटचा IP पत्ता निर्धारित करण्यात Chrome अक्षम आहे. कृपया आपल्या ISP किंवा नेटवर्क प्रशासकाशी संपर्क साधा."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "कार्य करणारे DNS सर्व्हर उपलब्ध नाही"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS सर्व्हरने DNS क्वेरी परिणाम दर्शवले"
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS सर्व्हरने कोणतेही ऑब्जेक्ट मिळवलेले नाही (DNE प्रविष्टीचे एक रेकॉर्ड देखील), म्हणून चाचणी पूर्ण झाली नाही."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "आपले नेटवर्क कनेक्शन योग्यरित्या कार्य करत आहे."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "याविषयी"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "उत्तीर्ण होण्यासाठीच्या चाचण्या लपवा"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "चाचण्या परत चालवा"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "अभिप्राय पाठवा..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "उत्तीर्ण होण्यासाठीच्या चाचण्या दर्शवा"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "फायरवॉल चाचणी परिणाम: चाचणी चालविली / पोर्ट तपासले / अयशस्वी कनेक्शनची संख्या: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " TCP कनेक्शन # / होस्टनाव / पोर्टसाठी प्रयत्न करणार आहात : "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " TCP फायरवॉल चाचणीने TCP स्थिती कोड दर्शवला: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "कनेक्शन चाचणी प्रयत्न अयशस्वी झाला आणि Chrome नेटवर्क स्टॅकवरील TCP यश स्थिती कोड दर्शवला नाही परंतु त्याऐवजी हा स्थिती कोड दर्शवला: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "आढळलेला DNS निराकरणकर्ता अनुपलब्ध आहे, म्हणून आम्ही फायरवॉल विद्यमान आहे किंवा नाही हे निर्धारित करण्यात अक्षम आहोत"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "आढळलेले नेटवर्क अनुपलब्ध आहे, म्हणून आम्ही फायरवॉल विद्यमान आहे किंवा नाही हे निर्धारित करण्यात अक्षम आहोत"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP फायरवॉल चाचणी"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "अयशस्वी TCP कनेक्शन चाचणी परिणामांचे टक्के त्यापेक्षा कमी किंवा समान असतात तेव्हा कोणतीही समस्या नसल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "पोर्टवरील आपल्या इंटरनेट कनेक्शनवर कोणतेही प्रतिबंध आढळले नव्हते "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "पोर्टवर फायरवॉलद्वारे इंटरनेट रहदारी अवरोधित केली नाही "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "अनेक अयशस्वी TCP कनेक्शन चाचणी परिणाम त्यामध्ये असतात तेव्हा एक संभाव्य समस्या असल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "प्रतिबंध सर्वसाधारणपणे वापरलेल्या इंटरनेट कनेक्शनकरिता आपल्या नेटवकवरील ठिकाणी असावे असे दिसते."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "पोर्टवर फायरवॉलद्वारे इंटरनेट रहदारी अवरोधित केली जाऊ शकते "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "प्रतिबंध हे सर्वसाधारणपणे वापरलेल्या इंटरनेट कनेक्शनकरिता आपल्या नेटवर्कवरील एका ठिकाण असतो."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "अयशस्वी TCP कनेक्शन चाचणी परिणामांचे टक्के त्यासमान असतात तेव्हा एक समस्या असल्याचे अभिमत प्रस्तुत केले जाते: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "पोर्टवर फायरवॉलद्वारे इंटरनेट रहदारी अवरोधित "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "TCP कनेक्शन होस्ट / पोर्ट / स्थिती कोड सह स्थापित केले: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "TCP कनेक्शन होस्ट / पोर्ट सह यशस्वीरित्या स्थापित केले: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP कनेक्शन होस्ट / पोर्ट / स्थिती कोड सह अयशस्वी झाले: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "कनेक्शन अयशस्वी होण्याचे कारण: कनेक्शन नाकारले"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "कनेक्शन अयशस्वी होण्याचे कारण: कालबाह्य"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "कनेक्शन अयशस्वी होण्याचे कारण: अज्ञात"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "TCP डेटा वाचताना त्रुटी. त्रुटी कोड: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "TCP सॉकेटवरील (बाइट) आकाराचा डेटा यशस्वीरित्या वाचला: "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "TCP सॉकेटवरून अविश्लेषित डेटा प्राप्त झाला: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "(बाइट) आकाराचा डेटा पाठविण्यासाठी तयार करणे: "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "एक TCP सॉकेट, नंबर / होस्ट / पोर्ट तयार करत आहे: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "(बाइट) आकाराचा डेटा यशस्वीरित्या पाठविला: "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "TCP कालबाह्य लांबी सेट करणे (msec): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "परिणाम लॉग कॉपी करा"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "लॉग लपवा..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "समस्या आढळली"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "समस्या आढळल्या"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "निकष"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "तपशील"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "सारांश"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "समर्थन तपशील"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "चाचणी ID: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "चाचणी नाव: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "चाचणी अभिमत: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "कोणतीही समस्या आढळली नाही"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "संभाव्य समस्या आढळली"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "समस्या आढळली"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "लॉग दर्शवा..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "कनेक्टिव्हिटी निदान चाचण्या चालवताना त्रुटी आली. चाचण्यांचे विलोपन करण्यात आले आहे. ही समस्या कायम राहिल्यास, कृपया सेटिंग्ज मेनूमधील 'अभिप्राय पाठवा...' पर्याय क्लिक करा."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "चाचण्या चालू आहेत. यास काही मिनिटे लागू शकतात..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "UDP डेटा वाचताना त्रुटी. त्रुटी कोड: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "(बाइट) आकारासह UDP सॉकेटवरील डेटा यशस्वीरित्या वाचला: "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "UDP सॉकेटवरून अविश्लेषित डेटा प्राप्त झाला: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "(बाइट) आकाराचा UDP सॉकेट डेटा पाठविण्यासाठी तयार करत आहे: "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "UDP सॉकेट, नंबर / होस्ट / पोर्ट तयार करत आहे: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "(बाइट) आकाराचा डेटा यशस्वीरित्या पाठविला: "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "UDP कालबाह्य लांबी सेट करणे (msec): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "चेतावणी"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "चेतावण्या"
+   }
+}

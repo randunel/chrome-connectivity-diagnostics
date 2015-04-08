@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "О апликацији"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Број верзије: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome дијагностика повезивања"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome дијагностика повезивања (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome дијагностика повезивања (програмери)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Дијагностика повезивања"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Дијагностика повезивања"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Затвори"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Увећај"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Врати"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Подешавања"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Број одговора/заглавља HTTP одговора: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Грешка у захтеву број/статус грешке: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Број одговора/кôд HTTP одговора: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Број захтева/цела дужина одговора: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Тест HTTP портала за проверу"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Тест HTTP портала за проверу приказује поруку да нема проблема ако сви HTTP захтеви прикажу HTTP кôд статуса 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Није пронађен ниједан портал за проверу. Портал за проверу је веб-сајт за који мрежа захтева од корисника да га прегледају и да са њим комуницирају да би им био одобрен приступ за неометано прегледање интернета."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Портал за проверу (HTTP) не блокира интернет саобраћај"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Портал за проверу је веб-сајт за који мрежа захтева од корисника да га прегледају и да са њим комуницирају да би им био одобрен приступ за неометано прегледање интернета. Портал за проверу је пронађен на мрежи, што значи да је неограничени приступ интернету блокиран."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Тест HTTP портала за проверу приказује поруку о проблему ако било који HTTP захтеви не прикажу HTTP кôд статуса 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Портал за проверу (HTTP) блокира интернет саобраћај"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Убрзо ће почети покушај успостављања TCP везе чији је број/име хоста/порт: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Chrome тест интернет везе је приказао кôд TCP статуса: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Chrome тест прекида везе са интернетом"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Проценат TCP утичница које приказују кодове статуса за прекид везе са интернетом испод кога се приказује порука да нема проблема: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Интернет веза је доступна за Chrome прегледач."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Интернет веза је доступна"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome није повезан са мрежом. Проверите подешавања мреже оперативног система."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Проценат TCP утичница које приказују кодове статуса за прекид везе са интернетом за који или изнад кога се приказује порука о проблему: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Није успостављена веза са мрежом"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Откривени број доступних мрежа: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Chrome ОС тест прекида везе са интернетом"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Резултат да нема проблема се приказује када повезани мрежни интерфејс прикаже кôд статуса да је веза успостављена"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Интернет веза је доступна."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Интернет веза је доступна"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Овај Chromebook није повезан са мрежом. Идите на статусну траку и повежите се са доступном мрежом."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Резултат да постоји проблем се приказује када повезани мрежни интерфејс прикаже кôд статуса да је веза прекинута: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Није успостављена веза са мрежом"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Назив мрежног сигнала/јачина сигнала: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Тест јачине Wi-Fi сигнала за Chrome ОС"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Гранична вредност јачине сигнала за Chrome ОС изнад које се приказује порука да нема проблема: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Јачина сигнала Wi-Fi мреже је велика."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Јачина мрежног сигнала је велика"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Гранична вредност јачине сигнала за Chrome ОС испод које се приказује порука о проблему: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Јачина сигнала Wi-Fi мреже је мала."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Јачина мрежног сигнала је мала"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Цео број Chrome ОС платформе: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Назив верзије Chrome ОС-а"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Гранична вредност за број платформе Chrome ОС-а изнад које или за коју се приказује порука да нема проблема: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Тест верзије Chrome ОС-а није открио никакав проблем. Верзија Chrome ОС-а је ажурирана. Најстарија дозвољена верзија је сада: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Користите недавну верзију Chrome ОС-а, па имате све познате исправке за проблеме са повезивањем."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome ОС је ажуриран"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Тест верзије Chrome ОС-а је открио проблем. Верзија Chrome ОС-а је застарела. Најстарија дозвољена верзија је сада: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Не користите најновију верзију Chrome ОС-а. Зато немате све познате исправке грешака, па ћете можда због тога наилазити на проблеме са повезивањем."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome ОС је застарео"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Гранична вредност за број платформе Chrome ОС-а испод које се приказује порука о проблему: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Необрађени кориснички агент прегледача: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Кратак број Chrome ОС платформе: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Број верзије прегледача (цео): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Тест верзије Chrome-а"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Гранична вредност за број верзије Chrome-а изнад које или за коју приказујемо поруку да нема проблема: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Користите ажурирану верзију Google Chrome-а, па имате све познате исправке за грешке у вези са повезивањем."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Верзија Google Chrome-а је најновија"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Не користите најновију верзију Google Chrome-а. Зато немате све познате исправке грешака, па ћете можда због тога наилазити на проблеме са повезивањем."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Верзија Google Chrome-а није најновија"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Гранична вредност за број верзије Chrome-а испод које приказујемо поруку о проблему: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Необрађени кориснички агент прегледача: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Број верзије прегледача (кратак): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Број теста/име хоста теста: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " приказана је разрешена DNS адреса: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " тест је приказао кôд статуса: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Тест тровања за DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " тест није приказао ниједно поље за DNS адресу (подешено на ништа)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "DNS резултати се не сматрају затрованим када разрешивач приказује очекивану IP адресу."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "DNS резултати су очекивани и изгледа да нису затровани."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS сервер је приказао очекиване резултате"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " тест; нема кода статуса за резултат; тест се прекида због отказивања."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Приказан је затровани DNS одговор. Затровани DNS одговор преусмерава комуникацију са захтеваног хоста мреже."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "DNS резултати се сматрају затрованим када разрешивач не приказује очекивану IP адресу."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "DNS резултати су неочекивани и можда су затровани"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "TCP веза није успостављена и блокирана је на порту 443 за одређени хост "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "TCP веза је успостављена на порту 443 за хост "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "UDP веза није успостављена и блокирана је на одредишном порту "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "UDP веза је успостављена на одредишном порту "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Тест повезивања за Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Тест блокираног Hangouts-а приказује поруку да нема проблема: (1) ако веза са stun.l.google.com може да се успостави на било ком UDP порту од 19302 до 19309; (2) ако TCP веза може да се успостави са apis.google.com, clients6.google.com, plus.google.com и talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Није пронађен ниједан проблем при повезивању са услугом Hangouts-а."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Веза са Hangouts-ом је доступна"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Није могуће повезивање са услугом медија на Hangouts-у на UDP портовима од 19302 до 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Изгледа да је веза са Hangouts-ом делимично ослабљена"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Тест блокираног Hangouts-а приказује поруку о проблему: (1) ако су сви UDP одредишни портови од 19302 до 19309 блокирани за stun.l.google.com; (2) ако TCP веза са било којим од следећих хостова не успе на порту 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Изгледа да су портови и хостови потребни за повезивање са Hangouts-ом блокирани."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Није могуће повезивање са услугом ћаскања на Hangouts-у."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Није могуће повезивање са услугом ћаскања на Hangouts-у или услугом медија на Hangouts-у на TCP порту 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Није могуће повезивање са услугом медија на Hangouts-у на TCP порту 443 и UDP портовима од 19302 до 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Није могуће успоставити везу са Hangouts-ом"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Просечно трајање HTTP одговора (милисекунде): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Грешка у захтеву број/статус грешке: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Укупан број HTTP захтева: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Број HTTP одговора/време пријема (микро временска ознака)/протекло време (милисекунде): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Укупно трајање HTTP одговора (милисекунде): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Тест HTTP кашњења за Google веб-сајтове"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Гранична вредност просечног трајања HTTP кашњења (милисекунде) испод које се приказује порука да нема проблема: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Пријем веб-захтева упућених Google-у је брз."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Нема кашњења при добијању одговора са Google веб-сајтова"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Опсег граничне вредности просечног трајања HTTP кашњења (милисекунде) за који се приказује порука о могућем проблему: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Добијање одговора са Google веб-сајтова траје мало дуже него што би требало, што указује на спору мрежу."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Обрада веб-захтева упућених Google-у траје дуже од очекиваног"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Добијање одговора са Google веб-сајтова траје дуже него што би требало, што указује на спору мрежу."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Гранична вредност просечног трајања HTTP кашњења (милисекунде) изнад које се приказује порука о проблему: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Веб-захтеви упућени Google-у трају предуго"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Положени тест"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Положени тестови"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "ICMP упит упућен директно на IP адресу мрежног пролаза никада није добио пакет за одговор."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Утврђено је да је IP адреса мрежног пролаза: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Није могуће утврдити IP адресу мрежног пролаза"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Кашњење ICMP пакета (милисекунде): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP адреса приказана после слања ICMP пакета на удаљени хост чије је време преживљавања 1 је била иста као IP адреса удаљеног хоста: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Тест пинговања мрежног пролаза"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Гранична вредност кашњења (милисекунде) за пинговање мрежног пролаза испод које приказујемо поруку да нема проблема: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Пинговање мрежног пролаза враћа брз одговор."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Мрежни пролаз је доступан"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Пинговање мрежног пролаза не враћа брзи одговор."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Гранична вредност кашњења (милисекунде) за пинговање мрежног пролаза изнад које приказујемо поруку о проблему: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Мрежни пролаз је недоступан"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Просечно трајање DNS разрешавања (милисекунде): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Покушај да се разреши име хоста број: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Тест кашњења разрешивача"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Гранична вредност просечног трајања DNS разрешавања (милисекунде) испод које се приказује порука да нема проблема: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS сервер преводи име хоста (нпр. google.com) у IP адресу (нпр. 74.125.228.98). Овај процес је потребан да би се прегледач повезао са интернетом. Chrome може брзо да разрешава DNS захтеве помоћу локалног разрешивача, што убрзава процес учитавања странице."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Нема кашњења при DNS разрешавању"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS сервер преводи име хоста (нпр. www.google.com) у IP адресу. Прегледач мора да има IP адресу за повезивање да би учитао веб-сајт. DNS серверу који обавља ово превођење је потребно превише времена, због чега долази до застоја интернет везе."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Опсег граничне вредности просечног трајања DNS разрешавања (милисекунде) за који се приказује порука о могућем проблему: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS разрешавање траје дуже од просечног"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS сервер преводи име хоста (нпр. www.google.com) у IP адресу. Прегледач мора да има IP адресу за повезивање да би учитао веб-сајт. DNS серверу који обавља ово превођење је потребно превише времена, због чега долази до застоја интернет везе."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Гранична вредност просечног трајања DNS разрешавања (милисекунде) изнад које се приказује порука о проблему: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS разрешавање траје предуго"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Резултат добијен за DNS разрешавање. Број теста/тренутно време/трајање (милисекунде)/време почетка (милисекунде): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Укупан број разрешених DNS хостова: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Укупно трајање DNS разрешавања за све тестове (милисекунде): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Тест DNS разрешивача претражује један DNS упит и приказује поруку о проблему ако се не прикаже важећи одговор."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Тест DNS разрешивача претражује један DNS упит и приказује поруку да нема проблема ако се прикаже важећи одговор."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Покушај да се одреди име хоста: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Име хоста је разрешено и претворено у IP адресу: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS сервер је приказао кôд статуса за проблем: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS сервер је приказао кôд статуса за успех: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Тест присуства разрешивача"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome је пронашао DNS сервер који је превео име хоста (нпр. www.google.com) у IP адресу."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS сервер је доступан"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS сервер преводи име хоста (нпр. www.google.com) у IP адресу. Прегледач мора да има IP адресу за повезивање да би учитао веб-сајт. Chrome не може да одреди IP адресу веб-сајта који желите да посетите зато што DNS сервер не функционише. Контактирајте добављача интернет услуга или администратора мреже."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Није доступан ниједан DNS сервер који функционише"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS сервер је приказао резултате за DNS упит."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS сервер није приказао ниједан објекат (чак ни DNS унос из евиденције), па тест није завршен."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Изгледа да мрежна веза функционише исправно."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Основни подаци"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Сакриј положене тестове"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Поново покрени тестове"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Пошаљите повратне информације..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Прикажи положене тестове"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Резултати теста заштитног зида: Покренути тестови/проверени порт/број неуспелих повезивања: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Убрзо ће почети покушај успостављања TCP везе чији је број/име хоста/порт: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Тест TCP заштитног зида је приказао кôд TCP статуса: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Покушај теста везе није успео и није приказао кôд TCP статуса за успех из Chrome складишта мреже, већ је приказао следећи кôд статуса: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Откривени DNS разрешивач није доступан, па не можемо да одредимо да ли постоји заштитни зид"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Откривена мрежа није доступна, па не можемо да одредимо да ли постоји заштитни зид"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Тест TCP заштитног зида"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Порука да нема проблема се приказује када је проценат неуспешних резултата теста TCP везе једнак следећој вредности или мањи од ње: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "На порту није откривено ниједно ограничење за интернет везу "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Заштитни зид на порту не блокира интернет саобраћај "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Порука о могућем проблему се приказује када је опсег неуспешних резултата теста TCP везе: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Изгледа да је ограничење за једну често коришћену интернет везу примењено на мрежи."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Заштитни зид на порту можда блокира интернет саобраћај "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Ограничење за једну често коришћену интернет везу је примењено на мрежи."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Порука о проблему се приказује када је проценат неуспешних резултата теста TCP везе једнак следећој вредности: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Заштитни зид на порту блокира интернет саобраћај "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "TCP веза је успостављена помоћу хоста/порта/кода статуса: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "TCP веза је успостављена помоћу хоста/порта: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP веза није успостављена помоћу хоста/порта/кода статуса: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Разлог за неуспешно успостављање везе: Веза је одбијена"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Разлог за неуспешно успостављање везе: Време је истекло"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Разлог за неуспешно успостављање везе: Непознат"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Грешка при читању TCP података. Кôд грешке: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Прочитани су подаци из TCP утичнице величине (у бајтовима): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Примљени необрађени подаци из TCP утичнице: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Припрема за слање података величине (у бајтовима): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Прављење TCP утичнице са бројем/хостом/портом: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Послати су подаци величине (у бајтовима): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Подешавање трајања временског ограничења за TCP (милисекунде): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Копирај евиденције резултата"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Сакриј евиденције..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Пронађен је проблем"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Пронађени су проблеми"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "КРИТЕРИЈУМИ"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "ДЕТАЉИ"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "РЕЗИМЕ"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "ДЕТАЉИ ПОДРШКЕ"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "ИД теста: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Назив теста: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Оцена са теста: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Није откривен ниједан проблем"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Откривен је потенцијалан проблем"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Откривен је проблем"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Прикажи евиденције..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Дошло је до грешке при обављању тестова дијагностике повезивања. Тестови су отказани. Ако се овај проблем и даље буде јављао, кликните на опцију „Пошаљите повратне информације...“ у менију Подешавања."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Тестови су у току. То може да потраје неколико минута..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Грешка при читању UDP података. Кôд грешке: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Прочитани су подаци из UDP утичнице величине (у бајтовима): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Примљени необрађени подаци из UDP утичнице: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Припрема за слање података из UDP утичнице величине (у бајтовима): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Прављење UDP утичнице са бројем/хостом/портом: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Послати су подаци величине (у бајтовима): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Подешавање трајања временског ограничења за UDP (милисекунде): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Упозорење"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Упозорења"
+   }
+}

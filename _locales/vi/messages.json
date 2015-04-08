@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Giới thiệu về ứng dụng"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Số phiên bản: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chẩn đoán kết nối của Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chẩn đoán kết nối của Chrome (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chẩn đoán kết nối của Chrome (Nhà phát triển)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Chẩn đoán kết nối"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Chẩn đoán kết nối"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Đóng"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Phóng to"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Khôi phục"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Cài đặt"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Số phản hồi / tiêu đề phản hồi HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Lỗi trong yêu cầu # / trạng thái lỗi: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Số phản hồi / mã phản hồi HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Số yêu cầu / toàn bộ thời gian phản hồi: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Kiểm tra cổng bị khóa HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Kiểm tra cổng bị khóa HTTP trả về không có kết quả về sự cố nếu tất cả yêu cầu HTTP trả về mã trạng thái HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Không tìm thấy cổng bị khóa. Cổng bị khóa là một trang web mà mạng yêu cầu người dùng phải xem và tương tác với trang web đó trước khi được cấp quyền truy cập để duyệt Internet một cách tự do."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Lưu lượng truy cập Internet không bị chặn bởi cổng bị khóa (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Cổng bị khóa là một trang web mà mạng yêu cầu người dùng phải xem và tương tác với trang web đó trước khi được cấp quyền truy cập để duyệt Internet một cách tự do. Tìm thấy cổng bị khóa trên mạng của bạn có nghĩa là quyền truy cập Internet không hạn chế đã bị chặn."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Kiểm tra cổng cố định HTTP trả về một kết quả sự cố nếu bất kỳ yêu cầu HTTP nào không trả về một mã trạng thái HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Lưu lượng truy cập Internet bị chặn bởi cổng bị khóa (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Chuẩn bị thử kết nối TCP với # / tên máy chủ / cổng: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Kiểm tra kết nối Internet của Chrome trả về mã trạng thái TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Kiểm tra ngắt kết nối Internet của Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Tỷ lệ phần trăm của cổng TCP trả về mã trạng thái đã ngắt kết nối Internet. Dưới tỷ lệ đó, sẽ không có kết quả về sự cố nào được hiển thị: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Hiện có kết nối Internet cho trình duyệt Chrome."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Có kết nối Internet"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome chưa được kết nối với mạng. Hãy kiểm tra cài đặt mạng trên hệ điều hành của bạn."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Tỷ lệ phần trăm của cổng TCP trả về mã trạng thái đã ngắt kết nối Internet. Bằng hoặc trên tỷ lệ đó, sẽ có kết quả về sự cố được hiển thị: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Không kết nối được với mạng"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Số mạng hiện có phát hiện được: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Kiểm tra ngắt kết nối Internet của ChromeOS"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Không có kết quả về sự cố nào được trả về khi giao diện mạng kết nối trả về mã trạng thái kết nối"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Có kết nối Internet."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Có kết nối Internet"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Chromebook này không được kết nối với mạng. Vui lòng chuyển đến khay trạng thái và kết nối với một mạng có sẵn."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Kết quả về sự cố được trả về khi giao diện mạng kết nối trả về mã trạng thái ngắt kết nối: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Không kết nối được với mạng"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Tên tín hiệu mạng / cường độ tín hiệu: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Kiểm tra cường độ tín hiệu WiFi của ChromeOS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Tiêu chuẩn cường độ tín hiệu của ChromeOS. Trên tiêu chuẩn đó, sẽ không có kết quả về sự cố nào được hiển thị: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Cường độ tín hiệu của mạng WiFi mạnh."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Cường độ tín hiệu mạng mạnh"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Tiêu chuẩn cường độ tín hiệu của ChromeOS. Dưới tiêu chuẩn đó, sẽ có kết quả về sự cố được hiển thị: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Cường độ tín hiệu của mạng WiFi yếu."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Cường độ tín hiệu mạng thấp"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Số nền tảng Chrome OS đầy đủ: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Tên phiên bản ChromeOS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Ngưỡng dành cho số nền tảng ChromeOS. Trên hoặc bằng với ngưỡng đó, chúng tôi sẽ hiển thị không có kết quả về sự cố: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Kiểm tra phiên bản Chrome OS không phát hiện sự cố. Phiên bản Chrome OS đã được cập nhật. Phiên bản tối thiểu hiện là: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Bạn hiện sử dụng phiên bản Chrome OS mới, do đó bạn có tất cả các bản sửa lỗi kết nối đã biết."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS đã được cập nhật"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Kiểm tra phiên bản Chrome OS đã phát hiện sự cố. Phiên bản Chrome OS đã lỗi thời. Phiên bản tối thiểu hiện là: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Bạn hiện không sử dụng phiên bản Chrome OS mới nhất. Do đó, bạn không có tất cả các bản sửa lỗi đã biết và vì vậy, bạn có thể gặp phải các sự cố kết nối."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS đã lỗi thời"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Ngưỡng dành cho số nền tảng ChromeOS. Dưới ngưỡng đó, chúng tôi sẽ hiển thị kết quả về sự cố: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Tác nhân người dùng trình duyệt định dạng raw: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Số nền tảng Chrome OS được viết tắt: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Số phiên bản trình duyệt (đầy đủ): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Kiểm tra phiên bản Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Ngưỡng dành cho số phiên bản Chrome. Trên hoặc bằng ngưỡng đó, chúng tôi sẽ hiển thị không có kết quả về sự cố: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Bạn hiện sử dụng phiên bản Google Chrome mới, do đó bạn có tất cả các bản sửa lỗi kết nối đã biết."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Phiên bản Google Chrome là phiên bản mới nhất"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Bạn hiện không sử dụng phiên bản Google Chrome mới nhất. Do đó, bạn không có tất cả các bản sửa lỗi đã biết và vì vậy, bạn có thể gặp phải các sự cố kết nối."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Phiên bản Google Chrome không phải là phiên bản mới nhất"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Ngưỡng dành cho số phiên bản Chrome. Dưới ngưỡng đó, chúng tôi sẽ hiển thị kết quả về sự cố: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Tác nhân người dùng trình duyệt định dạng raw: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Số phiên bản trình duyệt (viết tắt): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Kiểm tra # / Kiểm tra tên máy chủ: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " đã trả về địa chỉ DNS được phân giải: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " kiểm tra trả về mã trạng thái: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Kiểm tra nhiễm độc DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " kiểm tra không trả về trường địa chỉ DNS nào (đặt thành rỗng)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Kết quả DNS được coi là không bị nhiễm độc khi trình phân giải trả về địa chỉ IP dự kiến."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Kết quả DNS như dự kiến và có vẻ như không bị nhiễm độc."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Máy chủ DNS trả về kết quả theo dự kiến"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " kiểm tra; không có mã trạng thái kết quả; hủy kiểm tra do lỗi kiểm tra."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Một phản hồi DNS bị nhiễm độc được trả về. Một phản hồi DNS bị nhiễm độc làm chệch hướng thông tin liên lạc đang được gửi đến máy chủ mạng đã yêu cầu."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Kết quả DNS được coi là bị nhiễm độc khi trình phân giải không trả về địa chỉ IP dự kiến."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Kết quả DNS bất ngờ và có thể bị nhiễm độc"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Kết nối TCP đã không thành công và bị chặn trên cổng 443 dành cho máy chủ "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Kết nối TCP đã thành công trên cổng 443 dành cho máy chủ "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Kết nối UDP đã không thành công và bị chặn trên cổng đích "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Kết nối UDP đã thành công trên cổng đích "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Kiểm tra kết nối Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Kiểm tra kết nối với Hangouts bị chặn không trả về kết quả sự cố nếu: (1) một kết nối có thể được thiết lập với stun.l.google.com trên bất kỳ cổng UDP 19302 đến 19309 nào (2) Kết nối TCP có thể được thiết lập với apis.google.com, clients6.google.com, plus.google.com và talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Không phát hiện thấy sự cố khi kết nối với dịch vụ Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Kết nối Hangouts có sẵn"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Không thể kết nối với dịch vụ truyền thông Hangouts trên các cổng UDP 19302 cho đến 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Kết nối Hangouts có vẻ suy yếu một phần"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Kiểm tra kết nối với Hangouts bị chặn trả về kết quả sự cố nếu: (1) tất cả các cổng đích UDP 19302 đến 19309 bị chặn đối với stun.l.google.com (2) Kết nối TCP với bất kỳ máy chủ nào sau đây không thành công trên cổng 443: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Các cổng và máy chủ cần thiết để kết nối với Hangouts có vẻ bị như bị chặn."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Không thể kết nối với dịch vụ trò chuyện Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Không thể kết nối với dịch vụ trò chuyện Hangouts hoặc dịch vụ truyền thông Hangouts trên cổng TCP 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Không thể kết nối với dịch vụ truyền thông Hangouts trên cổng TCP 443 và trên các cổng UDP 19302 cho đến 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Kết nối hangout không thể thiết lập được"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Thời gian phản hồi HTTP trung bình (mili giây): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Lỗi trong yêu cầu # / trạng thái lỗi: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Tổng số yêu cầu HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Phản hồi HTTP # / thời gian nhận được (microtimestamp) / thời gian trôi qua (mili giây): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Tổng thời gian phản hồi HTTP (mili giây): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Kiểm tra độ trễ HTTP các trang web của Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Tiêu chuẩn thời gian độ trễ HTTP trung bình (mili giây). Dưới tiêu chuẩn đó, sẽ không có kết quả về sự cố nào được hiển thị: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Các yêu cầu web gửi tới Google được nhận nhanh chóng."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Không có sự chậm trễ nào khi nhận phản hồi từ các trang web của Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Tiêu chuẩn thời gian độ trễ HTTP trung bình (mili giây). Trong khoảng tiêu chuẩn đó, sẽ có kết quả về sự cố tiềm ẩn được hiển thị: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Hơi mất nhiều thời gian hơn bình thường để nhận phản hồi từ các trang web của Google, điều đó cho thấy mạng chậm."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Các yêu cầu web gửi tới Google mất nhiều thời gian hơn dự kiến"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Mất nhiều thời gian hơn bình thường để nhận một phản hồi từ các trang web của Google, điều đó cho thấy mạng chậm."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Tiêu chuẩn thời gian độ trễ HTTP trung bình (mili giây). Trên tiêu chuẩn đó, sẽ có kết quả về sự cố được hiển thị: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Các yêu cầu web gửi tới Google mất quá nhiều thời gian"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Kiểm tra đã vượt qua"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Các kiểm tra đã vượt qua"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Truy vấn ICMP trực tiếp đến IP cổng vào chưa bao giờ nhận được một gói phản hồi."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "IP của cổng vào đã được xác định là: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "IP của cổng vào không thể xác định được"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Độ trễ của gói ICMP (mili giây): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "IP được trả về từ việc gửi một gói ICMP đến một máy chủ từ xa có TTL là 1 giống như IP của máy chủ từ xa: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Kiểm tra Ping cổng vào"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Ngưỡng cho độ trễ (mili giây) để ping cổng vào. Dưới ngưỡng đó, chúng tôi không hiển thị kết quả về sự cố: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Ping cổng vào tạo ra phản hồi nhanh."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Có thể truy cập cổng vào"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Ping cổng vào không tạo ra phản hồi nhanh."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Ngưỡng cho độ trễ (mili giây) để ping cổng vào. Trên ngưỡng đó, chúng tôi hiển thị kết quả về sự cố: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Không thể truy cập cổng vào"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Thời gian phân giải DNS trung bình (mili giây): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Đang cố gắng phân giải tên máy chủ #: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Kiểm tra độ trễ của Trình phân giải"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Tiêu chuẩn thời gian phân giải DNS trung bình (mili giây). Dưới tiêu chuẩn đó, sẽ không có kết quả về sự cố nào được hiển thị: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Máy chủ DNS chuyển tên máy chủ (ví dụ: google.com) thành địa chỉ IP (ví dụ: 74.125.228.98). Quá trình này là bắt buộc để trình duyệt của bạn kết nối với Internet. Chrome có thể nhanh chóng phân giải yêu cầu DNS bằng trình phân giải cục bộ của bạn. Việc này giúp tăng tốc quá trình tải trang."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Không bị chậm trễ trong quá trình phân giải DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Máy chủ DNS chuyển tên máy chủ (ví dụ: www.google.com) thành địa chỉ IP. Mỗi trình duyệt phải có một địa chỉ IP để kết nối nhằm tải trang web. Máy chủ DNS mất quá nhiều thời gian để thực hiện quá trình chuyển đổi này, gây ra sự chậm trễ trong kết nối Internet của bạn."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Tiêu chuẩn thời gian phân giải DNS trung bình (mili giây). Trong khoảng tiêu chuẩn đó, sẽ có kết quả về sự cố được hiển thị: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Quá trình phân giải DNS mất nhiều thời gian hơn bình thường"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Máy chủ DNS chuyển tên máy chủ (ví dụ: www.google.com) thành địa chỉ IP. Mỗi trình duyệt phải có một địa chỉ IP để kết nối nhằm tải trang web. Máy chủ DNS mất quá nhiều thời gian để thực hiện quá trình chuyển đổi này, gây ra sự chậm trễ trong kết nối Internet của bạn."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Tiêu chuẩn thời gian phân giải DNS trung bình (mili giây) mà trên tiêu chuẩn đó, kết quả về sự cố sẽ được hiển thị: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Quá trình phân giải DNS mất quá nhiều thời gian"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Đã nhận được kết quả phân giải DNS. Số kiểm tra / Thời gian hiện tại / Thời gian thực hiện (mili giây) / Thời gian bắt đầu (mili giây): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Tổng số máy chủ DNS được phân giải: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Tổng thời gian phân giải DNS cho tất cả các kiểm tra (mili giây): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Kiểm tra trình phân giải DNS thực hiện một truy vấn DNS duy nhất và trả về kết quả sự cố nếu một phản hồi hợp lệ không được trả về."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Kiểm tra trình phân giải DNS thực hiện một truy vấn DNS duy nhất và không trả về kết quả sự cố nếu một phản hồi hợp lệ được trả về."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Đang cố gắng phân giải tên máy chủ: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Tên máy chủ được phân giải thành địa chỉ IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Máy chủ DNS trả về mã trạng thái sự cố: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Máy chủ DNS trả về mã trạng thái thành công: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Kiểm tra hiện tại của Trình phân giải"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome đã tìm thấy một máy chủ DNS chuyển thành công tên máy chủ (ví dụ: www.google.com) thành địa chỉ IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Máy chủ DNS khả dụng"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Máy chủ DNS chuyển tên máy chủ (ví dụ: www.google.com) thành địa chỉ IP. Mỗi trình duyệt phải có một địa chỉ IP để kết nối nhằm tải trang web. Chrome không thể xác định địa chỉ IP của trang web bạn muốn truy cập bởi vì máy chủ DNS của bạn không hoạt động. Vui lòng liên hệ với ISP hoặc quản trị viên mạng của bạn."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Không có máy chủ DNS nào đang hoạt động"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Máy chủ DNS trả về kết quả truy vấn DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Máy chủ DNS không trả về bất kỳ đối tượng nào (thậm chí không cả mục nhập DNE của bản ghi), do đó quá trình kiểm tra chưa hoàn tất."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Kết nối mạng của bạn có vẻ vẫn bình thường."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Giới thiệu"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Ẩn các kiểm tra đã vượt qua"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Chạy lại kiểm tra"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Gửi phản hồi..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Hiển thị các kiểm tra đã vượt qua"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Kết quả kiểm tra tường lửa: Kiểm tra đã thực hiện / cổng được kiểm tra / số kết nối không thành công: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Chuẩn bị thử kết nối TCP với # / tên máy chủ / cổng: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Kiểm tra tường lửa TCP trả về mã trạng thái TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Nỗ lực kiểm tra kết nối không thành công và không trả về mã trạng thái thành công TCP từ ngăn xếp mạng Chrome mà thay vào đó trả về mã trạng thái: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Trình phân giải DNS được phát hiện không khả dụng, do đó chúng tôi không thể xác định được liệu có tồn tại tường lửa hay không"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Mạng được phát hiện không khả dụng, do đó chúng tôi không thể xác định được liệu tường lửa có tồn tại hay không"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Kiểm tra tường lửa TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Không có kết quả về sự cố nào được hiển thị khi tỷ lệ phần trăm của kết quả kiểm tra kết nối TCP không thành công nhỏ hơn hoặc bằng: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Không phát hiện thấy hạn chế kết nối Internet nào trên cổng của bạn "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Lưu lượng truy cập Internet không bị chặn bởi tường lửa trên cổng "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Kết quả về sự cố tiềm ẩn được hiển thị khi số kết quả kiểm tra kết nối TCP không thành công trong khoảng: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Có vẻ như mạng của bạn hạn chế kết nối Internet thông thường."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Lưu lượng truy cập Internet có thể bị chặn bởi tường lửa trên cổng "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Mạng của bạn hạn chế kết nối Internet thông thường."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Kết quả về sự cố được hiển thị khi tỷ lệ phần trăm của kết quả kiểm tra kết nối TCP không thành công bằng: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Lưu lượng truy cập Internet bị chặn bởi tường lửa trên cổng "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Đã thiết lập kết nối TCP với máy chủ / cổng / mã trạng thái: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Thiết lập thành công kết nối TCP với máy chủ / cổng: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Không thực hiện được kết nối TCP với máy chủ / cổng / mã trạng thái: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Lý do không thực hiện được kết nối: Kết nối bị từ chối"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Lý do không thực hiện được kết nối: Hết thời gian chờ"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Lý do không thực hiện được kết nối: Không xác định"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Lỗi khi đọc dữ liệu TCP. Mã lỗi: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Đã đọc thành công dữ liệu từ cổng TCP có kích thước (byte): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Đã nhận dữ liệu thô từ cổng TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Chuẩn bị gửi dữ liệu có kích thước (byte): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Tạo cổng TCP, số / máy chủ / cổng: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Đã gửi thành công dữ liệu có kích thước (byte): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Đặt lượng thời gian chờ TCP (mili giây): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Sao chép nhật ký kết quả"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Ẩn nhật ký..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Đã tìm thấy sự cố"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Đã tìm thấy sự cố"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "TIÊU CHÍ"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "CHI TIẾT"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "TÓM TẮT"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "CHI TIẾT HỖ TRỢ"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "ID kiểm tra: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Tên kiểm tra: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Kết quả kiểm tra: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Không phát hiện thấy sự cố"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Đã phát hiện thấy sự cố tiềm ẩn"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Đã phát hiện thấy sự cố"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Hiển thị nhật ký..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Đã xảy ra lỗi khi chạy kiểm tra chẩn đoán kết nối. Các kiểm tra đã bị hủy. Nếu sự cố này tiếp diễn, hãy nhấp vào tùy chọn 'Gửi phản hồi...' từ trình đơn Cài đặt."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Đang chạy kiểm tra. Quá trình này có thể mất vài phút..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Lỗi khi đọc dữ liệu UDP. Mã lỗi: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Đã đọc thành công dữ liệu từ cổng UDP có kích thước (byte): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Đã nhận dữ liệu thô từ cổng UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Chuẩn bị gửi dữ liệu cổng UDP có kích thước (byte): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Tạo cổng UDP, số / máy chủ / cổng: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Đã gửi thành công dữ liệu có kích thước (byte): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Đặt lượng thời gian chờ UDP (mili giây): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Cảnh báo"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Cảnh báo"
+   }
+}

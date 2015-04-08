@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "앱 정보"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "버전 번호: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome 연결 진단"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome 연결 진단(베타)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome 연결 진단(Dev)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "연결 진단"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "연결 진단"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "닫기"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "최대화"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "복원"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "설정"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "응답 번호/HTTP 응답 헤더: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "요청 오류 번호/오류 상태: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "응답 번호/HTTP 응답 코드: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "요청 번호/전체 응답 길이: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "HTTP 웹포털 인증 테스트"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "모든 HTTP 요청이 204 HTTP 상태 코드를 반환하는 경우 HTTP 웹포털 인증 테스트에서 문제가 없다는 결과를 표시합니다."
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "웹포털 인증이 없습니다. 웹포털 인증은 네트워크에서 사용자가 인터넷을 자유롭게 사용할 수 있는 액세스 권한을 부여받기 전에 보고 상호작용해야 하는 웹사이트입니다."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "인터넷 트래픽이 웹포털 인증(HTTP)에 의해 차단되지 않음"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "웹포털 인증은 네트워크에서 사용자가 인터넷을 자유롭게 사용할 수 있는 액세스 권한을 부여받기 전에 보고 상호작용해야 하는 웹사이트입니다. 웹포털 인증이 네트워크에 표시되었으며 이는 인터넷 액세스 권한이 제한됨을 의미합니다."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "HTTP 요청 중 하나라도 204 HTTP 상태 코드를 반환하지 않는 경우 HTTP 웹포털 인증 테스트에서 문제가 있다는 결과를 표시합니다."
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "인터넷 트래픽이 웹포털 인증(HTTP)에 의해 차단됨"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": "TCP 연결을 시도하려는 번호/호스트 이름/포트: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": "Chrome 인터넷 연결 테스트 결과 반환된 TCP 상태 코드: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Chrome 인터넷 연결 해제 테스트"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "인터넷 연결 해제 상태 코드를 반환하는 TCP 소켓의 비율(비율이 이보다 낮으면 문제가 없다고 결론 내릴 수 있음): "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Chrome 브라우저에서 인터넷에 연결할 수 있습니다."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "인터넷에 연결할 수 있음"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome이 네트워크에 연결되어 있지 않습니다. 운영체제 네트워크 설정을 확인하세요."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "인터넷 연결 해제 상태 코드를 반환하는 TCP 소켓의 비율(비율이 이와 같거나 더 높으면 문제가 있다고 결론 내릴 수 있음): "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "네트워크에 연결되어 있지 않음"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "감지된 사용 가능 네트워크 수: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Chrome OS 인터넷 연결 해제 테스트"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "연결된 네트워크 인터페이스가 연결 상태 코드를 반환할 때 문제가 없다는 결과가 반환됩니다."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "인터넷에 연결할 수 있습니다."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "인터넷에 연결할 수 있음"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Chromebook이 네트워크에 연결되어 있지 않습니다. 상태 표시줄로 이동하여 사용 가능한 네트워크에 연결하세요."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "연결된 네트워크 인터페이스가 연결 해제 상태 코드를 반환할 때 문제가 있다는 결과가 반환됩니다."
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "네트워크에 연결되어 있지 않음"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "네트워크 신호 이름/신호 강도: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Chrome OS Wi-Fi 신호 강도 테스트"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "이 값보다 높으면 문제가 없다고 결론 내릴 수 있는 Chrome OS 신호 강도 벤치마크: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Wi-Fi 네트워크의 신호 강도가 강합니다."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "네트워크 신호 강도 강함"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "이 값보다 낮으면 문제가 있다고 결론 내릴 수 있는 Chrome OS 신호 강도 벤치마크: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Wi-Fi 네트워크의 신호 강도가 약합니다."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "네트워크 신호 강도 약함"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "전체 Chrome OS 플랫폼 번호: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Chrome OS 버전 이름"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "이 값과 같거나 더 높으면 문제가 없다고 결론 내릴 수 있는 Chrome OS 플랫폼 번호의 기준: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Chrome OS 버전 테스트에서 감지된 문제가 없습니다. Chrome OS가 최신 버전입니다. 현재 최소 버전: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "최신 버전의 Chrome OS를 사용 중이므로 연결과 관련된 모든 알려진 버그가 수정되었습니다. "
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS가 최신 버전임"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Chrome OS 버전 테스트에서 문제가 감지되었습니다. Chrome OS가 이전 버전입니다. 현재 최소 버전: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS가 최신 버전이 아닙니다. 모든 알려진 버그가 수정되지 않았으므로 연결 문제가 발생할 수 있습니다."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS가 이전 버전임"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "이 값보다 낮으면 문제가 있다고 결론 내릴 수 있는 Chrome OS 플랫폼 번호의 기준: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "원본 브라우저 user-agent: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "약식 Chrome OS 플랫폼 번호: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "브라우저 버전 번호(전체): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Chrome 버전 테스트"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "이 값과 같거나 더 높으면 문제가 없다고 결론 내릴 수 있는 Chrome 버전 번호의 기준: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Chrome의 최신 버전을 사용 중이므로 연결과 관련된 모든 알려진 버그가 수정되었습니다."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Chrome이 최신 버전임"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Chrome이 최신 버전이 아닙니다. 모든 알려진 버그가 수정되지 않았으므로 연결 문제가 발생할 수 있습니다."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Chrome이 최신 버전이 아님"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "이 값보다 낮으면 문제가 있다고 결론 내릴 수 있는 Chrome 버전 번호의 기준: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "원본 브라우저 user-agent: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "브라우저 버전 번호(약식): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "테스트 번호/테스트 호스트 이름: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " 확인되고 반환된 DNS 주소: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " 테스트에서 반환한 상태 코드: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS 감염 테스트"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " 테스트에서 반환된 DNS 주소 필드 없음(null로 설정)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "확인자가 예상했던 IP 주소를 반환하는 경우 DNS 결과는 감염되지 않은 것으로 간주됩니다."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "DNS 결과가 예상했던 것이며 감염되지 않은 것으로 보입니다."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS 서버에서 예상했던 결과를 반환함"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " 테스트에서 결과 없음 상태 코드 반환: 테스트 실패로 인해 테스트 취소"
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "감염된 DNS 응답이 반환되었습니다. 감염된 DNS 응답은 커뮤니케이션이 요청된 네트워크 호스트로 전송되지 못하도록 합니다."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "확인자가 예상했던 IP 주소를 반환하지 않는 경우 DNS 결과는 감염된 것으로 간주됩니다."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "DNS 결과가 예상하지 않았던 것이며 감염되었을 수 있음"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "포트 443에서 호스트에 대한 TCP 연결이 실패하고 차단됨"
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "포트 443에서 호스트에 대한 TCP 연결이 성공함"
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "도착 포트에서 UDP 연결이 실패하고 차단됨"
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "도착 포트에서 UDP 연결이 성공함"
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "행아웃 연결 테스트"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "다음에 해당하는 경우 행아웃 차단 테스트는 문제가 없다는 결과를 표시합니다. (1) 19302~19309의 UDP 포트 중 하나라도 stun.l.google.com에 대한 연결을 설정할 수 있는 경우 (2) apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com에 대한 TCP 연결을 설정할 수 있는 경우"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "행아웃 서비스에 연결하는 데 문제가 발견되지 않았습니다."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "행아웃 연결 가능"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "UDP 포트19302부터 19309에서 행아웃 미디어 서비스에 연결할 수 없습니다."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "행아웃 연결 성능이 부분적으로 저하된 것으로 보임"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "다음에 해당하는 경우 행아웃 차단 테스트는 문제가 있다는 결과를 표시합니다. (1) 19302~19309의 모든 UDP 도착 포트에서 stun.l.google.com에 대한 연결이 차단되는 경우 (2) 포트 443에서 호스트 apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com 중 하나라도 TCP 연결이 실패하는 경우"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "행아웃에 연결하는 데 필요한 포트 및 호스트가 차단된 것 같습니다."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "행아웃 채팅 서비스에 연결할 수 없습니다."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "TCP 포트 443에서 행아웃 채팅 서비스 또는 행아웃 미디어 서비스에 연결할 수 없습니다."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "TCP 포트 443 및 UDP 포트 19302~19309에서 행아웃 미디어 서비스에 연결할 수 없습니다."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "행아웃 연결을 설정할 수 없음"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "평균 HTTP 응답 시간(밀리초): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "요청 오류 번호/오류 상태: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "총 HTTP 요청 수: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP 응답 번호/수신 시간(마이크로타임스탬프)/경과 시간(밀리초): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "총 HTTP 응답 시간(밀리초): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Google 웹사이트 HTTP 지연 시간 테스트"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "이 값보다 낮으면 문제가 없다고 결론 내릴 수 있는 평균 HTTP 지연 시간(밀리초) 벤치마크: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Google 웹 요청이 빠르게 수신되고 있습니다."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Google 웹사이트에서 응답을 받는 데 지연 없음"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "이 값 사이에 있으면 잠재적인 문제가 있다고 결론 내릴 수 있는 평균 HTTP 지연 시간(밀리초) 벤치마크: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Google 웹사이트에서 응답을 받는 데 예상보다 시간이 약간 더 소요됩니다(네트워크 속도가 느림)."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Google 웹 요청에 예상보다 긴 시간이 소요됨"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Google 웹사이트에서 응답을 받는 데 예상보다 시간이 더 소요됩니다(네트워크 속도가 느림)."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "이 값보다 높으면 문제가 있다고 결론 내릴 수 있는 평균 HTTP 지연 시간(밀리초) 벤치마크: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Google 웹 요청에 너무 긴 시간이 소요됨"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "통과한 테스트"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "통과한 테스트"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "게이트웨이 IP로 직접 전송되는 ICMP 쿼리에 응답 패킷이 수신되지 않았습니다."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "결정된 게이트웨이 IP: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "게이트웨이의 IP를 결정하지 못함"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP 패킷 지연 시간(밀리초): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "TTL을 1로 하여 ICMP 패킷을 원격 호스트에 전송한 결과 반환된 IP가 원격 호스트의 IP와 같음: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "게이트웨이 핑 테스트"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "이 값보다 낮으면 문제가 없다고 결론 내릴 수 있는 게이트웨이 핑 지연 시간(밀리초)의 기준: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "게이트웨이를 핑할 때 빠르게 응답합니다."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "게이트웨이에 연결할 수 있음"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "게이트웨이를 핑할 때 빠르게 응답하지 않습니다."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "이 값보다 높으면 문제가 있다고 결론 내릴 수 있는 게이트웨이 핑 지연 시간(밀리초)의 기준: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "게이트웨이에 연결할 수 없음"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "평균 DNS 확인 시간(밀리초): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "다음 호스트 이름 번호 확인을 시도하는 중: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "확인자 지연 시간 테스트"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "이 값보다 낮으면 문제가 없다고 결론 내릴 수 있는 평균 DNS 확인 시간(밀리초) 벤치마크: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS 서버는 호스트 이름(예: google.com)을 IP(예: 74.125.228.98)로 바꿉니다. 브라우저가 인터넷에 연결되려면 이 프로세스가 필요합니다. Chrome은 로컬 확인자를 사용하여 빠르게 DNS 요청을 확인할 수 있으며, 이로 인해 페이지 로드 속도가 빨라집니다."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "DNS 확인에 지연 없음"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS 서버는 호스트 이름(예: www.google.com)을 IP 주소로 바꿉니다. 브라우저에서 웹사이트를 로드하려면 연결할 IP 주소가 있어야 합니다. 이 변환을 수행하는 DNS 서버에서 너무 긴 시간이 소요되어 인터넷 연결에 지연이 발생했습니다."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "이 값 사이에 있으면 잠재적인 문제가 있다고 결론 내릴 수 있는 평균 DNS 확인 시간(밀리초) 벤치마크:"
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS 확인에 평균 이상의 시간이 소요됨"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS 서버는 호스트 이름(예: www.google.com)을 IP 주소로 바꿉니다. 브라우저에서 웹사이트를 로드하려면 연결할 IP 주소가 있어야 합니다. 이 변환을 수행하는 DNS 서버에서 너무 긴 시간이 소요되어 인터넷 연결에 지연이 발생했습니다."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "이 값보다 높으면 문제가 있다고 결론 내릴 수 있는 평균 DNS 확인 시간(밀리초) 벤치마크: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS 확인에 너무 긴 시간이 소요됨"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "DNS 확인 결과를 받았습니다. 테스트 번호/현재 시간/소요 시간(밀리초)/시작 시간(밀리초): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "확인된 총 DNS 호스트 수: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "모든 테스트에 대한 총 DNS 확인 시간(밀리초): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS 확인자 테스트는 단일 DNS 쿼리를 수행하고 유효한 응답이 반환되지 않는 경우 문제가 있다는 결과를 표시합니다."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS 확인자 테스트는 단일 DNS 쿼리를 수행하고 유효한 응답이 반환되는 경우 문제가 없다는 결과를 표시합니다."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "다음 호스트 이름 확인을 시도하는 중: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "호스트 이름이 확인된 IP 주소: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS 서버에서 반환한 문제 상태 코드: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS 서버에서 반환한 완료 상태 코드: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "확인자 존재 여부 테스트"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome이 호스트 이름(예: www.google.com)을 IP 주소로 바꾼 DNS 서버를 찾았습니다."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS 서버를 사용할 수 있음"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS 서버는 호스트 이름(예: www.google.com)을 IP 주소로 바꿉니다. 브라우저에서 웹사이트를 로드하려면 연결할 IP 주소가 있어야 합니다. DNS 서버가 작동하지 않기 때문에 Chrome에서 방문하려는 웹사이트의 IP를 결정할 수 없습니다. ISP 또는 네트워크 관리자에게 문의하시기 바랍니다."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "작동하는 DNS 서버를 사용할 수 없음"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS 서버에서 DNS 쿼리 결과를 반환했습니다."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS 서버에서 개체(레코드 DNE 항목 포함)를 반환하지 않아 테스트가 완료되지 않았습니다."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "네트워크 연결이 올바르게 작동 중인 것으로 보입니다."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "정보"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "통과한 테스트 숨기기"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "테스트 다시 실행"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "의견 보내기..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "통과한 테스트 표시"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "방화벽 테스트 결과: 테스트 실행됨/포트 확인됨/연결에 실패한 횟수: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": "TCP 연결을 시도하려는 번호/호스트 이름/포트: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " TCP 방화벽 테스트 결과 반환된 TCP 상태 코드: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "연결 테스트에 실패하여 Chrome 네트워크 스택에서 TCP 완료 상태 코드를 반환하지 않았으며, 대신 다음 상태 코드를 반환함:"
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "감지된 DNS 확인자를 사용할 수 없으므로 방화벽이 있는지 여부를 결정할 수 없습니다."
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "감지된 네트워크를 사용할 수 없으므로 방화벽이 있는지 여부를 결정할 수 없습니다."
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP 방화벽 테스트"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "이 값보다 작거나 같은 경우 문제가 없다고 결론을 내릴 수 있는 TCP 연결 테스트 실패 결과의 비율: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "포트에서 인터넷 연결 제한이 감지되지 않았습니다. "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "인터넷 트래픽이 포트에서 방화벽에 의해 차단되지 않음 "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "이 값 사이에 있는 경우 잠재적인 문제가 있다고 결론을 내릴 수 있는 TCP 연결 테스트 실패 결과의 수: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "사용자 네트워크에서 일반적으로 사용되는 인터넷 연결이 제한되는 것 같습니다."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "인터넷 트래픽이 포트에서 방화벽에 의해 차단될 수 있음 "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "사용자 네트워크에서 일반적으로 사용되는 인터넷 연결이 제한됩니다."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "이 값과 같은 경우 문제가 있다고 결론을 내릴 수 있는 TCP 연결 테스트 실패 결과의 비율: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "인터넷 트래픽이 포트에서 방화벽에 의해 차단됨 "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "TCP 연결이 설정된 호스트/포트/상태 코드: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "TCP 연결이 설정된 호스트/포트: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP 연결이 실패한 호스트/포트/상태 코드: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "연결 실패 이유: 연결이 거부됨"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "연결 실패 이유: 시간 초과"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "연결 실패 이유: 알 수 없음"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "TCP 데이터를 읽는 중에 오류가 발생했습니다. 오류 코드: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "읽은 TCP 소켓 데이터 크기(바이트):"
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "수신한 TCP 소켓 원시 데이터: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "전송 준비 중인 데이터 크기(바이트): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "TCP 소켓, 번호/호스트/포트 만들기: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "전송한 데이터 크기(바이트): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "TCP 시간 제한 길이 설정(밀리초): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "결과 로그 복사"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "로그 숨기기..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "문제 발견"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "문제 발견"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "기준"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "세부정보"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "요약"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "지원 세부정보"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "테스트 ID: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "테스트 이름: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "테스트 결과: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "문제가 감지되지 않음"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "잠재적인 문제가 감지됨"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "문제가 감지됨"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "로그 표시..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "연결 진단 테스트를 실행하는 중에 오류가 발생하여 테스트가 취소되었습니다. 문제가 지속되는 경우 설정 메뉴에서 '의견 보내기...'를 클릭하세요."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "테스트 중입니다. 몇 분 정도 소요될 수 있습니다."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "UDP 데이터를 읽는 중에 오류가 발생했습니다. 오류 코드: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "읽은 UDP 소켓 데이터 크기(바이트): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "수신한 UDP 소켓 원시 데이터: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "전송 준비 중인 UDP 소켓 데이터 크기(바이트): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "UDP 소켓, 번호/호스트/포트 만들기: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "전송한 데이터 크기(바이트): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "UDP 시간 제한 길이 설정(밀리초): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "경고"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "경고"
+   }
+}

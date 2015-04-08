@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Teave rakenduse kohta"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Versiooni number: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome'i ühenduvuse diagnostika"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome'i ühenduvuse diagnostika (beeta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome'i ühenduvuse diagnostika (arendaja)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Ühenduvuse diagnostika"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Ühenduvuse diagnostika"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Sule"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maksimeeri"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Taasta"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Seaded"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Vastuse number / HTTP-vastuse päised: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Viga taotluses # / vea olek: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Vastuse number / HTTP-vastuse kood: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Taotluse number / vastuse täielik pikkus: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "HTTP-kontrollportaali test"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "HTTP-kontrollportaali test tagastab otsuse Probleeme pole, kui kõik HTTP-taotlused tagastavad olekukoodi 204 HTTP"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Ühtegi kontrollportaali ei leitud. Kontrollportaal on veebisait, mida kasutajad peavad võrgu tingimuste kohaselt vaatama ja kasutama enne, kui nad saavad juurdepääsu Interneti piiranguteta sirvimiseks."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Kontrollportaal (HTTP) ei ole blokeerinud Interneti-liiklust"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Kontrollportaal on veebisait, mida kasutajad peavad võrgu tingimuste kohaselt vaatama ja kasutama enne, kui nad saavad juurdepääsu Interneti piiranguteta sirvimiseks. Teie võrgus tuvastati kontrollportaal, mis tähendab, et piiranguteta juurdepääs Internetile on blokeeritud."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "HTTP-kontrollportaali test tagastab otsuse Probleem, kui mõni HTTP-taotlus ei tagasta olekukoodi 204 HTTP"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Kontrollportaal (HTTP) on blokeerinud Interneti-liikluse"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Kohe hakatakse looma TCP-ühendust, #/hostinimi/port: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Chrome'i Interneti-ühenduse test tagastas TCP-olekukoodi: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Chrome'i Interneti-ühenduse katkestamise test"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Protsent TCP-soklitest, mis tagastavad Interneti-ühenduse katkestamise olekukoodid, millest väiksema tulemuse puhul renderdatakse otsus Probleemid puuduvad: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Chrome'i brauseri jaoks on saadaval Interneti-ühendus."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Interneti-ühendus on saadaval"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome ei ole võrku ühendatud. Kontrollige operatsioonisüsteemi võrguseadeid."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Protsent TCP-soklitest, mis tagastavad Interneti-ühenduse katkestamise olekukoodid, millega võrdväärse või millest suurema tulemuse puhul renderdatakse otsus Probleem: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Võrguühendus puudub"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Saadaolevate tuvastatud võrkude arv: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "ChromeOS-i Interneti-ühenduse katkestamise test"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Tulemus Probleeme pole tagastatakse siis, kui ühendatud võrguliides tagastab olekukoodi Ühendatud"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Interneti-ühendus on saadaval."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Interneti-ühendus on saadaval"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "See Chromebook ei ole võrku ühendatud. Avage olekusalv ja looge ühendus saadaoleva võrguga."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Tulemus Probleem tagastatakse siis, kui ühendatud võrguliides tagastab olekukoodi Ühendus on katkestatud: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Võrguühendus puudub"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Võrgusignaali nimi / signaali tugevus: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "ChromeOS-i signaalitugevuse test"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "ChromeOS-i signaalitugevuse võrdlusalus, millest suurema tulemuse korral renderdatakse otsus Probleeme pole: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "WiFi-võrgu signaal on tugev."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Võrgusignaal on tugev"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "ChromeOS-i signaalitugevuse võrdlusalus, millest väiksema tulemuse korral renderdatakse otsus Probleem: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "WiFi-võrgu signaal on nõrk."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Võrgusignaal on nõrk"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome OS-i platvormi täielik number: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "ChromeOS-i versiooni nimi"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Chrome OS-i platvorminumbri lävi, millega võrdväärse või millest suurema tulemuse puhul renderdatakse otsus Probleeme pole: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Chrome OS-i versiooni test ei tuvastanud ühtegi probleemi. Chrome OS-i versioon on ajakohane. Miinimumversioon on nüüd: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Kasutate Chrome OS-i uusimat versiooni ja seetõttu on teil kõik ühenduvusvigade teadaolevad parandused."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS on ajakohane"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Chrome OS-i versiooni test tuvastas probleemi. Chrome OS-i versioon on aegunud. Miinimumversioon on nüüd: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Te ei kasuta using Chrome OS-i uusimat versiooni. Seetõttu ei ole teil kõiki teadaolevaid veaparandusi ja võivad ilmneda ühenduvusprobleemid."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS on aegunud"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Chrome OS-i platvorminumbri lävi, millest väiksema tulemuse puhul renderdatakse otsus Probleem: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Vahetu brauseri kasutaja-agent: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Chrome OS-i platvormi lühike number: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Brauseri versiooninumber (täielik): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Chrome'i versiooni test"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome'i versiooninumbri lävi, millega võrdväärse või millest suurema tulemuse puhul renderdatakse otsus Probleeme pole: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Kasutate Google Chrome'i uusimat versiooni ja seetõttu on teil kõik ühenduvusvigade teadaolevad parandused."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Tegemist on Google Chrome'i uusima versiooniga"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Te ei kasuta Google Chrome'i uusimat versiooni. Seetõttu pole teil kõiki teadaolevaid veaparandusi ja võivad ilmneda ühenduvusprobleemid."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Tegemist pole Google Chrome'i uusima versiooniga"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Chrome'i versiooninumbri lävi, millest väiksema tulemuse korral renderdatakse otsus Probleem: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Vahetu brauseri kasutaja-agent: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Brauseri versiooninumber (lühike): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Testi # / testi hostinimi: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " tagastas lahendatud DNS-aadressi: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " test tagastas olekukoodi: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "DNS-i tüssamise test"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " test ei tagastanud DNS-aadressi välja (määratud väärtusele null)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "DNS-tulemused loetakse mittetüssavaks, kui lahendaja tagastab oodatud IP-aadressi."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "DNS-tulemused olid ootuspärased ega paista olevat tüssavad."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "DNS-server tagastas oodatud tulemused"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " test; olekukood Tulemusi pole; test katkestatakse testi ebaõnnestumise tõttu."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Tagastati tüssav DNS-vastus. Tüssav DNS-vastus suunab saadetava side ümber, nii et seda ei saadeta taotletud võrguhostile."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "DNS-tulemused loetakse tüssavaks, kui lahendaja ei tagasta oodatud IP-aadressi."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "DNS-tulemused olid ootamatud ja võivad olla tüssavad"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "TCP-ühenduse loomine ebaõnnestus ja see on blokeeritud hosti pordis 443 "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "TCP-ühenduse loomine hostiga pordi 443 kaudu õnnestus "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "UDP-ühenduse loomine ebaõnnestus ja see on sihtpordis blokeeritud "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "UDP-ühenduse loomine sihtpordiga õnnestus "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Hangoutsi ühenduvuse test"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Hangoutsi blokeerimistest tagastab otsuse Probleeme pole, kui: (1) õnnestub luua ühendus aadressiga stun.l.google.com UDP-pordi kaudu vahemikus 19302 kuni 19309; (2) õnnestub luua TCP-ühendus aadressidega apis.google.com, clients6.google.com, plus.google.com ja talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Hangoutsi teenusega ühenduse loomisel ei tuvastatud ühtegi probleemi."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Hangoutsi ühendus on saadaval"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Hangoutsi meediateenusega ei õnnestu UDP-portide 19302 kuni 19309 kaudu ühendust luua."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Hangoutsi ühendus paistab olevalt osaliselt häiritud"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Hangoutsi blokeerimistest tagastab otsuse Probleem, kui: (1) kõik UDP-sihtpordid vahemikus 19302 kuni 19309 on blokeeritud aadressi stun.l.google.com puhul; (2) ühegi järgmise hostiga ei õnnestu pordi 443 kaudu luua TCP-ühendust: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Hangoutsiga ühenduse loomiseks vajalikud pordid ja hostid paistavad olevat blokeeritud."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Hangoutsi vestlusteenusega ei õnnestunud ühendust luua."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Hangoutsi vestlusteenuse või Hangoutsi meediateenusega ei õnnestu TCP-pordi 443 kaudu ühendust luua."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Hangoutsi meediateenusega ei õnnestu TCP-pordi 443 ja UDP-portide 19302 kuni 19309 kaudu ühendust luua."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Ühendust Hangoutiga ei õnnestunud luua"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "HTTP-vastuse keskmine aeg (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Viga taotluses # / vea olek: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "HTTP-päringute koguarv: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "HTTP-vastuse # / vastuvõtmise aeg (mikroajatempel) / möödunud aeg (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "HTTP-vastuse koguaeg (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Google'i veebisaitide HTTP-latentsusaja test"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "HTTP keskmise latentsusaja (ms) võrdlusalus, millest väiksema tulemuse korral renderdatakse otsus Probleeme pole: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Google'ile saadetud veebipäringud võetakse kiiresti vastu."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Google'i veebisaitidelt vastuste saamisel pole viivitusi"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "HTTP keskmise latentsusaja (ms) võrdlusalus, mille vahemikku jäävate tulemuse korral renderdatakse otsus Võib esineda probleeme: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Google'i veebisaitidelt vastuste saamine võtab oodatust pisut rohkem aega. See viitab aeglasele võrgule."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Veebipäringud Google'ile võtavad oodatust rohkem aega"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Google'i veebisaitidelt vastuste saamine võtab oodatust rohkem aega. See viitab aeglasele võrgule."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "HTTP keskmise latentsusaja (ms) võrdlusalus, millest suurema tulemuse korral renderdatakse otsus Probleem: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Veebipäringud Google'ile võtavad liiga palju aega"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Läbitud test"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Läbitud testid"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Lüüsi IP-aadressi otsene ICMP-päring ei saanud vastusepaketti."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Lüüsi IP-aadressiks tuvastati: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Lüüsi IP-aadressi ei olnud võimalik tuvastada"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "ICMP-paketi latentsusaeg (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "ICMP-paketi kaughostile TTL 1-ga saatmisel tagastatud IP-aadress oli sama kui kaughosti IP-aadress: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Lüüsi pingimise test"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Lüüsi pingimise latentsusaja lävi (ms), millest väiksema tulemuse korral renderdatakse otsus Probleeme pole: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Lüüsi pingimine annab kiirvastuse."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Lüüsiga on ühendus"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Lüüsi pingimine ei anna kiirvastust."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Lüüsi pingimise latentsusaja lävi (ms), millest suurema tulemuse korral renderdatakse otsus Probleem: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Lüüs on kättesaamatu"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "DNS-i keskmine lahendusaeg (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Püütakse lahendada hostinime #: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Lahendaja latentsusaja test"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "DNS-i keskmise lahendusaja (ms) võrdlusalus, millest väiksema tulemuse korral renderdatakse otsus Probleeme pole: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "DNS-server teisendab hostinime (nt www.google.com) IP-aadressiks (nt 74.125.228.98). Protsess on vajalik selleks, et brauser saaks luua ühenduse Internetiga. Chrome suudab DNS-taotlusi kiiresti lahendada kohaliku lahendajaga, mis kiirendab lehtede laadimist."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "DNS-lahenduse hankimine toimib viivitusteta"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS-server teisendab hostinime (nt www.google.com) IP-aadressiks. Brauseril peab olema IP-aadress, et luua ühendus veebisaidi laadimiseks. Seda teisendamist tegev DNS-server kulutab toiminguks liiga palju aega, mis põhjustab viivitusi teie Interneti-ühenduses."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "DNS-i keskmise lahendusaja (ms) võrdlusalus, mille vahemikku jääva tulemuse korral renderdatakse otsus Võib esineda probleeme: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "DNS-lahenduse hankimiseks kulub keskmisest rohkem aega"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "DNS-server teisendab hostinime (nt www.google.com) IP-aadressiks. Brauseril peab olema IP-aadress, et luua ühendus veebisaidi laadimiseks. Seda teisendamist tegev DNS-server kulutab toiminguks liiga palju aega, mis põhjustab viivitusi teie Interneti-ühenduses."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "DNS-i keskmise lahendusaja (ms) võrdlusalus, millest suurema tulemuse korral renderdatakse otsus Probleem: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "DNS-lahenduse hankimiseks kulub liiga palju aega"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Saadi DNS-lahenduse tulemus. Testi number / praegune aeg / kulunud aeg (ms) / algusaeg (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Lahendatud DNS-hoste kokku: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Kõikide testide DNS-i kogu lahendusaeg (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS-lahendaja test teeb ühe DNS-päringu ja tagastab otsuse Probleem, kui õiget vastust ei tagastata."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS-lahendaja test teeb ühe DNS-päringu ja tagastab otsuse Probleeme pole, kui tagastatud vastus on õige."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Püütakse lahendada hostinime: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Hostinimi lahendati IP-aadressiks: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "DNS-server tagastas probleemi olekukoodi: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "DNS-server tagastas õnnestunud päringu olekukoodi: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Lahendaja olemasolu test"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome leidis DNS-serveri, mis teisendas hostinime (nt www.google.com) IP-aadressiks."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "DNS-server on saadaval"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "DNS-server teisendab hostinime (nt www.google.com) IP-aadressiks. Brauseril peab olema IP-aadress, et luua ühendus veebisaidi laadimiseks. Chrome ei suuda tuvastada taotletud veebisaidi IP-aadressi, sest teie DNS-server ei tööta. Võtke ühendust ISP või võrguadministraatoriga."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Saadaval pole ühtegi toimivat DNS-serverit"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "DNS-server tagastas DNS-päringu tulemused."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "DNS-server ei tagastanud ühtegi objekti (isegi mitte DNE-kirje kannet), nii et testi ei viidud lõpule."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Paistab, et teie võrguühendus töötab õigesti."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Teave"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Peida läbitud testid"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Käita teste uuesti"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Tagasiside saatmine ..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Kuva läbitud testid"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Tulemüüri testi tulemused: käitatud testid / kontrollitud port / ebaõnnestunud ühenduste arv: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Kohe hakatakse looma TCP-ühendust, #/hostinimi/port: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " TCP-tulemüüri test tagastas TCP-olekukoodi: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Ühenduse testi katse ebaõnnestus ega tagastanud TCP õnnestumise olekukoodi Chrome'i võrguvirnast, vaid tagastas olekukoodi: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "DNS-i tuvastatud lahendaja pole saadaval, seetõttu ei saa me tuvastada tulemüüri olemasolu"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Tuvastatud võrk pole saadaval, seetõttu ei saa me tuvastada tulemüüri olemasolu"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "TCP-tulemüüri test"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Renderdatakse otsus Probleeme pole, kui TCP-ühenduse testi tulemuste ebaõnnestumiste protsent on väiksem kui või võrdne arvuga: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Pordis ei tuvastatud ühtegi Interneti-ühenduse piirangut "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Interneti-liikluseks kasutatav port ei ole blokeeritud tulemüüri poolt "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Renderdatakse otsus Võib esineda probleeme, kui TCP-ühenduse testi tulemuste ebaõnnestumiste arv on vahemikus: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "Teie võrgus paistab olevat määratud piirang üldkasutatavale Interneti-ühendusele."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Interneti-liikluseks kasutatav port võib olla blokeeritud tulemüüri poolt "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "Teie võrgus on määratud piirang üldkasutatavale Interneti-ühendusele."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Renderdatakse otsus Probleem, kui TCP-ühenduse testi tulemuste ebaõnnestumiste protsent on võrdne arvuga: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Interneti-liikluseks kasutatav port on blokeeritud tulemüüri poolt "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "TCP-ühendus on loodud, host/port/olekukood: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "TCP-ühendus on loodud, host/port: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "TCP-ühendus ebaõnnestus, host/port/olekukood: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Ühenduse loomise ebaõnnestumise põhjus: ühendusest keelduti"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Ühenduse loomise ebaõnnestumise põhjus: aegumine"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Ühenduse loomise ebaõnnestumise põhjus: teadmata"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Viga TCP-andmete lugemisel. Veakood: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "TCP-sokli andmete lugemine õnnestus, maht (baitides): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "TCP-soklilt saadi toorandmed: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Valmistumine andmete saatmiseks, maht (baitides): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "TCP-sokli loomine, number/host/port: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Andmete saatmine õnnestus, maht (baitides): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "TCP aegumise pikkuse määramine (millisekundites): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Tulemuste logide kopeerimine"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Logide peitmine ..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Leitud on probleem"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Leitud on probleemid"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "KRITEERIUMID"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "ÜKSIKASJAD"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "KOKKUVÕTE"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "TOE ÜKSIKASJAD"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Testi ID: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Testi nimi: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Testi tulemus: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Ühtegi probleemi ei tuvastatud"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Tuvastati võimalik probleem"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Tuvastati probleem"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Logide kuvamine ..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Ühenduvuse diagnostika testide käitamisel ilmnes viga. Testid on katkestatud. Kui probleem ei lahene, klõpsake menüüs Seaded valikul „Tagasiside saatmine ...”."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Testimine. Selleks võib kuluda mõni minut ..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "UDP-andmete lugemisel ilmnes viga. Veakood: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "UDP-sokli andmete lugemine õnnestus, maht (baitides): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "UDP-soklist saadud toorandmed: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Valmistumine UDP-sokli andmete saatmiseks, maht (baitides): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "UDP-sokli loomine, number/host/port: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Andmete saatmine õnnestus, maht (baitides): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "UDP aegumise pikkuse määramine (millisekundites): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Hoiatus"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Hoiatused"
+   }
+}

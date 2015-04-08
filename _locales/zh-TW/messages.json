@@ -1,0 +1,862 @@
+{
+  "appname": {
+    "message": "Chrome 連線診斷工具",
+    "description": "Title of the Chrome App name. [CHAR LIMIT=44]"
+  },
+  "appname_beta": {
+    "message": "Chrome 連線診斷工具 (測試版)",
+    "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]"
+  },
+  "appname_dev": {
+    "message": "Chrome 連線診斷工具 (開發人員專用)",
+    "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]"
+  },
+  "apptitle": {
+    "message": "連線診斷工具",
+    "description": "HTML and header page title."
+  },
+  "apptitle_ucase": {
+    "message": "連線診斷工具",
+    "description": "HTML and header page title."
+  },
+  "aria_label_settings": {
+    "message": "設定",
+    "description": "ARIA label for the settings button."
+  },
+  "aria_label_maximize": {
+    "message": "最大化",
+    "description": "ARIA label for the maximize button."
+  },
+  "aria_label_restore": {
+    "message": "還原",
+    "description": "ARIA label for the restore button."
+  },
+  "aria_label_close": {
+    "message": "關閉",
+    "description": "ARIA label for the close button."
+  },
+  "tests_running_message": {
+    "message": "正在執行測試，請稍候幾分鐘...",
+    "description": "Text to inform the user the tests are running."
+  },
+  "tests_failed_message": {
+    "message": "執行連線診斷測試時發生錯誤，系統已中止該測試。如果問題持續發生，請按一下 [設定] 選單中的 [傳送意見...] 選項。",
+    "description": "Test to display to inform the user that the tests failed"
+  },
+  "result_no_connectivity_problems": {
+    "message": "您的網路連線運作正常。",
+    "description": "Tests did not find a problem"
+  },
+  "setting_show_passing_test": {
+    "message": "顯示通過的測試",
+    "description": "The setting that toggles whether to show passing tests"
+  },
+  "setting_hide_passing_test": {
+    "message": "隱藏通過的測試",
+    "description": "The setting that toggles whether to show passing tests"
+  },
+  "setting_rerun_tests": {
+    "message": "重新執行測試",
+    "description": "The setting that allows a user to re-runs tests"
+  },
+  "setting_send_feedback": {
+    "message": "傳送意見...",
+    "description": "The setting that prompts the user to send feedback"
+  },
+  "setting_about": {
+    "message": "關於",
+    "description": "The setting that lets the user learn about the app"
+  },
+  "about_app": {
+    "message": "關於應用程式",
+    "description": "The title for the About App feature"
+  },
+  "about_version_num": {
+    "message": "版本號碼：",
+    "description": "The version number of the application"
+  },
+  "passing_tests_title": {
+    "message": "通過的測試",
+    "description": "Page section title for tests that passed"
+  },
+  "passing_test_title": {
+    "message": "通過的測試",
+    "description": "Page section title for test that passed"
+  },
+  "warning_tests_title": {
+    "message": "警告",
+    "description": "Page section title for tests that gave warnings"
+  },
+  "warning_test_title": {
+    "message": "警告",
+    "description": "Page section title for test that gave warning"
+  },
+  "test_result_log_test_name": {
+    "message": "測試名稱：",
+    "description": "In the logs for a test, print out the test name"
+  },
+  "test_result_log_test_id": {
+    "message": "測試 ID：",
+    "description": "In the logs for a test, print out the test ID"
+  },
+  "test_result_log_test_verdict": {
+    "message": "測試結果：",
+    "description": "In the logs for a test, print out the test verdict"
+  },
+  "test_result_log_verdict_no_problem": {
+    "message": "未偵測到問題",
+    "description": "In the logs for a test, print out the test verdict"
+  },
+  "test_result_log_verdict_problem": {
+    "message": "偵測到問題",
+    "description": "In the logs for a test, print out the test verdict"
+  },
+  "test_result_log_verdict_potential_problem": {
+    "message": "偵測到潛在問題",
+    "description": "In the logs for a test, print out the test verdict"
+  },
+  "test_result_show_logs": {
+    "message": "顯示紀錄...",
+    "description": "Link to show logs"
+  },
+  "test_result_hide_logs": {
+    "message": "隱藏紀錄...",
+    "description": "Link to hide logs"
+  },
+  "test_result_copy_logs": {
+    "message": "複製測試結果紀錄",
+    "description": "Link to copy result logs"
+  },
+  "test_result_issue_found": {
+    "message": "發現一個問題",
+    "description": "Show a header for when an issue was found"
+  },
+  "test_result_issues_found": {
+    "message": "發現多個問題",
+    "description": "Show a header for when issues were found"
+  },
+  "test_result_log_summary": {
+    "message": "摘要",
+    "description": "Show header in the logs for the summary section"
+  },
+  "test_result_log_criteria": {
+    "message": "標準",
+    "description": "Show a header in the logs for the criteria section"
+  },
+  "test_result_log_details": {
+    "message": "詳細資訊",
+    "description": "Show a header in the logs for the details section"
+  },
+  "test_result_log_support_details": {
+    "message": "技術支援詳細資訊",
+    "description": "Show a header in the logs for the support details section"
+  },
+  "udpsocket_log_parsed_udp_response": {
+    "message": "已從 UDP 通訊端收到原始資料：",
+    "description": "Log data from UDP socket"
+  },
+  "udpsocket_log_parsed_response_size": {
+    "message": "已成功讀取來自 UDP 通訊端的資料 (位元組大小如下)：",
+    "description": "Log received UDP packet size"
+  },
+  "udpsocket_log_error_reading_udp_data": {
+    "message": "讀取 UDP 資料時發生錯誤。錯誤代碼為：",
+    "description": "Log error reading UDP data"
+  },
+  "udpsocket_log_successfully_sent_data": {
+    "message": "已成功傳送資料 (位元組大小如下)：",
+    "description": "Log successfully sent UDP data"
+  },
+  "udpsocket_log_preparing_to_send_data": {
+    "message": "正在準備傳送 UDP 通訊端資料 (位元組大小如下)：",
+    "description": "Log preparing to send UDP data"
+  },
+  "udpsocket_log_socket_created": {
+    "message": "正在建立 UDP 通訊端 (編號/主機/通訊埠如下)：",
+    "description": "Log UDP socket created"
+  },
+  "udpsocket_log_udp_timeout_setting": {
+    "message": "正在設定 UDP 逾時長度 (毫秒)：",
+    "description": "Log UDP timeout setting"
+  },
+  "telnet_log_parsed_tcp_response": {
+    "message": "已從 TCP 通訊端收到原始資料：",
+    "description": "Log data from TCP socket"
+  },
+  "telnet_log_parsed_response_size": {
+    "message": "已成功讀取來自 TCP 通訊端的資料 (位元組大小如下)：",
+    "description": "Log received TCP size"
+  },
+  "telnet_log_error_reading_tcp_data": {
+    "message": "讀取 TCP 資料時發生錯誤。錯誤代碼為：",
+    "description": "Log error reading TCP data"
+  },
+  "telnet_log_successfully_sent_data": {
+    "message": "已成功傳送資料 (位元組大小如下)：",
+    "description": "Log successfully sent TCP data"
+  },
+  "telnet_log_preparing_to_send_data": {
+    "message": "正在準備傳送資料 (位元組大小如下)：",
+    "description": "Log preparing to send TCP data"
+  },
+  "telnet_log_connection_established": {
+    "message": "已建立 TCP 連線 (主機/通訊埠/狀態碼如下)：",
+    "description": "Log connection established"
+  },
+  "telnet_log_connection_failure": {
+    "message": "建立 TCP 連線失敗 (主機/通訊埠/狀態碼如下)：",
+    "description": "Log TCP connection failure"
+  },
+  "telnet_log_connection_failure_unknown": {
+    "message": "連線失敗原因：不明",
+    "description": "Log TCP connection failure reason unknown"
+  },
+  "telnet_log_connection_established_successfully": {
+    "message": "已成功建立 TCP 連線 (主機/通訊埠如下)：",
+    "description": "Log TCP connection established successfully"
+  },
+  "telnet_log_connection_failure_timeout": {
+    "message": "連線失敗原因：作業逾時",
+    "description": "Log TCP connection failure due to timeout"
+  },
+  "telnet_log_connection_failure_refused": {
+    "message": "連線失敗原因：連線遭拒",
+    "description": "Log TCP connection failure due to refusal"
+  },
+  "telnet_log_socket_created": {
+    "message": "正在建立 TCP 通訊端 (編號/主機/通訊埠如下)：",
+    "description": "Log TCP socket created"
+  },
+  "telnet_log_tcp_timeout_setting": {
+    "message": "正在設定 TCP 逾時長度 (毫秒)：",
+    "description": "Log TCP timeout setting"
+  },
+  "chromeinternetdisconnectedtest_name": {
+    "message": "Chrome 網際網路連線中斷測試",
+    "description": "Name for the Chrome Internet Disconnected test"
+  },
+  "chromeinternetdisconnectedtest_problem_title": {
+    "message": "無法連上網路",
+    "description": "Title for when a problem is found with the Chrome internet connection."
+  },
+  "chromeinternetdisconnectedtest_noproblem_title": {
+    "message": "網際網路連線功能正常",
+    "description": "Title for when no problem is found with the Chrome internet connection."
+  },
+  "chromeinternetdisconnectedtest_problem_subtitle": {
+    "message": "Chrome 無法連上網路，請檢查作業系統的網路設定。",
+    "description": "Subtitle for when a problem is found with the Chrome internet connection."
+  },
+  "chromeinternetdisconnectedtest_noproblem_subtitle": {
+    "message": "Chrome 瀏覽器可以正常連上網際網路。",
+    "description": "Subtitle for when no problem is found with the Chrome internet connection."
+  },
+  "chromeinternetdisconnectedtest_no_problem_threshold": {
+    "message": "傳回網際網路連線中斷狀態碼的 TCP 通訊端百分比 (低於基準值代表連線狀態正常)：",
+    "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail"
+  },
+  "chromeinternetdisconnectedtest_problem_threshold": {
+    "message": "傳回網際網路連線中斷狀態碼的 TCP 通訊端百分比 (等於或高於基準值代表連線發生問題)：",
+    "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail"
+  },
+  "chromeinternetdisconnectedtest_log_connection_status_known": {
+    "message": "Chrome 網際網路連線測試傳回 TCP 狀態碼：",
+    "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test."
+  },
+  "chromeinternetdisconnectedtest_log_connection_beginning": {
+    "message": "即將嘗試建立 TCP 連線 (編號/主機名稱/通訊埠如下)：",
+    "description": "Logger record for when a TCP connection to a specific host and port is about to begin"
+  },
+  "chromeosinternetdisconnectedtest_name": {
+    "message": "Chrome 作業系統網際網路連線中斷測試",
+    "description": "Name for the ChromeOS Internet Disconnected test"
+  },
+  "chromeosinternetdisconnectedtest_problem_title": {
+    "message": "無法連上網路",
+    "description": "Title for when a problem is found with the ChromeOS internet connection."
+  },
+  "chromeosinternetdisconnectedtest_noproblem_title": {
+    "message": "網際網路連線功能正常",
+    "description": "Title for when no problem is found with the ChromeOS internet connection."
+  },
+  "chromeosinternetdisconnectedtest_problem_subtitle": {
+    "message": "這部 Chromebook 並未連上網路，請透過狀態匣連線至可用的網路。",
+    "description": "Subtitle for when a problem is found with the ChromeOS internet connection."
+  },
+  "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+    "message": "您有可供使用的網際網路連線。",
+    "description": "Subtitle for when no problem is found with the ChromeOS internet connection."
+  },
+  "chromeosinternetdisconnectedtest_no_problem_threshold": {
+    "message": "已連線的網路介面傳回連線狀態碼 (代表連線狀態正常)",
+    "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result"
+  },
+  "chromeosinternetdisconnectedtest_problem_threshold": {
+    "message": "已連線的網路介面傳回連線中斷狀態碼 (代表連線發生問題)：",
+    "description": "Condition under which the ChromeOS internet disconnected test returns a problem result"
+  },
+  "chromeosinternetdisconnectedtest_log_available_networks": {
+    "message": "偵測到的可用網路數：",
+    "description": "Logger record for how many networks chrome.networkingPrivate found."
+  },
+  "chromeversiontest_name": {
+    "message": "Chrome 版本測試",
+    "description": "Name for the Chrome Version test"
+  },
+  "chromeversiontest_problem_title": {
+    "message": "您的 Google Chrome 不是最新版本",
+    "description": "Title for when a problem is found with the Chrome version."
+  },
+  "chromeversiontest_noproblem_title": {
+    "message": "您的 Google Chrome 是最新版本",
+    "description": "Title for when no problem is found with the Chrome version."
+  },
+  "chromeversiontest_problem_subtitle": {
+    "message": "您所使用的 Google Chrome 不是最新版本，這表示您的瀏覽器並未修正目前所有已發現的錯誤，可能會出現連線問題。",
+    "description": "Subtitle for when a problem is found with the Chrome version."
+  },
+  "chromeversiontest_noproblem_subtitle": {
+    "message": "您所使用的 Google Chrome 是最新版本，這表示您的瀏覽器已經修正了目前所有已發現的連線問題。",
+    "description": "Subtitle for when no problem is found with the Chrome version."
+  },
+  "chromeversiontest_raw_useragent": {
+    "message": "原始瀏覽器使用者代理程式：",
+    "description": "Raw browser user-agent"
+  },
+  "chromeversiontest_short_browser": {
+    "message": "瀏覽器版本號碼 (精簡)：",
+    "description": "Short browser version number"
+  },
+  "chromeversiontest_full_browser": {
+    "message": "瀏覽器版本號碼 (完整)：",
+    "description": "Short browser version number"
+  },
+  "chromeversiontest_no_problem_version": {
+    "message": "Chrome 版本號碼臨界值 (高於或等於此臨界值代表版本沒有問題)：",
+    "description": "Logger record for Chrome version test for which we render a no problem verdict."
+  },
+  "chromeversiontest_problem_version": {
+    "message": "Chrome 版本號碼臨界值 (低於此臨界值代表版本過舊)：",
+    "description": "Logger record for Chrome version test for which we render a no problem verdict."
+  },
+  "chromeosversiontest_name": {
+    "message": "Chrome 作業系統版本名稱",
+    "description": "Name for the ChromeOS Version test"
+  },
+  "chromeosversiontest_problem_title": {
+    "message": "Chrome 作業系統版本過舊",
+    "description": "Title for when a problem is found with the ChromeOS version."
+  },
+  "chromeosversiontest_noproblem_title": {
+    "message": "Chrome 作業系統是最新版本",
+    "description": "Title for when no problem is found with the ChromeOS version."
+  },
+  "chromeosversiontest_problem_subtitle": {
+    "message": "您所使用的 Chrome 作業系統不是最新版本。這表示您的作業系統並未修正目前所有已發現的錯誤，可能會出現連線問題。",
+    "description": "Subtitle for when a problem is found with the ChromeOS version."
+  },
+  "chromeosversiontest_noproblem_subtitle": {
+    "message": "您所使用的 Chrome 作業系統是最新版本，這表示您的作業系統已經修正了目前所有已發現的連線問題。",
+    "description": "Subtitle for when no problem is found with the ChromeOS version."
+  },
+  "chromeosversiontest_problem_record_log": {
+    "message": "Chrome 作業系統版本測試偵測到問題，Chrome 作業系統版本過舊。目前支援的最低版本如下：",
+    "description": "Log record for recording that a problem existed with the ChromeOS version."
+  },
+  "chromeosversiontest_noproblem_record_log": {
+    "message": "Chrome 作業系統版本測試未偵測到問題，Chrome 作業系統是最新版本。目前支援的最低版本如下：",
+    "description": "Log record for recording that no problem existed with the ChromeOS version."
+  },
+  "chromeosversiontest_raw_useragent": {
+    "message": "原始瀏覽器使用者代理程式：",
+    "description": "Raw browser user-agent"
+  },
+  "chromeosversiontest_short_platform": {
+    "message": "精簡 Chrome 作業系統平台號碼：",
+    "description": "Short ChromeOS platform number parsed from the HTTP user-agent string"
+  },
+  "chromeosversiontest_full_platform": {
+    "message": "完整 Chrome 作業系統平台號碼：",
+    "description": "Full ChromeOS platform number parsed from the HTTP user-agent string"
+  },
+  "chromeosversiontest_no_problem_version": {
+    "message": "Chrome 作業系統平台號碼臨界值 (高於或等於此臨界值代表所使用的平台沒有問題)：",
+    "description": "Logger record for ChromeOS platform number for which we render a no problem verdict."
+  },
+  "chromeosversiontest_problem_version": {
+    "message": "Chrome 作業系統平台號碼臨界值 (低於此臨界值代表連線發生問題)：",
+    "description": "Logger record for ChromeOS platform number for which we render a problem verdict."
+  },
+  "resolverpresenttest_name": {
+    "message": "解析器現況測試",
+    "description": "Name for the Resolver Present test"
+  },
+  "resolverpresenttest_problem_title": {
+    "message": "沒有正常運作的 DNS 伺服器可供使用",
+    "description": "Title for when a problem is found with the DNS Resolver Present test."
+  },
+  "resolverpresenttest_noproblem_title": {
+    "message": "DNS 伺服器可供使用",
+    "description": "Title for when no problem is found with the DNS Resolver Present test."
+  },
+  "resolverpresenttest_problem_subtitle": {
+    "message": "DNS 伺服器會將主機名稱 (例如 www.google.com) 轉譯成 IP 位址，而瀏覽器必須找到可連線的 IP 位址才能載入網站。Chrome 無法判定您想造訪的網站所在的 IP 位址，因為您的 DNS 伺服器無法正常運作。請與您的網際網路服務供應商或網路管理員聯絡。",
+    "description": "Subtitle for when a problem is found with the DNS Resolver Present test."
+  },
+  "resolverpresenttest_noproblem_subtitle": {
+    "message": "Chrome 找到的 DNS 伺服器已成功將主機名稱 (例如 www.google.com) 轉譯成 IP 位址。",
+    "description": "Subtitle for when no problem is found with the DNS Resolver Present test."
+  },
+  "resolverpresenttest_gettinghostname": {
+    "message": "正在嘗試解析主機名稱：",
+    "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname"
+  },
+  "resolverpresenttest_testcompleted": {
+    "message": "DNS 伺服器傳回 DNS 查詢結果。",
+    "description": "Logger record denoting that the resolverpresenttest is complete"
+  },
+  "resolverpresenttest_testfailed": {
+    "message": "DNS 伺服器未傳回任何物件 (包括紀錄 DNE 項目)，因此無法完成測試。",
+    "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)"
+  },
+  "resolverpresenttest_hostnameresult": {
+    "message": "主機名稱已轉譯成 IP 位址：",
+    "description": "Logger record denoting the IP result that the DNS resolved the hostname to"
+  },
+  "resolverpresenttest_criteria_success": {
+    "message": "DNS 解析程式測試執行單一 DNS 查詢，如果傳回有效回應即代表連線狀態正常。",
+    "description": "Logger record denoting the successful DNS query status code result"
+  },
+  "resolverpresenttest_criteria_failure": {
+    "message": "DNS 解析程式測試執行單一 DNS 查詢，如果沒有傳回有效回應即代表連線發生問題。",
+    "description": "Logger record denoting the failed DNS query status code result"
+  },
+  "resolverpresenttest_log_statuscodesuccess": {
+    "message": "DNS 伺服器傳回成功狀態碼：",
+    "description": "Logger record denoting the successful DNS query status code result"
+  },
+  "resolverpresenttest_log_statuscodefailure": {
+    "message": "DNS 伺服器傳回問題狀態碼：",
+    "description": "Logger record denoting the failed DNS query status code result"
+  },
+  "resolverlatencytest_name": {
+    "message": "解析器延遲測試",
+    "description": "Name for the Resolver Latency test"
+  },
+  "resolverlatencytest_problem_title": {
+    "message": "DNS 解析時間過長",
+    "description": "Title for when a problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_potentialproblem_title": {
+    "message": "DNS 解析時間超過預期",
+    "description": "Title for when a potential problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_noproblem_title": {
+    "message": "DNS 解析未發生延遲",
+    "description": "Title for when no problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_problem_subtitle": {
+    "message": "DNS 伺服器會將主機名稱 (例如 www.google.com) 轉譯成 IP 位址。瀏覽器必須連線至相對應的 IP 位址，才能載入網站。DNS 伺服器執行這項轉譯作業的時間過長，造成您的網際網路連線發生延遲。",
+    "description": "Subtitle for when a problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_potential_problem_subtitle": {
+    "message": "DNS 伺服器會將主機名稱 (例如 www.google.com) 轉譯成 IP 位址。瀏覽器必須連線至相對應的 IP 位址，才能載入網站。DNS 伺服器執行這項轉譯作業的時間過長，造成您的網際網路連線發生延遲。",
+    "description": "Subtitle for when a potential problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_noproblem_subtitle": {
+    "message": "DNS 伺服器會將主機名稱 (例如 www.google.com) 轉譯成 IP 位址 (例如 74.125.228.98)。系統必須執行這項程序，才能讓您的瀏覽器連線至網際網路。Chrome 可以使用您的本機解析程式快速解析 DNS 要求，藉此加快網頁載入程序的執行速度。",
+    "description": "Subtitle for when no problem is found with the DNS Latency test."
+  },
+  "resolverlatencytest_beginning_resolution": {
+    "message": "正在嘗試解析主機名稱 (嘗試次數如下)：",
+    "description": "Logger record for noting that DNS resolution is beginning."
+  },
+  "resolverlatencytest_queryresult_received": {
+    "message": "收到 DNS 解析結果。測試編號/目前時間/花費時間 (毫秒)/開始時間 (毫秒)：",
+    "description": "Logger record for noting that DNS resolution is beginning."
+  },
+  "resolverlatencytest_total_resolution_time": {
+    "message": "所有測試的總 DNS 解析時間 (毫秒)：",
+    "description": "Logger record for noting the total DNS resolution time."
+  },
+  "resolverlatencytest_total_hosts_resolved": {
+    "message": "已解析的 DNS 主機總數：",
+    "description": "Logger record for noting the total hosts resolved."
+  },
+  "resolverlatencytest_average_resolution_time": {
+    "message": "平均 DNS 解析時間 (毫秒)：",
+    "description": "Logger record for noting the average DNS resolution time."
+  },
+  "resolverlatencytest_no_problem_time": {
+    "message": "平均 DNS 解析時間 (毫秒) 正常基準值 (解析時間低於基準值代表連線狀態正常)：",
+    "description": "Logger record for dns resolution time for which we render a no problem verdict."
+  },
+  "resolverlatencytest_potential_problem_time": {
+    "message": "平均 DNS 解析時間 (毫秒) 警示基準值 (解析時間介於基準值之間代表可能有連線問題)：",
+    "description": "Logger record for dns resolution time for which we render a potential problem verdict."
+  },
+  "resolverlatencytest_problem_time": {
+    "message": "平均 DNS 解析時間 (毫秒) 錯誤基準值 (解析時間高於基準值代表連線發生問題)：",
+    "description": "Logger record for dns resolution time for which we render a problem verdict."
+  },
+  "dnspoisoningtest_name": {
+    "message": "DNS 中毒測試",
+    "description": "Name for DNS poisoning test."
+  },
+  "dnspoisoningtest_noproblem_title": {
+    "message": "DNS 伺服器傳回預期結果。",
+    "description": "Title for when no problem is found with the DNS poisoning test."
+  },
+  "dnspoisoningtest_noproblem_subtitle": {
+    "message": "DNS 測試結果正常，並未發現任何病毒。",
+    "description": "Subtitle for when no problem is found with the DNS poisoning test."
+  },
+  "dnspoisoningtest_problem_title": {
+    "message": "DNS 測試結果異常，可能有病毒存在。",
+    "description": "Title for when a problem is found with the DNS poisoning test."
+  },
+  "dnspoisoningtest_problem_subtitle": {
+    "message": "傳回中毒的 DNS 回應。中毒的 DNS 回應會轉接通訊，使其無法傳送至提出要求的網路主機。",
+    "description": "Subtitle for when a problem is found with the DNS poisoning test."
+  },
+  "dnspoisoningtest_problem_threshold": {
+    "message": "如果解析程式並未傳回預期的 IP 位址，DNS 結果即會被認定為中毒。",
+    "description": "Log record for the threshold of a problem"
+  },
+  "dnspoisoningtest_no_problem_threshold": {
+    "message": "如果解析程式傳回預期的 IP 位址，DNS 結果即會被認定為沒有中毒。",
+    "description": "Log record for the threshold of no problem"
+  },
+  "dnspoisoningtest_beginning_resolution": {
+    "message": "測試編號/測試主機名稱：",
+    "description": "Logger record for noting a new DNS resolution attempt."
+  },
+  "dnspoisoningtest_no_addr_returned": {
+    "message": " 測試未傳回 DNS 位址欄位 (設為空值)",
+    "description": "Logger record for when DNS resolution returns no address field."
+  },
+  "dnspoisoningtest_noresult_code_returned": {
+    "message": " 測試未傳回結果狀態碼；測試失敗，系統已中止測試程序。",
+    "description": "Logger record for when DNS resolution returns no result status code field."
+  },
+  "dnspoisoningtest_log_statuscode_returned": {
+    "message": " 測試傳回狀態碼：",
+    "description": "Logger record for DNS response status code."
+  },
+  "dnspoisoningtest_log_address_returned": {
+    "message": " 傳回已解析的 DNS 位址：",
+    "description": "Logger record for DNS response address."
+  },
+  "tcpfirewalltest_name": {
+    "message": "TCP 防火牆測試",
+    "description": "Name for TCP Firewall test"
+  },
+  "tcpfirewalltest_problem_title": {
+    "message": "網際網路流量遭到防火牆封鎖 (通訊埠如下)：",
+    "description": "Title for when a problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_potentialproblem_title": {
+    "message": "網際網路流量可能遭到防火牆封鎖 (通訊埠如下)：",
+    "description": "Title for when a potential problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_noproblem_title": {
+    "message": "網際網路流量未遭到防火牆封鎖 (通訊埠如下)：",
+    "description": "Title for when no problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_problem_subtitle": {
+    "message": "您的網路上有特定通訊埠遭到封鎖，導致常用網際網路連線受到限制。",
+    "description": "Subtitle for when a problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_potentialproblem_subtitle": {
+    "message": "您的網路上有特定通訊埠疑似遭到封鎖，可能導致常用網際網路連線受到限制。",
+    "description": "Subtitle for when a potential problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_noproblem_subtitle": {
+    "message": "您的網際網路連線狀態正常，並未發現任何限制 (偵測的通訊埠如下)：",
+    "description": "Subtitle for when no problem is found with the TCP Firewall test."
+  },
+  "tcpfirewalltest_log_connection_about_begun": {
+    "message": "即將嘗試建立 TCP 連線 (編號/主機名稱/通訊埠如下)：",
+    "description": "Logger record for when a TCP connection to a specific host and port is about to begin"
+  },
+  "tcpfirewalltest_log_connection_status_known": {
+    "message": "TCP 防火牆測試傳回 TCP 狀態碼：",
+    "description": "Logger record for when a TCP connection status code is known"
+  },
+  "tcpfirewalltest_log_analysis_summary": {
+    "message": "防火牆測試結果：執行測試數/檢查的通訊埠/失敗連線數：",
+    "description": "Logger record for summarizing the analysis of the various TCP connections made in a test"
+  },
+  "tcpfirewalltest_log_count_failed_attempt": {
+    "message": "連線測試嘗試失敗，並且未從 Chrome 網路堆疊傳回 TCP 成功狀態碼，而是傳回以下狀態碼：",
+    "description": "Logger record for denoting failure of a TCP connection"
+  },
+  "tcpfirewalltest_log_dns_broken": {
+    "message": "偵測到的 DNS 解析程式無法使用，因此我們無法判定防火牆是否存在",
+    "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working"
+  },
+  "tcpfirewalltest_log_network_disconnected": {
+    "message": "偵測到的網路無法使用，因此我們無法判定防火牆是否存在",
+    "description": "Logger record for when TCP connections seem to reveal that the network is unavailable"
+  },
+  "tcpfirewalltest_no_problem_threshold": {
+    "message": "失敗的 TCP 連線測試結果百分比 (低於或等於基準值代表連線狀態正常)：",
+    "description": "Logger record for TCP firewall test for which we render a no problem verdict."
+  },
+  "tcpfirewalltest_problem_threshold": {
+    "message": "失敗的 TCP 連線測試結果百分比 (等於基準值代表連線發生問題)：",
+    "description": "Logger record for TCP firewall test for which we render a problem verdict."
+  },
+  "tcpfirewalltest_potential_problem_threshold": {
+    "message": "失敗的 TCP 連線測試結果百分比 (介於基準值之間代表可能有連線問題)：",
+    "description": "Logger record for TCP firewall test for which we render a potential problem verdict."
+  },
+  "captiveportalhttptest_name": {
+    "message": "HTTP 監控式入口網站測試",
+    "description": "Name for the Captive Portal HTTP test"
+  },
+  "captiveportalhttptest_problem_title": {
+    "message": "網際網路流量遭到監控式入口網站封鎖 (HTTP)",
+    "description": "Title for when a problem is found with the HTTP captive portal test."
+  },
+  "captiveportalhttptest_noproblem_title": {
+    "message": "網際網路流量未遭到監控式入口網站封鎖 (HTTP)",
+    "description": "Title for when no problem is found with the HTTP captive portal test."
+  },
+  "captiveportalhttptest_problem_subtitle": {
+    "message": "遇到監控式入口網站時，網路會要求使用者瀏覽該網站並進行互動，才會授予自由瀏覽網際網路的權限。我們在您的網路上找到監控式入口網站，表示不受限的網際網路存取權遭到封鎖。",
+    "description": "Subtitle for when a problem is found with the HTTP captive portal test."
+  },
+  "captiveportalhttptest_noproblem_subtitle": {
+    "message": "未發現監控式入口網站。遇到監控式入口網站時，其所屬網路系統會要求使用者瀏覽該網站並進行互動，才會授予自由瀏覽網際網路的權限。",
+    "description": "Title for when a potential problem is found with the HTTP captive portal test."
+  },
+  "captiveportalhttptest_no_problem_threshold": {
+    "message": "如果所有 HTTP 要求都傳回 204 HTTP 狀態碼，HTTP 監控式入口網站測試會傳回沒有問題的診斷結果",
+    "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict"
+  },
+  "captiveportalhttptest_problem_threshold": {
+    "message": "如有任何 HTTP 要求未傳回 204 HTTP 狀態碼，HTTP 監控式入口網站測試會傳回有問題的診斷結果",
+    "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict"
+  },
+  "captiveportalhttptest_log_network_error": {
+    "message": "要求發生錯誤 (要求編號/錯誤代碼如下)：",
+    "description": "Logger record for when TCP connection breaks an HTTP request"
+  },
+  "captiveportalhttptest_log_response_code": {
+    "message": "回應編號/HTTP 回應碼：",
+    "description": "Logger record for full HTTP response length"
+  },
+  "captiveportalhttptest_log_http_response": {
+    "message": "回應編號/HTTP 回應標頭：",
+    "description": "Logger record for full HTTP response length"
+  },
+  "captiveportalhttptest_log_response_length": {
+    "message": "回應編號/完整回應長度：",
+    "description": "Logger record for when TCP connection breaks an HTTP request"
+  },
+  "httplatencytest_name": {
+    "message": "Google 網站 HTTP 延遲測試",
+    "description": "Name for the HTTP latency test"
+  },
+  "httplatencytest_problem_title": {
+    "message": "Google 網站要求的回應時間過長",
+    "description": "Title for when a problem is found in the HTTP latency test"
+  },
+  "httplatencytest_potentialproblem_title": {
+    "message": "Google 網站要求的回應時間超過預期",
+    "description": "Title for when a potential problem is found in the HTTP latency test"
+  },
+  "httplatencytest_noproblem_title": {
+    "message": "從 Google 網站接收回應時未發生延遲",
+    "description": "Title for when no problem is found in the HTTP latency test"
+  },
+  "httplatencytest_problem_subtitle": {
+    "message": "從 Google 網站接收回應所耗用的時間比預期更長，表示網路速度緩慢。",
+    "description": "Subtitle for when a problem is found in the HTTP latency test"
+  },
+  "httplatencytest_potentialproblem_subtitle": {
+    "message": "從 Google 網站接收回應所耗用的時間比預期更長一點，表示網路速度緩慢。",
+    "description": "Subtitle for when a potential problem is found in the HTTP latency test"
+  },
+  "httplatencytest_noproblem_subtitle": {
+    "message": "迅速收到 Google 網站要求的回應。",
+    "description": "Subtitle for when no problem is found in the HTTP latency test"
+  },
+  "httplatencytest_log_network_error": {
+    "message": "要求發生錯誤 (要求編號/錯誤代碼如下)：",
+    "description": "Logger record for when TCP connection breaks an HTTP request"
+  },
+  "httplatencytest_log_average_time": {
+    "message": "平均 HTTP 回應時間 (毫秒)：",
+    "description": "Logger record for when TCP connection breaks an HTTP request"
+  },
+  "httplatencytest_log_num_requests": {
+    "message": "HTTP 要求總數：",
+    "description": "Logger record for the total number of HTTP requests"
+  },
+  "httplatencytest_log_response_time": {
+    "message": "總 HTTP 回應時間 (毫秒)：",
+    "description": "Logger record for the total HTTP response time"
+  },
+  "httplatencytest_log_response_details": {
+    "message": "HTTP 回應編號/接收時間 (微時間戳記)/經歷時間 (毫秒)：",
+    "description": "Logger record for the details of a specific response"
+  },
+  "httplatencytest_no_problem_time": {
+    "message": "平均 HTTP 延遲時間 (毫秒) 正常基準值 (延遲時間低於基準值代表連線狀態正常)：",
+    "description": "Logger record for http latency time for which we render a no problem verdict."
+  },
+  "httplatencytest_potential_problem_time": {
+    "message": "平均 HTTP 延遲時間 (毫秒) 警示基準值 (延遲時間介於基準值之間代表可能有連線問題)：",
+    "description": "Logger record for http latency time for which we render a potential problem verdict."
+  },
+  "httplatencytest_problem_time": {
+    "message": "平均 HTTP 延遲時間 (毫秒) 錯誤基準值 (延遲時間高於基準值代表連線發生問題)：",
+    "description": "Logger record for http latency time for which we render a problem verdict."
+  },
+  "chromeossignalstrengthtest_name": {
+    "message": "Chrome 作業系統 WiFi 訊號強度測試",
+    "description": "Name for the ChromeOS Signal Strength test"
+  },
+  "chromeossignalstrengthtest_problem_title": {
+    "message": "網路訊號強度低",
+    "description": "Title for when a problem is found in the ChromeOS signal strength"
+  },
+  "chromeossignalstrengthtest_problem_subtitle": {
+    "message": "WiFi 網路的訊號強度偏弱。",
+    "description": "Subtitle for when a problem is found in the ChromeOS signal strength"
+  },
+  "chromeossignalstrengthtest_noproblem_title": {
+    "message": "網路訊號強度高",
+    "description": "Title for when no problem is found in the ChromeOS signal strength"
+  },
+  "chromeossignalstrengthtest_noproblem_subtitle": {
+    "message": "WiFi 網路的訊號強度良好。",
+    "description": "Subtitle for when no problem is found in the ChromeOS signal strength"
+  },
+  "chromeossignalstrengthtest_log_signal_strength": {
+    "message": "網路訊號名稱/訊號強度：",
+    "description": "Logger record for the signal strength of a ChromeOS NIC connection"
+  },
+  "chromeossignalstrengthtest_no_problem_strength": {
+    "message": "Chrome 作業系統訊號強度正常基準值 (強度高於基準值代表連線狀態正常)：",
+    "description": "Logger record for signal strength for which we render a no problem verdict."
+  },
+  "chromeossignalstrengthtest_problem_strength": {
+    "message": "Chrome 作業系統訊號強度錯誤基準值 (強度低於基準值代表連線發生問題)：",
+    "description": "Logger record for signal strength for which we render a problem verdict."
+  },
+  "pinggatewaytest_name": {
+    "message": "閘道連線偵測測試",
+    "description": "Name for the ping gateway test"
+  },
+  "pinggatewaytest_problem_title": {
+    "message": "無法連線至閘道",
+    "description": "Title for when a problem is found in the ping gateway test"
+  },
+  "pinggatewaytest_problem_subtitle": {
+    "message": "閘道連線偵測無法獲得快速回應。",
+    "description": "Subtitle for when a problem is found in the ping gateway test"
+  },
+  "pinggatewaytest_noproblem_title": {
+    "message": "可連線至閘道",
+    "description": "Title for when no problem is found in the ping gateway test"
+  },
+  "pinggatewaytest_noproblem_subtitle": {
+    "message": "閘道連線偵測能夠獲得快速回應。",
+    "description": "Subtitle for when no problem is found in the ping gateway test"
+  },
+  "pinggatewaytest_no_problem_time": {
+    "message": "閘道連線偵測延遲時間臨界值 (毫秒) (低於此臨界值代表連線狀態正常)：",
+    "description": "Logger record for the gateway latency below which we render a no problem verdict."
+  },
+  "pinggatewaytest_problem_time": {
+    "message": "閘道連線偵測延遲時間臨界值 (毫秒) (高於此臨界值代表連線發生問題)：",
+    "description": "Logger record for the gateway latency above which we render a problem verdict."
+  },
+  "pinggatewaytest_log_failure": {
+    "message": "ICMP 直接查詢閘道 IP 從未收到回應封包。",
+    "description": "Logger record for when there is no response to an ICMP packet"
+  },
+  "pinggatewaytest_log_latency": {
+    "message": "ICMP 封包延遲時間 (毫秒)：",
+    "description": "Logger record for the latency of an ICMP packet in the ping gateway test"
+  },
+  "pinggatewaytest_log_gateway_unknown": {
+    "message": "無法判定閘道 IP",
+    "description": "Logger record for when the gateway of the IP could not be determined"
+  },
+  "pinggatewaytest_log_gateway_known": {
+    "message": "閘道 IP 為：",
+    "description": "Logger record for the gateway of the IP"
+  },
+  "pinggatewaytest_log_same_ip_response": {
+    "message": "透過 TTL (1) 傳送 ICMP 封包至遠端主機後，傳回的 IP 與遠端主機的 IP 一致：",
+    "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP"
+  },
+  "hangoutsblockedtest_name": {
+    "message": "Hangouts 連線測試",
+    "description": "Name for the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_noproblem_title": {
+    "message": "Hangouts 連線功能正常",
+    "description": "Title for when no problem is found in the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_noproblem_subtitle": {
+    "message": "Hangouts 服務的連線測試結果一切正常",
+    "description": "Subtitle for when no problem is found in the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_potentialproblem_title": {
+    "message": "Hangouts 連線品質似乎出現某些問題",
+    "description": "Title for when a potential problem is found in the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+    "message": "無法透過 UDP 連接埠 19302 到 19309 連線至 Hangouts 媒體服務。",
+    "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host."
+  },
+  "hangoutsblockedtest_problem_title": {
+    "message": "無法建立 Hangouts 連線",
+    "description": "Title for when a problem is found from the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_problem_subtitle": {
+    "message": "連線至 Hangouts 所需的連接埠和主機似乎遭到封鎖。",
+    "description": "Subtitle for when a problem is found from the Hangouts blocked test"
+  },
+  "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+    "message": "無法透過 TCP 連接埠 443 和 UDP 連接埠 19302 到 19309 連線至 Hangouts 媒體服務。",
+    "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host."
+  },
+  "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+    "message": "無法連線至 Hangouts 即時通訊服務。",
+    "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts."
+  },
+  "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+    "message": "無法透過 TCP 連接埠 443 連線至 Hangouts 即時通訊服務或 Hangouts 媒體服務。",
+    "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts."
+  },
+  "hangoutsblockedtest_log_tcp_connection_success": {
+    "message": "成功透過主機連接埠 443 建立 TCP 連線",
+    "description": "Log record for when a TCP connection succeeds on port 443 to a required host"
+  },
+  "hangoutsblockedtest_log_tcp_connection_failure": {
+    "message": "TCP 連線失敗而且遭主機連接埠 443 封鎖",
+    "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host"
+  },
+  "hangoutsblockedtest_log_udp_connection_failure": {
+    "message": "UDP 連線失敗而且遭目的連接埠封鎖",
+    "description": "Log record for when a UDP connection appears to be blocked"
+  },
+  "hangoutsblockedtest_log_udp_connection_success": {
+    "message": "成功透過目的連接埠建立 UDP 連線",
+    "description": "Log record for when a UDP connection can successfully send and receive data"
+  },
+  "hangoutsblockedtest_no_problem_criteria": {
+    "message": "如發生下列情況，Hangouts 封鎖測試會傳回沒有問題的診斷結果：(1) 可透過任何 UDP 連接埠 (19302 到 19309) 連線至 stun.l.google.com；(2) 可與 apis.google.com、clients6.google.com、plus.google.com 和 talkgadget.google.com 建立 TCP 連線",
+    "description": "Criteria under which the Hangouts blocked test returns a no problem verdict"
+  },
+  "hangoutsblockedtest_problem_criteria": {
+    "message": "如發生下列情況，Hangouts 封鎖測試會傳回有問題的診斷結果：(1) 所有 UDP 目的連接埠 (19302 到 19309) 皆無法連線至 stun.l.google.com；(2) TCP 無法透過連接埠 443 連線至下列任一主機：apis.google.com、clients6.google.com、plus.google.com、talkgadget.google.com",
+    "description": "Criteria under which the Hangouts blocked test returns a problem verdict"
+  }
+}

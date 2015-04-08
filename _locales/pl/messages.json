@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "Informacje o aplikacji"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "Numer wersji: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (Beta)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "Chrome Connectivity Diagnostics (Dla programistów)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "Diagnostyka problemów z łącznością"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "Diagnostyka problemów z łącznością"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "Zamknij"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "Maksymalizuj"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "Przywróć"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "Ustawienia"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Numer odpowiedzi / nagłówki odpowiedzi HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Błąd w żądaniu – numer / stan błędu: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "Numer odpowiedzi / kod odpowiedzi HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Numer żądania / pełna długość odpowiedzi: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "Test portalu dostępowego HTTP"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "Test portalu dostępowego HTTP zwraca brak problemu, jeśli wszystkie żądania HTTP zwracają kod stanu HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "Nie wykryto portalu dostępowego. Jest to witryna, którą użytkownicy muszą odwiedzić i wykonać w niej pewne działania, by następnie móc swobodnie przeglądać internet."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "Ruch internetowy nie jest blokowany przez portal dostępowy (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "Portal dostępowy to witryna, którą użytkownicy muszą odwiedzić i wykonać w niej pewne działania, by następnie móc swobodnie przeglądać internet. Znaleziono portal dostępowy w Twojej sieci, co oznacza, że nieograniczony dostęp do internetu jest zablokowany."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "Test portalu dostępowego HTTP zwraca problem, jeśli żadne żądanie HTTP nie zwróci kodu stanu HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "Ruch internetowy jest blokowany przez portal dostępowy (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Nastąpi próba ustanowienia połączenia TCP – numer / nazwa hosta / port: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " Test połączenia internetowego Chrome zwrócił kod stanu TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "Test braku połączenia internetowego w Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Procent gniazd TCP zwracających kody stanu braku połączenia z internetem, poniżej którego nie jest wykrywany problem: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "Przeglądarka Chrome może korzystać z połączenia internetowego."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "Dostępne połączenie internetowe"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome nie ma połączenia z siecią. Sprawdź ustawienia sieci w systemie operacyjnym."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "Procent gniazd TCP zwracających kody stanu braku połączenia z internetem, od którego wzwyż jest wykrywany problem: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "Brak połączenia z siecią"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "Liczba wykrytych sieci: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "Test braku połączenia z internetem w Chrome OS"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "Gdy połączony interfejs sieciowy zwraca kod stanu oznaczający połączenie, zwracany jest brak problemu"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "Połączenie internetowe jest dostępne."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "Dostępne połączenie internetowe"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "Chromebook nie ma połączenia z siecią. Przejdź do zasobnika stanu i połącz się z dostępną siecią."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "Gdy połączony interfejs sieciowy zwraca kod stanu oznaczający brak połączenia, zwracane jest wykrycie problemu: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "Brak połączenia z siecią"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "Nazwa sygnału sieci / siła sygnału: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "Test siły sygnału Wi-Fi Chrome OS"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "Wzorcowa siła sygnału Chrome OS, powyżej której nie jest wykrywany problem: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "Sygnał sieci Wi-Fi jest mocny."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "Mocny sygnał sieci"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "Wzorcowa siła sygnału Chrome OS, poniżej której jest wykrywany problem: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "Sygnał sieci Wi-Fi jest słaby."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "Słaby sygnał sieci"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Pełny numer platformy Chrome OS: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "Nazwa wersji Chrome OS"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "Próg numeru platformy Chrome OS, od którego wzwyż nie jest wykrywany problem: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "Test wersji Chrome OS nie wykrył problemów. Ta wersja jest aktualna. Minimalna wymagana wersja to obecnie: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "Używasz najnowszej wersji Chrome OS. Twoja wersja ma wszystkie znane poprawki błędów zapobiegające problemom z łącznością."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "Chrome OS jest aktualny"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "Test wersji Chrome OS wykrył problem. Ta wersja jest nieaktualna. Minimalna wymagana wersja to obecnie: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "Nie używasz najnowszej wersji Chrome OS. Twoja wersja nie ma wszystkich znanych poprawek błędów, dlatego mogą pojawiać się problemy z łącznością."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "Chrome OS jest nieaktualny"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "Próg numeru platformy Chrome OS, poniżej którego jest wykrywany problem: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Niezmodyfikowany klient użytkownika przeglądarki: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "Krótki numer platformy Chrome OS: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "Numer wersji przeglądarki (pełny): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "Test wersji Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Próg numeru wersji Chrome, od którego wzwyż nie jest wykrywany problem: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "Używasz najnowszej wersji Google Chrome. Twoja wersja przeglądarki ma wszystkie znane poprawki błędów zapobiegające problemom z łącznością."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "Google Chrome jest w najnowszej wersji"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "Nie używasz najnowszej wersji Google Chrome. Twoja wersja przeglądarki nie ma wszystkich znanych poprawek błędów, dlatego mogą pojawiać się problemy z łącznością."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "Google Chrome nie jest w najnowszej wersji"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "Próg numeru wersji Chrome, poniżej którego jest wykrywany problem: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "Niezmodyfikowany klient użytkownika przeglądarki: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "Numer wersji przeglądarki (krótki): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "Numer testu / test nazwy hosta: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " zwrócono rozpoznany adres DNS: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " test zwrócił kod stanu: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "Test zanieczyszczenia DNS"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " test nie zwrócił pola adresu DNS (wartość jest pusta)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "Wyniki DNS uznaje się za wolne od zanieczyszczeń, gdy program do rozpoznawania nazw zwraca oczekiwany adres IP."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "Zwrócono oczekiwane wyniki DNS i nie są one zanieczyszczone."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "Serwer DNS zwrócił oczekiwane wyniki"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " test; brak kodu stanu wyników; przerwanie testu z powodu błędu."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "Zwrócono zanieczyszczoną odpowiedź DNS. Zanieczyszczona odpowiedź DNS uniemożliwia komunikację z żądanym hostem sieci."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "Wyniki DNS uznaje się za zanieczyszczone, gdy program do rozpoznawania nazw nie zwraca oczekiwanego adresu IP."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "Zwrócono nieoczekiwane wyniki DNS, które mogą być zanieczyszczone"
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "Nie udało się nawiązać połączenia TCP z hostem na porcie 443 i jest ono blokowane "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "Udało się nawiązać połączenie TCP z hostem na porcie 443 "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "Nie udało się nawiązać połączenia UDP i jest ono blokowane na porcie docelowym "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "Udało się nawiązać połączenie UDP na porcie docelowym "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "Test łączności z Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "Test blokowania Hangouts nie zwraca problemu, jeśli: (1) można nawiązać połączenie z stun.l.google.com na dowolnym porcie UDP od 19302 do 19309 (2) można nawiązać połączenie TCP z apis.google.com, clients6.google.com, plus.google.com oraz talkgadget.google.com"
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "Nie znaleziono problemu z połączeniem z usługą Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "Połączenie z Hangouts jest dostępne"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "Nie można połączyć się z usługą multimediów Hangouts na portach UDP od 19302 do 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "Połączenie z Hangouts ma częściowo obniżoną jakość"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "Test blokowania Hangouts zwraca problem, jeśli: (1) wszystkie porty docelowe UDP od 19302 do 19309 są zablokowane dla stun.l.google.com (2) nie udaje się nawiązać połączenia TCP na porcie 443 z tymi hostami: apis.google.com, clients6.google.com, plus.google.com, talkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "Porty i hosty wymagane do połączenia się z Hangouts są zablokowane."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Nie można połączyć się z usługą czatu Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "Nie można połączyć się z usługą czatu Hangouts ani usługą multimediów Hangouts na porcie TCP 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "Nie można połączyć się z usługą multimediów Hangouts na portach UDP od 19302 do 19309 i TCP 443."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "Nie można nawiązać połączenia z Hangouts"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Średni czas odpowiedzi HTTP (ms): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "Błąd w żądaniu – numer / stan błędu: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "Całkowita liczba żądań HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "Numer odpowiedzi HTTP / godzina otrzymania (mikrosygnatura czasowa) / czas, który upłynął (ms): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "Całkowity czas odpowiedzi HTTP (ms): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "Test czasu oczekiwania HTTP stron Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "Wzorcowy średni czas oczekiwania HTTP (ms), poniżej którego nie jest wykrywany problem: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "Odpowiedzi na żądania do stron Google są szybkie."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "Nie ma opóźnień w otrzymywaniu odpowiedzi ze stron Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "Wzorcowy średni czas oczekiwania HTTP (ms), w jakim jest wykrywany potencjalny problem: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "Otrzymanie odpowiedzi ze stron Google trwa nieco dłużej, niż powinno, co wskazuje na powolne działanie sieci."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "Żądania sieciowe wysyłane do Google trwają dłużej, niż oczekiwano"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "Otrzymanie odpowiedzi ze stron Google trwa dłużej, niż powinno, co wskazuje na powolne działanie sieci."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "Wzorcowy średni czasu oczekiwania HTTP (ms), powyżej którego jest wykrywany problem: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "Żądania sieciowe wysyłane do Google trwają zbyt długo"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "Test zaliczony"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "Testy zaliczone"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "Wysłanie zapytania ICMP bezpośrednio do adresu IP bramy nie zwróciło pakietów odpowiedzi."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "Określono adres IP bramy jako: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "Nie można określić adresu IP bramy"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "Opóźnienie pakietu ICMP (ms): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "Adres IP zwrócony w wyniku wysłania pakietu ICMP do hosta zdalnego z czasem wygaśnięcia równym 1 był taki sam, jak adres IP hosta zdalnego: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "Test pingowania bramy"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "Próg czasu oczekiwania (ms) pingowania bramy, poniżej którego nie jest wykrywany problem: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "Pingowanie bramy skutkuje szybką odpowiedzią."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "Brama jest osiągalna"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "Pingowanie bramy nie skutkuje szybką odpowiedzią."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "Próg czasu oczekiwania (ms) pingowania bramy, powyżej którego jest wykrywany problem: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "Brama jest nieosiągalna"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "Średni czas rozpoznania nazwy DNS (ms): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Próba rozpoznania nazwy hosta – numer: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "Test czasu oczekiwania narzędzia do rozpoznawania nazw"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "Wzorcowy średni czas rozpoznania nazwy DNS (ms), poniżej którego nie jest wykrywany problem: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "Serwer DNS tłumaczy nazwy hostów (np. google.pl) na adresy IP (np. 173.194.70.94). Jest to konieczne, by przeglądarka mogła połączyć się z internetem. Chrome potrafi szybko realizować żądania DNS, używając lokalnego programu do rozpoznawania nazw, co znacznie przyśpiesza wczytywanie stron."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "Nie ma opóźnienia w rozpoznawaniu nazw DNS"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "Serwer DNS tłumaczy nazwy hostów (np. www.google.pl) na adresy IP. Przeglądarka musi połączyć się z adresem IP, by wczytać stronę. Tłumaczenie zajmuje obecnemu serwerowi DNS zbyt dużo czasu, co powoduje opóźnienia połączenia internetowego."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "Wzorcowy średni czas rozpoznania nazwy DNS (ms), w jakim jest wykrywany możliwy problem: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "Rozpoznawanie nazw DNS trwa dłużej niż zwykle"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "Serwer DNS tłumaczy nazwy hostów (np. www.google.pl) na adresy IP. Przeglądarka musi połączyć się z adresem IP, by wczytać stronę. Tłumaczenie zajmuje obecnemu serwerowi DNS zbyt dużo czasu, co powoduje opóźnienia połączenia internetowego."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "Wzorcowy średni czas rozpoznania nazwy DNS (ms), powyżej którego jest wykrywany problem: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "Rozpoznawanie nazw DNS trwa zbyt długo"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "Otrzymano wynik rozpoznawania nazw DNS. Numer testu / aktualna godzina / czas trwania (ms) / czas rozpoczęcia (ms): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "Całkowita liczba rozpoznanych hostów DNS: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "Całkowity czas rozpoznawania nazw DNS we wszystkich testach (ms): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Program do rozpoznawania nazw DNS wysyła jedno testowe zapytanie DNS i wykrywa problem, jeśli nie jest zwracana prawidłowa odpowiedź."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Program do rozpoznawania nazw DNS wysyła jedno testowe zapytanie DNS i nie wykrywa problemu, jeśli zwracana jest prawidłowa odpowiedź."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "Próba rozpoznania nazwy hosta: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "Nazwa hosta została przetłumaczona na adres IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "Serwer DNS zwrócił kod stanu problemu: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "Serwer DNS zwrócił kod stanu powodzenia: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "Test obecności programu do rozpoznawania nazw"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "Chrome znalazł serwer DNS, który przetłumaczył nazwę hosta (np. www.google.pl) na adres IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "Serwer DNS jest dostępny"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "Serwer DNS tłumaczy nazwy hostów (np. www.google.pl) na adresy IP. Przeglądarka musi połączyć się z adresem IP, by załadować stronę. Chrome nie może określić adresu IP strony, na którą chcesz wejść, bo Twój serwer DNS nie działa. Skontaktuj się ze swoim dostawcą usług internetowych lub administratorem sieci."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "Brak działającego serwera DNS"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "Serwer DNS zwrócił wyniki zapytania DNS."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "Serwer DNS nie zwrócił żadnego obiektu (nawet wpisu DNS) i test nie został wykonany."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "Połączenie sieciowe działa poprawnie."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "Informacje"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Ukryj testy zaliczone"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "Uruchom testy ponownie"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "Wyślij opinię..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "Pokaż testy zaliczone"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "Wyniki testu zapory sieciowej: testy przeprowadzone / port sprawdzony / liczba nieudanych połączeń: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " Nastąpi próba ustanowienia połączenia TCP – numer / nazwa hosta / port: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " Test zapory sieciowej TCP zwrócił kod stanu TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "Próba testu połączenia nie powiodła się, a stos połączenia Chrome nie zwrócił kodu stanu powodzenia TCP. Zamiast tego został zwrócony kod stanu: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "Wykryty program do rozpoznawania nazw DNS jest niedostępny, więc nie możemy określić, czy istnieje zapora sieciowa"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "Wykryta sieć jest niedostępna, więc nie możemy określić, czy istnieje zapora sieciowa"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "Test zapory sieciowej TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "Nie jest wykrywany problem, jeśli wartość procentowa niepomyślnych wyników testów połączeń TCP jest mniejsza lub równa: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "Nie wykryto żadnych ograniczeń połączenia internetowego na porcie "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "Ruch internetowy nie jest blokowany przez zaporę sieciową na porcie "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "Jest wykrywany możliwy problem, jeśli liczba niepomyślnych wyników testów połączeń TCP jest pomiędzy: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "W Twojej sieci prawdopodobnie istnieje ograniczenie odnoszące się do często używanego połączenia internetowego."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "Ruch internetowy może być blokowany przez zaporę sieciową na porcie "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "W Twojej sieci istnieje ograniczenie odnoszące się do często używanego połączenia internetowego."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "Jest wykrywany problem, jeśli wartość procentowa niepomyślnych wyników testów połączeń TCP jest równa: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "Ruch internetowy został zablokowany przez zaporę sieciową na porcie "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "Ustanowiono połączenie TCP z hostem / portem / kodem stanu: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "Ustanowiono połączenie TCP z hostem / portem: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "Nie udało się ustanowić połączenia TCP z hostem / portem / kodem stanu: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "Przyczyna błędu połączenia: połączenie odrzucone"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "Przyczyna błędu połączenia: przekroczono czas oczekiwania"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "Przyczyna błędu połączenia: nieznana"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "Błąd odczytu danych TCP. Kod błędu: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "Odczytano dane z gniazda TCP o rozmiarze (w bajtach): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "Odebrano nieprzetworzone dane z gniazda TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "Przygotowywanie do wysłania danych o rozmiarze (w bajtach): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "Tworzenie gniazda TCP – numer / host / port: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "Przesłano dane o rozmiarze (w bajtach): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "Określanie limitu czasu TCP (ms): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "Kopiuj dzienniki wyników"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "Ukryj dzienniki..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "Znaleziono problem"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "Znaleziono problemy"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "KRYTERIA"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "SZCZEGÓŁY"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "PODSUMOWANIE"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "SZCZEGÓŁY POMOCY"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "Identyfikator testu: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "Nazwa testu: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Wynik testu: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Nie wykryto problemów"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Wykryto potencjalny problem"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "Wykryto problem"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "Pokaż dzienniki..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "Podczas testów w ramach diagnostyki problemów z łącznością wystąpił błąd. Zostały one anulowane. Jeśli problem będzie dalej występować, kliknij opcję „Wyślij opinię...” w menu Ustawienia."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "Trwa testowanie. Może to potrwać kilka minut..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "Błąd odczytu danych UDP. Kod błędu: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "Odczytano dane z gniazda UDP o rozmiarze (w bajtach): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "Odebrano nieprzetworzone dane z gniazda UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "Przygotowywanie do wysłania danych z gniazda UDP o rozmiarze (w bajtach): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "Tworzenie gniazda UDP – numer / host / port: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "Przesłano dane o rozmiarze (w bajtach): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "Określanie limitu czasu UDP (ms): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "Ostrzeżenie"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "Ostrzeżenia"
+   }
+}

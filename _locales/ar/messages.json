@@ -1,0 +1,862 @@
+{
+   "about_app": {
+      "description": "The title for the About App feature",
+      "message": "حول التطبيق"
+   },
+   "about_version_num": {
+      "description": "The version number of the application",
+      "message": "رقم الإصدار: "
+   },
+   "appname": {
+      "description": "Title of the Chrome App name. [CHAR LIMIT=44]",
+      "message": "بيانات تشخيص اتصال Chrome"
+   },
+   "appname_beta": {
+      "description": "Title of the Chrome App name (Beta). [CHAR LIMIT=44]",
+      "message": "بيانات تشخيص اتصال Chrome (الإصدار التجريبي)"
+   },
+   "appname_dev": {
+      "description": "Title of the Chrome App name (Dev). [CHAR LIMIT=44]",
+      "message": "بيانات تشخيص اتصال Chrome (الإصدار التطويري)"
+   },
+   "apptitle": {
+      "description": "HTML and header page title.",
+      "message": "بيانات تشخيص الاتصال"
+   },
+   "apptitle_ucase": {
+      "description": "HTML and header page title.",
+      "message": "بيانات تشخيص الاتصال"
+   },
+   "aria_label_close": {
+      "description": "ARIA label for the close button.",
+      "message": "إغلاق"
+   },
+   "aria_label_maximize": {
+      "description": "ARIA label for the maximize button.",
+      "message": "تكبير"
+   },
+   "aria_label_restore": {
+      "description": "ARIA label for the restore button.",
+      "message": "استعادة"
+   },
+   "aria_label_settings": {
+      "description": "ARIA label for the settings button.",
+      "message": "الإعدادات"
+   },
+   "captiveportalhttptest_log_http_response": {
+      "description": "Logger record for full HTTP response length",
+      "message": "رقم الاستجابة / رؤوس استجابة HTTP: "
+   },
+   "captiveportalhttptest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "خطأ في الطلب الرقم/حالة الخطأ: "
+   },
+   "captiveportalhttptest_log_response_code": {
+      "description": "Logger record for full HTTP response length",
+      "message": "رقم الاستجابة / رمز استجابة HTTP: "
+   },
+   "captiveportalhttptest_log_response_length": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "رقم الطلب / طول الاستجابة الكاملة: "
+   },
+   "captiveportalhttptest_name": {
+      "description": "Name for the Captive Portal HTTP test",
+      "message": "اختبار بوابة HTTP مقيدة"
+   },
+   "captiveportalhttptest_no_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a no problem verdict",
+      "message": "يعرض اختبار البوابة المقيدة لـ HTTP نتيجة عدم اكتشاف مشكلة إذا كانت جميع طلبات HTTP تعرض رمز الحالة HTTP 204"
+   },
+   "captiveportalhttptest_noproblem_subtitle": {
+      "description": "Title for when a potential problem is found with the HTTP captive portal test.",
+      "message": "لم يتم العثور على بوابة مقيدة. والبوابة المقيدة هي موقع ويب تطلب الشبكة من مستخدميها الاطلاع عليه والتفاعل معه قبل منحهم إمكانية الدخول لتصفح الإنترنت بحرية."
+   },
+   "captiveportalhttptest_noproblem_title": {
+      "description": "Title for when no problem is found with the HTTP captive portal test.",
+      "message": "حركة بيانات الإنترنت ليست محظورة من قبل بوابة مقيدة (HTTP)"
+   },
+   "captiveportalhttptest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the HTTP captive portal test.",
+      "message": "البوابة المقيدة هي موقع ويب تطلب الشبكة من مستخدميها الاطلاع عليه والتفاعل معه قبل منحهم إمكانية الدخول لتصفح الإنترنت بحرية. تم العثور على بوابة مقيدة على شبكتك، وهذا يعني أنه تم حظر الدخول غير المقيد إلى الإنترنت."
+   },
+   "captiveportalhttptest_problem_threshold": {
+      "description": "Log record for the criteria under which the Captive Portal HTTP request returns a problem verdict",
+      "message": "يعرض اختبار البوابة المقيدة لـ HTTP نتيجة اكتشاف مشكلة إذا كان أي من طلبات HTTP لا يعرض رمز الحالة HTTP 204"
+   },
+   "captiveportalhttptest_problem_title": {
+      "description": "Title for when a problem is found with the HTTP captive portal test.",
+      "message": "حركة بيانات الإنترنت محظورة من قبل بوابة مقيدة (HTTP)"
+   },
+   "chromeinternetdisconnectedtest_log_connection_beginning": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " على وشك محاولة إجراء اتصال TCP رقم/اسم المضيف/المنفذ: "
+   },
+   "chromeinternetdisconnectedtest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known in the Chrome internet connection test.",
+      "message": " عرض اختبار اتصال Chrome بالإنترنت رمز حالة TCP: "
+   },
+   "chromeinternetdisconnectedtest_name": {
+      "description": "Name for the Chrome Internet Disconnected test",
+      "message": "اختبار قطع اتصال الإنترنت في Chrome"
+   },
+   "chromeinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "نسبة مقابس TCP التي تعرض رموز حالة انقطاع الاتصال بالإنترنت التي تظهر أقل منها نتيجة عدم اكتشاف مشكلة: "
+   },
+   "chromeinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome internet connection.",
+      "message": "يتوفر اتصال بالإنترنت لمتصفح Chrome."
+   },
+   "chromeinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome internet connection.",
+      "message": "يتوفر اتصال بالإنترنت"
+   },
+   "chromeinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome internet connection.",
+      "message": "Chrome غير متصل بأية شبكة. يرجى التحقق من إعدادات شبكة نظام التشغيل."
+   },
+   "chromeinternetdisconnectedtest_problem_threshold": {
+      "description": "Logger record for percent of TCP sockets that return internet disconnected in order for test to fail",
+      "message": "نسبة مقابس TCP التي تعرض رموز حالة انقطاع الاتصال بالإنترنت والتي تظهر نتيجة عدم اكتشاف مشكلة عند الوصول إليها أو تجاوزها: "
+   },
+   "chromeinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome internet connection.",
+      "message": "لا يتوفر اتصال بالشبكة"
+   },
+   "chromeosinternetdisconnectedtest_log_available_networks": {
+      "description": "Logger record for how many networks chrome.networkingPrivate found.",
+      "message": "عدد الشبكات المتاحة التي تم اكتشافها: "
+   },
+   "chromeosinternetdisconnectedtest_name": {
+      "description": "Name for the ChromeOS Internet Disconnected test",
+      "message": "اختبار قطع اتصال الإنترنت في نظام التشغيل Chrome"
+   },
+   "chromeosinternetdisconnectedtest_no_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a no problem result",
+      "message": "تظهر نتيجة عدم اكتشاف مشكلة عند عرض واجهة الشبكة المتصلة لرمز حالة تم الاتصال"
+   },
+   "chromeosinternetdisconnectedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS internet connection.",
+      "message": "يتوفر اتصال بالإنترنت."
+   },
+   "chromeosinternetdisconnectedtest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS internet connection.",
+      "message": "يتوفر اتصال بالإنترنت"
+   },
+   "chromeosinternetdisconnectedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS internet connection.",
+      "message": "جهاز Chromebook هذا ليس متصلاً بأية شبكة. يُرجى الانتقال إلى شريط الحالة والاتصال بإحدى الشبكات المتاحة."
+   },
+   "chromeosinternetdisconnectedtest_problem_threshold": {
+      "description": "Condition under which the ChromeOS internet disconnected test returns a problem result",
+      "message": "تظهر نتيجة اكتشاف مشكلة عند عرض واجهة الشبكة المتصلة لرمز حالة تم قطع الاتصال: "
+   },
+   "chromeosinternetdisconnectedtest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS internet connection.",
+      "message": "لا يتوفر اتصال بالشبكة"
+   },
+   "chromeossignalstrengthtest_log_signal_strength": {
+      "description": "Logger record for the signal strength of a ChromeOS NIC connection",
+      "message": "اسم إشارة الشبكة / قوة الإشارة: "
+   },
+   "chromeossignalstrengthtest_name": {
+      "description": "Name for the ChromeOS Signal Strength test",
+      "message": "اختبار قوة إشارة WiFi في نظام التشغيل Chrome"
+   },
+   "chromeossignalstrengthtest_no_problem_strength": {
+      "description": "Logger record for signal strength for which we render a no problem verdict.",
+      "message": "معيار قوة إشارة نظام التشغيل Chrome الذي تظهر نتيجة عدم اكتشاف مشكلة إذا تم تجاوزه: "
+   },
+   "chromeossignalstrengthtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ChromeOS signal strength",
+      "message": "قوة إشارة شبكة WiFi قوية."
+   },
+   "chromeossignalstrengthtest_noproblem_title": {
+      "description": "Title for when no problem is found in the ChromeOS signal strength",
+      "message": "قوة إشارة الشبكة قوية"
+   },
+   "chromeossignalstrengthtest_problem_strength": {
+      "description": "Logger record for signal strength for which we render a problem verdict.",
+      "message": "معيار قوة إشارة نظام التشغيل Chrome الذي تظهر نتيجة اكتشاف مشكلة إذا لم يتم الوصول إليه: "
+   },
+   "chromeossignalstrengthtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ChromeOS signal strength",
+      "message": "قوة إشارة شبكة WiFi ضعيفة."
+   },
+   "chromeossignalstrengthtest_problem_title": {
+      "description": "Title for when a problem is found in the ChromeOS signal strength",
+      "message": "قوة إشارة الشبكة منخفضة"
+   },
+   "chromeosversiontest_full_platform": {
+      "description": "Full ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "الرقم الكامل للنظام الأساسي لنظام التشغيل Chrome: "
+   },
+   "chromeosversiontest_name": {
+      "description": "Name for the ChromeOS Version test",
+      "message": "اسم إصدار نظام تشغيل Chrome"
+   },
+   "chromeosversiontest_no_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a no problem verdict.",
+      "message": "الحد لرقم النظام الأساسي لنظام التشغيل Chrome الذي تظهر نتيجة عدم اكتشاف مشكلة عند الوصول إليه أو تجاوزه: "
+   },
+   "chromeosversiontest_noproblem_record_log": {
+      "description": "Log record for recording that no problem existed with the ChromeOS version.",
+      "message": "لم يكتشف اختبار إصدار نظام تشغيل Chrome أية مشكلات. ذلك أن إصدار نظام تشغيل Chrome حديث. أقل إصدار مسموح به الآن هو: "
+   },
+   "chromeosversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the ChromeOS version.",
+      "message": "أنت تستخدم إصدارًا حديثًا من نظام تشغيل Chrome وبناءً عليه فإن لديك جميع الإصلاحات المعروفة لأخطاء الاتصال."
+   },
+   "chromeosversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the ChromeOS version.",
+      "message": "نظام تشغيل Chrome حديث"
+   },
+   "chromeosversiontest_problem_record_log": {
+      "description": "Log record for recording that a problem existed with the ChromeOS version.",
+      "message": "اكتشف اختبار إصدار نظام تشغيل Chrome وجود مشكلة. ذلك أن إصدار نظام تشغيل Chrome ليس حديثًا. أقل إصدار مسموح به الآن هو: "
+   },
+   "chromeosversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the ChromeOS version.",
+      "message": "أنت لا تستخدم أحدث إصدار من نظام تشغيل Chrome. ولذلك لا تتوفر لديك جميع إصلاحات الأخطاء المعروفة وبناءً عليه قد تواجهك مشكلات في الاتصال."
+   },
+   "chromeosversiontest_problem_title": {
+      "description": "Title for when a problem is found with the ChromeOS version.",
+      "message": "نظام تشغيل Chrome ليس حديثًا"
+   },
+   "chromeosversiontest_problem_version": {
+      "description": "Logger record for ChromeOS platform number for which we render a problem verdict.",
+      "message": "الحد لرقم النظام الأساسي لنظام التشغيل Chrome الذي تظهر نتيجة اكتشاف مشكلة إذا لم يتم الوصول إليه: "
+   },
+   "chromeosversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "وكيل مستخدم متصفح Raw: "
+   },
+   "chromeosversiontest_short_platform": {
+      "description": "Short ChromeOS platform number parsed from the HTTP user-agent string",
+      "message": "الرقم القصير للنظام الأساسي لنظام التشغيل Chrome: "
+   },
+   "chromeversiontest_full_browser": {
+      "description": "Short browser version number",
+      "message": "رقم إصدار المتصفح (كامل): "
+   },
+   "chromeversiontest_name": {
+      "description": "Name for the Chrome Version test",
+      "message": "اختبار إصدار Chrome"
+   },
+   "chromeversiontest_no_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "حد رقم إصدار Chrome أعلى أو يساوي الحد الذي تظهر عنده نتيجة عدم اكتشاف مشكلة: "
+   },
+   "chromeversiontest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the Chrome version.",
+      "message": "أنت تستخدم إصدارًا حديثًا من Google Chrome وبناءً عليه فإن لديك جميع الإصلاحات المعروفة لأخطاء الاتصال."
+   },
+   "chromeversiontest_noproblem_title": {
+      "description": "Title for when no problem is found with the Chrome version.",
+      "message": "إصدار Google Chrome هو الأحدث"
+   },
+   "chromeversiontest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the Chrome version.",
+      "message": "أنت لا تستخدم أحدث إصدار من Google Chrome. ولذلك لا تتوفر لديك جميع إصلاحات الأخطاء المعروفة وبناءً عليه قد تواجهك مشكلات في الاتصال."
+   },
+   "chromeversiontest_problem_title": {
+      "description": "Title for when a problem is found with the Chrome version.",
+      "message": "إصدار Google Chrome ليس الأحدث"
+   },
+   "chromeversiontest_problem_version": {
+      "description": "Logger record for Chrome version test for which we render a no problem verdict.",
+      "message": "حد رقم إصدار Chrome أقل من الحد الذي تظهر عنده نتيجة اكتشاف مشكلة: "
+   },
+   "chromeversiontest_raw_useragent": {
+      "description": "Raw browser user-agent",
+      "message": "وكيل مستخدم متصفح Raw: "
+   },
+   "chromeversiontest_short_browser": {
+      "description": "Short browser version number",
+      "message": "رقم إصدار المتصفح (قصير): "
+   },
+   "dnspoisoningtest_beginning_resolution": {
+      "description": "Logger record for noting a new DNS resolution attempt.",
+      "message": "رقم الاختبار / اسم مضيف الاختبار: "
+   },
+   "dnspoisoningtest_log_address_returned": {
+      "description": "Logger record for DNS response address.",
+      "message": " عرض عنوان خادم أسماء النطاقات الذي تم حله: "
+   },
+   "dnspoisoningtest_log_statuscode_returned": {
+      "description": "Logger record for DNS response status code.",
+      "message": " عرض الاختبار رمز حالة: "
+   },
+   "dnspoisoningtest_name": {
+      "description": "Name for DNS poisoning test.",
+      "message": "اختبار مضلل نظام أسماء النطاقات"
+   },
+   "dnspoisoningtest_no_addr_returned": {
+      "description": "Logger record for when DNS resolution returns no address field.",
+      "message": " لم يظهر الاختبار أي حقل لعنوان نظام أسماء النطاقات (مضبوط عند لاغٍ)"
+   },
+   "dnspoisoningtest_no_problem_threshold": {
+      "description": "Log record for the threshold of no problem",
+      "message": "تعتبر نتائج نظام أسماء النطاقات غير مضللة في حالة عرض المحلل لعنوان IP المتوقّع."
+   },
+   "dnspoisoningtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS poisoning test.",
+      "message": "نتائج نظام أسماء النطاقات متوقّعة ولا يبدو أنها مضللة."
+   },
+   "dnspoisoningtest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS poisoning test.",
+      "message": "يعرض خادم نظام أسماء النطاقات نتائج متوقَّعة"
+   },
+   "dnspoisoningtest_noresult_code_returned": {
+      "description": "Logger record for when DNS resolution returns no result status code field.",
+      "message": " اختبار؛ لا يتوفر رمز حالة اختبار؛ جارٍ إلغاء الاختبار نظرًا لحدوث إخفاق في الاختبار."
+   },
+   "dnspoisoningtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS poisoning test.",
+      "message": "تم عرض رد مضلل من نظام أسماء النطاقات. ويعمل الرد المضلل لنظام أسماء النطاقات على الانحراف بمسار الاتصال بدلاً من إرساله إلى مضيف الشبكة المقصود."
+   },
+   "dnspoisoningtest_problem_threshold": {
+      "description": "Log record for the threshold of a problem",
+      "message": "تعتبر نتائج نظام أسماء النطاقات مضللة في حالة عدم عرض المحلل لعنوان IP المتوقّع."
+   },
+   "dnspoisoningtest_problem_title": {
+      "description": "Title for when a problem is found with the DNS poisoning test.",
+      "message": "نتائج نظام أسماء النطاقات غير متوقّعة وقد تكون مضللة."
+   },
+   "hangoutsblockedtest_log_tcp_connection_failure": {
+      "description": "Log record for when a TCP connection appears to be blocked on port 443 to a required host",
+      "message": "أخفق اتصال TCP وتم حظره عبر منفذ 443 للمضيف "
+   },
+   "hangoutsblockedtest_log_tcp_connection_success": {
+      "description": "Log record for when a TCP connection succeeds on port 443 to a required host",
+      "message": "تم الاتصال بنجاح على TCP عبر منفذ 443 للمضيف "
+   },
+   "hangoutsblockedtest_log_udp_connection_failure": {
+      "description": "Log record for when a UDP connection appears to be blocked",
+      "message": "أخفق اتصال UDP وتم حظره على منفذ الوجهة "
+   },
+   "hangoutsblockedtest_log_udp_connection_success": {
+      "description": "Log record for when a UDP connection can successfully send and receive data",
+      "message": "نجح اتصال UDP على منفذ الوجهة "
+   },
+   "hangoutsblockedtest_name": {
+      "description": "Name for the Hangouts blocked test",
+      "message": "اختبار اتصال Hangouts"
+   },
+   "hangoutsblockedtest_no_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a no problem verdict",
+      "message": "يعرض اختبار حظر Hangouts رسالة تفيد عدم وجود مشكلة في الحالات التالية: (1) يمكن إنشاء اتصال بالمضيف stun.l.google.com من أي من منافذ UDP من 19302 وحتى 19309 (2) يمكن إنشاء اتصال TCP بأي من المضيفات التالية apis.google.com وclients6.google.com وplus.google.com وtalkgadget.google.com."
+   },
+   "hangoutsblockedtest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the Hangouts blocked test",
+      "message": "لا توجد مشكلة في الاتصال بخدمة Hangouts."
+   },
+   "hangoutsblockedtest_noproblem_title": {
+      "description": "Title for when no problem is found in the Hangouts blocked test",
+      "message": "يتوفّر اتصال Hangouts"
+   },
+   "hangoutsblockedtest_potentialproblem_subtitle_udp_media_blocked": {
+      "description": "Subtitle for when a potential problem is found from the Hangouts blocked test whereby UDP is blocked to Hangouts media host.",
+      "message": "يتعذّر الاتصال بخدمة وسائط Hangouts على منافذ UDP من 19302 وحتى 19309."
+   },
+   "hangoutsblockedtest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the Hangouts blocked test",
+      "message": "يبدو أن الاتصال بخدمة Hangouts ليس على ما يرام جزئيًا"
+   },
+   "hangoutsblockedtest_problem_criteria": {
+      "description": "Criteria under which the Hangouts blocked test returns a problem verdict",
+      "message": "يعرض اختبار حظر Hangouts رسالة تفيد بوجود مشكلة في الحالات التالية: (1) أن تكون جميع منافذ UDP الوجهة من 19302 وحتى 19309 محظورة على stun.l.google.com (2) إخفاق اتصال TCP بأي من المضيفات التالية على المنفذ رقم 443: apis.google.com، وclients6.google.com، وplus.google.com، وtalkgadget.google.com"
+   },
+   "hangoutsblockedtest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test",
+      "message": "يبدو أن المنافذ والمضيفات المطلوبة للاتصال بخدمة Hangouts محظورة."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "يتعذّر الاتصال بخدمة دردشة Hangouts."
+   },
+   "hangoutsblockedtest_problem_subtitle_tcp_media_tcp_chat_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP is blocked to Hangouts chat hosts.",
+      "message": "يتعذّر الاتصال بخدمة دردشة Hangouts أو خدمة وسائط Hangouts على منفذ TCP رقم 443."
+   },
+   "hangoutsblockedtest_problem_subtitle_udp_media_tcp_media_blocked": {
+      "description": "Subtitle for when a problem is found from the Hangouts blocked test whereby TCP and UDP is blocked to Hangouts media host.",
+      "message": "يتعذّر الاتصال بخدمة وسائط Hangouts على منفذ TCP رقم 443 وعلى منافذ UDP من 19302 وحتى 19309."
+   },
+   "hangoutsblockedtest_problem_title": {
+      "description": "Title for when a problem is found from the Hangouts blocked test",
+      "message": "تعذّر إنشاء اتصال Hangout"
+   },
+   "httplatencytest_log_average_time": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "متوسط وقت استجابة HTTP (بالميلي ثانية): "
+   },
+   "httplatencytest_log_network_error": {
+      "description": "Logger record for when TCP connection breaks an HTTP request",
+      "message": "خطأ في الطلب الرقم / حالة الخطأ: "
+   },
+   "httplatencytest_log_num_requests": {
+      "description": "Logger record for the total number of HTTP requests",
+      "message": "إجمالي عدد طلبات HTTP: "
+   },
+   "httplatencytest_log_response_details": {
+      "description": "Logger record for the details of a specific response",
+      "message": "رقم استجابة HTTP / الوقت المستلم (طابع زمني مصغر) / الوقت المنقضي (بالميلي ثانية): "
+   },
+   "httplatencytest_log_response_time": {
+      "description": "Logger record for the total HTTP response time",
+      "message": "إجمالي وقت استجابة HTTP (بالميلي ثانية): "
+   },
+   "httplatencytest_name": {
+      "description": "Name for the HTTP latency test",
+      "message": "اختبار وقت استجابة HTTP لمواقع الويب التابعة لـ Google"
+   },
+   "httplatencytest_no_problem_time": {
+      "description": "Logger record for http latency time for which we render a no problem verdict.",
+      "message": "معيار متوسط وقت استجابة HTTP (بالميلي ثانية) والذي دونه تظهر نتيجة عدم اكتشاف مشكلة: "
+   },
+   "httplatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the HTTP latency test",
+      "message": "يتم تلقي طلبات الويب إلى Google بسرعة."
+   },
+   "httplatencytest_noproblem_title": {
+      "description": "Title for when no problem is found in the HTTP latency test",
+      "message": "ليس هناك تأخر في تلقي الاستجابات من مواقع الويب على Google"
+   },
+   "httplatencytest_potential_problem_time": {
+      "description": "Logger record for http latency time for which we render a potential problem verdict.",
+      "message": "معيار متوسط وقت استجابة HTTP (بالميلي ثانية) والذي تظهر نتيجة اكتشاف مشكلة محتملة ضمنه: "
+   },
+   "httplatencytest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found in the HTTP latency test",
+      "message": "يستغرق الأمر أطول من اللازم قليلاً لتلقي استجابة من مواقع الويب على Google، وهذا مؤشر على بطء الشبكة."
+   },
+   "httplatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found in the HTTP latency test",
+      "message": "تستغرق طلبات الويب إلى Google وقتًا أطول من المتوقع"
+   },
+   "httplatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the HTTP latency test",
+      "message": "يستغرق الأمر أطول من اللازم لتلقي استجابة من مواقع الويب على Google، وهذا مؤشر على بطء الشبكة."
+   },
+   "httplatencytest_problem_time": {
+      "description": "Logger record for http latency time for which we render a problem verdict.",
+      "message": "معيار متوسط وقت استجابة HTTP (بالميلي ثانية) الذي تظهر نتيجة اكتشاف مشكلة إذا تم تجاوزه: "
+   },
+   "httplatencytest_problem_title": {
+      "description": "Title for when a problem is found in the HTTP latency test",
+      "message": "تستغرق طلبات الويب إلى Google وقتًا طويلاً جدًا"
+   },
+   "passing_test_title": {
+      "description": "Page section title for test that passed",
+      "message": "اختبار ناجح"
+   },
+   "passing_tests_title": {
+      "description": "Page section title for tests that passed",
+      "message": "الاختبارات الناجحة"
+   },
+   "pinggatewaytest_log_failure": {
+      "description": "Logger record for when there is no response to an ICMP packet",
+      "message": "استعلام بروتوكول ICMP المباشر إلى عنوان IP للبوابة لم يتلق حزمة رد."
+   },
+   "pinggatewaytest_log_gateway_known": {
+      "description": "Logger record for the gateway of the IP",
+      "message": "تم تحديد عنوان IP للبوابة ليكون: "
+   },
+   "pinggatewaytest_log_gateway_unknown": {
+      "description": "Logger record for when the gateway of the IP could not be determined",
+      "message": "تعذّر تحديد عنوان IP للبوابة"
+   },
+   "pinggatewaytest_log_latency": {
+      "description": "Logger record for the latency of an ICMP packet in the ping gateway test",
+      "message": "وقت استجابة حزمة بروتوكول ICMP (بالميلي ثانية): "
+   },
+   "pinggatewaytest_log_same_ip_response": {
+      "description": "Logger record for when the IP that is pinged returns the terminal destination IP and not the gateway IP",
+      "message": "عنوان IP المعروض نتيجة لإرسال حزمة بروتوكول ICMP إلى مضيف بعيد باستخدام قيمة مدة بقاء 1 كان هو عنوان IP للمضيف البعيد: "
+   },
+   "pinggatewaytest_name": {
+      "description": "Name for the ping gateway test",
+      "message": "اختبار فحص الاتصال بالبوابة"
+   },
+   "pinggatewaytest_no_problem_time": {
+      "description": "Logger record for the gateway latency below which we render a no problem verdict.",
+      "message": "حد وقت الاستجابة (بالميلي ثانية) لفحص اتصال البوابة، والذي دونه نعرض رسالة تفيد بعدم وجود مشكلة: "
+   },
+   "pinggatewaytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found in the ping gateway test",
+      "message": "فحص اتصال البوابة يسفر عن رد سريع."
+   },
+   "pinggatewaytest_noproblem_title": {
+      "description": "Title for when no problem is found in the ping gateway test",
+      "message": "يمكن الوصول إلى البوابة"
+   },
+   "pinggatewaytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found in the ping gateway test",
+      "message": "فحص اتصال البوابة لا يسفر عن رد سريع."
+   },
+   "pinggatewaytest_problem_time": {
+      "description": "Logger record for the gateway latency above which we render a problem verdict.",
+      "message": "حد وقت الاستجابة (بالميلي ثانية) لفحص اتصال البوابة، والذي نعرض رسالة تفيد بوجود مشكلة عند تجاوزه: "
+   },
+   "pinggatewaytest_problem_title": {
+      "description": "Title for when a problem is found in the ping gateway test",
+      "message": "يتعذر الوصول إلى البوابة"
+   },
+   "resolverlatencytest_average_resolution_time": {
+      "description": "Logger record for noting the average DNS resolution time.",
+      "message": "متوسط وقت حل نظام أسماء النطاقات (بالميلي ثانية): "
+   },
+   "resolverlatencytest_beginning_resolution": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "جارٍ محاولة حل اسم المضيف رقم: "
+   },
+   "resolverlatencytest_name": {
+      "description": "Name for the Resolver Latency test",
+      "message": "اختبار محلل وقت الاستجابة"
+   },
+   "resolverlatencytest_no_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a no problem verdict.",
+      "message": "معيار متوسط وقت حل نظام أسماء النطاقات (بالميلي ثانية) الذي لا يتم عرض أية مشكلة تحته: "
+   },
+   "resolverlatencytest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Latency test.",
+      "message": "يحول خادم نظام أسماء النطاقات اسم المضيف (على سبيل المثال www.google.com) إلى عنوان IP (على سبيل المثال 74.125.228.98). وهذه العملية مطلوبة كي يتصل متصفحك بالإنترنت. يتمكن Chrome من الحل السريع لطلبات نظام أسماء النطاقات باستخدام أداة محلل محلية تسرع من عملية تحميل الصفحة."
+   },
+   "resolverlatencytest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Latency test.",
+      "message": "ليس هناك تأخر في حل نظام أسماء النطاقات"
+   },
+   "resolverlatencytest_potential_problem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the DNS Latency test.",
+      "message": "يحول خادم نظام أسماء النطاقات اسم المضيف (على سبيل المثال www.google.com) إلى عنوان IP. ويجب أن يتضمن المتصفح عنوان IP يمكن الاتصال به من أجل تحميل موقع الويب. يستغرق خادم نظام أسماء النطاقات الذي ينفذ هذا التحويل وقتًا طويلاً، وهو ما يتسبب في حدوث تأخر في الاتصال بالإنترنت."
+   },
+   "resolverlatencytest_potential_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a potential problem verdict.",
+      "message": "معيار متوسط وقت حل نظام أسماء النطاقات (بالميلي ثانية) الذي يتم عرض مشكلة محتملة ضمنه: "
+   },
+   "resolverlatencytest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the DNS Latency test.",
+      "message": "يستغرق حل نظام أسماء النطاقات وقتًا أطول من المعتاد"
+   },
+   "resolverlatencytest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Latency test.",
+      "message": "يحول خادم نظام أسماء النطاقات اسم المضيف (على سبيل المثال www.google.com) إلى عنوان IP. ويجب أن يتضمن المتصفح عنوان IP يمكن الاتصال به من أجل تحميل موقع الويب. يستغرق خادم نظام أسماء النطاقات الذي ينفذ هذا التحويل وقتًا طويلاً، وهو ما يتسبب في حدوث تأخر في الاتصال بالإنترنت."
+   },
+   "resolverlatencytest_problem_time": {
+      "description": "Logger record for dns resolution time for which we render a problem verdict.",
+      "message": "معيار متوسط وقت حل نظام أسماء النطاقات (بالميلي ثانية) الذي تظهر نتيجة اكتشاف مشكلة عند تجاوزه: "
+   },
+   "resolverlatencytest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Latency test.",
+      "message": "يستغرق حل نظام أسماء النطاقات وقتًا أطول من اللازم"
+   },
+   "resolverlatencytest_queryresult_received": {
+      "description": "Logger record for noting that DNS resolution is beginning.",
+      "message": "النتيجة التي تم تلقيها لحل نظام أسماء النطاقات. رقم الاختبار / الوقت الحالي / الوقت المستغرق (بالميلي ثانية) / وقت البدء (بالميلي ثانية): "
+   },
+   "resolverlatencytest_total_hosts_resolved": {
+      "description": "Logger record for noting the total hosts resolved.",
+      "message": "إجمالي مضيفات نظام أسماء النطاقات التي تم حلها: "
+   },
+   "resolverlatencytest_total_resolution_time": {
+      "description": "Logger record for noting the total DNS resolution time.",
+      "message": "إجمالي وقت حل نظام أسماء النطاقات لجميع الاختبارات (بالميلي ثانية): "
+   },
+   "resolverpresenttest_criteria_failure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "ينفّذ اختبار محلل نظام أسماء النطاقات استعلامًا مفردًا في نظام أسماء النطاقات ويعرض رسالة تفيد بوجود مشكلة في حالة عدم عرض رد صالح."
+   },
+   "resolverpresenttest_criteria_success": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "ينفّذ اختبار محلل نظام أسماء النطاقات استعلامًا مفردًا في نظام أسماء النطاقات ويعرض رسالة تفيد بعدم وجود مشكلة في حالة عرض رد صالح."
+   },
+   "resolverpresenttest_gettinghostname": {
+      "description": "Logger record denoting that the resolverpresenttest is about to resolve a hostname",
+      "message": "بصدد محاولة حل اسم المضيف: "
+   },
+   "resolverpresenttest_hostnameresult": {
+      "description": "Logger record denoting the IP result that the DNS resolved the hostname to",
+      "message": "تم حل اسم المضيف إلى عنوان IP: "
+   },
+   "resolverpresenttest_log_statuscodefailure": {
+      "description": "Logger record denoting the failed DNS query status code result",
+      "message": "عرض خادم نظام أسماء النطاقات رمز حالة مشكلة: "
+   },
+   "resolverpresenttest_log_statuscodesuccess": {
+      "description": "Logger record denoting the successful DNS query status code result",
+      "message": "عرض خادم نظام أسماء النطاقات رمز حالة نجاح: "
+   },
+   "resolverpresenttest_name": {
+      "description": "Name for the Resolver Present test",
+      "message": "اختبار وجود المحلل"
+   },
+   "resolverpresenttest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the DNS Resolver Present test.",
+      "message": "اكتشف Chrome خادم نظام أسماء نطاقات نجح في تحويل اسم مضيف (على سبيل المثال www.google.com) إلى عنوان IP."
+   },
+   "resolverpresenttest_noproblem_title": {
+      "description": "Title for when no problem is found with the DNS Resolver Present test.",
+      "message": "يتوفر خادم نظام أسماء نطاقات"
+   },
+   "resolverpresenttest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the DNS Resolver Present test.",
+      "message": "يحول خادم نظام أسماء النطاقات (على سبيل المثال www.google.com) إلى عنوان IP. يجب أن يكون للمتصفح عنوان IP يتصل به لتحميل موقع الويب. لا يتمكن Chrome من تحديد IP للموقع الذي تريد زيارته بسبب عدم أداء نظام أسماء النطاقات لوظيفته. يرجى الاتصال بمزود خدمة الإنترنت أو مشرف الشبكة."
+   },
+   "resolverpresenttest_problem_title": {
+      "description": "Title for when a problem is found with the DNS Resolver Present test.",
+      "message": "لا يتوفر خادم نظام أسماء نطاقات يصلح للعمل"
+   },
+   "resolverpresenttest_testcompleted": {
+      "description": "Logger record denoting that the resolverpresenttest is complete",
+      "message": "عرض خادم نظام أسماء النطاقات نتائج استعلام نظام أسماء النطاقات."
+   },
+   "resolverpresenttest_testfailed": {
+      "description": "Logger record denoting that the resolverpresenttest failed as the resolver did not return any result (even an error)",
+      "message": "لم يعرض خادم نظام أسماء النطاقات أي كائن (ولو إدخال DNE للسجل)، ولذا لم يكتمل الاختبار."
+   },
+   "result_no_connectivity_problems": {
+      "description": "Tests did not find a problem",
+      "message": "يبدو أن اتصال الشبكة يعمل بشكل سليم."
+   },
+   "setting_about": {
+      "description": "The setting that lets the user learn about the app",
+      "message": "حول"
+   },
+   "setting_hide_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "إخفاء الاختبارات الناجحة"
+   },
+   "setting_rerun_tests": {
+      "description": "The setting that allows a user to re-runs tests",
+      "message": "إعادة إجراء الاختبارات"
+   },
+   "setting_send_feedback": {
+      "description": "The setting that prompts the user to send feedback",
+      "message": "إرسال تعليق..."
+   },
+   "setting_show_passing_test": {
+      "description": "The setting that toggles whether to show passing tests",
+      "message": "إظهار الاختبارات الناجحة"
+   },
+   "tcpfirewalltest_log_analysis_summary": {
+      "description": "Logger record for summarizing the analysis of the various TCP connections made in a test",
+      "message": "نتائج اختبار الجدار الناري: اختبار تم تشغيله  / المنافذ التي تم التحقق منها / عدد الاتصالات التي أخفقت: "
+   },
+   "tcpfirewalltest_log_connection_about_begun": {
+      "description": "Logger record for when a TCP connection to a specific host and port is about to begin",
+      "message": " على وشك محاولة إجراء اتصال TCP رقم / اسم المضيف / المنفذ: "
+   },
+   "tcpfirewalltest_log_connection_status_known": {
+      "description": "Logger record for when a TCP connection status code is known",
+      "message": " عرض اختبار الجدار الناري لـ TCP رمز حالة TCP: "
+   },
+   "tcpfirewalltest_log_count_failed_attempt": {
+      "description": "Logger record for denoting failure of a TCP connection",
+      "message": "أخفقت محاولة اختبار الاتصال ولم تظهر رمز حالة نجاح TCP من حزمة شبكة Chrome ولكن بدلاً من ذلك أظهرت رمز حالة: "
+   },
+   "tcpfirewalltest_log_dns_broken": {
+      "description": "Logger record for when TCP connections seem to fail due to DNS resolver not working",
+      "message": "أداة حل نظام أسماء النطاقات التي تم اكتشافها غير متاحة، ولذلك لا يمكننا تحديد ما إذا كان هناك جدار ناري أم لا"
+   },
+   "tcpfirewalltest_log_network_disconnected": {
+      "description": "Logger record for when TCP connections seem to reveal that the network is unavailable",
+      "message": "الشبكة التي تم اكتشافها غير متاحة، ولذلك لا يمكننا تحديد ما إذا كان هناك جدار ناري أم لا"
+   },
+   "tcpfirewalltest_name": {
+      "description": "Name for TCP Firewall test",
+      "message": "اختبار الجدار الناري لـ TCP"
+   },
+   "tcpfirewalltest_no_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a no problem verdict.",
+      "message": "يتم عرض نتيجة بدون مشكلات عندما تكون النسبة المئوية لنتائج اختبار اتصال TCP أقل من أو تساوي: "
+   },
+   "tcpfirewalltest_noproblem_subtitle": {
+      "description": "Subtitle for when no problem is found with the TCP Firewall test.",
+      "message": "لم يتم اكتشاف قيود على اتصال الإنترنت على المنفذ "
+   },
+   "tcpfirewalltest_noproblem_title": {
+      "description": "Title for when no problem is found with the TCP Firewall test.",
+      "message": "حركة بيانات الإنترنت ليست محظورة من قبل الجدار الناري على المنفذ "
+   },
+   "tcpfirewalltest_potential_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a potential problem verdict.",
+      "message": "يتم عرض نتيجة بها مشكلات محتملة عندما تكون النسبة المئوية لنتائج اختبار اتصال TCP بين: "
+   },
+   "tcpfirewalltest_potentialproblem_subtitle": {
+      "description": "Subtitle for when a potential problem is found with the TCP Firewall test.",
+      "message": "يبدو أن هناك قيدًا مفروضًا على شبكتك لاتصال إنترنت شائع الاستخدام."
+   },
+   "tcpfirewalltest_potentialproblem_title": {
+      "description": "Title for when a potential problem is found with the TCP Firewall test.",
+      "message": "ربما تكون حركة بيانات الإنترنت محظورة من قبل الجدار الناري على المنفذ "
+   },
+   "tcpfirewalltest_problem_subtitle": {
+      "description": "Subtitle for when a problem is found with the TCP Firewall test.",
+      "message": "يوجد قيد على شبكتك لاتصال إنترنت شائع الاستخدام."
+   },
+   "tcpfirewalltest_problem_threshold": {
+      "description": "Logger record for TCP firewall test for which we render a problem verdict.",
+      "message": "يتم عرض نتيجة بدون مشكلات عندما تكون النسبة المئوية لنتائج اختبار اتصال TCP تساوي: "
+   },
+   "tcpfirewalltest_problem_title": {
+      "description": "Title for when a problem is found with the TCP Firewall test.",
+      "message": "حركة بيانات الإنترنت محظورة من قبل الجدار الناري على المنفذ "
+   },
+   "telnet_log_connection_established": {
+      "description": "Log connection established",
+      "message": "تم إنشاء اتصال TCP بالمضيف / المنفذ / رمز الحالة: "
+   },
+   "telnet_log_connection_established_successfully": {
+      "description": "Log TCP connection established successfully",
+      "message": "تم بنجاح إنشاء اتصال TCP بالمضيف / المنفذ: "
+   },
+   "telnet_log_connection_failure": {
+      "description": "Log TCP connection failure",
+      "message": "أخفق اتصال TCP بالمضيف / المنفذ / رمز الحالة: "
+   },
+   "telnet_log_connection_failure_refused": {
+      "description": "Log TCP connection failure due to refusal",
+      "message": "سبب إخفاق الاتصال: رفض الاتصال"
+   },
+   "telnet_log_connection_failure_timeout": {
+      "description": "Log TCP connection failure due to timeout",
+      "message": "سبب إخفاق الاتصال: انتهاء المهلة"
+   },
+   "telnet_log_connection_failure_unknown": {
+      "description": "Log TCP connection failure reason unknown",
+      "message": "سبب إخفاق الاتصال: غير معروف"
+   },
+   "telnet_log_error_reading_tcp_data": {
+      "description": "Log error reading TCP data",
+      "message": "حدث خطأ في قراءة بيانات TCP. رمز الخطأ: "
+   },
+   "telnet_log_parsed_response_size": {
+      "description": "Log received TCP size",
+      "message": "تم بنجاح قراءة بيانات من مقبس TCP مقدارها (بايت): "
+   },
+   "telnet_log_parsed_tcp_response": {
+      "description": "Log data from TCP socket",
+      "message": "البيانات الأولية المستلمة من مقبس TCP: "
+   },
+   "telnet_log_preparing_to_send_data": {
+      "description": "Log preparing to send TCP data",
+      "message": "جارٍ الإعداد لإرسال بيانات حجمها (بايت): "
+   },
+   "telnet_log_socket_created": {
+      "description": "Log TCP socket created",
+      "message": "جارٍ إنشاء مقبس TCP، الرقم / المضيف / المنفذ: "
+   },
+   "telnet_log_successfully_sent_data": {
+      "description": "Log successfully sent TCP data",
+      "message": "تم بنجاح إرسال بيانات حجمها (بايت): "
+   },
+   "telnet_log_tcp_timeout_setting": {
+      "description": "Log TCP timeout setting",
+      "message": "إعداد مدة انتهاء مهلة TCP (ميلي ثانية): "
+   },
+   "test_result_copy_logs": {
+      "description": "Link to copy result logs",
+      "message": "نسخ سجلات النتائج"
+   },
+   "test_result_hide_logs": {
+      "description": "Link to hide logs",
+      "message": "إخفاء السجلات..."
+   },
+   "test_result_issue_found": {
+      "description": "Show a header for when an issue was found",
+      "message": "تم العثور على مشكلة"
+   },
+   "test_result_issues_found": {
+      "description": "Show a header for when issues were found",
+      "message": "تم العثور على مشكلة"
+   },
+   "test_result_log_criteria": {
+      "description": "Show a header in the logs for the criteria section",
+      "message": "المعايير"
+   },
+   "test_result_log_details": {
+      "description": "Show a header in the logs for the details section",
+      "message": "التفاصيل"
+   },
+   "test_result_log_summary": {
+      "description": "Show header in the logs for the summary section",
+      "message": "الملخص"
+   },
+   "test_result_log_support_details": {
+      "description": "Show a header in the logs for the support details section",
+      "message": "تفاصيل الدعم"
+   },
+   "test_result_log_test_id": {
+      "description": "In the logs for a test, print out the test ID",
+      "message": "معرِّف الاختبار: "
+   },
+   "test_result_log_test_name": {
+      "description": "In the logs for a test, print out the test name",
+      "message": "اسم الاختبار: "
+   },
+   "test_result_log_test_verdict": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "نتيجة الاختبار: "
+   },
+   "test_result_log_verdict_no_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "لم يتم اكتشاف أية مشكلة"
+   },
+   "test_result_log_verdict_potential_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "تم اكتشاف مشكلة محتملة"
+   },
+   "test_result_log_verdict_problem": {
+      "description": "In the logs for a test, print out the test verdict",
+      "message": "تم اكتشاف مشكلة"
+   },
+   "test_result_show_logs": {
+      "description": "Link to show logs",
+      "message": "إظهار السجلات..."
+   },
+   "tests_failed_message": {
+      "description": "Test to display to inform the user that the tests failed",
+      "message": "حدث خطأ أثناء إجراء اختبارات تشخيص الاتصال. تم إلغاء الاختبارات. إذا استمرت هذه المشكلة، فيرجى النقر على خيار \"إرسال تعليق…\" من قائمة الإعدادات."
+   },
+   "tests_running_message": {
+      "description": "Text to inform the user the tests are running.",
+      "message": "جارٍ إجراء الاختبارات. قد يستغرق ذلك عدة دقائق..."
+   },
+   "udpsocket_log_error_reading_udp_data": {
+      "description": "Log error reading UDP data",
+      "message": "حدث خطأ في قراءة بيانات UDP. رمز الخطأ: "
+   },
+   "udpsocket_log_parsed_response_size": {
+      "description": "Log received UDP packet size",
+      "message": "تم بنجاح قراءة بيانات من مقبس UDP حجمها (بايت): "
+   },
+   "udpsocket_log_parsed_udp_response": {
+      "description": "Log data from UDP socket",
+      "message": "البيانات الأولية المستلمة من مقبس UDP: "
+   },
+   "udpsocket_log_preparing_to_send_data": {
+      "description": "Log preparing to send UDP data",
+      "message": "جارٍ الإعداد لإرسال بيانات مقبس UDP حجمها (بايت): "
+   },
+   "udpsocket_log_socket_created": {
+      "description": "Log UDP socket created",
+      "message": "جارٍ إنشاء مقبس UDP، الرقم / المضيف / المنفذ: "
+   },
+   "udpsocket_log_successfully_sent_data": {
+      "description": "Log successfully sent UDP data",
+      "message": "نجح إرسال بيانات حجمها (بايت): "
+   },
+   "udpsocket_log_udp_timeout_setting": {
+      "description": "Log UDP timeout setting",
+      "message": "جارٍ إعداد طول مهلة UDP (بالميلي ثانية): "
+   },
+   "warning_test_title": {
+      "description": "Page section title for test that gave warning",
+      "message": "التحذير"
+   },
+   "warning_tests_title": {
+      "description": "Page section title for tests that gave warnings",
+      "message": "التحذيرات"
+   }
+}
